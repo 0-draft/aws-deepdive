@@ -16,6 +16,7 @@ from .schema import Item
 
 USER_AGENT = "aws-deepdive/0.1 (+https://github.com/0-draft/aws-deepdive)"
 FETCH_TIMEOUT = 30  # seconds
+MAX_FEED_BYTES = 10 * 1024 * 1024  # 10 MiB cap to bound memory on hostile / runaway feeds
 EPOCH_ISO = "1970-01-01T00:00:00+00:00"
 
 
@@ -36,15 +37,18 @@ def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> str | None:
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, timeout=timeout) as r:
-            return r.read().decode("utf-8", errors="replace")
+            return r.read(MAX_FEED_BYTES).decode("utf-8", errors="replace")
     except (URLError, TimeoutError) as e:
         print(f"[collect_rss] fetch {url}: {e}")
         return None
 
 
 def _strip_html(text: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", text)
+    # Unescape FIRST so entity-encoded tags like `&lt;script&gt;` are turned
+    # into their bracketed form before the strip pass; otherwise they bypass
+    # the regex and leak through into the report as raw HTML.
     text = html.unescape(text)
+    text = re.sub(r"<[^>]*>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
