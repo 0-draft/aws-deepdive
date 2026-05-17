@@ -20,7 +20,7 @@ def _filename(mode: str, now: datetime) -> str:
 
 def render(track: str, mode: str) -> None:
     p = track_dir(track) / "data" / "scored.json"
-    items: list[dict] = json.loads(p.read_text()) if p.exists() else []
+    items: list[dict] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
     now = datetime.now(UTC)
     cutoff = now - WINDOW[mode]
     fresh = [it for it in items if parse_iso(it.get("published_at", "")) >= cutoff]
@@ -67,7 +67,15 @@ def render(track: str, mode: str) -> None:
             for it in g:
                 # escape both brackets so titles like "[CVE-...] thing" don't
                 # collide with markdown link parsing
-                title = (it.get("title") or "(untitled)").replace("[", r"\[").replace("]", r"\]")
+                # Collapse newlines first — a `\n` in the title would break the
+                # one-line list-item layout and could even spawn a stray heading.
+                title = (
+                    (it.get("title") or "(untitled)")
+                    .replace("\r", " ")
+                    .replace("\n", " ")
+                    .replace("[", r"\[")
+                    .replace("]", r"\]")
+                )
                 # angle-bracket the URL: AWS links sometimes contain `(` / `)`,
                 # which break vanilla Markdown link parsing. Escape any `>` in
                 # the URL itself so it doesn't terminate the bracket pair.
@@ -80,7 +88,7 @@ def render(track: str, mode: str) -> None:
 
     out = track_dir(track) / "reports" / mode / _filename(mode, now)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text("\n".join(lines))
+    out.write_text("\n".join(lines), encoding="utf-8")
     print(f"[report] {track}/{mode}: {out.relative_to(track_dir(track))}")
 
 

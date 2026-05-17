@@ -93,3 +93,23 @@ def test_gt_in_url_is_escaped(make_track):
     body = next((td / "reports" / "daily").glob("*.md")).read_text()
     assert "%3E" in body
     assert "a>b" not in body
+
+
+def test_newline_in_title_is_collapsed(make_track):
+    # Regression: a `\n` in the title would split the list-item line and
+    # could spawn a stray heading from text on the next line.
+    td = make_track("iam")
+    (td / "data" / "scored.json").write_text(
+        _scored([_item(title="multi-line\n# rogue heading\ntitle")])
+    )
+    render("iam", "daily")
+    body = next((td / "reports" / "daily").glob("*.md")).read_text()
+    lines = body.splitlines()
+    # the rogue text must not start its own line (Markdown heading)
+    assert not any(line.startswith("# rogue heading") for line in lines)
+    # all three title fragments collapse onto the one list-item line
+    list_lines = [line for line in lines if line.startswith("- [")]
+    assert any(
+        "multi-line" in line and "rogue heading" in line and "title" in line
+        for line in list_lines
+    )

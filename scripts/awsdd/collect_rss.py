@@ -43,10 +43,17 @@ def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> bytes | None:
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, timeout=timeout) as r:
-            return r.read(MAX_FEED_BYTES)
+            # Read one extra byte to detect oversized responses — feeding a
+            # truncated XML body to feedparser would just bozo-error silently
+            # and partially populate the track. Better to skip the feed loudly.
+            raw = r.read(MAX_FEED_BYTES + 1)
     except (URLError, TimeoutError) as e:
         print(f"[collect_rss] fetch {url}: {e}")
         return None
+    if len(raw) > MAX_FEED_BYTES:
+        print(f"[collect_rss] fetch {url}: exceeded {MAX_FEED_BYTES} bytes; skipping")
+        return None
+    return raw
 
 
 class _TextExtractor(HTMLParser):
@@ -162,7 +169,7 @@ def collect(track: str) -> None:
                 items.append(item)
     out = track_dir(track) / "data" / "raw" / f"rss-{now:%Y-%m-%d}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(items, indent=2, ensure_ascii=False))
+    out.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[collect_rss] {track}: {len(items)} items -> {out.relative_to(track_dir(track))}")
 
 

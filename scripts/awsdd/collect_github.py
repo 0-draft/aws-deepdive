@@ -130,7 +130,7 @@ def collect(track: str) -> None:
                 items.append(item)
     out = track_dir(track) / "data" / "raw" / f"github-{now:%Y-%m-%d}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(items, indent=2, ensure_ascii=False))
+    out.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[collect_github] {track}: {len(items)} items -> {out.relative_to(track_dir(track))}")
 
 
