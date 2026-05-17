@@ -63,3 +63,22 @@ def test_summary_strips_entity_encoded_tags():
     assert "<script>" not in out
     assert "&lt;" not in out
     assert "hi" in out
+
+
+def test_summary_drops_script_body():
+    # Regression: with the html.parser switch, content inside <script>/<style>
+    # tags is dropped entirely instead of leaking as text.
+    payload = "before<script>alert(1)</script>after"
+    fake = type("E", (), {"get": lambda self, k, d=None: payload if k == "summary" else d})()
+    out = _summary(fake)
+    assert "alert" not in out
+    assert "before" in out and "after" in out
+
+
+def test_summary_preserves_lt_gt_in_text():
+    # Regression: the old regex strip chomped through "1 < 2 and 4 > 3"
+    # because `<[^>]*>` matched across stray angle brackets.
+    payload = "if 1 < 2 and 4 > 3 then ok"
+    fake = type("E", (), {"get": lambda self, k, d=None: payload if k == "summary" else d})()
+    out = _summary(fake)
+    assert "1" in out and "2" in out and "3" in out and "4" in out and "ok" in out

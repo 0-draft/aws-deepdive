@@ -1,51 +1,5 @@
 [
   {
-    "id": "72c101f830ae9f99",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html",
-    "title": "Session tags",
-    "summary": "You can now include tags when you assume a role or federate a user in AWS STS. When you perform the AssumeRole or GetFederationToken operation, you can pass the session tags as attributes. When you perform the AssumeRoleWithSAML or AssumeRoleWithWebIdentity operations, you can pass attributes from your corporate identities to AWS.",
-    "published_at": "2019-11-22T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 6.0
-    }
-  },
-  {
-    "id": "8c8cfaa75b243cd5",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
-    "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
-    "summary": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240 characters. With these higher quotas, you can write SCPs with finer-grained permissions and conditions, and attach more SCPs per node to build more comprehensive security controls across your organization. These higher quotas are available in",
-    "published_at": "2026-05-15T15:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/aws-iam,general:products/aws-organizations,general:products/aws-identity-and-access-management"
-    ],
-    "severity": "high",
-    "score": 4.5,
-    "score_breakdown": {
-      "freshness": 1.75,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 2.0,
-      "total": 4.5
-    }
-  },
-  {
     "id": "a6f5133750c8b99c",
     "track": "iam",
     "source": "rss:aws-iam-release-notes",
@@ -109,6 +63,30 @@
       "keyword_signal": 4.5,
       "severity": 0.0,
       "total": 4.5
+    }
+  },
+  {
+    "id": "8c8cfaa75b243cd5",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-increased-scp-quotas/",
+    "title": "AWS Organizations now supports higher quotas for service control policies (SCPs)",
+    "summary": "AWS Organizations now supports higher quotas for service control policies (SCPs). The maximum number of SCPs that can be attached to a single node (root, OU, or account) has increased from 5 to 10, and the maximum SCP size has increased from 5,120 to 10,240 characters. With these higher quotas, you can write SCPs with finer-grained permissions and conditions, and attach more SCPs per node to build more comprehensive security controls across your organization. These higher quotas are available in",
+    "published_at": "2026-05-15T15:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/aws-iam,general:products/aws-organizations,general:products/aws-identity-and-access-management"
+    ],
+    "severity": "high",
+    "score": 4.495,
+    "score_breakdown": {
+      "freshness": 1.745,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 2.0,
+      "total": 4.495
     }
   },
   {
@@ -191,60 +169,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": "high",
-    "score": 3.653,
+    "score": 3.649,
     "score_breakdown": {
-      "freshness": 1.653,
+      "freshness": 1.649,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 2.0,
-      "total": 3.653
-    }
-  },
-  {
-    "id": "0e5e217b6fc9e84f",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
-    "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
-    "summary": "Amazon SageMaker Data Agent is now available in SageMaker Unified Studio domains configured with IAM Identity Center. Data Agent extends its AI-powered capabilities to help data analysts and engineers streamline their analytics workflows across both SageMaker notebooks and Query Editor environments, eliminating the need to manually write complex SQL joins, aggregations, and Python code. With Data Agent, you can describe your analysis goals in plain English and receive working Python or SQL code ",
-    "published_at": "2026-05-13T21:53:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/analytics,general:products/amazon-sagemaker"
-    ],
-    "severity": null,
-    "score": 3.048,
-    "score_breakdown": {
-      "freshness": 1.548,
-      "keyword": 1.0,
-      "source": 1.5,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 3.048
-    }
-  },
-  {
-    "id": "792493e6b0aff482",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.14.3",
-    "title": "v1.14.3",
-    "summary": "### Added\r\n\r\n- `spire-agent` version is now reported to `spire-server` via the PostStatus API and visible in `GetAgent`/`ListAgents` CLI output (#6542)\r\n\r\n### Changed\r\n\r\n- The `RequirePQKEM` TLS policy now uses the standardized `X25519MLKEM768` instead of the draft `x25519Kyber768Draft00` (#6703)\r\n- OPA policy evaluation performance improved by ~2x, based on benchmarking, through use of partial evaluation (#6633)\r\n\r\n### Fixed\r\n\r\n- `ReadOnlyEntry.Clone()` was incorrectly copying the `Admin` boole",
-    "published_at": "2026-03-18T13:38:16Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.028,
-    "score_breakdown": {
-      "freshness": 0.028,
-      "keyword": 3.0,
-      "source": 1.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.028
+      "total": 3.649
     }
   },
   {
@@ -358,28 +290,6 @@
     }
   },
   {
-    "id": "0a93282d7c792247",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_monitor.html",
-    "title": "Monitor and control actions taken with assumed roles",
-    "summary": "Administrators can configure IAM roles to require that identities pass a source identity, which is logged in AWS CloudTrail. Reviewing source identity information helps administrators determine who or what performed actions with assumed role sessions.",
-    "published_at": "2021-04-13T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
     "id": "25dcb60988d0fce7",
     "track": "iam",
     "source": "rss:aws-iam-release-notes",
@@ -446,28 +356,6 @@
     }
   },
   {
-    "id": "c870df2b60e3215f",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entities",
-    "title": "Use Service Quotas to request quick increases for IAM entities",
-    "summary": "You can request quota increases for adjustable IAM quotas using the Service Quotas console. Now, some increases are automatically approved in Service Quotas and available in your account within a few minutes. Larger requests are submitted to AWS Support.",
-    "published_at": "2020-06-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
     "id": "cc65eee38e2f34c2",
     "track": "iam",
     "source": "rss:aws-iam-release-notes",
@@ -498,6 +386,28 @@
     "title": "Policy simulator adds support for permissions boundaries",
     "summary": "You can now test the effect of permissions boundaries on IAM entities with the IAM policy simulator.",
     "published_at": "2020-01-23T19:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 3.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 1.0,
+      "source": 3.0,
+      "keyword_signal": 3.0,
+      "severity": 0.0,
+      "total": 3.0
+    }
+  },
+  {
+    "id": "72c101f830ae9f99",
+    "track": "iam",
+    "source": "rss:aws-iam-release-notes",
+    "source_kind": "rss",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html",
+    "title": "Session tags",
+    "summary": "You can now include tags when you assume a role or federate a user in AWS STS. When you perform the AssumeRole or GetFederationToken operation, you can pass the session tags as attributes. When you perform the AssumeRoleWithSAML or AssumeRoleWithWebIdentity operations, you can pass attributes from your corporate identities to AWS.",
+    "published_at": "2019-11-22T19:00:00+00:00",
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
@@ -664,38 +574,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.857,
+    "score": 2.854,
     "score_breakdown": {
-      "freshness": 0.857,
+      "freshness": 0.854,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.857
-    }
-  },
-  {
-    "id": "a3be84ccd9c79b56",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
-    "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
-    "summary": "Previously, the Amazon CloudFront Premium flat-rate plan supported a single usage allowance, and customers who outgrew it needed to contact us to discuss custom pricing options. Now, the Premium plan offers a range of self-service monthly usage levels ranging from 500 million to 6 billion requests and 50 TB to 600 TB, so customers can scale within the plan as their applications grow. Enterprises and mid-sized businesses whose baseline traffic previously made them ineligible for flat-rate plans c",
-    "published_at": "2026-05-12T16:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
-    ],
-    "severity": "low",
-    "score": 2.666,
-    "score_breakdown": {
-      "freshness": 1.416,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.5,
-      "total": 2.666
+      "total": 2.854
     }
   },
   {
@@ -719,68 +605,36 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.657,
+    "score": 2.652,
     "score_breakdown": {
-      "freshness": 1.657,
+      "freshness": 1.652,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.657
+      "total": 2.652
     }
   },
   {
-    "id": "4ad5f7a030a32a63",
+    "id": "792493e6b0aff482",
     "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-athena/",
-    "title": "Amazon Quick now supports cross-account access for Amazon Athena data sources",
-    "summary": "Today, Amazon Quick is announcing cross-account access for Amazon Athena data sources. This launch enables you to query Athena data residing in a different AWS account(s) from your Quick deployment using IAM role chaining, with Athena query costs billed to the account where the data lives. With this feature, administrators can create an Athena data source in Quick by specifying a RunAsRole in the Quick account and a ConsumerAccountRoleArn in the target account where Athena resources reside. Quic",
-    "published_at": "2026-05-08T16:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/artificial-intelligence,general:products/amazon-quicksight"
-    ],
+    "source": "github:spiffe/spire",
+    "source_kind": "github",
+    "url": "https://github.com/spiffe/spire/releases/tag/v1.14.3",
+    "title": "v1.14.3",
+    "summary": "### Added\r\n\r\n- `spire-agent` version is now reported to `spire-server` via the PostStatus API and visible in `GetAgent`/`ListAgents` CLI output (#6542)\r\n\r\n### Changed\r\n\r\n- The `RequirePQKEM` TLS policy now uses the standardized `X25519MLKEM768` instead of the draft `x25519Kyber768Draft00` (#6703)\r\n- OPA policy evaluation performance improved by ~2x, based on benchmarking, through use of partial evaluation (#6633)\r\n\r\n### Fixed\r\n\r\n- `ReadOnlyEntry.Clone()` was incorrectly copying the `Admin` boole",
+    "published_at": "2026-03-18T13:38:16Z",
+    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
+    "tags": [],
     "severity": null,
-    "score": 2.564,
+    "score": 2.528,
     "score_breakdown": {
-      "freshness": 1.064,
-      "keyword": 1.0,
-      "source": 1.5,
-      "keyword_signal": 1.5,
+      "freshness": 0.028,
+      "keyword": 2.5,
+      "source": 1.0,
+      "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 2.564
-    }
-  },
-  {
-    "id": "b96cd6cbcbfc17cb",
-    "track": "iam",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
-    "title": "Detecting and preventing crypto mining in your AWS environment",
-    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]",
-    "published_at": "2026-05-13T21:47:27+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "Amazon GuardDuty",
-      "Best Practices",
-      "Intermediate (200)",
-      "Security, Identity, & Compliance",
-      "crypto",
-      "cryptomining",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 2.548,
-    "score_breakdown": {
-      "freshness": 1.548,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.548
+      "total": 2.528
     }
   },
   {
@@ -797,38 +651,14 @@
       "marketing:marchitecture/developers"
     ],
     "severity": null,
-    "score": 2.527,
+    "score": 2.524,
     "score_breakdown": {
-      "freshness": 1.027,
+      "freshness": 1.024,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.527
-    }
-  },
-  {
-    "id": "27b517efc349258e",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
-    "title": "Amazon EMR Serverless is now available in additional AWS Regions",
-    "summary": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). Amazon EMR Serverless is a deployment option in Amazon EMR that makes it simple and cost effective for data engineers and analysts to run petabyte-scale data analytics in the cloud. With EMR Serverless, you can run your Apache Spark and Apache Hive applications without ",
-    "published_at": "2026-05-15T19:50:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/analytics,general:products/amazon-emr"
-    ],
-    "severity": null,
-    "score": 2.525,
-    "score_breakdown": {
-      "freshness": 1.775,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 2.525
+      "total": 2.524
     }
   },
   {
@@ -850,14 +680,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.522,
+    "score": 2.52,
     "score_breakdown": {
-      "freshness": 0.522,
+      "freshness": 0.52,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.522
+      "total": 2.52
     }
   },
   {
@@ -883,52 +713,6 @@
     }
   },
   {
-    "id": "51bec48b6b1d0ead",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/",
-    "title": "Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE plugins",
-    "summary": "Bulletin ID: AWS-2025-019 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: We are aware of blog posts by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues in Amazon Q Developer and Kiro. Amazon Q Developer: Remote Code Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection. These issues require an open chat session and intentional access to a malicious fi",
-    "published_at": "2025-10-07T20:25:34+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 2.5,
-      "keyword_signal": 2.5,
-      "severity": 0.0,
-      "total": 2.5
-    }
-  },
-  {
-    "id": "7a967b8ec4725c9a",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-elemental-mediatailor-monetization-functions",
-    "title": "AWS Elemental MediaTailor launches Monetization Functions",
-    "summary": "AWS Elemental MediaTailor now supports monetization functions, a new capability that lets customers customize how MediaTailor builds ad decision server (ADS) requests and manages session data during ad-personalized playback. With monetization functions, customers can call external APIs and run inline data transformations at defined points in the playback session — eliminating the need to build and operate middleware between the player and the ADS. Common use cases include resolving hashed email ",
-    "published_at": "2026-05-07T17:20:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/media-services,general:products/aws-elemental-mediatailor"
-    ],
-    "severity": null,
-    "score": 2.495,
-    "score_breakdown": {
-      "freshness": 0.995,
-      "keyword": 1.0,
-      "source": 1.5,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 2.495
-    }
-  },
-  {
     "id": "624a460bf00a3fc2",
     "track": "iam",
     "source": "rss:aws-security-blog",
@@ -950,62 +734,38 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.327,
+    "score": 2.323,
     "score_breakdown": {
-      "freshness": 1.327,
+      "freshness": 1.323,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.327
+      "total": 2.323
     }
   },
   {
-    "id": "768cea8bfbf0afdf",
+    "id": "0e5e217b6fc9e84f",
     "track": "iam",
     "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
-    "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
-    "summary": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances, using Amazon EventBridge Scheduler. This capability allows you to define one-time or recurring schedules that proactively adjust your function's capacity limits ahead of expected traffic, to meet your performance targets during peak periods and avoid costs during idle periods. Lambda Managed Instances lets you run Lambda functions on managed Amazon EC2 instances with built-in routing, load balancing, and",
-    "published_at": "2026-05-12T19:00:00+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-data-agent-idc/",
+    "title": "Amazon SageMaker Data Agent now available for IAM Identity Center domains",
+    "summary": "Amazon SageMaker Data Agent is now available in SageMaker Unified Studio domains configured with IAM Identity Center. Data Agent extends its AI-powered capabilities to help data analysts and engineers streamline their analytics workflows across both SageMaker notebooks and Query Editor environments, eliminating the need to manually write complex SQL joins, aggregations, and Python code. With Data Agent, you can describe your analysis goals in plain English and receive working Python or SQL code ",
+    "published_at": "2026-05-13T21:53:00+00:00",
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [
-      "marketing:marchitecture/serverless,general:products/aws-lambda"
+      "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 2.179,
+    "score": 2.294,
     "score_breakdown": {
-      "freshness": 1.429,
+      "freshness": 1.544,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.179
-    }
-  },
-  {
-    "id": "fec5f342ef5626f6",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-feature-store-pyv3/",
-    "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
-    "summary": "Amazon SageMaker Feature Store now supports the SageMaker Python SDK v3, including new capabilities for Lake Formation access controls and Apache Iceberg table properties configuration. Feature Store is a fully managed repository to store, share, and manage features for machine learning models. Data scientists can now use the modern, modular SDK v3 interfaces to manage feature groups with fine-grained access control and optimized offline storage. Data scientists can use the SageMaker Python SDK ",
-    "published_at": "2026-05-12T17:12:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
-    ],
-    "severity": null,
-    "score": 2.171,
-    "score_breakdown": {
-      "freshness": 1.421,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 2.171
+      "total": 2.294
     }
   },
   {
@@ -1020,14 +780,14 @@
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.037,
+    "score": 2.033,
     "score_breakdown": {
-      "freshness": 1.537,
+      "freshness": 1.533,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.037
+      "total": 2.033
     }
   },
   {
@@ -1072,33 +832,6 @@
       "keyword_signal": 2.0,
       "severity": 0.0,
       "total": 2.01
-    }
-  },
-  {
-    "id": "16a7c76404b6de62",
-    "track": "iam",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/icymi-april-2026-aws-security/",
-    "title": "ICYMI: April 2026 @AWS Security",
-    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered AI security, identity and access management, threat intelligence, data protection, and multicloud operations. […]",
-    "published_at": "2026-05-07T18:52:59+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "Announcements",
-      "Foundational (100)",
-      "Security, Identity, & Compliance",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 2.0,
-    "score_breakdown": {
-      "freshness": 1.0,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.0
     }
   },
   {
@@ -1190,31 +923,27 @@
     }
   },
   {
-    "id": "0f7baf62c62613a4",
+    "id": "a3be84ccd9c79b56",
     "track": "iam",
-    "source": "rss:aws-security-blog",
+    "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/introducing-ai-traffic-analysis-dashboards-for-aws-waf/",
-    "title": "Introducing AI traffic analysis dashboards for AWS WAF",
-    "summary": "As AI agents, bots, and programmatic access become an increasingly significant portion of web traffic, organizations need better tools to understand, analyze, and manage this activity. Today, we’re excited to announce AI Traffic Analysis dashboards for AWS WAF protection packs—also known as web access control lists (web ACLs)—providing comprehensive visibility into AI bot and agent […]",
-    "published_at": "2026-05-05T18:56:54+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/cloudfront-configurable-premium-flat-rate-plans/",
+    "title": "Amazon CloudFront Premium flat-rate plan now supports configurable usage allowances",
+    "summary": "Previously, the Amazon CloudFront Premium flat-rate plan supported a single usage allowance, and customers who outgrew it needed to contact us to discuss custom pricing options. Now, the Premium plan offers a range of self-service monthly usage levels ranging from 500 million to 6 billion requests and 50 TB to 600 TB, so customers can scale within the plan as their applications grow. Enterprises and mid-sized businesses whose baseline traffic previously made them ineligible for flat-rate plans c",
+    "published_at": "2026-05-12T16:00:00+00:00",
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [
-      "Announcements",
-      "AWS WAF",
-      "Foundational (100)",
-      "Security, Identity, & Compliance",
-      "Security Blog"
+      "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
-    "severity": null,
-    "score": 1.867,
+    "severity": "low",
+    "score": 1.912,
     "score_breakdown": {
-      "freshness": 0.867,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.867
+      "freshness": 1.412,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.5,
+      "total": 1.912
     }
   },
   {
@@ -1231,42 +960,38 @@
       "general:products/amazon-genomics,general:products/amazon-omics"
     ],
     "severity": "low",
-    "score": 1.831,
+    "score": 1.827,
     "score_breakdown": {
-      "freshness": 1.331,
+      "freshness": 1.327,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 1.831
+      "total": 1.827
     }
   },
   {
-    "id": "4b1def4a10c99af0",
+    "id": "4ad5f7a030a32a63",
     "track": "iam",
-    "source": "rss:aws-security-blog",
+    "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/securing-open-proxies-in-your-aws-environment/",
-    "title": "Securing open proxies in your AWS environment",
-    "summary": "This article shows you how to identify and secure open proxies in your AWS environment to prevent abuse, protect your IP address reputation, and control costs. An open proxy is a server that forwards traffic on behalf of internet users without requiring authentication. While proxies can support legitimate use cases such as load balancing or […]",
-    "published_at": "2026-05-04T18:16:39+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-quick-athena/",
+    "title": "Amazon Quick now supports cross-account access for Amazon Athena data sources",
+    "summary": "Today, Amazon Quick is announcing cross-account access for Amazon Athena data sources. This launch enables you to query Athena data residing in a different AWS account(s) from your Quick deployment using IAM role chaining, with Athena query costs billed to the account where the data lives. With this feature, administrators can create an Athena data source in Quick by specifying a RunAsRole in the Quick account and a ConsumerAccountRoleArn in the target account where Athena resources reside. Quic",
+    "published_at": "2026-05-08T16:00:00+00:00",
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [
-      "Amazon EC2",
-      "Best Practices",
-      "Intermediate (200)",
-      "Security, Identity, & Compliance",
-      "Security Blog"
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-quicksight"
     ],
     "severity": null,
-    "score": 1.805,
+    "score": 1.811,
     "score_breakdown": {
-      "freshness": 0.805,
+      "freshness": 1.061,
       "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
+      "source": 1.5,
+      "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.805
+      "total": 1.811
     }
   },
   {
@@ -1283,14 +1008,38 @@
       "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-administration,general:products/amazon-cloudwatch-logs"
     ],
     "severity": null,
-    "score": 1.781,
+    "score": 1.776,
     "score_breakdown": {
-      "freshness": 1.781,
+      "freshness": 1.776,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.781
+      "total": 1.776
+    }
+  },
+  {
+    "id": "27b517efc349258e",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-aws-regions/",
+    "title": "Amazon EMR Serverless is now available in additional AWS Regions",
+    "summary": "Amazon EMR Serverless is now generally available in six additional AWS Regions - Asia Pacific (Hyderabad), Asia Pacific (Malaysia), Asia Pacific (New Zealand), Asia Pacific (Taipei), Asia Pacific (Thailand), and Mexico (Central). Amazon EMR Serverless is a deployment option in Amazon EMR that makes it simple and cost effective for data engineers and analysts to run petabyte-scale data analytics in the cloud. With EMR Serverless, you can run your Apache Spark and Apache Hive applications without ",
+    "published_at": "2026-05-15T19:50:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/amazon-emr"
+    ],
+    "severity": null,
+    "score": 1.77,
+    "score_breakdown": {
+      "freshness": 1.77,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.77
     }
   },
   {
@@ -1305,14 +1054,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.772,
+    "score": 1.766,
     "score_breakdown": {
-      "freshness": 1.772,
+      "freshness": 1.766,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.772
+      "total": 1.766
     }
   },
   {
@@ -1327,14 +1076,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.771,
+    "score": 1.766,
     "score_breakdown": {
-      "freshness": 1.771,
+      "freshness": 1.766,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.771
+      "total": 1.766
     }
   },
   {
@@ -1351,14 +1100,14 @@
       "marketing:marchitecture/aws-marketplace-and-partners"
     ],
     "severity": null,
-    "score": 1.769,
+    "score": 1.764,
     "score_breakdown": {
-      "freshness": 1.769,
+      "freshness": 1.764,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.769
+      "total": 1.764
     }
   },
   {
@@ -1379,14 +1128,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.763,
+    "score": 1.758,
     "score_breakdown": {
-      "freshness": 1.763,
+      "freshness": 1.758,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.763
+      "total": 1.758
     }
   },
   {
@@ -1403,14 +1152,14 @@
       "general:products/amazon-connect,marketing:marchitecture/business-productivity,marketing:marchitecture/messaging,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.762,
+    "score": 1.757,
     "score_breakdown": {
-      "freshness": 1.762,
+      "freshness": 1.757,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.762
+      "total": 1.757
     }
   },
   {
@@ -1427,14 +1176,14 @@
       "general:products/amazon-rds,marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.756,
+    "score": 1.75,
     "score_breakdown": {
-      "freshness": 1.756,
+      "freshness": 1.75,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.756
+      "total": 1.75
     }
   },
   {
@@ -1449,30 +1198,6 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [
       "general:products/amazon-managed-service-for-grafana,marketing:marchitecture/management-and-governance"
-    ],
-    "severity": null,
-    "score": 1.755,
-    "score_breakdown": {
-      "freshness": 1.755,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.755
-    }
-  },
-  {
-    "id": "d4ee18f6ecea0de1",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
-    "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
-    "summary": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multiple cloud se",
-    "published_at": "2026-05-15T15:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/networking-and-content-delivery,general:products/aws-direct-connect"
     ],
     "severity": null,
     "score": 1.75,
@@ -1499,14 +1224,62 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.75,
+    "score": 1.747,
     "score_breakdown": {
-      "freshness": 1.0,
+      "freshness": 0.997,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.75
+      "total": 1.747
+    }
+  },
+  {
+    "id": "d4ee18f6ecea0de1",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-AWS-interconnect-multicloud-oci-preview/",
+    "title": "AWS announces AWS Interconnect - multicloud connectivity with Oracle Cloud Infrastructure in preview",
+    "summary": "AWS announces the public preview of AWS Interconnect — multicloud with Oracle Cloud Infrastructure (OCI). Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multiple cloud se",
+    "published_at": "2026-05-15T15:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/networking-and-content-delivery,general:products/aws-direct-connect"
+    ],
+    "severity": null,
+    "score": 1.745,
+    "score_breakdown": {
+      "freshness": 1.745,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.745
+    }
+  },
+  {
+    "id": "7a967b8ec4725c9a",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-elemental-mediatailor-monetization-functions",
+    "title": "AWS Elemental MediaTailor launches Monetization Functions",
+    "summary": "AWS Elemental MediaTailor now supports monetization functions, a new capability that lets customers customize how MediaTailor builds ad decision server (ADS) requests and manages session data during ad-personalized playback. With monetization functions, customers can call external APIs and run inline data transformations at defined points in the playback session — eliminating the need to build and operate middleware between the player and the ADS. Common use cases include resolving hashed email ",
+    "published_at": "2026-05-07T17:20:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/media-services,general:products/aws-elemental-mediatailor"
+    ],
+    "severity": null,
+    "score": 1.742,
+    "score_breakdown": {
+      "freshness": 0.992,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 1.742
     }
   },
   {
@@ -1523,38 +1296,14 @@
       "general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 1.683,
+    "score": 1.68,
     "score_breakdown": {
-      "freshness": 0.933,
+      "freshness": 0.93,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.683
-    }
-  },
-  {
-    "id": "f72d2f17875bf346",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
-    "title": "Amazon Neptune now supports 1-click connect with CloudShell",
-    "summary": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required manual configuration network settings and access permissions, taking time from database administrators, developers, and data analysts who needed to query their graph databases. With 1-click connect, you can immediately start querying your Neptune resources without manual network configuration, signif",
-    "published_at": "2026-05-06T17:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:benefits-realized/user-experience,marketing:benefits-realized/ease-of-use,marketing:marchitecture/databases,general:products/amazon-neptune"
-    ],
-    "severity": null,
-    "score": 1.675,
-    "score_breakdown": {
-      "freshness": 0.925,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 1.675
+      "total": 1.68
     }
   },
   {
@@ -1571,38 +1320,14 @@
       "general:products/aws-elastic-beanstalk,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 1.673,
+    "score": 1.67,
     "score_breakdown": {
-      "freshness": 0.923,
+      "freshness": 0.92,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.673
-    }
-  },
-  {
-    "id": "cae3739b1b4d2dd5",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
-    "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic transcoding",
-    "summary": "AWS Elemental MediaTailor now enhances streaming ad personalization with support for trickplay features in HLS and DASH formats. This update also introduces compact DASH manifests for more efficient manifest delivery. Previously, these capabilities required a custom transcode profile. They are now supported natively through dynamic transcoding, eliminating that requirement. MediaTailor provides server-side ad insertion (SSAI) to personalize ads in video streams. As streaming platforms increasing",
-    "published_at": "2026-05-06T14:24:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/aws-elemental-mediatailor,marketing:marchitecture/media-services"
-    ],
-    "severity": null,
-    "score": 1.668,
-    "score_breakdown": {
-      "freshness": 0.918,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 1.668
+      "total": 1.67
     }
   },
   {
@@ -1619,14 +1344,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": null,
-    "score": 1.666,
+    "score": 1.661,
     "score_breakdown": {
-      "freshness": 1.666,
+      "freshness": 1.661,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.666
+      "total": 1.661
     }
   },
   {
@@ -1643,62 +1368,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": null,
-    "score": 1.666,
+    "score": 1.661,
     "score_breakdown": {
-      "freshness": 1.666,
+      "freshness": 1.661,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.666
-    }
-  },
-  {
-    "id": "10fd9a6f882cdb16",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
-    "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
-    "summary": "Customers spend days to weeks optimizing prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model. They struggle with changing their prompts quickly and then testing them to prevent regressions and improve on underperforming tasks. These situations call for the same tool – a prompt optimizer with built-in evaluations. Today, Amazon Bedrock introduces Advanced Prompt Optimization, a new tool that allows customers to optimi",
-    "published_at": "2026-05-14T21:50:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
-    ],
-    "severity": null,
-    "score": 1.663,
-    "score_breakdown": {
-      "freshness": 1.663,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.663
-    }
-  },
-  {
-    "id": "bacc1bcb412bc554",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
-    "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
-    "summary": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade security controls. The Agent Toolkit for AWS is the successor to the MCP servers, plugins, and skills available on AWS Labs . Developers using coding agents to build on AWS often find that their agents struggle with complex multi-service workflows, rely on outdated knowledge of AWS services, and are d",
-    "published_at": "2026-05-06T12:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
-    ],
-    "severity": null,
-    "score": 1.662,
-    "score_breakdown": {
-      "freshness": 0.912,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 1.662
+      "total": 1.661
     }
   },
   {
@@ -1715,14 +1392,38 @@
       "marketing:marchitecture/developer-tools,general:products/aws-developer-tools"
     ],
     "severity": null,
-    "score": 1.662,
+    "score": 1.659,
     "score_breakdown": {
-      "freshness": 0.912,
+      "freshness": 0.909,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.662
+      "total": 1.659
+    }
+  },
+  {
+    "id": "10fd9a6f882cdb16",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-bedrock-advanced-prompt-optimization-migration-tool/",
+    "title": "Amazon Bedrock Introduces Advanced Prompt Optimization and Migration Tool",
+    "summary": "Customers spend days to weeks optimizing prompts and evaluating responses when they want to migrate to a new model or just get better performance out of their current model. They struggle with changing their prompts quickly and then testing them to prevent regressions and improve on underperforming tasks. These situations call for the same tool – a prompt optimizer with built-in evaluations. Today, Amazon Bedrock introduces Advanced Prompt Optimization, a new tool that allows customers to optimi",
+    "published_at": "2026-05-14T21:50:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 1.658,
+    "score_breakdown": {
+      "freshness": 1.658,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.658
     }
   },
   {
@@ -1739,14 +1440,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 1.66,
+    "score": 1.655,
     "score_breakdown": {
-      "freshness": 1.66,
+      "freshness": 1.655,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.66
+      "total": 1.655
     }
   },
   {
@@ -1761,14 +1462,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.658,
+    "score": 1.653,
     "score_breakdown": {
-      "freshness": 1.658,
+      "freshness": 1.653,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.658
+      "total": 1.653
     }
   },
   {
@@ -1783,14 +1484,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.658,
+    "score": 1.653,
     "score_breakdown": {
-      "freshness": 1.658,
+      "freshness": 1.653,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.658
+      "total": 1.653
     }
   },
   {
@@ -1807,14 +1508,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.65,
+    "score": 1.645,
     "score_breakdown": {
-      "freshness": 1.65,
+      "freshness": 1.645,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.65
+      "total": 1.645
     }
   },
   {
@@ -1831,14 +1532,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 1.649,
+    "score": 1.644,
     "score_breakdown": {
-      "freshness": 1.649,
+      "freshness": 1.644,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.649
+      "total": 1.644
     }
   },
   {
@@ -1855,14 +1556,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.649,
+    "score": 1.644,
     "score_breakdown": {
-      "freshness": 1.649,
+      "freshness": 1.644,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.649
+      "total": 1.644
     }
   },
   {
@@ -1877,124 +1578,6 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [
       "marketing:marchitecture/migration,marketing:marchitecture/artificial-intelligence"
-    ],
-    "severity": null,
-    "score": 1.649,
-    "score_breakdown": {
-      "freshness": 1.649,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.649
-    }
-  },
-  {
-    "id": "40302c0232c6c66b",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
-    "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
-    "summary": "Today, AWS announced the availability of FLUX.2-klein-base-4B and Qwen3-Embedding-0.6B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Black Forest Labs and Qwen bring state-of-the-art image generation and multilingual text embedding capabilities, enabling customers to build creative AI applications and intelligent search systems on AWS infrastructure. These models address different enterprise AI challenges with specialize",
-    "published_at": "2026-05-14T18:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/aiml,general:products/amazon-sagemaker,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
-    ],
-    "severity": null,
-    "score": 1.644,
-    "score_breakdown": {
-      "freshness": 1.644,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.644
-    }
-  },
-  {
-    "id": "5a8e982ef29d1241",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
-    "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
-    "summary": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source mapping execution block, which automates the coordinated failover of event streams for multi-Region workloads. Customers running event-driven architectures use Lambda functions with event source mappings to process event streams from Kinesis,",
-    "published_at": "2026-05-14T18:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.644,
-    "score_breakdown": {
-      "freshness": 1.644,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.644
-    }
-  },
-  {
-    "id": "cdef36449f043904",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
-    "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
-    "summary": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming pipelines, making it easier to build event-driven applications, power real-time analytics pipelines, and synchronize data across systems. Aurora DSQL automatically captures the result of insert, update, and delete operations as change events. Y",
-    "published_at": "2026-05-14T18:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/databases"
-    ],
-    "severity": null,
-    "score": 1.644,
-    "score_breakdown": {
-      "freshness": 1.644,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.644
-    }
-  },
-  {
-    "id": "328c47f8d26d2863",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
-    "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
-    "summary": "Today, AWS announced the availability of Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, and Qwen3-ASR-1.7B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models from Qwen bring advanced speech synthesis and recognition capabilities across 10+ languages, enabling customers to build intelligent voice-powered applications on AWS infrastructure. These models address different enterprise speech and audio challenges with ",
-    "published_at": "2026-05-14T18:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
-    ],
-    "severity": null,
-    "score": 1.644,
-    "score_breakdown": {
-      "freshness": 1.644,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.644
-    }
-  },
-  {
-    "id": "a7e76729a927a100",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentic-reasoning-models-on-sagemaker-jumpstart/",
-    "title": "Two new models for agentic coding and efficient AI are now available in Amazon SageMaker JumpStart",
-    "summary": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Z.ai and Microsoft bring advanced agentic capabilities and efficient inference to enterprise AI workloads on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: GLM-5.1-FP8 excels at agentic software engineering with sustained multi-round optimiz",
-    "published_at": "2026-05-14T18:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-jumpstart"
     ],
     "severity": null,
     "score": 1.644,
@@ -2019,14 +1602,132 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.642,
+    "score": 1.641,
     "score_breakdown": {
-      "freshness": 0.392,
+      "freshness": 0.391,
       "keyword": 0.5,
       "source": 2.5,
       "keyword_signal": 1.25,
       "severity": 0.0,
-      "total": 1.642
+      "total": 1.641
+    }
+  },
+  {
+    "id": "40302c0232c6c66b",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/image-embeddings-models-on-sagemaker-jumpstart/",
+    "title": "New models for image generation and text embeddings are now available in Amazon SageMaker JumpStart",
+    "summary": "Today, AWS announced the availability of FLUX.2-klein-base-4B and Qwen3-Embedding-0.6B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Black Forest Labs and Qwen bring state-of-the-art image generation and multilingual text embedding capabilities, enabling customers to build creative AI applications and intelligent search systems on AWS infrastructure. These models address different enterprise AI challenges with specialize",
+    "published_at": "2026-05-14T18:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/aiml,general:products/amazon-sagemaker,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 1.639,
+    "score_breakdown": {
+      "freshness": 1.639,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.639
+    }
+  },
+  {
+    "id": "5a8e982ef29d1241",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/region-switch-lambda-esm-execution-block/",
+    "title": "ARC Region switch adds Lambda event source mapping execution block for event handling during failover",
+    "summary": "Amazon Application Recovery Controller (ARC) Region Switch helps customers orchestrate the failover of their multi-Region applications to achieve a bounded recovery time in the event of a Regional impairment. Today, we are announcing the Lambda event source mapping execution block, which automates the coordinated failover of event streams for multi-Region workloads. Customers running event-driven architectures use Lambda functions with event source mappings to process event streams from Kinesis,",
+    "published_at": "2026-05-14T18:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.639,
+    "score_breakdown": {
+      "freshness": 1.639,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.639
+    }
+  },
+  {
+    "id": "cdef36449f043904",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-aurora-dsql-change-data-capture-preview/",
+    "title": "Amazon Aurora DSQL now supports change data capture (Preview)",
+    "summary": "Amazon Aurora DSQL introduces support for change data capture (CDC) in preview, enabling you to stream real-time database changes directly to Amazon Kinesis Data Streams. This fully managed capability removes the need to build or maintain custom streaming pipelines, making it easier to build event-driven applications, power real-time analytics pipelines, and synchronize data across systems. Aurora DSQL automatically captures the result of insert, update, and delete operations as change events. Y",
+    "published_at": "2026-05-14T18:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 1.639,
+    "score_breakdown": {
+      "freshness": 1.639,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.639
+    }
+  },
+  {
+    "id": "328c47f8d26d2863",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/speech-models-on-sagemaker-jumpstart/",
+    "title": "Three new models for speech recognition and text-to-speech are now available in Amazon SageMaker JumpStart",
+    "summary": "Today, AWS announced the availability of Qwen3-TTS-12Hz-1.7B-CustomVoice, Qwen3-TTS-12Hz-1.7B-Base, and Qwen3-ASR-1.7B in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These three models from Qwen bring advanced speech synthesis and recognition capabilities across 10+ languages, enabling customers to build intelligent voice-powered applications on AWS infrastructure. These models address different enterprise speech and audio challenges with ",
+    "published_at": "2026-05-14T18:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 1.639,
+    "score_breakdown": {
+      "freshness": 1.639,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.639
+    }
+  },
+  {
+    "id": "a7e76729a927a100",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentic-reasoning-models-on-sagemaker-jumpstart/",
+    "title": "Two new models for agentic coding and efficient AI are now available in Amazon SageMaker JumpStart",
+    "summary": "Today, AWS announced the availability of GLM-5.1-FP8 and Phi-4-mini-instruct in Amazon SageMaker JumpStart, expanding the portfolio of foundation models available to AWS customers. These models from Z.ai and Microsoft bring advanced agentic capabilities and efficient inference to enterprise AI workloads on AWS infrastructure. These models address different enterprise AI challenges with specialized capabilities: GLM-5.1-FP8 excels at agentic software engineering with sustained multi-round optimiz",
+    "published_at": "2026-05-14T18:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-jumpstart"
+    ],
+    "severity": null,
+    "score": 1.639,
+    "score_breakdown": {
+      "freshness": 1.639,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.639
     }
   },
   {
@@ -2041,14 +1742,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.641,
+    "score": 1.636,
     "score_breakdown": {
-      "freshness": 1.641,
+      "freshness": 1.636,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.641
+      "total": 1.636
     }
   },
   {
@@ -2065,14 +1766,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.639,
+    "score": 1.634,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.634,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.634
     }
   },
   {
@@ -2089,14 +1790,14 @@
       "marketing:marchitecture/contact-center,marketing:marchitecture/applications,general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 1.639,
+    "score": 1.634,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.634,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.634
     }
   },
   {
@@ -2113,14 +1814,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/databases,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 1.638,
+    "score": 1.633,
     "score_breakdown": {
-      "freshness": 1.638,
+      "freshness": 1.633,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.638
+      "total": 1.633
     }
   },
   {
@@ -2147,14 +1848,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 1.635,
+    "score": 1.631,
     "score_breakdown": {
-      "freshness": 1.635,
+      "freshness": 1.631,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.635
+      "total": 1.631
     }
   },
   {
@@ -2171,36 +1872,12 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools,marketing:marchitecture/applications,marketing:marchitecture/business-productivity"
     ],
     "severity": null,
-    "score": 1.629,
+    "score": 1.624,
     "score_breakdown": {
-      "freshness": 1.629,
+      "freshness": 1.624,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.629
-    }
-  },
-  {
-    "id": "629048b2531fa9ee",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
-    "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
-    "summary": "AWS Elemental MediaTailor now automatically authenticates server-to-server connections with Google Ad Manager (GAM), Google Campaign Manager (GCM), and Google Display & Video 360 (DV360). This delivers a seamless integration experience for customers using Google's ad platforms. MediaTailor provides server-side ad insertion (SSAI) to personalize ads in video streams. Google requires SSAI providers to establish a secure, authenticated connection when making ad requests and firing ad tracking event",
-    "published_at": "2026-05-05T21:44:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [
-      "marketing:marchitecture/media-services,general:products/aws-elemental-mediatailor"
-    ],
-    "severity": null,
-    "score": 1.624,
-    "score_breakdown": {
-      "freshness": 0.874,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
       "severity": 0.0,
       "total": 1.624
     }
@@ -2219,14 +1896,14 @@
       "marketing:marchitecture/networking"
     ],
     "severity": null,
-    "score": 1.615,
+    "score": 1.61,
     "score_breakdown": {
-      "freshness": 1.615,
+      "freshness": 1.61,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.615
+      "total": 1.61
     }
   },
   {
@@ -2241,14 +1918,44 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.548,
+    "score": 1.547,
     "score_breakdown": {
-      "freshness": 0.298,
+      "freshness": 0.297,
       "keyword": 0.5,
       "source": 2.5,
       "keyword_signal": 1.25,
       "severity": 0.0,
-      "total": 1.548
+      "total": 1.547
+    }
+  },
+  {
+    "id": "b96cd6cbcbfc17cb",
+    "track": "iam",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
+    "title": "Detecting and preventing crypto mining in your AWS environment",
+    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]",
+    "published_at": "2026-05-13T21:47:27+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "Amazon GuardDuty",
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "crypto",
+      "cryptomining",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.543,
+    "score_breakdown": {
+      "freshness": 1.543,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.543
     }
   },
   {
@@ -2272,14 +1979,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.536,
+    "score": 1.531,
     "score_breakdown": {
-      "freshness": 1.536,
+      "freshness": 1.531,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.536
+      "total": 1.531
     }
   },
   {
@@ -2296,14 +2003,14 @@
       "marketing:marchitecture/storage,general:products/amazon-fsx-for-openzfs"
     ],
     "severity": null,
-    "score": 1.535,
+    "score": 1.53,
     "score_breakdown": {
-      "freshness": 1.535,
+      "freshness": 1.53,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.535
+      "total": 1.53
     }
   },
   {
@@ -2326,14 +2033,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.523,
+    "score": 1.518,
     "score_breakdown": {
-      "freshness": 1.523,
+      "freshness": 1.518,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.523
+      "total": 1.518
     }
   },
   {
@@ -2667,6 +2374,28 @@
     }
   },
   {
+    "id": "0a93282d7c792247",
+    "track": "iam",
+    "source": "rss:aws-iam-release-notes",
+    "source_kind": "rss",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_monitor.html",
+    "title": "Monitor and control actions taken with assumed roles",
+    "summary": "Administrators can configure IAM roles to require that identities pass a source identity, which is logged in AWS CloudTrail. Reviewing source identity information helps administrators determine who or what performed actions with assumed role sessions.",
+    "published_at": "2021-04-13T19:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.5,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 0.5,
+      "source": 3.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 1.5
+    }
+  },
+  {
     "id": "8eb13e60fbac4964",
     "track": "iam",
     "source": "rss:aws-iam-release-notes",
@@ -2697,6 +2426,28 @@
     "title": "The actions, resources, and condition keys pages for AWS services have moved",
     "summary": "Each AWS service can define actions, resources, and condition context keys for use in IAM policies. You can now find the list of AWS services and their actions, resources, and condition context keys in the Service Authorization Reference.",
     "published_at": "2020-11-16T19:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.5,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 0.5,
+      "source": 3.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 1.5
+    }
+  },
+  {
+    "id": "c870df2b60e3215f",
+    "track": "iam",
+    "source": "rss:aws-iam-release-notes",
+    "source_kind": "rss",
+    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entities",
+    "title": "Use Service Quotas to request quick increases for IAM entities",
+    "summary": "You can request quota increases for adjustable IAM quotas using the Service Quotas console. Now, some increases are automatically approved in Service Quotas and available in your account within a few minutes. Larger requests are submitted to AWS Support.",
+    "published_at": "2020-06-25T19:00:00+00:00",
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
@@ -2988,14 +2739,14 @@
       "general:products/amazon-rds-for-oracle,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 1.481,
+    "score": 1.477,
     "score_breakdown": {
-      "freshness": 1.481,
+      "freshness": 1.477,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.481
+      "total": 1.477
     }
   },
   {
@@ -3010,14 +2761,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.443,
+    "score": 1.442,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.192,
       "keyword": 0.5,
       "source": 2.5,
       "keyword_signal": 1.25,
       "severity": 0.0,
-      "total": 1.443
+      "total": 1.442
     }
   },
   {
@@ -3041,14 +2792,38 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.44,
+    "score": 1.436,
     "score_breakdown": {
-      "freshness": 1.44,
+      "freshness": 1.436,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.44
+      "total": 1.436
+    }
+  },
+  {
+    "id": "768cea8bfbf0afdf",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-lambda-managed-instances/",
+    "title": "AWS Lambda supports scheduled scaling for functions on Lambda Managed Instances",
+    "summary": "AWS Lambda now supports scheduled scaling for functions running on Lambda Managed Instances, using Amazon EventBridge Scheduler. This capability allows you to define one-time or recurring schedules that proactively adjust your function's capacity limits ahead of expected traffic, to meet your performance targets during peak periods and avoid costs during idle periods. Lambda Managed Instances lets you run Lambda functions on managed Amazon EC2 instances with built-in routing, load balancing, and",
+    "published_at": "2026-05-12T19:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/serverless,general:products/aws-lambda"
+    ],
+    "severity": null,
+    "score": 1.425,
+    "score_breakdown": {
+      "freshness": 1.425,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.425
     }
   },
   {
@@ -3065,14 +2840,14 @@
       "marketing:marchitecture/serverless,marketing:marchitecture/application-services"
     ],
     "severity": null,
-    "score": 1.425,
+    "score": 1.421,
     "score_breakdown": {
-      "freshness": 1.425,
+      "freshness": 1.421,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.425
+      "total": 1.421
     }
   },
   {
@@ -3087,14 +2862,38 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.423,
+    "score": 1.419,
     "score_breakdown": {
-      "freshness": 1.423,
+      "freshness": 1.419,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.423
+      "total": 1.419
+    }
+  },
+  {
+    "id": "fec5f342ef5626f6",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-feature-store-pyv3/",
+    "title": "Amazon SageMaker Feature Store now supports SageMaker Python SDK V3",
+    "summary": "Amazon SageMaker Feature Store now supports the SageMaker Python SDK v3, including new capabilities for Lake Formation access controls and Apache Iceberg table properties configuration. Feature Store is a fully managed repository to store, share, and manage features for machine learning models. Data scientists can now use the modern, modular SDK v3 interfaces to manage feature groups with fine-grained access control and optimized offline storage. Data scientists can use the SageMaker Python SDK ",
+    "published_at": "2026-05-12T17:12:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 1.417,
+    "score_breakdown": {
+      "freshness": 1.417,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.417
     }
   },
   {
@@ -3111,14 +2910,14 @@
       "general:products/amazon-route-53,general:products/amazon-eks,marketing:marchitecture/containers"
     ],
     "severity": null,
-    "score": 1.421,
+    "score": 1.416,
     "score_breakdown": {
-      "freshness": 1.421,
+      "freshness": 1.416,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.421
+      "total": 1.416
     }
   },
   {
@@ -3135,14 +2934,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-redshift"
     ],
     "severity": null,
-    "score": 1.416,
+    "score": 1.412,
     "score_breakdown": {
-      "freshness": 1.416,
+      "freshness": 1.412,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.416
+      "total": 1.412
     }
   },
   {
@@ -3159,14 +2958,14 @@
       "marketing:marchitecture/business-productivity,marketing:marchitecture/messaging,general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.416,
+    "score": 1.412,
     "score_breakdown": {
-      "freshness": 1.416,
+      "freshness": 1.412,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.416
+      "total": 1.412
     }
   },
   {
@@ -3198,14 +2997,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.413,
+    "score": 1.409,
     "score_breakdown": {
-      "freshness": 1.413,
+      "freshness": 1.409,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.413
+      "total": 1.409
     }
   },
   {
@@ -3222,14 +3021,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 1.368,
+    "score": 1.364,
     "score_breakdown": {
-      "freshness": 1.368,
+      "freshness": 1.364,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.368
+      "total": 1.364
     }
   },
   {
@@ -3246,14 +3045,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/aiml,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.365,
+    "score": 1.361,
     "score_breakdown": {
-      "freshness": 1.365,
+      "freshness": 1.361,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.365
+      "total": 1.361
     }
   },
   {
@@ -3270,14 +3069,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 1.349,
+    "score": 1.345,
     "score_breakdown": {
-      "freshness": 1.349,
+      "freshness": 1.345,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.349
+      "total": 1.345
     }
   },
   {
@@ -3294,14 +3093,14 @@
       "marketing:marchitecture/storage,marketing:marchitecture/networking,general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.335,
+    "score": 1.331,
     "score_breakdown": {
-      "freshness": 1.335,
+      "freshness": 1.331,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.335
+      "total": 1.331
     }
   },
   {
@@ -3318,14 +3117,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 1.335,
+    "score": 1.331,
     "score_breakdown": {
-      "freshness": 1.335,
+      "freshness": 1.331,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.335
+      "total": 1.331
     }
   },
   {
@@ -3342,14 +3141,14 @@
       "general:products/amazon-sagemaker,general:products/amazon-sagemaker-studio,general:products/aiml,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.335,
+    "score": 1.331,
     "score_breakdown": {
-      "freshness": 1.335,
+      "freshness": 1.331,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.335
+      "total": 1.331
     }
   },
   {
@@ -3366,14 +3165,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,general:products/aiml"
     ],
     "severity": null,
-    "score": 1.335,
+    "score": 1.331,
     "score_breakdown": {
-      "freshness": 1.335,
+      "freshness": 1.331,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.335
+      "total": 1.331
     }
   },
   {
@@ -3390,14 +3189,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.334,
+    "score": 1.331,
     "score_breakdown": {
-      "freshness": 1.334,
+      "freshness": 1.331,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.334
+      "total": 1.331
     }
   },
   {
@@ -3412,14 +3211,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.327,
+    "score": 1.323,
     "score_breakdown": {
-      "freshness": 1.327,
+      "freshness": 1.323,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.327
+      "total": 1.323
     }
   },
   {
@@ -3436,14 +3235,14 @@
       "general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml"
     ],
     "severity": null,
-    "score": 1.327,
+    "score": 1.323,
     "score_breakdown": {
-      "freshness": 1.327,
+      "freshness": 1.323,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.327
+      "total": 1.323
     }
   },
   {
@@ -3458,14 +3257,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.326,
+    "score": 1.322,
     "score_breakdown": {
-      "freshness": 1.326,
+      "freshness": 1.322,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.326
+      "total": 1.322
     }
   },
   {
@@ -3482,14 +3281,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 1.323,
+    "score": 1.32,
     "score_breakdown": {
-      "freshness": 1.323,
+      "freshness": 1.32,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.323
+      "total": 1.32
     }
   },
   {
@@ -3506,14 +3305,14 @@
       "marketing:marchitecture/game-development,marketing:marchitecture/developers,marketing:marchitecture/networking-and-content-delivery,general:products/amazon-route-53"
     ],
     "severity": null,
-    "score": 1.316,
+    "score": 1.312,
     "score_breakdown": {
-      "freshness": 1.316,
+      "freshness": 1.312,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.316
+      "total": 1.312
     }
   },
   {
@@ -3530,14 +3329,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.311,
+    "score": 1.307,
     "score_breakdown": {
-      "freshness": 1.311,
+      "freshness": 1.307,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.311
+      "total": 1.307
     }
   },
   {
@@ -3554,25 +3353,25 @@
       "marketing:marchitecture/containers,marketing:marchitecture/migration"
     ],
     "severity": null,
-    "score": 1.289,
+    "score": 1.285,
     "score_breakdown": {
-      "freshness": 1.289,
+      "freshness": 1.285,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.289
+      "total": 1.285
     }
   },
   {
-    "id": "6b62a211cd2063aa",
+    "id": "51bec48b6b1d0ead",
     "track": "iam",
     "source": "rss:aws-security-bulletins",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/",
-    "title": "[Redirected] Memory Dump Issue in AWS CodeBuild",
-    "summary": "Bulletin ID: AWS-2025-016 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/07/25 6:00 PM PDT Description: AWS CodeBuild is a fully managed on-demand continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. Security researchers reported a CodeBuild issue that could be leveraged for unapproved code modification absent sufficient repository controls and credential scoping. The researchers demonstrate",
-    "published_at": "2025-08-12T17:16:09+00:00",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/",
+    "title": "Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE plugins",
+    "summary": "Bulletin ID: AWS-2025-019 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: We are aware of blog posts by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues in Amazon Q Developer and Kiro. Amazon Q Developer: Remote Code Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection. These issues require an open chat session and intentional access to a malicious fi",
+    "published_at": "2025-10-07T20:25:34+00:00",
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
@@ -3600,14 +3399,14 @@
       "general:products/aws-client-vpn,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 1.086,
+    "score": 1.082,
     "score_breakdown": {
-      "freshness": 1.086,
+      "freshness": 1.082,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.086
+      "total": 1.082
     }
   },
   {
@@ -3624,14 +3423,14 @@
       "general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 1.078,
+    "score": 1.075,
     "score_breakdown": {
-      "freshness": 1.078,
+      "freshness": 1.075,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.078
+      "total": 1.075
     }
   },
   {
@@ -3646,14 +3445,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.073,
+    "score": 1.07,
     "score_breakdown": {
-      "freshness": 1.073,
+      "freshness": 1.07,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.073
+      "total": 1.07
     }
   },
   {
@@ -3670,14 +3469,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-route-53,marketing:marchitecture/security-identity-and-compliance"
     ],
     "severity": null,
-    "score": 1.07,
+    "score": 1.067,
     "score_breakdown": {
-      "freshness": 1.07,
+      "freshness": 1.067,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.07
+      "total": 1.067
     }
   },
   {
@@ -3692,14 +3491,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.067,
+    "score": 1.064,
     "score_breakdown": {
-      "freshness": 1.067,
+      "freshness": 1.064,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.067
+      "total": 1.064
     }
   },
   {
@@ -3714,14 +3513,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": "low",
-    "score": 1.066,
+    "score": 1.064,
     "score_breakdown": {
-      "freshness": 0.566,
+      "freshness": 0.564,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 1.066
+      "total": 1.064
     }
   },
   {
@@ -3736,14 +3535,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": "low",
-    "score": 1.065,
+    "score": 1.064,
     "score_breakdown": {
-      "freshness": 0.565,
+      "freshness": 0.564,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 1.065
+      "total": 1.064
     }
   },
   {
@@ -3760,14 +3559,14 @@
       "general:products/amazon-route-53,general:products/aws-govcloud-us,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 1.012,
+    "score": 1.009,
     "score_breakdown": {
-      "freshness": 1.012,
+      "freshness": 1.009,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.012
+      "total": 1.009
     }
   },
   {
@@ -3784,14 +3583,14 @@
       "marketing:marchitecture/aws-marketplace-and-partners,marketing:marchitecture/partner-network"
     ],
     "severity": null,
-    "score": 1.008,
+    "score": 1.005,
     "score_breakdown": {
-      "freshness": 1.008,
+      "freshness": 1.005,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.008
+      "total": 1.005
     }
   },
   {
@@ -3808,14 +3607,14 @@
       "marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 1.006,
+    "score": 1.003,
     "score_breakdown": {
-      "freshness": 1.006,
+      "freshness": 1.003,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.006
+      "total": 1.003
     }
   },
   {
@@ -3832,58 +3631,41 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.005,
+    "score": 1.002,
     "score_breakdown": {
-      "freshness": 1.005,
+      "freshness": 1.002,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.005
+      "total": 1.002
     }
   },
   {
-    "id": "60c8405ea953e527",
+    "id": "16a7c76404b6de62",
     "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.4",
-    "title": "v1.12.4",
-    "summary": "### Added\r\n\r\n- `k8s_configmap` BundlePublisher plugin (#6105, #6139)\r\n- UpstreamAuthority.SubscribeToLocalBundle RPC to stream updates in the local trust bundle (#6090)\r\n- Integration tests running on ARM64 platform (#6059)\r\n- The OIDC Discovery Provider can now read the trust bundle from a file (#6025)\r\n\r\n### Changed\r\n\r\n- The \"Container id not found\" log message in the `k8s` WorkloadAttestor has been lowered to Debug level (#6128)\r\n- Improvements in lookup performance for entries (#6100, #6034)",
-    "published_at": "2025-07-01T21:39:47Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/icymi-april-2026-aws-security/",
+    "title": "ICYMI: April 2026 @AWS Security",
+    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered AI security, identity and access management, threat intelligence, data protection, and multicloud operations. […]",
+    "published_at": "2026-05-07T18:52:59+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "Announcements",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
     "severity": null,
-    "score": 1.0,
+    "score": 0.997,
     "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
+      "freshness": 0.997,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.0
-    }
-  },
-  {
-    "id": "54acb6cdb1c6e3cf",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.2.0",
-    "title": "Release: v1.2.0",
-    "summary": "## What's Changed\r\n* Custom role session name is supported in the CreateSession request\r\n* A hop limit option is supported to limit the IP TTL on response packets for the serve command\r\n* File updates for certificate and private key data are recognized by long-running commands and will be used for subsequent credentialing requests\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.1.1...v1.2.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/re",
-    "published_at": "2024-08-27T15:50:03Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.0
+      "total": 0.997
     }
   },
   {
@@ -3900,14 +3682,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 0.997,
+    "score": 0.994,
     "score_breakdown": {
-      "freshness": 0.997,
+      "freshness": 0.994,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.997
+      "total": 0.994
     }
   },
   {
@@ -3924,14 +3706,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 0.996,
+    "score": 0.993,
     "score_breakdown": {
-      "freshness": 0.996,
+      "freshness": 0.993,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.996
+      "total": 0.993
     }
   },
   {
@@ -3948,14 +3730,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 0.994,
+    "score": 0.991,
     "score_breakdown": {
-      "freshness": 0.994,
+      "freshness": 0.991,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.994
+      "total": 0.991
     }
   },
   {
@@ -3976,14 +3758,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.991,
+    "score": 0.988,
     "score_breakdown": {
-      "freshness": 0.991,
+      "freshness": 0.988,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.988
     }
   },
   {
@@ -4000,14 +3782,14 @@
       "marketing:marchitecture/business-productivity,general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 0.991,
+    "score": 0.988,
     "score_breakdown": {
-      "freshness": 0.991,
+      "freshness": 0.988,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.988
     }
   },
   {
@@ -4024,14 +3806,14 @@
       "marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.991,
+    "score": 0.988,
     "score_breakdown": {
-      "freshness": 0.991,
+      "freshness": 0.988,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.988
     }
   },
   {
@@ -4048,14 +3830,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 0.991,
+    "score": 0.988,
     "score_breakdown": {
-      "freshness": 0.991,
+      "freshness": 0.988,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.988
     }
   },
   {
@@ -4072,14 +3854,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 0.988,
+    "score": 0.985,
     "score_breakdown": {
-      "freshness": 0.988,
+      "freshness": 0.985,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.988
+      "total": 0.985
     }
   },
   {
@@ -4094,14 +3876,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.988,
+    "score": 0.985,
     "score_breakdown": {
-      "freshness": 0.988,
+      "freshness": 0.985,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.988
+      "total": 0.985
     }
   },
   {
@@ -4118,14 +3900,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 0.988,
+    "score": 0.985,
     "score_breakdown": {
-      "freshness": 0.988,
+      "freshness": 0.985,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.988
+      "total": 0.985
     }
   },
   {
@@ -4142,14 +3924,14 @@
       "general:products/amazon-bedrock,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.979,
+    "score": 0.976,
     "score_breakdown": {
-      "freshness": 0.979,
+      "freshness": 0.976,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.979
+      "total": 0.976
     }
   },
   {
@@ -4166,14 +3948,14 @@
       "general:products/aws-resource-explorer,marketing:marchitecture/management-and-governance"
     ],
     "severity": null,
-    "score": 0.979,
+    "score": 0.976,
     "score_breakdown": {
-      "freshness": 0.979,
+      "freshness": 0.976,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.979
+      "total": 0.976
     }
   },
   {
@@ -4190,14 +3972,14 @@
       "general:products/amazon-simple-email-service"
     ],
     "severity": null,
-    "score": 0.965,
+    "score": 0.962,
     "score_breakdown": {
-      "freshness": 0.965,
+      "freshness": 0.962,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.965
+      "total": 0.962
     }
   },
   {
@@ -4214,14 +3996,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds-for-sql-server"
     ],
     "severity": null,
-    "score": 0.965,
+    "score": 0.962,
     "score_breakdown": {
-      "freshness": 0.965,
+      "freshness": 0.962,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.965
+      "total": 0.962
     }
   },
   {
@@ -4238,14 +4020,14 @@
       "general:products/amazon-redshift,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.951,
+    "score": 0.948,
     "score_breakdown": {
-      "freshness": 0.951,
+      "freshness": 0.948,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.951
+      "total": 0.948
     }
   },
   {
@@ -4260,14 +4042,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.95,
+    "score": 0.947,
     "score_breakdown": {
-      "freshness": 0.95,
+      "freshness": 0.947,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.95
+      "total": 0.947
     }
   },
   {
@@ -4284,14 +4066,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-opensearch-service"
     ],
     "severity": null,
-    "score": 0.946,
+    "score": 0.944,
     "score_breakdown": {
-      "freshness": 0.946,
+      "freshness": 0.944,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.946
+      "total": 0.944
     }
   },
   {
@@ -4308,14 +4090,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/aws-site-to-site"
     ],
     "severity": null,
-    "score": 0.937,
+    "score": 0.934,
     "score_breakdown": {
-      "freshness": 0.937,
+      "freshness": 0.934,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.937
+      "total": 0.934
     }
   },
   {
@@ -4332,14 +4114,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2,general:products/aws-govcloud-us,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.933,
+    "score": 0.93,
     "score_breakdown": {
-      "freshness": 0.933,
+      "freshness": 0.93,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.933
+      "total": 0.93
     }
   },
   {
@@ -4363,14 +4145,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.933,
+    "score": 0.93,
     "score_breakdown": {
-      "freshness": 0.933,
+      "freshness": 0.93,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.933
+      "total": 0.93
     }
   },
   {
@@ -4387,14 +4169,14 @@
       "marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 0.932,
+    "score": 0.929,
     "score_breakdown": {
-      "freshness": 0.932,
+      "freshness": 0.929,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.932
+      "total": 0.929
     }
   },
   {
@@ -4409,14 +4191,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.931,
+    "score": 0.928,
     "score_breakdown": {
-      "freshness": 0.931,
+      "freshness": 0.928,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.931
+      "total": 0.928
     }
   },
   {
@@ -4431,14 +4213,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.931,
+    "score": 0.928,
     "score_breakdown": {
-      "freshness": 0.931,
+      "freshness": 0.928,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.931
+      "total": 0.928
     }
   },
   {
@@ -4453,14 +4235,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.931,
+    "score": 0.928,
     "score_breakdown": {
-      "freshness": 0.931,
+      "freshness": 0.928,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.931
+      "total": 0.928
     }
   },
   {
@@ -4477,14 +4259,14 @@
       "general:products/aws-marketplace,marketing:marchitecture/partner-network"
     ],
     "severity": null,
-    "score": 0.928,
+    "score": 0.925,
     "score_breakdown": {
-      "freshness": 0.928,
+      "freshness": 0.925,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.928
+      "total": 0.925
     }
   },
   {
@@ -4499,14 +4281,86 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.925,
+    "score": 0.923,
     "score_breakdown": {
-      "freshness": 0.925,
+      "freshness": 0.923,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.925
+      "total": 0.923
+    }
+  },
+  {
+    "id": "f72d2f17875bf346",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-neptune-cloudshell/",
+    "title": "Amazon Neptune now supports 1-click connect with CloudShell",
+    "summary": "Amazon Neptune now offers 1-click connect capability, enabling you to quickly connect to Neptune Database and Neptune Analytics using CloudShell. Previously, connecting to Neptune resources required manual configuration network settings and access permissions, taking time from database administrators, developers, and data analysts who needed to query their graph databases. With 1-click connect, you can immediately start querying your Neptune resources without manual network configuration, signif",
+    "published_at": "2026-05-06T17:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:benefits-realized/user-experience,marketing:benefits-realized/ease-of-use,marketing:marchitecture/databases,general:products/amazon-neptune"
+    ],
+    "severity": null,
+    "score": 0.923,
+    "score_breakdown": {
+      "freshness": 0.923,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.923
+    }
+  },
+  {
+    "id": "cae3739b1b4d2dd5",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatail-ad-trickplay-and-compact-dash-manifest-optimization",
+    "title": "AWS Elemental MediaTailor now supports ad trickplay personalization and compact DASH manifest optimization via dynamic transcoding",
+    "summary": "AWS Elemental MediaTailor now enhances streaming ad personalization with support for trickplay features in HLS and DASH formats. This update also introduces compact DASH manifests for more efficient manifest delivery. Previously, these capabilities required a custom transcode profile. They are now supported natively through dynamic transcoding, eliminating that requirement. MediaTailor provides server-side ad insertion (SSAI) to personalize ads in video streams. As streaming platforms increasing",
+    "published_at": "2026-05-06T14:24:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/aws-elemental-mediatailor,marketing:marchitecture/media-services"
+    ],
+    "severity": null,
+    "score": 0.916,
+    "score_breakdown": {
+      "freshness": 0.916,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.916
+    }
+  },
+  {
+    "id": "bacc1bcb412bc554",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
+    "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
+    "summary": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade security controls. The Agent Toolkit for AWS is the successor to the MCP servers, plugins, and skills available on AWS Labs . Developers using coding agents to build on AWS often find that their agents struggle with complex multi-service workflows, rely on outdated knowledge of AWS services, and are d",
+    "published_at": "2026-05-06T12:00:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
+    ],
+    "severity": null,
+    "score": 0.909,
+    "score_breakdown": {
+      "freshness": 0.909,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.909
     }
   },
   {
@@ -4523,14 +4377,14 @@
       "marketing:marchitecture/migration,general:products/aws-transfer-family,marketing:marchitecture/storage"
     ],
     "severity": null,
-    "score": 0.906,
+    "score": 0.904,
     "score_breakdown": {
-      "freshness": 0.906,
+      "freshness": 0.904,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.906
+      "total": 0.904
     }
   },
   {
@@ -4547,14 +4401,14 @@
       "marketing:marchitecture/security-identity-and-compliance,general:products/aws-directory-service"
     ],
     "severity": null,
-    "score": 0.898,
+    "score": 0.896,
     "score_breakdown": {
-      "freshness": 0.898,
+      "freshness": 0.896,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.898
+      "total": 0.896
     }
   },
   {
@@ -4571,14 +4425,66 @@
       "marketing:marchitecture/databases,general:products/amazon-elasticache"
     ],
     "severity": null,
-    "score": 0.876,
+    "score": 0.873,
     "score_breakdown": {
-      "freshness": 0.876,
+      "freshness": 0.873,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.876
+      "total": 0.873
+    }
+  },
+  {
+    "id": "629048b2531fa9ee",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/mediatailor-automatic-google-ad-platform-integration",
+    "title": "AWS Elemental MediaTailor now provides automatic secure server-to-server integration with Google's ad platforms",
+    "summary": "AWS Elemental MediaTailor now automatically authenticates server-to-server connections with Google Ad Manager (GAM), Google Campaign Manager (GCM), and Google Display & Video 360 (DV360). This delivers a seamless integration experience for customers using Google's ad platforms. MediaTailor provides server-side ad insertion (SSAI) to personalize ads in video streams. Google requires SSAI providers to establish a secure, authenticated connection when making ad requests and firing ad tracking event",
+    "published_at": "2026-05-05T21:44:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "marketing:marchitecture/media-services,general:products/aws-elemental-mediatailor"
+    ],
+    "severity": null,
+    "score": 0.871,
+    "score_breakdown": {
+      "freshness": 0.871,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.871
+    }
+  },
+  {
+    "id": "0f7baf62c62613a4",
+    "track": "iam",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/introducing-ai-traffic-analysis-dashboards-for-aws-waf/",
+    "title": "Introducing AI traffic analysis dashboards for AWS WAF",
+    "summary": "As AI agents, bots, and programmatic access become an increasingly significant portion of web traffic, organizations need better tools to understand, analyze, and manage this activity. Today, we’re excited to announce AI Traffic Analysis dashboards for AWS WAF protection packs—also known as web access control lists (web ACLs)—providing comprehensive visibility into AI bot and agent […]",
+    "published_at": "2026-05-05T18:56:54+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "Announcements",
+      "AWS WAF",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.864,
+    "score_breakdown": {
+      "freshness": 0.864,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.864
     }
   },
   {
@@ -4593,14 +4499,14 @@
     "fetched_at": "2026-05-17T11:51:59.920765+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.866,
+    "score": 0.864,
     "score_breakdown": {
-      "freshness": 0.866,
+      "freshness": 0.864,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.866
+      "total": 0.864
     }
   },
   {
@@ -4617,14 +4523,14 @@
       "general:products/aws-serverless-application-model-sam,marketing:marchitecture/developer-tools,marketing:marchitecture/serverless,general:products/aws-lambda"
     ],
     "severity": null,
-    "score": 0.866,
+    "score": 0.864,
     "score_breakdown": {
-      "freshness": 0.866,
+      "freshness": 0.864,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.866
+      "total": 0.864
     }
   },
   {
@@ -4639,14 +4545,42 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.815,
+    "score": 0.813,
     "score_breakdown": {
-      "freshness": 0.815,
+      "freshness": 0.813,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.815
+      "total": 0.813
+    }
+  },
+  {
+    "id": "4b1def4a10c99af0",
+    "track": "iam",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/securing-open-proxies-in-your-aws-environment/",
+    "title": "Securing open proxies in your AWS environment",
+    "summary": "This article shows you how to identify and secure open proxies in your AWS environment to prevent abuse, protect your IP address reputation, and control costs. An open proxy is a server that forwards traffic on behalf of internet users without requiring authentication. While proxies can support legitimate use cases such as load balancing or […]",
+    "published_at": "2026-05-04T18:16:39+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [
+      "Amazon EC2",
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.803,
+    "score_breakdown": {
+      "freshness": 0.803,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.803
     }
   },
   {
@@ -4701,14 +4635,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 0.655,
+    "score": 0.653,
     "score_breakdown": {
-      "freshness": 0.655,
+      "freshness": 0.653,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.655
+      "total": 0.653
     }
   },
   {
@@ -4723,14 +4657,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.654,
+    "score": 0.652,
     "score_breakdown": {
-      "freshness": 0.654,
+      "freshness": 0.652,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.654
+      "total": 0.652
     }
   },
   {
@@ -4751,14 +4685,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.653,
+    "score": 0.651,
     "score_breakdown": {
-      "freshness": 0.653,
+      "freshness": 0.651,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.653
+      "total": 0.651
     }
   },
   {
@@ -4773,14 +4707,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.566,
+    "score": 0.564,
     "score_breakdown": {
-      "freshness": 0.566,
+      "freshness": 0.564,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.566
+      "total": 0.564
     }
   },
   {
@@ -4801,14 +4735,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.565,
+    "score": 0.564,
     "score_breakdown": {
-      "freshness": 0.565,
+      "freshness": 0.564,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.565
+      "total": 0.564
     }
   },
   {
@@ -4823,14 +4757,14 @@
     "fetched_at": "2026-05-17T11:51:59.920765+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.532,
+    "score": 0.531,
     "score_breakdown": {
-      "freshness": 0.532,
+      "freshness": 0.531,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.532
+      "total": 0.531
     }
   },
   {
@@ -4852,36 +4786,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.526,
+    "score": 0.524,
     "score_breakdown": {
-      "freshness": 0.526,
+      "freshness": 0.524,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.526
-    }
-  },
-  {
-    "id": "02dcab3045ecd3e9",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.11",
-    "title": "v0.7.11",
-    "summary": "## Changelog\n* 7e87c3700b409f5560249c29a90200de4828a1db Merge pull request #988 from dstdfx/bump-version\n* 0a5ddae844bafbbadc8d250269781058ca4a7a83 Bump version to 0.7.11\n* f5b5be7a63f395299c825d97a668872df60e36d1 Merge pull request #985 from dstdfx/bump-go-version-1.25.7\n* 4e2f4e928ae08bda8c112e81a383fa9eb972b4b2 Update go.mod for e2e/int tests\n* d94bc07f33543a70f6110ab141ddf2fb85c4ac32 Update go.mod\n* 2a6d62dc1b28c166aa68b440647c905ede2e4b45 Merge pull request #986 from ShiriNmi1520/master\n* 5",
-    "published_at": "2026-02-17T21:13:17Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.504,
-    "score_breakdown": {
-      "freshness": 0.004,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.504
+      "total": 0.524
     }
   },
   {
@@ -4929,14 +4841,14 @@
     }
   },
   {
-    "id": "ec091a4c9485579e",
+    "id": "60c8405ea953e527",
     "track": "iam",
     "source": "github:spiffe/spire",
     "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.2",
-    "title": "v1.12.2",
-    "summary": "### Fixed\r\n- Regression where PolicyCredentials set by CredentialComposer plugins were not correctly applied to CA certificates. (#6074)",
-    "published_at": "2025-05-19T17:21:24Z",
+    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.4",
+    "title": "v1.12.4",
+    "summary": "### Added\r\n\r\n- `k8s_configmap` BundlePublisher plugin (#6105, #6139)\r\n- UpstreamAuthority.SubscribeToLocalBundle RPC to stream updates in the local trust bundle (#6090)\r\n- Integration tests running on ARM64 platform (#6059)\r\n- The OIDC Discovery Provider can now read the trust bundle from a file (#6025)\r\n\r\n### Changed\r\n\r\n- The \"Container id not found\" log message in the `k8s` WorkloadAttestor has been lowered to Debug level (#6128)\r\n- Improvements in lookup performance for entries (#6100, #6034)",
+    "published_at": "2025-07-01T21:39:47Z",
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
@@ -4951,14 +4863,14 @@
     }
   },
   {
-    "id": "2f7999a474c70c8e",
+    "id": "54acb6cdb1c6e3cf",
     "track": "iam",
     "source": "github:aws/rolesanywhere-credential-helper",
     "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.0.3",
-    "title": "Release: v1.0.3",
-    "summary": "## What's Changed\r\n\r\n - Add update and serve commands, along with some unit tests\r\n - Add documentation for the new commands in the README\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/commits/v1.0.2...v1.0.3\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.3/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.3/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rol",
-    "published_at": "2022-12-05T22:53:58Z",
+    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.2.0",
+    "title": "Release: v1.2.0",
+    "summary": "## What's Changed\r\n* Custom role session name is supported in the CreateSession request\r\n* A hop limit option is supported to limit the IP TTL on response packets for the serve command\r\n* File updates for certificate and private key data are recognized by long-running commands and will be used for subsequent credentialing requests\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.1.1...v1.2.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/re",
+    "published_at": "2024-08-27T15:50:03Z",
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
@@ -5006,14 +4918,14 @@
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.497,
+    "score": 0.495,
     "score_breakdown": {
-      "freshness": 0.497,
+      "freshness": 0.495,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.497
+      "total": 0.495
     }
   },
   {
@@ -5028,14 +4940,14 @@
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.494,
+    "score": 0.493,
     "score_breakdown": {
-      "freshness": 0.494,
+      "freshness": 0.493,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.494
+      "total": 0.493
     }
   },
   {
@@ -5050,14 +4962,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.491,
+    "score": 0.49,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.49,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.491
+      "total": 0.49
     }
   },
   {
@@ -5072,14 +4984,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.397,
+    "score": 0.396,
     "score_breakdown": {
-      "freshness": 0.397,
+      "freshness": 0.396,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.397
+      "total": 0.396
     }
   },
   {
@@ -5094,14 +5006,14 @@
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.318,
+    "score": 0.317,
     "score_breakdown": {
-      "freshness": 0.318,
+      "freshness": 0.317,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.318
+      "total": 0.317
     }
   },
   {
@@ -5116,14 +5028,14 @@
     "fetched_at": "2026-05-17T11:51:59.920765+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.297,
+    "score": 0.296,
     "score_breakdown": {
-      "freshness": 0.297,
+      "freshness": 0.296,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.297
+      "total": 0.296
     }
   },
   {
@@ -5138,14 +5050,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.24,
+    "score": 0.239,
     "score_breakdown": {
-      "freshness": 0.24,
+      "freshness": 0.239,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.24
+      "total": 0.239
     }
   },
   {
@@ -5160,14 +5072,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.193,
+    "score": 0.192,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.192,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.193
+      "total": 0.192
     }
   },
   {
@@ -5270,14 +5182,14 @@
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.126,
+    "score": 0.125,
     "score_breakdown": {
-      "freshness": 0.126,
+      "freshness": 0.125,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.126
+      "total": 0.125
     }
   },
   {
@@ -5476,6 +5388,28 @@
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 0.009
+    }
+  },
+  {
+    "id": "02dcab3045ecd3e9",
+    "track": "iam",
+    "source": "github:kubernetes-sigs/aws-iam-authenticator",
+    "source_kind": "github",
+    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.11",
+    "title": "v0.7.11",
+    "summary": "## Changelog\n* 7e87c3700b409f5560249c29a90200de4828a1db Merge pull request #988 from dstdfx/bump-version\n* 0a5ddae844bafbbadc8d250269781058ca4a7a83 Bump version to 0.7.11\n* f5b5be7a63f395299c825d97a668872df60e36d1 Merge pull request #985 from dstdfx/bump-go-version-1.25.7\n* 4e2f4e928ae08bda8c112e81a383fa9eb972b4b2 Update go.mod for e2e/int tests\n* d94bc07f33543a70f6110ab141ddf2fb85c4ac32 Update go.mod\n* 2a6d62dc1b28c166aa68b440647c905ede2e4b45 Merge pull request #986 from ShiriNmi1520/master\n* 5",
+    "published_at": "2026-02-17T21:13:17Z",
+    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.004,
+    "score_breakdown": {
+      "freshness": 0.004,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.004
     }
   },
   {
@@ -6117,6 +6051,28 @@
     }
   },
   {
+    "id": "6b62a211cd2063aa",
+    "track": "iam",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/",
+    "title": "[Redirected] Memory Dump Issue in AWS CodeBuild",
+    "summary": "Bulletin ID: AWS-2025-016 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/07/25 6:00 PM PDT Description: AWS CodeBuild is a fully managed on-demand continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. Security researchers reported a CodeBuild issue that could be leveraged for unapproved code modification absent sufficient repository controls and credential scoping. The researchers demonstrate",
+    "published_at": "2025-08-12T17:16:09+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 0.0,
+      "source": 2.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.0
+    }
+  },
+  {
     "id": "a8a36f8c20703720",
     "track": "iam",
     "source": "rss:aws-security-bulletins",
@@ -6235,6 +6191,28 @@
     "title": "Release: v1.7.0",
     "summary": "## What's Changed\r\n* Upgrade dependency module versions to address vulnerabilities picked up on scans\r\n* Fail when duplicate keys are present in a cert selector\r\n* Introduce slightly more robust parsing logic for cert selectors provided through the CLI\r\n* Fix bug that prevented adding custom roots for use in TLS\r\n* Print more information that's useful in creating certificate selectors in the output of `read-certificate-data`\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-",
     "published_at": "2025-06-02T21:54:03Z",
+    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.0
+    }
+  },
+  {
+    "id": "ec091a4c9485579e",
+    "track": "iam",
+    "source": "github:spiffe/spire",
+    "source_kind": "github",
+    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.2",
+    "title": "v1.12.2",
+    "summary": "### Fixed\r\n- Regression where PolicyCredentials set by CredentialComposer plugins were not correctly applied to CA certificates. (#6074)",
+    "published_at": "2025-05-19T17:21:24Z",
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
@@ -6631,6 +6609,28 @@
     "title": "Release: v1.0.4",
     "summary": "## What's Changed\r\n* Include token TTL header in response from token API for serve command\r\n* Use os.Exit as opposed to syscall.Exit\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.0.3...v1.0.4\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.4/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.4/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rolesanyw",
     "published_at": "2023-01-17T18:52:50Z",
+    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.0
+    }
+  },
+  {
+    "id": "2f7999a474c70c8e",
+    "track": "iam",
+    "source": "github:aws/rolesanywhere-credential-helper",
+    "source_kind": "github",
+    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.0.3",
+    "title": "Release: v1.0.3",
+    "summary": "## What's Changed\r\n\r\n - Add update and serve commands, along with some unit tests\r\n - Add documentation for the new commands in the README\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/commits/v1.0.2...v1.0.3\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.3/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.3/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rol",
+    "published_at": "2022-12-05T22:53:58Z",
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
