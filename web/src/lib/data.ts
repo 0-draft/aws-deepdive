@@ -67,13 +67,15 @@ export function loadReports(track: Track, mode: "daily" | "weekly"): Report[] {
     }));
 }
 
+const MS_IN_DAY = 86_400_000;
+
 function isoWeekKey(d: Date): string | null {
   if (Number.isNaN(d.valueOf())) return null;
   const tmp = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
   const dayNum = tmp.getUTCDay() || 7;
   tmp.setUTCDate(tmp.getUTCDate() + 4 - dayNum);
   const yearStart = Date.UTC(tmp.getUTCFullYear(), 0, 1);
-  const week = Math.ceil(((tmp.valueOf() - yearStart) / 86_400_000 + 1) / 7);
+  const week = Math.ceil(((tmp.valueOf() - yearStart) / MS_IN_DAY + 1) / 7);
   return `${tmp.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
 }
 
