@@ -1,0 +1,50 @@
+# IAM, identity, and workload-auth surfaces.
+# Primary keywords add 2.0 per hit, secondary add 0.5 per hit.
+
+keywords:
+  primary:
+    - roles-anywhere
+    - trust-anchor
+    - workload-identity
+    - identity-center
+    - iam-identity-center
+    - spiffe
+    - spire
+    - sigv4
+  secondary:
+    - iam
+    - sts
+    - assume-role
+    - scp
+    - service-control-policy
+    - permission-set
+    - policy
+    - cognito
+    - federation
+    - oidc
+    - saml
+    - access-key
+    - session
+
+source_weights:
+  default: 1.0
+  rss:aws-iam-release-notes: 3.0
+  rss:aws-security-blog: 2.0
+  rss:aws-security-bulletins: 2.5
+  rss:aws-whats-new: 1.5
+
+rss:
+  - id: aws-iam-release-notes
+    url: https://docs.aws.amazon.com/IAM/latest/UserGuide/aws-iam-release-notes.rss
+  - id: aws-security-blog
+    url: https://aws.amazon.com/blogs/security/feed/
+  - id: aws-security-bulletins
+    url: https://aws.amazon.com/security/security-bulletins/rss/feed/
+  - id: aws-whats-new
+    url: https://aws.amazon.com/about-aws/whats-new/recent/feed/
+
+github:
+  - repo: kubernetes-sigs/aws-iam-authenticator
+  - repo: aws/rolesanywhere-credential-helper
+  - repo: spiffe/spire
+  - repo: spiffe/spiffe

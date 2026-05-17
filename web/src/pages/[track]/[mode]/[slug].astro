@@ -1,0 +1,28 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { loadReports, tracks, type Track } from "../../../lib/data";
+import { md } from "../../../lib/markdown";
+
+export function getStaticPaths() {
+  const out: { params: { track: Track; mode: "daily" | "weekly"; slug: string }; props: { markdown: string } }[] = [];
+  for (const t of tracks()) {
+    for (const mode of ["daily", "weekly"] as const) {
+      for (const r of loadReports(t, mode)) {
+        out.push({ params: { track: t, mode, slug: r.slug }, props: { markdown: r.markdown } });
+      }
+    }
+  }
+  return out;
+}
+
+const { track, mode, slug } = Astro.params as { track: Track; mode: string; slug: string };
+const { markdown } = Astro.props as { markdown: string };
+const html = md(markdown);
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<Base title={`${track} / ${mode} / ${slug}`}>
+  <p class="text-xs mono text-white/40 mb-4">
+    <a class="hover:underline" href={`${base}/${track}/`}>{track}</a> / {mode} / {slug}
+  </p>
+  <article class="prose prose-invert max-w-none prose-sm md:prose-base" set:html={html} />
+</Base>

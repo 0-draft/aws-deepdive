@@ -1,0 +1,70 @@
+---
+import Base from "../layouts/Base.astro";
+import TrackCard from "../components/TrackCard.astro";
+import ItemRow from "../components/ItemRow.astro";
+import TrendChart from "../components/TrendChart.tsx";
+import {
+  loadAll,
+  loadReports,
+  loadScored,
+  tracks,
+  weeklyVolume,
+} from "../lib/data";
+
+const all = loadAll();
+const top = [...all].sort((a, b) => b.score - a.score).slice(0, 12);
+const volume = weeklyVolume(all).slice(-16);
+const cards = tracks().map((track) => {
+  const items = loadScored(track);
+  const weekly = loadReports(track, "weekly");
+  const daily = loadReports(track, "daily");
+  return { track, total: items.length, latest: weekly[0] ?? daily[0] };
+});
+---
+<Base title="home">
+  <section class="mb-10">
+    <h1 class="text-2xl mb-2">AWS deep-dive</h1>
+    <p class="text-sm text-white/60 max-w-2xl">
+      Weekly digests and topic deep-dives across IAM, security, what's-new, and the AWS toolchain.
+      Auto-collected from public RSS and GitHub release feeds; scored by freshness, keyword match, source weight, and severity.
+    </p>
+  </section>
+
+  <section class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-10">
+    {cards.map((c) => (
+      <div class="md:col-span-3">
+        <TrackCard track={c.track} latest={c.latest} total={c.total} />
+      </div>
+    ))}
+
+    <div class="md:col-span-8 rounded-xl border border-white/10 bg-white/[0.02] p-5">
+      <div class="flex items-baseline justify-between mb-3">
+        <h3 class="text-sm mono text-white/80">items per ISO week · all tracks</h3>
+        <span class="text-[10px] mono text-white/40">{volume.length} weeks</span>
+      </div>
+      <TrendChart client:only="react" data={volume} />
+    </div>
+
+    <div class="md:col-span-4 rounded-xl border border-white/10 bg-white/[0.02] p-5">
+      <h3 class="text-sm mono text-white/80 mb-3">pipeline</h3>
+      <ol class="text-xs text-white/60 space-y-1 mono">
+        <li>1. collect RSS + GH releases</li>
+        <li>2. normalize, dedupe by URL hash</li>
+        <li>3. score (freshness · kw · source · severity)</li>
+        <li>4. emit daily + weekly Markdown</li>
+        <li>5. Astro rebuilds this site on push</li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-sm mono text-white/80 mb-3">top items across all tracks</h2>
+    {top.length === 0 ? (
+      <p class="text-sm text-white/40 italic">No items yet — wait for the next CI run.</p>
+    ) : (
+      <ul>
+        {top.map((item) => <ItemRow item={item} showTrack />)}
+      </ul>
+    )}
+  </section>
+</Base>

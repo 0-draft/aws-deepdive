@@ -1,0 +1,33 @@
+# AWS toolchain GitHub Releases: CLI, CDK, SDKs, SAM CLI.
+
+keywords:
+  primary:
+    - breaking
+    - deprecated
+    - removed
+    - migration
+    - security
+  secondary:
+    - release
+    - update
+    - bugfix
+    - feature
+    - improvement
+
+source_weights:
+  default: 1.0
+  github:aws/aws-cli: 2.0
+  github:aws/aws-cdk: 2.0
+  github:boto/boto3: 1.8
+
+rss: []
+
+github:
+  - repo: aws/aws-cli
+  - repo: aws/aws-cdk
+  - repo: aws/aws-sdk-go-v2
+  - repo: aws/aws-sdk-js-v3
+  - repo: boto/boto3
+  - repo: aws/aws-sdk-java-v2
+  - repo: awslabs/aws-sdk-rust
+  - repo: aws/aws-sam-cli

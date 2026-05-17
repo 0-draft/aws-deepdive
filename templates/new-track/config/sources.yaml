@@ -1,0 +1,15 @@
+# Replace the placeholders below before running `make update`.
+
+keywords:
+  primary: []
+  secondary: []
+
+source_weights:
+  default: 1.0
+
+rss: []
+  # - id: short-id
+  #   url: https://example.com/feed.xml
+
+github: []
+  # - repo: owner/name
