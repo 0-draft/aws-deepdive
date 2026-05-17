@@ -43,7 +43,7 @@ jobs:
             echo "::error::Copyleft license found in dependency tree."
             exit 1
           fi
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: python-licenses
           path: python-licenses.md
@@ -70,7 +70,7 @@ jobs:
       - run: npm install --prefix web
       - name: report licenses
         run: npx --yes license-checker --start web --production --summary > npm-licenses.txt
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: npm-licenses
           path: npm-licenses.txt
