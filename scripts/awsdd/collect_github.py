@@ -31,7 +31,10 @@ def _get(path: str) -> list[dict]:
     req = Request(f"{API}{path}", headers=headers)
     try:
         with urlopen(req, timeout=30) as r:
-            return json.loads(r.read().decode("utf-8"))
+            res = json.loads(r.read().decode("utf-8"))
+        # GitHub returns a JSON object (not a list) on error envelopes
+        # (rate-limit, 404, etc.); guard so callers can iterate safely.
+        return res if isinstance(res, list) else []
     except HTTPError as e:
         print(f"[collect_github] {path}: HTTP {e.code}")
         return []
