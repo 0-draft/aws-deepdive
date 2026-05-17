@@ -18,5 +18,5 @@ if [ -e "$dst" ]; then
 fi
 
 mkdir -p "$dst_dir"
-sed -e "s/{{TRACK}}/$track/g" -e "s/{{TOPIC}}/$topic/g" -e "s/{{DATE}}/$(date -u +%Y-%m-%d)/g" "$src" > "$dst"
+sed -e "s|{{TRACK}}|$track|g" -e "s|{{TOPIC}}|$topic|g" -e "s|{{DATE}}|$(date -u +%Y-%m-%d)|g" "$src" > "$dst"
 echo "Created $dst"

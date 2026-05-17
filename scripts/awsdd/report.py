@@ -11,9 +11,10 @@ WINDOW = {"daily": timedelta(days=2), "weekly": timedelta(days=7)}
 
 
 def _parse_iso(s: str) -> datetime:
+    # Python 3.11+ accepts the "Z" suffix natively.
     try:
-        return datetime.fromisoformat((s or "").replace("Z", "+00:00"))
-    except Exception:
+        return datetime.fromisoformat(s or "")
+    except (ValueError, TypeError):
         return datetime.now(UTC)
 
 
@@ -74,7 +75,9 @@ def render(track: str, mode: str) -> None:
                 src = it.get("source", "")
                 pub = (it.get("published_at") or "")[:10]
                 score = float(it.get("score", 0.0))
-                lines.append(f"- [{title}]({url}) — `{src}` · {pub} · **score {score:.2f}**")
+                # angle-bracket the URL: AWS links sometimes contain `(` / `)`,
+                # which break vanilla Markdown link parsing.
+                lines.append(f"- [{title}](<{url}>) — `{src}` · {pub} · **score {score:.2f}**")
             lines.append("")
 
     out = track_dir(track) / "reports" / mode / _filename(mode, now)

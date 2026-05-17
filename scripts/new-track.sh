@@ -15,7 +15,7 @@ mkdir -p "$dst"
 cp -R "$src/." "$dst/"
 # substitute placeholder in README
 if [ -f "$dst/README.md" ]; then
-  sed "s/{{TRACK}}/$name/g" "$dst/README.md" > "$dst/README.md.tmp"
+  sed "s|{{TRACK}}|$name|g" "$dst/README.md" > "$dst/README.md.tmp"
   mv "$dst/README.md.tmp" "$dst/README.md"
 fi
 
