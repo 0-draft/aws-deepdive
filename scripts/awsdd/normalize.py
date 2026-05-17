@@ -2,11 +2,19 @@ from __future__ import annotations
 
 import argparse
 import json
+from datetime import UTC, datetime, timedelta
 
+from ._dates import parse_iso
 from .config import track_dir
 
+# Retention: drop items older than this from normalized.json so the file
+# (which is committed and loaded entirely at build time) doesn't grow
+# unbounded as the project ages. 180 days keeps roughly a release cycle of
+# context while bounding repo size.
+RETENTION = timedelta(days=180)
 
-def normalize(track: str) -> None:
+
+def normalize(track: str, retention: timedelta = RETENTION) -> None:
     raw_dir = track_dir(track) / "data" / "raw"
     out = track_dir(track) / "data" / "normalized.json"
 
@@ -32,10 +40,16 @@ def normalize(track: str) -> None:
             except (OSError, json.JSONDecodeError) as e:
                 print(f"[normalize] {path.name}: {e}")
 
-    items = sorted(by_id.values(), key=lambda x: x.get("published_at", ""), reverse=True)
+    cutoff = datetime.now(UTC) - retention
+    before = len(by_id)
+    kept = {k: v for k, v in by_id.items() if parse_iso(v.get("published_at", "")) >= cutoff}
+    pruned = before - len(kept)
+
+    items = sorted(kept.values(), key=lambda x: x.get("published_at", ""), reverse=True)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(items, indent=2, ensure_ascii=False))
-    print(f"[normalize] {track}: {len(items)} unique items")
+    suffix = f" (pruned {pruned} older than {retention.days}d)" if pruned else ""
+    print(f"[normalize] {track}: {len(items)} unique items{suffix}")
 
 
 def main() -> None:

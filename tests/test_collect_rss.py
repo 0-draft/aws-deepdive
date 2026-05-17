@@ -82,3 +82,34 @@ def test_summary_preserves_lt_gt_in_text():
     fake = type("E", (), {"get": lambda self, k, d=None: payload if k == "summary" else d})()
     out = _summary(fake)
     assert "1" in out and "2" in out and "3" in out and "4" in out and "ok" in out
+
+
+def test_summary_separates_block_elements():
+    # Regression: "".join(parts) merged adjacent block elements into one word.
+    payload = "<div>alpha</div><div>beta</div>"
+    fake = type("E", (), {"get": lambda self, k, d=None: payload if k == "summary" else d})()
+    out = _summary(fake)
+    assert "alpha" in out
+    assert "beta" in out
+    assert "alphabeta" not in out
+
+
+def test_collect_skips_malformed_feed_entry(make_track, monkeypatch, capsys):
+    from awsdd import collect_rss
+
+    make_track(
+        "test",
+        sources_yaml="""
+rss:
+  - id: good
+    url: https://example.com/good
+  - url: https://example.com/orphan  # no id
+  - id: noisy  # no url
+""",
+    )
+    fetches: list[str] = []
+    monkeypatch.setattr(collect_rss, "_fetch", lambda url, **k: fetches.append(url) or None)
+    collect_rss.collect("test")
+    assert fetches == ["https://example.com/good"]
+    out = capsys.readouterr().out
+    assert out.count("skipping malformed entry") == 2

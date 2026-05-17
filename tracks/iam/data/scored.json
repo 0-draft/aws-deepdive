@@ -1,71 +1,5 @@
 [
   {
-    "id": "a6f5133750c8b99c",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorials.html",
-    "title": "IAM SAML federation CloudFormation tutorials",
-    "summary": "IAM added new tutorials for creating SAML identity providers (IdPs) and federated roles using CloudFormation.",
-    "published_at": "2025-08-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 4.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 3.0,
-      "keyword_signal": 4.5,
-      "severity": 0.0,
-      "total": 4.5
-    }
-  },
-  {
-    "id": "8e9e11cabef635d4",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_saml.html#id_federation_manage-saml-encryption",
-    "title": "Encryption support for SAML identity providers",
-    "summary": "IAM SAML providers now support encrypted assertions in the SAML response from your external IdP. To understand how encryption works with IAM SAML federation, see Using SAML-based federation for API access .",
-    "published_at": "2024-02-04T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 4.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 3.0,
-      "keyword_signal": 4.5,
-      "severity": 0.0,
-      "total": 4.5
-    }
-  },
-  {
-    "id": "78d1cc459a86f86c",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_iam-condition-keys.html#ck_rolesessionname",
-    "title": "sts:RoleSessionName",
-    "summary": "You can now write a policy that grants permissions based on the session name that a principal specifies when assuming a role.",
-    "published_at": "2020-04-21T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 4.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 3.0,
-      "keyword_signal": 4.5,
-      "severity": 0.0,
-      "total": 4.5
-    }
-  },
-  {
     "id": "8c8cfaa75b243cd5",
     "track": "iam",
     "source": "rss:aws-whats-new",
@@ -79,14 +13,14 @@
       "general:products/aws-iam,general:products/aws-organizations,general:products/aws-identity-and-access-management"
     ],
     "severity": "high",
-    "score": 4.495,
+    "score": 4.493,
     "score_breakdown": {
-      "freshness": 1.745,
+      "freshness": 1.743,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 2.0,
-      "total": 4.495
+      "total": 4.493
     }
   },
   {
@@ -98,50 +32,6 @@
     "title": "v1.14.1",
     "summary": "### Changed\r\n\r\n- The `uptime_in_ms` gauge metric now uses float64 instead of integer (#6532)\r\n- SPIRE Server on Windows can now accept persistent arguments in the service binPath for automatic startup (#6465)\r\n\r\n### Fixed\r\n\r\n- Incorrect logic for disposing keys in the `aws_kms` KeyManager plugin (#6525)\r\n- JWT-SVID caching now uses the SPIFFE ID returned by the server to prevent stale cache entries when entry IDs change (#6501)\r\n- Documentation fixes (#6488, #6521)",
     "published_at": "2026-01-15T18:54:44Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 4.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 4.0,
-      "source": 1.0,
-      "keyword_signal": 4.0,
-      "severity": 0.0,
-      "total": 4.0
-    }
-  },
-  {
-    "id": "f6ca95ba3ec2a273",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.3",
-    "title": "v1.12.3",
-    "summary": "Security\r\n\r\n- Fixed an issue in spire-agent where the WorkloadAPI.ValidateJWTSVID endpoint did not enforce the presence of the exp (expiration) claim in JWT-SVIDs, as required by the SPIFFE specification.\r\nThis vulnerability has limited impact: by default, SPIRE does not issue JWT-SVIDs without an expiration claim. Exploitation would require federating with a misconfigured or non-compliant trust domain.\r\nThanks to Edoardo Geraci for reporting this issue.",
-    "published_at": "2025-06-17T21:39:13Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 4.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 4.0,
-      "source": 1.0,
-      "keyword_signal": 4.0,
-      "severity": 0.0,
-      "total": 4.0
-    }
-  },
-  {
-    "id": "6fe82418602a83b0",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.11.3",
-    "title": "v1.11.3",
-    "summary": "Security\r\n\r\n- Fixed an issue in spire-agent where the WorkloadAPI.ValidateJWTSVID endpoint did not enforce the presence of the exp (expiration) claim in JWT-SVIDs, as required by the SPIFFE specification.\r\nThis vulnerability has limited impact: by default, SPIRE does not issue JWT-SVIDs without an expiration claim. Exploitation would require federating with a misconfigured or non-compliant trust domain.\r\nThanks to Edoardo Geraci for reporting this issue.",
-    "published_at": "2025-06-17T20:49:48Z",
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
@@ -169,388 +59,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": "high",
-    "score": 3.649,
+    "score": 3.648,
     "score_breakdown": {
-      "freshness": 1.649,
+      "freshness": 1.648,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 2.0,
-      "total": 3.649
-    }
-  },
-  {
-    "id": "f87cef2f5327472a",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_oidc_secure-by-default.html",
-    "title": "Identity provider controls for shared OIDC providers",
-    "summary": "IAM now requires explicit evaluation of specific claims in JSON Web Tokens (JWTs) for recognized shared OIDC identity providers. This security control ensures that only authorized identities from the intended organization can assume roles and access AWS resources.",
-    "published_at": "2025-06-06T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "20f0986cd2857f39",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-iam-awsmanpol.html#security-iam-awsmanpol-IAMDeleteRootUserCredentials",
-    "title": "IAMDeleteRootUserCredentials – Removed permissions",
-    "summary": "IAM removed the iam:DeleteVirtualMFADevice permission from the managed policy.",
-    "published_at": "2025-01-07T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "2f60ebac46c15ab5",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-custom-policy-checks.html",
-    "title": "IAM Access Analyzer added custom policy checks",
-    "summary": "IAM Access Analyzer now provides custom policy checks to validate that IAM policies adhere to your security standards ahead of deployments.",
-    "published_at": "2023-11-26T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "7715037a0411e0d0",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-resourceaccount",
-    "title": "New global condition keys for resources",
-    "summary": "You can now control access to resources based on the account, Organizational Unit (OU), or organization in AWS Organizations that contains your resources. You can use the aws:ResourceAccount , aws:ResourceOrgID , and aws:ResourceOrgPaths global condition keys in an IAM policy.",
-    "published_at": "2022-04-27T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "9cb4a3eb415ed521",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security-iam-awsmanpol.html",
-    "title": "AWS managed policy updates - Update to an existing policy",
-    "summary": "IAM Access Analyzer updated an existing AWS managed policy.",
-    "published_at": "2021-09-02T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "25dcb60988d0fce7",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-reference-policy-checks.html",
-    "title": "IAM Access Analyzer policy checks",
-    "summary": "IAM Access Analyzer now provides over 100 policy checks with actionable recommendations during policy authoring.",
-    "published_at": "2021-03-16T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "2c857b87ecd99fc2",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_policy-validator.html",
-    "title": "Expanded policy validation options",
-    "summary": "Expanded policy validation available in the IAM console, AWS API, and AWS CLI using policy checks in IAM Access Analyzer to help you author secure and functional JSON policies.",
-    "published_at": "2021-03-15T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "db29a9fccb4b5a82",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html#default-policy-details",
-    "title": "Default password policy for IAM users",
-    "summary": "If you do not set a custom password policy for your AWS account, IAM user passwords must now meet the default AWS password policy.",
-    "published_at": "2020-11-18T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "cc65eee38e2f34c2",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/security.html",
-    "title": "Security chapter addition",
-    "summary": "The security chapter helps you understand how to configure IAM and AWS STS to meet your security and compliance objectives. You also learn how to use other AWS services that help you to monitor and secure your IAM resources.",
-    "published_at": "2020-04-29T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "df38f8b95b3d6b7c",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html",
-    "title": "Policy simulator adds support for permissions boundaries",
-    "summary": "You can now test the effect of permissions boundaries on IAM entities with the IAM policy simulator.",
-    "published_at": "2020-01-23T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "72c101f830ae9f99",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_session-tags.html",
-    "title": "Session tags",
-    "summary": "You can now include tags when you assume a role or federate a user in AWS STS. When you perform the AssumeRole or GetFederationToken operation, you can pass the session tags as attributes. When you perform the AssumeRoleWithSAML or AssumeRoleWithWebIdentity operations, you can pass attributes from your corporate identities to AWS.",
-    "published_at": "2019-11-22T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "062e74c0328f6a60",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html",
-    "title": "ABAC in AWS",
-    "summary": "Learn how attribute-based access control (ABAC) works in AWS using tags, and how it compares to the traditional AWS authorization model. Use the ABAC tutorial to learn how to create and test a policy that allows IAM roles with principal tags to access resources with matching tags. This strategy allows individuals to view or edit only the AWS resources required for their jobs.",
-    "published_at": "2019-10-03T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "bd20f31499c16919",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_access-keys-audit",
-    "title": "AWS STS GetAccessKeyInfo operation",
-    "summary": "You can review the AWS access keys in your code to determine whether the keys are from an account that you own. You can pass an access key ID using the aws sts get-access-key-info AWS CLI command or the GetAccessKeyInfo AWS API operation.",
-    "published_at": "2019-07-24T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "efdc51a73af204a7",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_assumerole.html",
-    "title": "Using a managed policy as a session policy",
-    "summary": "You can now pass up to 10 managed policy ARNs when you assume a role. This allows you to limit the permissions of the role's temporary credentials.",
-    "published_at": "2019-05-07T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "208d3ee80f966fff",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_enable-regions.html",
-    "title": "AWS STS Region compatibility of session tokens for the global endpoint",
-    "summary": "You can now choose whether to use version 1 or version 2 global endpoint tokens. Version 1 tokens are valid only in AWS Regions that are available by default. These tokens will not work in manually enabled Regions, such as Asia Pacific (Hong Kong). Version 2 tokens are valid in all Regions. However, version 2 tokens are longer and might affect systems where you temporarily store tokens.",
-    "published_at": "2019-04-26T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "637fcd43506b8e86",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage.html",
-    "title": "Increased session duration for IAM roles",
-    "summary": "An IAM role can now have a session duration of 12 hours.",
-    "published_at": "2018-03-28T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
-    }
-  },
-  {
-    "id": "411815a1e40b2577",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_understand-policy-summary.html",
-    "title": "Policy summaries",
-    "summary": "New policy summaries make it easier to understand permissions in IAM policies.",
-    "published_at": "2017-03-23T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 3.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.0
+      "total": 3.648
     }
   },
   {
@@ -605,14 +121,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.652,
+    "score": 2.651,
     "score_breakdown": {
-      "freshness": 1.652,
+      "freshness": 1.651,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.652
+      "total": 2.651
     }
   },
   {
@@ -651,14 +167,14 @@
       "marketing:marchitecture/developers"
     ],
     "severity": null,
-    "score": 2.524,
+    "score": 2.523,
     "score_breakdown": {
-      "freshness": 1.024,
+      "freshness": 1.023,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.524
+      "total": 2.523
     }
   },
   {
@@ -734,14 +250,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.323,
+    "score": 2.322,
     "score_breakdown": {
-      "freshness": 1.323,
+      "freshness": 1.322,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.323
+      "total": 2.322
     }
   },
   {
@@ -758,14 +274,14 @@
       "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 2.294,
+    "score": 2.293,
     "score_breakdown": {
-      "freshness": 1.544,
+      "freshness": 1.543,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.294
+      "total": 2.293
     }
   },
   {
@@ -780,14 +296,14 @@
     "fetched_at": "2026-05-17T11:51:18.175364+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.033,
+    "score": 2.032,
     "score_breakdown": {
-      "freshness": 1.533,
+      "freshness": 1.532,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.033
+      "total": 2.032
     }
   },
   {
@@ -857,72 +373,6 @@
     }
   },
   {
-    "id": "5925e6786011b5c5",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.13.3",
-    "title": "v1.13.3",
-    "summary": "### Added\r\n\r\n- X.509 CA metric with absolute expiration time in addition to TTL-based metric (#6303)\r\n- `spire-agent` configuration to source join tokens from files to support integration with third-party credential providers (#6330)\r\n- Capability to filter on caller path in `spire-server` Rego authorization policies (#6320)\r\n\r\n### Changed\r\n\r\n- `spire-server` will use the SHA-256 algorithm for X.509-SVID Subject Key Identifiers when the `GODEBUG` environment variable contains `fips140=only` (#62",
-    "published_at": "2025-10-23T13:05:05Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 1.0,
-      "keyword_signal": 2.0,
-      "severity": 0.0,
-      "total": 2.0
-    }
-  },
-  {
-    "id": "d8e7d5f2c928aa3b",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.13.0",
-    "title": "v1.13.0",
-    "summary": "Added:\r\n- Server configurable for periodically purging expired agents (#6152)\r\n- The experimental events-based cache now implements a full cache reload (#6151)\r\n- Support for automatic agent rebootstrap when the server CA goes invalid (#5892)\r\n\r\nChanged:\r\n- Default values for `rebootstrapMode` and `rebootstrapDelay` in SPIRE Agent (#6227)\r\n- \"No identities issued\" error log now includes the attested selectors (#6179)\r\n- Server configuration validation to verify `agent_ttl` compatibility with cur",
-    "published_at": "2025-08-15T18:40:41Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 1.0,
-      "keyword_signal": 2.0,
-      "severity": 0.0,
-      "total": 2.0
-    }
-  },
-  {
-    "id": "128552d431492a8c",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_aws-enable-disable-regions.html",
-    "title": "Allow enabling and disabling AWS regions",
-    "summary": "You can now create a policy that allows an administrator to enable and disable the Asia Pacific (Hong Kong) Region (ap-east-1).",
-    "published_at": "2019-04-24T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": "low",
-    "score": 2.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.5,
-      "total": 2.0
-    }
-  },
-  {
     "id": "a3be84ccd9c79b56",
     "track": "iam",
     "source": "rss:aws-whats-new",
@@ -936,14 +386,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": "low",
-    "score": 1.912,
+    "score": 1.911,
     "score_breakdown": {
-      "freshness": 1.412,
+      "freshness": 1.411,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 1.912
+      "total": 1.911
     }
   },
   {
@@ -960,14 +410,14 @@
       "general:products/amazon-genomics,general:products/amazon-omics"
     ],
     "severity": "low",
-    "score": 1.827,
+    "score": 1.826,
     "score_breakdown": {
-      "freshness": 1.327,
+      "freshness": 1.326,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 1.827
+      "total": 1.826
     }
   },
   {
@@ -1008,14 +458,14 @@
       "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-administration,general:products/amazon-cloudwatch-logs"
     ],
     "severity": null,
-    "score": 1.776,
+    "score": 1.775,
     "score_breakdown": {
-      "freshness": 1.776,
+      "freshness": 1.775,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.776
+      "total": 1.775
     }
   },
   {
@@ -1032,14 +482,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-emr"
     ],
     "severity": null,
-    "score": 1.77,
+    "score": 1.769,
     "score_breakdown": {
-      "freshness": 1.77,
+      "freshness": 1.769,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.77
+      "total": 1.769
     }
   },
   {
@@ -1054,14 +504,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.766,
+    "score": 1.765,
     "score_breakdown": {
-      "freshness": 1.766,
+      "freshness": 1.765,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.766
+      "total": 1.765
     }
   },
   {
@@ -1076,14 +526,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.766,
+    "score": 1.765,
     "score_breakdown": {
-      "freshness": 1.766,
+      "freshness": 1.765,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.766
+      "total": 1.765
     }
   },
   {
@@ -1100,14 +550,14 @@
       "marketing:marchitecture/aws-marketplace-and-partners"
     ],
     "severity": null,
-    "score": 1.764,
+    "score": 1.763,
     "score_breakdown": {
-      "freshness": 1.764,
+      "freshness": 1.763,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.764
+      "total": 1.763
     }
   },
   {
@@ -1128,14 +578,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.758,
+    "score": 1.757,
     "score_breakdown": {
-      "freshness": 1.758,
+      "freshness": 1.757,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.758
+      "total": 1.757
     }
   },
   {
@@ -1152,14 +602,14 @@
       "general:products/amazon-connect,marketing:marchitecture/business-productivity,marketing:marchitecture/messaging,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.757,
+    "score": 1.756,
     "score_breakdown": {
-      "freshness": 1.757,
+      "freshness": 1.756,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.757
+      "total": 1.756
     }
   },
   {
@@ -1176,14 +626,14 @@
       "general:products/amazon-rds,marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.75,
+    "score": 1.749,
     "score_breakdown": {
-      "freshness": 1.75,
+      "freshness": 1.749,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.75
+      "total": 1.749
     }
   },
   {
@@ -1200,14 +650,14 @@
       "general:products/amazon-managed-service-for-grafana,marketing:marchitecture/management-and-governance"
     ],
     "severity": null,
-    "score": 1.75,
+    "score": 1.749,
     "score_breakdown": {
-      "freshness": 1.75,
+      "freshness": 1.749,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.75
+      "total": 1.749
     }
   },
   {
@@ -1224,14 +674,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.747,
+    "score": 1.746,
     "score_breakdown": {
-      "freshness": 0.997,
+      "freshness": 0.996,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.747
+      "total": 1.746
     }
   },
   {
@@ -1248,14 +698,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/aws-direct-connect"
     ],
     "severity": null,
-    "score": 1.745,
+    "score": 1.743,
     "score_breakdown": {
-      "freshness": 1.745,
+      "freshness": 1.743,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.745
+      "total": 1.743
     }
   },
   {
@@ -1272,14 +722,14 @@
       "marketing:marchitecture/media-services,general:products/aws-elemental-mediatailor"
     ],
     "severity": null,
-    "score": 1.742,
+    "score": 1.741,
     "score_breakdown": {
-      "freshness": 0.992,
+      "freshness": 0.991,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.742
+      "total": 1.741
     }
   },
   {
@@ -1320,14 +770,14 @@
       "general:products/aws-elastic-beanstalk,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 1.67,
+    "score": 1.669,
     "score_breakdown": {
-      "freshness": 0.92,
+      "freshness": 0.919,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.67
+      "total": 1.669
     }
   },
   {
@@ -1344,14 +794,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": null,
-    "score": 1.661,
+    "score": 1.66,
     "score_breakdown": {
-      "freshness": 1.661,
+      "freshness": 1.66,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.661
+      "total": 1.66
     }
   },
   {
@@ -1368,14 +818,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": null,
-    "score": 1.661,
+    "score": 1.66,
     "score_breakdown": {
-      "freshness": 1.661,
+      "freshness": 1.66,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.661
+      "total": 1.66
     }
   },
   {
@@ -1416,14 +866,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 1.658,
+    "score": 1.657,
     "score_breakdown": {
-      "freshness": 1.658,
+      "freshness": 1.657,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.658
+      "total": 1.657
     }
   },
   {
@@ -1440,14 +890,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 1.655,
+    "score": 1.654,
     "score_breakdown": {
-      "freshness": 1.655,
+      "freshness": 1.654,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.655
+      "total": 1.654
     }
   },
   {
@@ -1462,14 +912,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.653,
+    "score": 1.652,
     "score_breakdown": {
-      "freshness": 1.653,
+      "freshness": 1.652,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.653
+      "total": 1.652
     }
   },
   {
@@ -1484,14 +934,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.653,
+    "score": 1.652,
     "score_breakdown": {
-      "freshness": 1.653,
+      "freshness": 1.652,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.653
+      "total": 1.652
     }
   },
   {
@@ -1508,14 +958,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.645,
+    "score": 1.644,
     "score_breakdown": {
-      "freshness": 1.645,
+      "freshness": 1.644,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.645
+      "total": 1.644
     }
   },
   {
@@ -1532,14 +982,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 1.644,
+    "score": 1.643,
     "score_breakdown": {
-      "freshness": 1.644,
+      "freshness": 1.643,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.644
+      "total": 1.643
     }
   },
   {
@@ -1556,14 +1006,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.644,
+    "score": 1.643,
     "score_breakdown": {
-      "freshness": 1.644,
+      "freshness": 1.643,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.644
+      "total": 1.643
     }
   },
   {
@@ -1580,14 +1030,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.644,
+    "score": 1.643,
     "score_breakdown": {
-      "freshness": 1.644,
+      "freshness": 1.643,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.644
+      "total": 1.643
     }
   },
   {
@@ -1626,14 +1076,14 @@
       "general:products/aiml,general:products/amazon-sagemaker,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.639,
+    "score": 1.638,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.638,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.638
     }
   },
   {
@@ -1648,14 +1098,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.639,
+    "score": 1.638,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.638,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.638
     }
   },
   {
@@ -1672,14 +1122,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.639,
+    "score": 1.638,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.638,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.638
     }
   },
   {
@@ -1696,14 +1146,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.639,
+    "score": 1.638,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.638,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.638
     }
   },
   {
@@ -1720,14 +1170,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-jumpstart"
     ],
     "severity": null,
-    "score": 1.639,
+    "score": 1.638,
     "score_breakdown": {
-      "freshness": 1.639,
+      "freshness": 1.638,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.639
+      "total": 1.638
     }
   },
   {
@@ -1742,14 +1192,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.636,
+    "score": 1.635,
     "score_breakdown": {
-      "freshness": 1.636,
+      "freshness": 1.635,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.636
+      "total": 1.635
     }
   },
   {
@@ -1766,14 +1216,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.634,
+    "score": 1.633,
     "score_breakdown": {
-      "freshness": 1.634,
+      "freshness": 1.633,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.634
+      "total": 1.633
     }
   },
   {
@@ -1790,14 +1240,14 @@
       "marketing:marchitecture/contact-center,marketing:marchitecture/applications,general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 1.634,
+    "score": 1.633,
     "score_breakdown": {
-      "freshness": 1.634,
+      "freshness": 1.633,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.634
+      "total": 1.633
     }
   },
   {
@@ -1814,14 +1264,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/databases,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 1.633,
+    "score": 1.632,
     "score_breakdown": {
-      "freshness": 1.633,
+      "freshness": 1.632,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.633
+      "total": 1.632
     }
   },
   {
@@ -1848,14 +1298,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 1.631,
+    "score": 1.63,
     "score_breakdown": {
-      "freshness": 1.631,
+      "freshness": 1.63,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.631
+      "total": 1.63
     }
   },
   {
@@ -1872,14 +1322,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools,marketing:marchitecture/applications,marketing:marchitecture/business-productivity"
     ],
     "severity": null,
-    "score": 1.624,
+    "score": 1.623,
     "score_breakdown": {
-      "freshness": 1.624,
+      "freshness": 1.623,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.624
+      "total": 1.623
     }
   },
   {
@@ -1896,14 +1346,14 @@
       "marketing:marchitecture/networking"
     ],
     "severity": null,
-    "score": 1.61,
+    "score": 1.609,
     "score_breakdown": {
-      "freshness": 1.61,
+      "freshness": 1.609,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.61
+      "total": 1.609
     }
   },
   {
@@ -1948,14 +1398,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.543,
+    "score": 1.542,
     "score_breakdown": {
-      "freshness": 1.543,
+      "freshness": 1.542,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.543
+      "total": 1.542
     }
   },
   {
@@ -1979,14 +1429,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.531,
+    "score": 1.53,
     "score_breakdown": {
-      "freshness": 1.531,
+      "freshness": 1.53,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.531
+      "total": 1.53
     }
   },
   {
@@ -2003,14 +1453,14 @@
       "marketing:marchitecture/storage,general:products/amazon-fsx-for-openzfs"
     ],
     "severity": null,
-    "score": 1.53,
+    "score": 1.529,
     "score_breakdown": {
-      "freshness": 1.53,
+      "freshness": 1.529,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.53
+      "total": 1.529
     }
   },
   {
@@ -2033,696 +1483,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.518,
+    "score": 1.517,
     "score_breakdown": {
-      "freshness": 1.518,
+      "freshness": 1.517,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.518
-    }
-  },
-  {
-    "id": "72c39ee4c52e0ff0",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_iam-condition-keys.html#available-keys-for-iam",
-    "title": "IAM condition context keys for service-specific credential APIs",
-    "summary": "IAM now supports two new condition context keys for controlling access to service-specific credential APIs: iam:ServiceSpecificCredentialAgeDays and iam:ServiceSpecificCredentialServiceName . These keys allow you to restrict the creation and management of service-specific credentials based on expiration settings and permitted AWS services.",
-    "published_at": "2025-09-04T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "0e32bc77ba1ebeaf",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html#what-is-access-analyzer-internal-access-analysis",
-    "title": "IAM Access Analyzer added internal access analyzers",
-    "summary": "IAM Access Analyzer helps you identify which principals within your organization or account have access to selected business-critical resources. Internal access analyzers support implementing the principle of least privilege by ensuring that your specified resources can only be accessed by the intended principals within your AWS organization or account.",
-    "published_at": "2025-06-16T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "0580656f1835e755",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_dual-stack_endpoint_support.html",
-    "title": "IAM dual-stack endpoint support",
-    "summary": "IAM now provides improved dual-stack endpoint support that enables clients to communicate with IAM using either IPv4 or IPv6 addresses.",
-    "published_at": "2025-03-20T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "76d60163edfe62fc",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic.html",
-    "title": "Updates to policy evaluation logic",
-    "summary": "Enhanced documentation for policy evaluation logic, including improved flow charts and clearer explanations of how AWS evaluates policies to determine whether to allow or deny a request.",
-    "published_at": "2025-01-30T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "6dee266f34e9a839",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-create-unused.html",
-    "title": "IAM Access Analyzer added access configuration",
-    "summary": "IAM Access Analyzer added support to configure analyzers to change the scope of which AWS accounts, IAM users, and roles generate findings.",
-    "published_at": "2024-11-14T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "27d0df4ef6c0f654",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#access_policy-types",
-    "title": "Support for AWS Organizations resource control policies (RCPs)",
-    "summary": "Use an AWS Organizations resource control policy (RCP) to define the maximum permissions for resources within accounts in your organization or organizational unit (OU). RCPs limit permissions that identity-based and resource-based policies can grant to resources in accounts within your organization.",
-    "published_at": "2024-11-13T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "84bbaf2a6bfecd6f",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html#what-is-access-analyzer-unused-access-analysis",
-    "title": "IAM Access Analyzer added unused access analyzers",
-    "summary": "IAM Access Analyzer simplifies inspecting unused access to guide you toward least privilege. IAM Access Analyzer continuously analyzes your accounts to identify unused access and creates a centralized dashboard with findings.",
-    "published_at": "2023-11-26T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "29ef441da23be321",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_last-accessed-action-last-accessed.html",
-    "title": "Action last accessed information support for over 140 services",
-    "summary": "IAM now provides action last accessed information for more than 140 services, along with a list of the actions for which action last accessed information is available.",
-    "published_at": "2023-09-14T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "b0c3556c4e684177",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-resources.html",
-    "title": "IAM Access Analyzer support for new resource types",
-    "summary": "IAM Access Analyzer added support for the following resource types:",
-    "published_at": "2022-10-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "f805e0779cd0e4d4",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/disaster-recovery-resiliency.html",
-    "title": "Updates to resilience in IAM",
-    "summary": "Added information about maintaining access to IAM credentials when an event disrupts communication between AWS Regions.",
-    "published_at": "2022-05-16T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "86ae09b2dd31e8db",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/service_code_examples.html",
-    "title": "Code examples for IAM using AWS SDKs",
-    "summary": "Added code examples that show how to use IAM with an AWS software development kit (SDK). The examples are divided into code excerpts that show you how to call individual service functions and examples that show you how to accomplish a specific task by calling multiple functions within the same service.",
-    "published_at": "2022-04-07T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "d9b46a184b6ccce9",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic_policy-eval-denyallow.html",
-    "title": "Updates to policy evaluation logic topic for resource-based policies",
-    "summary": "Added information about the impact of resource-based policies and different principal types in the same account.",
-    "published_at": "2021-10-05T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "081fe26e1732a9f5",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html",
-    "title": "Updates to security best practices",
-    "summary": "Added information about creating administrative users instead of using root user credentials, removed the best practice of using IAM groups to assign permissions to IAM users, and clarified when to use managed policies instead of inline policies.",
-    "published_at": "2021-10-05T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "2d162cedc10e63c5",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/what-is-access-analyzer.html",
-    "title": "IAM Access Analyzer supports Amazon S3 Multi-Region Access Points",
-    "summary": "IAM Access Analyzer identifies Amazon S3 buckets that allow public and cross-account access, including those that use Amazon S3 Multi-Region Access Points .",
-    "published_at": "2021-09-02T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "3c9ec262e4f6221d",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-generation.html#access-analyzer-policy-generation-cross-account",
-    "title": "Generate IAM policies for cross-account trails",
-    "summary": "You can now use IAM Access Analyzer to generate fine-grained policies based on your access activity using a AWS CloudTrail trail in a different account, for example, a centralized AWS Organizations trail.",
-    "published_at": "2021-08-18T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "0a93282d7c792247",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_control-access_monitor.html",
-    "title": "Monitor and control actions taken with assumed roles",
-    "summary": "Administrators can configure IAM roles to require that identities pass a source identity, which is logged in AWS CloudTrail. Reviewing source identity information helps administrators determine who or what performed actions with assumed role sessions.",
-    "published_at": "2021-04-13T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "8eb13e60fbac4964",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access-analyzer-policy-generation.html",
-    "title": "Generate IAM policies based on access activity",
-    "summary": "You can now use IAM Access Analyzer to generate fine-grained policies based on your access activity found in your AWS CloudTrail.",
-    "published_at": "2021-04-07T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "3fcfbeb21f7dca9a",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/service-authorization/latest/reference/reference_policies_actions-resources-contextkeys.html",
-    "title": "The actions, resources, and condition keys pages for AWS services have moved",
-    "summary": "Each AWS service can define actions, resources, and condition context keys for use in IAM policies. You can now find the list of AWS services and their actions, resources, and condition context keys in the Service Authorization Reference.",
-    "published_at": "2020-11-16T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "c870df2b60e3215f",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_iam-quotas.html#reference_iam-quotas-entities",
-    "title": "Use Service Quotas to request quick increases for IAM entities",
-    "summary": "You can request quota increases for adjustable IAM quotas using the Service Quotas console. Now, some increases are automatically approved in Service Quotas and available in your account within a few minutes. Larger requests are submitted to AWS Support.",
-    "published_at": "2020-06-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "a6ef60cac26785e7",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_evaluation-logic-cross-account.html",
-    "title": "Cross-account policy evaluation",
-    "summary": "You can now learn how AWS evaluates policies for cross-account access. This occurs when a resource in a trusting account includes a resource-based policy that allows a principal in another account to access the resource. The request must be allowed in both accounts.",
-    "published_at": "2020-01-02T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "f13dd567a76ef62d",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-principal-org-paths",
-    "title": "Control access for groups of AWS accounts in AWS Organizations",
-    "summary": "You can now reference organizational units (OUs) from AWS Organizations in IAM policies. If you use AWS Organizations to organize your accounts into OUs, you can require that principals belong to a specific OU before granting access to your resources. Principals include AWS account root user, IAM users and IAM roles. To do this, specify the OU path in the aws:PrincipalOrgPaths condition key in your policies.",
-    "published_at": "2019-11-20T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "8ba5fbe935cffb77",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_examples_aws_my-sec-creds-self-manage-no-mfa.html",
-    "title": "IAM user my security credentials page",
-    "summary": "IAM users can now manage all of their own credentials on the My Security Credentials page. This AWS Management Console page displays account information such as the account ID and canonical user ID. Users can also view and edit their own passwords, access keys, X.509 certificates, SSH keys, and Git credentials.",
-    "published_at": "2019-01-24T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "054e1e4dd76cf1d2",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html",
-    "title": "Tagging IAM users and roles",
-    "summary": "You can now use IAM tags to add custom attributes to an identity (IAM user or role) using a tag key-value pair. You can also use tags to control an identity's access to resources or to control what tags can be attached to an identity.",
-    "published_at": "2018-11-14T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "ed648cde09f80e4f",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_sts_vpce.html",
-    "title": "Support for Amazon VPC endpoints",
-    "summary": "You can now establish a private connection between your VPC and AWS STS in the US West (Oregon) Region.",
-    "published_at": "2018-07-31T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "d61ead723154b53e",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html",
-    "title": "Permissions boundaries",
-    "summary": "New feature makes it easier to grant trusted employees the ability to manage IAM permissions without also granting full IAM administrative access.",
-    "published_at": "2018-07-12T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "ee337fc625523c62",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html",
-    "title": "aws:PrincipalOrgID",
-    "summary": "New condition key provides an easier way to control access to AWS resources by specifying the AWS organization of IAM principals.",
-    "published_at": "2018-05-17T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "eb639c4959ac4be4",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#requested-region",
-    "title": "aws:RequestedRegion",
-    "summary": "New condition key provides an easier way to use IAM policies to control access to AWS Regions.",
-    "published_at": "2018-04-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "029797f2797a3c7b",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/console.html",
-    "title": "AWS account sign-in process",
-    "summary": "Updated AWS sign-in experience allows both the root user and IAM users to use the Sign In to the Console link on the AWS Management Console's home page.",
-    "published_at": "2017-08-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "aab2945e85440ed2",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_policy-summary-examples.html",
-    "title": "Example IAM policies",
-    "summary": "Documentation update features more than 30 example policies.",
-    "published_at": "2017-08-02T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "d4bfbd371b3712c9",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices-use-cases.html",
-    "title": "IAM best practices",
-    "summary": "Information added to the Users section of the IAM console makes it easier to follow IAM best practices.",
-    "published_at": "2017-07-05T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
-    "id": "126a26ae6c899d9f",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonrds.html",
-    "title": "Amazon RDS for MySQL and Amazon Aurora databases",
-    "summary": "Database administrators can associate database users with IAM users and roles and thus manage user access to all AWS resources from a single location.",
-    "published_at": "2017-04-24T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
+      "total": 1.517
     }
   },
   {
@@ -2739,14 +1507,14 @@
       "general:products/amazon-rds-for-oracle,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 1.477,
+    "score": 1.476,
     "score_breakdown": {
-      "freshness": 1.477,
+      "freshness": 1.476,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.477
+      "total": 1.476
     }
   },
   {
@@ -2792,14 +1560,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.436,
+    "score": 1.435,
     "score_breakdown": {
-      "freshness": 1.436,
+      "freshness": 1.435,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.436
+      "total": 1.435
     }
   },
   {
@@ -2816,14 +1584,14 @@
       "marketing:marchitecture/serverless,general:products/aws-lambda"
     ],
     "severity": null,
-    "score": 1.425,
+    "score": 1.424,
     "score_breakdown": {
-      "freshness": 1.425,
+      "freshness": 1.424,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.425
+      "total": 1.424
     }
   },
   {
@@ -2840,14 +1608,14 @@
       "marketing:marchitecture/serverless,marketing:marchitecture/application-services"
     ],
     "severity": null,
-    "score": 1.421,
+    "score": 1.42,
     "score_breakdown": {
-      "freshness": 1.421,
+      "freshness": 1.42,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.421
+      "total": 1.42
     }
   },
   {
@@ -2862,14 +1630,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.419,
+    "score": 1.418,
     "score_breakdown": {
-      "freshness": 1.419,
+      "freshness": 1.418,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.419
+      "total": 1.418
     }
   },
   {
@@ -2886,14 +1654,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.417,
+    "score": 1.416,
     "score_breakdown": {
-      "freshness": 1.417,
+      "freshness": 1.416,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.417
+      "total": 1.416
     }
   },
   {
@@ -2934,14 +1702,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-redshift"
     ],
     "severity": null,
-    "score": 1.412,
+    "score": 1.411,
     "score_breakdown": {
-      "freshness": 1.412,
+      "freshness": 1.411,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.412
+      "total": 1.411
     }
   },
   {
@@ -2958,14 +1726,14 @@
       "marketing:marchitecture/business-productivity,marketing:marchitecture/messaging,general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.412,
+    "score": 1.411,
     "score_breakdown": {
-      "freshness": 1.412,
+      "freshness": 1.411,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.412
+      "total": 1.411
     }
   },
   {
@@ -2997,14 +1765,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.409,
+    "score": 1.408,
     "score_breakdown": {
-      "freshness": 1.409,
+      "freshness": 1.408,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.409
+      "total": 1.408
     }
   },
   {
@@ -3021,14 +1789,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 1.364,
+    "score": 1.363,
     "score_breakdown": {
-      "freshness": 1.364,
+      "freshness": 1.363,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.364
+      "total": 1.363
     }
   },
   {
@@ -3069,14 +1837,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 1.345,
+    "score": 1.344,
     "score_breakdown": {
-      "freshness": 1.345,
+      "freshness": 1.344,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.345
+      "total": 1.344
     }
   },
   {
@@ -3093,14 +1861,14 @@
       "marketing:marchitecture/storage,marketing:marchitecture/networking,general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.331,
+    "score": 1.33,
     "score_breakdown": {
-      "freshness": 1.331,
+      "freshness": 1.33,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.331
+      "total": 1.33
     }
   },
   {
@@ -3117,14 +1885,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 1.331,
+    "score": 1.33,
     "score_breakdown": {
-      "freshness": 1.331,
+      "freshness": 1.33,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.331
+      "total": 1.33
     }
   },
   {
@@ -3141,14 +1909,14 @@
       "general:products/amazon-sagemaker,general:products/amazon-sagemaker-studio,general:products/aiml,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.331,
+    "score": 1.33,
     "score_breakdown": {
-      "freshness": 1.331,
+      "freshness": 1.33,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.331
+      "total": 1.33
     }
   },
   {
@@ -3165,14 +1933,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,general:products/aiml"
     ],
     "severity": null,
-    "score": 1.331,
+    "score": 1.33,
     "score_breakdown": {
-      "freshness": 1.331,
+      "freshness": 1.33,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.331
+      "total": 1.33
     }
   },
   {
@@ -3189,14 +1957,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.331,
+    "score": 1.33,
     "score_breakdown": {
-      "freshness": 1.331,
+      "freshness": 1.33,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.331
+      "total": 1.33
     }
   },
   {
@@ -3211,14 +1979,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.323,
+    "score": 1.322,
     "score_breakdown": {
-      "freshness": 1.323,
+      "freshness": 1.322,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.323
+      "total": 1.322
     }
   },
   {
@@ -3235,14 +2003,14 @@
       "general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml"
     ],
     "severity": null,
-    "score": 1.323,
+    "score": 1.322,
     "score_breakdown": {
-      "freshness": 1.323,
+      "freshness": 1.322,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.323
+      "total": 1.322
     }
   },
   {
@@ -3257,14 +2025,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.322,
+    "score": 1.321,
     "score_breakdown": {
-      "freshness": 1.322,
+      "freshness": 1.321,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.322
+      "total": 1.321
     }
   },
   {
@@ -3281,14 +2049,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 1.32,
+    "score": 1.319,
     "score_breakdown": {
-      "freshness": 1.32,
+      "freshness": 1.319,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.32
+      "total": 1.319
     }
   },
   {
@@ -3329,14 +2097,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.307,
+    "score": 1.306,
     "score_breakdown": {
-      "freshness": 1.307,
+      "freshness": 1.306,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.307
+      "total": 1.306
     }
   },
   {
@@ -3361,28 +2129,6 @@
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 1.285
-    }
-  },
-  {
-    "id": "51bec48b6b1d0ead",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/",
-    "title": "Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE plugins",
-    "summary": "Bulletin ID: AWS-2025-019 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: We are aware of blog posts by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues in Amazon Q Developer and Kiro. Amazon Q Developer: Remote Code Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection. These issues require an open chat session and intentional access to a malicious fi",
-    "published_at": "2025-10-07T20:25:34+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.25,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 2.5,
-      "keyword_signal": 1.25,
-      "severity": 0.0,
-      "total": 1.25
     }
   },
   {
@@ -3423,14 +2169,14 @@
       "general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 1.075,
+    "score": 1.074,
     "score_breakdown": {
-      "freshness": 1.075,
+      "freshness": 1.074,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.075
+      "total": 1.074
     }
   },
   {
@@ -3445,14 +2191,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.07,
+    "score": 1.069,
     "score_breakdown": {
-      "freshness": 1.07,
+      "freshness": 1.069,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.07
+      "total": 1.069
     }
   },
   {
@@ -3469,36 +2215,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-route-53,marketing:marchitecture/security-identity-and-compliance"
     ],
     "severity": null,
-    "score": 1.067,
+    "score": 1.066,
     "score_breakdown": {
-      "freshness": 1.067,
+      "freshness": 1.066,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.067
-    }
-  },
-  {
-    "id": "b699916cac1abd64",
-    "track": "iam",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
-    "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
-    "summary": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and distribute a catalog of approved Infrastructure as Code (IaC) products for deployment on AWS. Administrators define products using AWS CloudFormation or other IaC tools such as Terraform. A product is a set of AWS resources that can range from a single compute instance to a fully configured multi-tier a",
-    "published_at": "2026-05-08T16:43:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.064,
-    "score_breakdown": {
-      "freshness": 1.064,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.064
+      "total": 1.066
     }
   },
   {
@@ -3524,6 +2248,28 @@
     }
   },
   {
+    "id": "b699916cac1abd64",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-service-catalog-calgary-new-zealand-regions/",
+    "title": "AWS Service Catalog is now available in the AWS Asia Pacific (New Zealand) and Canada West (Calgary) regions",
+    "summary": "AWS Service Catalog is now available to customers in two additional AWS Regions: Asia Pacific (New Zealand) and Canada West (Calgary). AWS Service Catalog enables customers to create, govern, and distribute a catalog of approved Infrastructure as Code (IaC) products for deployment on AWS. Administrators define products using AWS CloudFormation or other IaC tools such as Terraform. A product is a set of AWS resources that can range from a single compute instance to a fully configured multi-tier a",
+    "published_at": "2026-05-08T16:43:00+00:00",
+    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.063,
+    "score_breakdown": {
+      "freshness": 1.063,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.063
+    }
+  },
+  {
     "id": "ee36c7e09a803f32",
     "track": "iam",
     "source": "rss:aws-security-bulletins",
@@ -3535,14 +2281,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": "low",
-    "score": 1.064,
+    "score": 1.063,
     "score_breakdown": {
-      "freshness": 0.564,
+      "freshness": 0.563,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 1.064
+      "total": 1.063
     }
   },
   {
@@ -3583,14 +2329,14 @@
       "marketing:marchitecture/aws-marketplace-and-partners,marketing:marchitecture/partner-network"
     ],
     "severity": null,
-    "score": 1.005,
+    "score": 1.004,
     "score_breakdown": {
-      "freshness": 1.005,
+      "freshness": 1.004,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.005
+      "total": 1.004
     }
   },
   {
@@ -3658,14 +2404,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.997,
+    "score": 0.996,
     "score_breakdown": {
-      "freshness": 0.997,
+      "freshness": 0.996,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.997
+      "total": 0.996
     }
   },
   {
@@ -3730,14 +2476,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 0.991,
+    "score": 0.99,
     "score_breakdown": {
-      "freshness": 0.991,
+      "freshness": 0.99,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.99
     }
   },
   {
@@ -3972,14 +2718,14 @@
       "general:products/amazon-simple-email-service"
     ],
     "severity": null,
-    "score": 0.962,
+    "score": 0.961,
     "score_breakdown": {
-      "freshness": 0.962,
+      "freshness": 0.961,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.962
+      "total": 0.961
     }
   },
   {
@@ -3996,14 +2742,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds-for-sql-server"
     ],
     "severity": null,
-    "score": 0.962,
+    "score": 0.961,
     "score_breakdown": {
-      "freshness": 0.962,
+      "freshness": 0.961,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.962
+      "total": 0.961
     }
   },
   {
@@ -4020,14 +2766,14 @@
       "general:products/amazon-redshift,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.948,
+    "score": 0.947,
     "score_breakdown": {
-      "freshness": 0.948,
+      "freshness": 0.947,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.948
+      "total": 0.947
     }
   },
   {
@@ -4066,14 +2812,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-opensearch-service"
     ],
     "severity": null,
-    "score": 0.944,
+    "score": 0.943,
     "score_breakdown": {
-      "freshness": 0.944,
+      "freshness": 0.943,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.944
+      "total": 0.943
     }
   },
   {
@@ -4145,14 +2891,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.93,
+    "score": 0.929,
     "score_breakdown": {
-      "freshness": 0.93,
+      "freshness": 0.929,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.93
+      "total": 0.929
     }
   },
   {
@@ -4281,14 +3027,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.923,
+    "score": 0.922,
     "score_breakdown": {
-      "freshness": 0.923,
+      "freshness": 0.922,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.923
+      "total": 0.922
     }
   },
   {
@@ -4305,14 +3051,14 @@
       "marketing:benefits-realized/user-experience,marketing:benefits-realized/ease-of-use,marketing:marchitecture/databases,general:products/amazon-neptune"
     ],
     "severity": null,
-    "score": 0.923,
+    "score": 0.922,
     "score_breakdown": {
-      "freshness": 0.923,
+      "freshness": 0.922,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.923
+      "total": 0.922
     }
   },
   {
@@ -4329,14 +3075,14 @@
       "general:products/aws-elemental-mediatailor,marketing:marchitecture/media-services"
     ],
     "severity": null,
-    "score": 0.916,
+    "score": 0.915,
     "score_breakdown": {
-      "freshness": 0.916,
+      "freshness": 0.915,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.916
+      "total": 0.915
     }
   },
   {
@@ -4377,14 +3123,14 @@
       "marketing:marchitecture/migration,general:products/aws-transfer-family,marketing:marchitecture/storage"
     ],
     "severity": null,
-    "score": 0.904,
+    "score": 0.903,
     "score_breakdown": {
-      "freshness": 0.904,
+      "freshness": 0.903,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.904
+      "total": 0.903
     }
   },
   {
@@ -4401,14 +3147,14 @@
       "marketing:marchitecture/security-identity-and-compliance,general:products/aws-directory-service"
     ],
     "severity": null,
-    "score": 0.896,
+    "score": 0.895,
     "score_breakdown": {
-      "freshness": 0.896,
+      "freshness": 0.895,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.896
+      "total": 0.895
     }
   },
   {
@@ -4499,14 +3245,14 @@
     "fetched_at": "2026-05-17T11:51:59.920765+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.864,
+    "score": 0.863,
     "score_breakdown": {
-      "freshness": 0.864,
+      "freshness": 0.863,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.864
+      "total": 0.863
     }
   },
   {
@@ -4523,14 +3269,14 @@
       "general:products/aws-serverless-application-model-sam,marketing:marchitecture/developer-tools,marketing:marchitecture/serverless,general:products/aws-lambda"
     ],
     "severity": null,
-    "score": 0.864,
+    "score": 0.863,
     "score_breakdown": {
-      "freshness": 0.864,
+      "freshness": 0.863,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.864
+      "total": 0.863
     }
   },
   {
@@ -4573,14 +3319,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.803,
+    "score": 0.802,
     "score_breakdown": {
-      "freshness": 0.803,
+      "freshness": 0.802,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.803
+      "total": 0.802
     }
   },
   {
@@ -4595,14 +3341,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": "low",
-    "score": 0.692,
+    "score": 0.691,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.191,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.5,
-      "total": 0.692
+      "total": 0.691
     }
   },
   {
@@ -4735,14 +3481,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.564,
+    "score": 0.563,
     "score_breakdown": {
-      "freshness": 0.564,
+      "freshness": 0.563,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.564
+      "total": 0.563
     }
   },
   {
@@ -4794,116 +3540,6 @@
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 0.524
-    }
-  },
-  {
-    "id": "ba1611276c869dbd",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-027/",
-    "title": "CVE-2025-12829 - Integer Overflow issue in Amazon Ion-C",
-    "summary": "Bulletin ID: AWS-2025-027 Scope: Amazon Content Type: Important (requires attention) Publication Date: 2025/11/7 10:15 AM PDT Description: Amazon's Ion-C is a library for the C language that is used to read and write Amazon Ion data. We Identified CVE-2025-12829, which describes an uninitialized stack read issue in Ion-C versions < v1.1.4 that may allow a threat actor to craft data and serialize it to Ion text in such a way that sensitive data in memory could be exposed through UTF-8 escape sequ",
-    "published_at": "2025-11-07T18:39:11+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": "low",
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.5,
-      "total": 0.5
-    }
-  },
-  {
-    "id": "18519b137ba0d177",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.5",
-    "title": "v0.7.5",
-    "summary": "## Changelog\n* 325c38ccbbd395e3bf612205809af77fe3f923ce Merge pull request #890 from gargipanatula/bump-version-075\n* b1c0400fe1011e82d9ec48459f6ac5fd1ddc4f21 Release 0.7.5\n* a481e44d971a838a0193716b055fabf68d03d31b Merge pull request #876 from gargipanatula/hardcode-sts-endpoints\n* 12997cdf1443c29017fdb6962d0676aa7ba5d45f migrate hostname verification to sdk go v2\n* 851f6552245406260eda033a3b7053a50098f622 Merge pull request #887 from kubernetes-sigs/dependabot/go_modules/aws-dependencies-12737",
-    "published_at": "2025-07-31T18:46:55Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.5
-    }
-  },
-  {
-    "id": "60c8405ea953e527",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.4",
-    "title": "v1.12.4",
-    "summary": "### Added\r\n\r\n- `k8s_configmap` BundlePublisher plugin (#6105, #6139)\r\n- UpstreamAuthority.SubscribeToLocalBundle RPC to stream updates in the local trust bundle (#6090)\r\n- Integration tests running on ARM64 platform (#6059)\r\n- The OIDC Discovery Provider can now read the trust bundle from a file (#6025)\r\n\r\n### Changed\r\n\r\n- The \"Container id not found\" log message in the `k8s` WorkloadAttestor has been lowered to Debug level (#6128)\r\n- Improvements in lookup performance for entries (#6100, #6034)",
-    "published_at": "2025-07-01T21:39:47Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.5
-    }
-  },
-  {
-    "id": "54acb6cdb1c6e3cf",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.2.0",
-    "title": "Release: v1.2.0",
-    "summary": "## What's Changed\r\n* Custom role session name is supported in the CreateSession request\r\n* A hop limit option is supported to limit the IP TTL on response packets for the serve command\r\n* File updates for certificate and private key data are recognized by long-running commands and will be used for subsequent credentialing requests\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.1.1...v1.2.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/re",
-    "published_at": "2024-08-27T15:50:03Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.5
-    }
-  },
-  {
-    "id": "cd2e7e211560a3f8",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html",
-    "title": "Updated role-creation workflow",
-    "summary": "New workflow improves the process of creating trust relationships and attaching permissions to roles.",
-    "published_at": "2017-09-08T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": "low",
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.5,
-      "total": 0.5
     }
   },
   {
@@ -4984,14 +3620,14 @@
     "fetched_at": "2026-05-17T11:51:16.544862+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.396,
+    "score": 0.395,
     "score_breakdown": {
-      "freshness": 0.396,
+      "freshness": 0.395,
       "keyword": 0.0,
       "source": 2.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.396
+      "total": 0.395
     }
   },
   {
@@ -5627,1172 +4263,6 @@
       "freshness": 0.0,
       "keyword": 0.0,
       "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "7cc01d5793fa0b1c",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.9",
-    "title": "v0.7.9",
-    "summary": "## Changelog\n* 19000d354fa0828012e45dc52039c73177f7cde8 Merge pull request #957 from sushanth0910/bump-authenticator\n* c2793d89a7e37630675abd32d4dd69dd59f1b678 Merge pull request #956 from eks-distro-pr-bot/eks-distro-pr-bot/go-version-bumps\n* 0796113eab58e231a609df64281365cfbff48051 release new version 0.7.9\n* ea1d623e100b6691686db1a24a39fed9cd6f8e01 Merge pull request #954 from kubernetes-sigs/dependabot/go_modules/aws-dependencies-0c44466b00\n* 654e5fe025dc84e09c970cf47bd5d48a36d066e3 Merge pu",
-    "published_at": "2025-11-12T00:06:40Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "f9bd1c3dae2370b4",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-028/",
-    "title": "Privilege Escalation in Aurora PostgreSQL using AWS JDBC Wrapper, AWS Go Wrapper, AWS NodeJS Wrapper, AWS Python Wrapper, AWS PGSQL ODBC driver",
-    "summary": "Bulletin ID: AWS-2025-028 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/10 10:15 AM PDT Description: Amazon Aurora PostgreSQL a fully managed relational database engine that's compatible with PostgreSQL. We identified CVE-2025-12967, an issue in AWS Wrappers for Amazon Aurora PostgreSQL may allow for privilege escalation to rds_superuser role. A low privilege authenticated user can create a crafted function that could be executed with permissions of other Amaz",
-    "published_at": "2025-11-10T18:56:25+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "ae4a3df69369db72",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-026/",
-    "title": "CVE-2025-12815 - RES web portal may display preview of Virtual Desktops that the user shouldn't have access to",
-    "summary": "Bulletin ID: AWS-2025-026 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/6 09:15 AM PDT Description: Research and Engineering Studio on AWS (RES) is an open source, easy-to-use web-based portal for administrators to create and manage secure cloud-based research and engineering environments. We identified CVE-2025-12815, in which an ownership verification issue in the Virtual Desktop preview page in the Research and Engineering Studio (RES) on AWS before version",
-    "published_at": "2025-11-06T17:56:25+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "d08dfc3b61089869",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-025/",
-    "title": "Improper authentication token handling in the Amazon WorkSpaces client for Linux",
-    "summary": "Bulletin ID: AWS-2025-025 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/5 13:20 PM PDT Description: We identified CVE-2025-12779, which describes an issue in the Amazon WorkSpaces client for Linux . Improper handling of the authentication token in the Amazon WorkSpaces client for Linux, versions 2023.0 through 2024.8, may expose the authentication token for DCV-based WorkSpaces to other local users on the same client machine. Under certain circumstances, an un",
-    "published_at": "2025-11-05T21:39:39+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "bc5ed424e0872042",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/",
-    "title": "CVE-2025-31133, CVE-2025-52565, CVE-2025-52881 - runc container issues",
-    "summary": "Bulletin ID: AWS-2025-024 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/5 8:45 PM PDT CVE Identifiers: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881 AWS is aware of recently disclosed security issues affecting the runc component of several open source container management systems (CVE-2025-31133, CVE-2025-52565, CVE-2025-52881) when launching new containers. AWS does not consider containers a security boundary, and does not utilize containers to isolate custo",
-    "published_at": "2025-11-05T17:20:48+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "a27a43f7553ec3da",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-023/",
-    "title": "Buffer Over-read when receiving improperly sized ICMPv6 packets",
-    "summary": "Bulletin ID: AWS-2025-023 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/10 10:15 PM PDT We identified the following CVEs: CVE-2025-11616 - A Buffer Over-read when receiving ICMPv6 packets of certain message types which are smaller than the expected size. CVE-2025-11617 - A Buffer Over-read when receiving a IPv6 packet with incorrect payload lengths in the packet header. CVE-2025-11618 - An invalid pointer dereference when receiving a UDP/IPv6 packet with an in",
-    "published_at": "2025-10-10T17:59:49+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "70087ffadc1cbda0",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-022/",
-    "title": "CVE-2025-11573 - Denial of Service issue in Amazon.IonDotnet",
-    "summary": "Bulletin ID: AWS-2025-022 Scope: Amazon Content Type: Important (requires attention) Publication Date: 2025/10/09 11:00 PM PDT Description: Amazon.IonDotnet is a library for the Dotnet language that is used to read and write Amazon Ion data. We identified CVE-2025-11573, which describes an infinite loop issue in Amazon.IonDotnet library versions <v1.3.2 that may allow a threat actor to cause a denial of service through a specially crafted text input. As of August 20, 2025, this library has been ",
-    "published_at": "2025-10-09T18:11:44+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "3588e88444510475",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-021/",
-    "title": "IMDS impersonation",
-    "summary": "Bulletin ID: AWS-2025-021 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: AWS is aware of a potential Instance Metadata Service (IMDS) impersonation issue that would lead to customers interacting with unexpected AWS accounts. IMDS, when running on an EC2 instance, runs on a loopback network interface and vends Instance Metadata Credentials, which customers use to interact with AWS Services. These network calls never leave the EC2 ins",
-    "published_at": "2025-10-08T18:28:31+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "68b1ed12b2bea05a",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.6",
-    "title": "v1.12.6",
-    "summary": "### Security\r\n\r\n- Upgrade Go to 1.24.8 to address CVE-2025-58187, CVE-2025-61723, CVE-2025-47912, CVE-2025-58185, and CVE-2025-58188 (#6363)",
-    "published_at": "2025-10-08T13:06:40Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "713319462cc55227",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.13.2",
-    "title": "v1.13.2",
-    "summary": "### Security\r\n\r\n- Upgrade Go to 1.25.2 to address CVE-2025-58187, CVE-2025-61723, CVE-2025-47912, CVE-2025-58185, and CVE-2025-58188 (#6363)",
-    "published_at": "2025-10-08T12:52:10Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "68b0b7d96e303bf2",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-020/",
-    "title": "CVE-2025-11462 AWS ClientVPN macOS Client Local Privilege Escalation",
-    "summary": "Bulletin ID: AWS-2025-020 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: AWS Client VPN is a managed client-based VPN service that enables secure access to AWS and on-premises resources. The AWS Client VPN client software runs on end-user devices, supporting Windows, macOS, and Linux and provides the ability for end users to establish a secure tunnel to the AWS Client VPN Service. We have identified CVE-2025-11462, an issue in AWS C",
-    "published_at": "2025-10-07T21:17:40+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "085a874d67d17761",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.8",
-    "title": "v0.7.8",
-    "summary": "## Changelog\n* 4a36b414a1eb0332554b6f646fb0b3c9e691c9a3 Merge pull request #937 from bryantbiggs/chore/release\n* 39ae94531d7344d952176d5a681ab2fd499f4258 chore: Bump version to release `v0.7.8`\n* 5fa0562c9782e09aaabf466fde4ae840483d6084 Merge pull request #935 from bryantbiggs/chore/update-deps\n* a9204ff4e3b4a9968aae715b19d2dd4cb7a58063 Merge pull request #932 from kubernetes-sigs/dependabot/go_modules/aws-dependencies-2518f982cf\n* 971d93a909889fe97cb2331aa2390a60f187a379 chore: Bump indirect Ku",
-    "published_at": "2025-10-01T03:30:08Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "21c2632fe0536fe2",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.13.1",
-    "title": "v1.13.1",
-    "summary": "### Added\r\n\r\n- `aws_iid` NodeAttestor can now verify that nodes belong to specified EKS clusters (#5969)\r\n- The server now supports configuring how long to cache attested node information, reducing node fetch dependency for RPCs (#6176)\r\n- `aws_s3`, `gcp_cloudstorage`, and `k8s_configmap` BundlePublisher plugins now support setting a refresh hint for the published bundle (#6276)\r\n\r\n### Changed\r\n\r\n- The \"Subscribing to cache changes\" log message from the DelegatedIdentity agent API is now logged ",
-    "published_at": "2025-09-18T18:36:52Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "56d516820272dd89",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.7",
-    "title": "v0.7.7",
-    "summary": "## Changelog\n* e5da213edf7bc6f9b299b258a290c302c2047c05 Merge pull request #922 from gargipanatula/master\n* bc4834fa818ab8ece1731e5089e84d06702c600a bump version to 0.7.7\n* b6fd2baad215828e5d263fc55ee41092b89b8924 Merge pull request #921 from gargipanatula/master\n* 19bccc82f9d53ae87f533fd5bf702e90ff82a874 add support for aws-eusc partition\n* 9aae787066faa924cdf77ae895cbc1f622c1d7f8 Merge pull request #920 from bryantbiggs/feat/golangci-lint\n* 4c0692830adcfae21ac304262804c540c59f732d chore: Commi",
-    "published_at": "2025-09-09T21:35:33Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "85f1beacdedc0e9c",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.6",
-    "title": "v0.7.6",
-    "summary": "## Changelog\n* 922f6b2ee3f7018118a062d203de235d4602fbab Merge pull request #911 from Ganiredi/Version_txt\n* 74e929fcbcd022e11017356b6910c94e4776c530 Merge pull request #912 from bryantbiggs/feat/go-1.25\n* d0e1474033be2b6f2df19b69b1435a0d5b0f4362 feat: Update go version to `1.25`; update dependencies to latest to patch reported vulnerabilities\n* 7eaff66e987dd93af855eafa79beccf7a5275a4d Update version txt\n* 8ced6f07fec775d8ee5ca27743eee9442a5a4a45 Merge pull request #905 from Ganiredi/master\n* 694",
-    "published_at": "2025-09-04T05:24:48Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "170ab7f9c5469627",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.5",
-    "title": "v1.12.5",
-    "summary": "Security\r\n- Upgrade Go to 1.24.6 for GO-2025-3849 (#6250)",
-    "published_at": "2025-08-18T18:03:15Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "4100094e074c609a",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-018/",
-    "title": "CVE-2025-9039 - Issue with Amazon ECS agent introspection server",
-    "summary": "Bulletin ID: AWS-2025-018 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/08/14 09:15 PM PDT Description: Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that enables customers to deploy, manage, and scale containerized applications. Amazon ECS container agent provides an introspection API that provides information about the overall state of the Amazon ECS agent and the container instances. We identified CVE-2025-903",
-    "published_at": "2025-08-14T16:55:06+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "23b2c852de225773",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-017/",
-    "title": "CVE-2025-8904 - Issue with Amazon EMR Secret Agent component",
-    "summary": "Bulletin ID: AWS-2025-017 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/08/13 10:00 PM PDT Description: Amazon EMR is a managed cluster platform that simplifies running big data frameworks on AWS to process and analyze vast amounts of data. We identified CVE-2025-8904, an issue in the Amazon EMR Secret Agent component. The Secret Agent component securely stores secrets and distributes secrets to other Amazon EMR components and applications. When using Amazon EMR ",
-    "published_at": "2025-08-13T17:24:22+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "c90f6de1da77468d",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.7.1",
-    "title": "Release: v1.7.1",
-    "summary": "## What's Changed\r\n* Some security vulnerabilities have been patched\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.7.0...v1.7.1\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.7.1/X86_64/MacOS/Ventura/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.7.1/X86_64/Linux/Amzn2023/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.7.1/X86_64/Windows",
-    "published_at": "2025-08-12T18:28:32Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "6b62a211cd2063aa",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/",
-    "title": "[Redirected] Memory Dump Issue in AWS CodeBuild",
-    "summary": "Bulletin ID: AWS-2025-016 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/07/25 6:00 PM PDT Description: AWS CodeBuild is a fully managed on-demand continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. Security researchers reported a CodeBuild issue that could be leveraged for unapproved code modification absent sufficient repository controls and credential scoping. The researchers demonstrate",
-    "published_at": "2025-08-12T17:16:09+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "a8a36f8c20703720",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-015/",
-    "title": "Security Update for Amazon Q Developer Extension for Visual Studio Code (Version #1.84)",
-    "summary": "Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/07/23 6:00 PM PDT Updated Date: 2025/07/25 6:00 PM PDT Description: Amazon Q Developer for Visual Studio Code (VS Code) Extension is a development tool that integrates Amazon Q's AI-powered coding assistance directly into the VS Code integrated development environment (IDE). AWS is aware of and has addressed an issue in the Amazon Q Developer for VS Code Extension, which is assigned to CVE-2025-8217. AWS Security has ",
-    "published_at": "2025-08-11T16:26:24+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "8a9bd91c8552fbb9",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/",
-    "title": "CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation",
-    "summary": "Scope: Amazon/AWS Content Type: Important (requires attention) Publication Date: 2025/07/23 8:30 AM PDT Description: AWS Client VPN is a managed client-based VPN service that enables secure access to AWS and on-premises resources. The AWS Client VPN client software runs on end-user devices, supporting Windows, macOS, and Linux and provides the ability for end users to establish a secure tunnel to the AWS Client VPN Service. We identified CVE-2025-###, an issue in AWS Client VPN. During the AWS C",
-    "published_at": "2025-07-23T18:13:29+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "7a30edbebc3f8538",
-    "track": "iam",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-013/",
-    "title": "CVE-2025-6031 - Insecure device pairing in end-of-life Amazon Cloud Cam",
-    "summary": "Scope: Amazon Content Type: Informational Publication Date: 2025/06/12 10:30 AM PDT Description Amazon Cloud Cam is a home security camera that was deprecated on December 2, 2022, is end of life, and is no longer actively supported. When a user powers on the Amazon Cloud Cam, the device attempts to connect to a remote service infrastructure that has been deprecated due to end-of-life status. The device defaults to a pairing status in which an arbitrary user can bypass SSL pinning to associate th",
-    "published_at": "2025-07-17T18:38:46+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 2.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "5a86543159edb773",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.4",
-    "title": "v0.7.4",
-    "summary": "## Changelog\n* fc048bb8853736441586644fa8553b5fe4992082 Merge pull request #883 from haoranleo/release-0.7.4\n* c2ee2ce5900c42c99edb3163381a9d2118e2440f Release 0.7.4\n* 586a7b0af5ac0b4f230ac0481833eb84ebd87e10 Merge pull request #878 from kubernetes-sigs/dependabot/go_modules/k8s-dependencies-b95b25f231\n* f573965f45195fe30f2f8ccc25ab6becfd7b0293 Bump the k8s-dependencies group across 3 directories with 1 update\n* 3d9cf7bd406ba1b1aca8c33dd1a35856117e216a Merge pull request #880 from kubernetes-sig",
-    "published_at": "2025-07-07T23:27:03Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "f586ebb0348981e8",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.3",
-    "title": "v0.7.3",
-    "summary": "## Changelog\n* 413dcbb8f2fb127ecdd92e0a6aea34719b713fe9 Merge pull request #869 from DanielCKennedy/0.7.3_release\n* 2c24aa31b0af6bea87abbbe5ef06b4b23f9995e4 Merge pull request #868 from sushanth0910/update-approvers\n* 4e2fb5cc116fdffb1e3cc56bc39678f006e648b8 update version to 0.7.3\n* 51036be720bb73fe3c9cecda927d5439f120bef4 Merge pull request #867 from DanielCKennedy/go1.24.4\n* c697beb1ba2069539f7b1d10d00bac2e19b8a318 update Approvers/reviewers\n* cec6d9f9774ea6c97bf51db01ae3cc44cf719fe3 update g",
-    "published_at": "2025-06-18T21:52:38Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "de20e149bcd8c01d",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.7.0",
-    "title": "Release: v1.7.0",
-    "summary": "## What's Changed\r\n* Upgrade dependency module versions to address vulnerabilities picked up on scans\r\n* Fail when duplicate keys are present in a cert selector\r\n* Introduce slightly more robust parsing logic for cert selectors provided through the CLI\r\n* Fix bug that prevented adding custom roots for use in TLS\r\n* Print more information that's useful in creating certificate selectors in the output of `read-certificate-data`\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-",
-    "published_at": "2025-06-02T21:54:03Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "ec091a4c9485579e",
-    "track": "iam",
-    "source": "github:spiffe/spire",
-    "source_kind": "github",
-    "url": "https://github.com/spiffe/spire/releases/tag/v1.12.2",
-    "title": "v1.12.2",
-    "summary": "### Fixed\r\n- Regression where PolicyCredentials set by CredentialComposer plugins were not correctly applied to CA certificates. (#6074)",
-    "published_at": "2025-05-19T17:21:24Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "305fb7f1009eb9b9",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.6.0",
-    "title": "Release: v1.6.0",
-    "summary": "## What's Changed\r\n* Supports password-encrypted private keys in PKCS#8 format\r\n* Fixes a bug where the credential helper attempts to open terminal device files when there is no controlling terminal for the process \r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.5.0...v1.6.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.6.0/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/",
-    "published_at": "2025-05-06T19:50:37Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "8b22c57f1e430666",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.2",
-    "title": "v0.7.2",
-    "summary": "## Changelog\n* 81591d4e4172a74d732323af91c629e484038327 Merge pull request #849 from Ganiredi/master\n* e94a883fc750bd6cca3dc4baab087cd474326a4b Merge pull request #845 from kubernetes-sigs/dependabot/go_modules/aws-dependencies-838de9b4f3\n* fb89affebe2e0b97749aae8d9eaba22773dbf049 update version txt\n* efa46275ce19f3ffcc8910841c28b17f60911c8a Bump the aws-dependencies group across 2 directories with 1 update\n* 6199cef790434bcf21e6a51c4f758677b6d90933 Merge pull request #848 from kubernetes-sigs/d",
-    "published_at": "2025-04-29T18:15:16Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "ea7b7d0413ce24a6",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.1",
-    "title": "v0.7.1",
-    "summary": "## Changelog\n* 7b6a45dfc7ebc341b4cb59298cff69715801df01 Merge pull request #841 from sushanth0910/release-0.7.1\n* f5c9e1bd6f39a666512bc01ed90872fe6474c253 release new version\n* 1c513ce1b3082e7ad0ec3e8e34f39ec9e0f7b8fb Merge pull request #840 from sushanth0910/remove-validations-on-release\n* 945d2581dee9fecbda601b3cfb47496642ae6503 Revert \"Add 2 more tag validation checks\"\n* 21bf8e41c0a7e20309fe0536e6adc24213920d4e Merge pull request #812 from sushanth0910/master\n* 9212c36a02a379439f3107297ee1755",
-    "published_at": "2025-04-17T22:20:35Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "a2f50728db4283c6",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.6.31",
-    "title": "v0.6.31",
-    "summary": "## Changelog\n* 3600c51217589f0ca1e55bf63fbfad5e932af70d Merge pull request #836 from yue9944882/release-0.6.31\n* 4f65af422524f2fee37dd67d8b7a02e1a3b1ebdc bump version to 0.6.31\n* d6026db6e069ba9456dc59ac9f64b7de5863aa31 Merge pull request #831 from yue9944882/cherrypick-h2-support\n* 93bc8c5c6bbdbd96b21cca6ee6578e0893ff26b9 adds http2 support\n\n",
-    "published_at": "2025-04-04T18:13:20Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "a2f414046b95a70c",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.5.0",
-    "title": "Release: v1.5.0",
-    "summary": "## What's Changed\r\n* Adds an option an option to use the latest expiring certificate when multiple match a certificate selector\r\n* Migrate from Go v1 SDK to Go v2 SDK\r\n* Fixes related to PKCS#12 file support\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.4.0...v1.5.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.5.0/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.5.0/X8",
-    "published_at": "2025-04-03T20:27:28Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "540631a806ecca41",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.6.30",
-    "title": "v0.6.30",
-    "summary": "## Changelog\n* 7011dfff42947d235feb1b882c63450c71e1a8b1 Merge pull request #815 from sushanth0910/release-0.6\n* 93d5545d0807594bca1d5863643edf72b657ca65 release new version with missing changes from mainline\n* ffae63b14e6b749e6d9d4075798dced28f6fa290 Merge pull request #811 from sushanth0910/release-0.6\n* 140ea068f3b0e95c41b541e81cfea8d68eaccfe2 small fixes missed during cherrypicking\n* f55fa7a842a2755b2fef6e80ddcdec58e333b9ae Cherry-picked file changes from commit https://github.com/kubernetes-",
-    "published_at": "2025-02-06T01:21:05Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "03637e453f5c7f59",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.6.29",
-    "title": "v0.6.29",
-    "summary": "## Changelog\n* 8769c8f063f072830ccd737d29a049a5a4609571 Merge pull request #796 from shizuchanw/release-0.6\n* aca3ff017eab04940a6494432667c9949dfaaf3b create new release 0.6.29\n* 95bc57471eaa0f4cc79854912f839a8db8a67d25 Merge pull request #795 from shizuchanw/release-0.6\n* 4afdfe0ce5fdd75b50840f1153e1442d20592d9b Update configmap test per 1.32.0 change in client-go\n* 9860541391d119e579d7d49062db16a9b152285c Update upstream dependencies to v1.32.0\n* 3b3bf6f4cf25ddb13e36ce5e495b4449e589eca8 chore:",
-    "published_at": "2024-12-17T00:35:20Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "5c370b7c22e0f185",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.4.0",
-    "title": "Release: v1.4.0",
-    "summary": "## What's Changed\r\n* Add TPM key support for Windows systems\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.3.0...v1.4.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.4.0/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.4.0/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.4.0/X86_64/Windows/aws_signing_helper.exe\r",
-    "published_at": "2024-12-13T14:50:19Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "b12b81698bcd0e1a",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.6.28",
-    "title": "v0.6.28",
-    "summary": "## Changelog\n* 2e9e69bd8253b87e08b937d59b1a2b8593942d13 Merge pull request #775 from sushanth0910/release-0.6\n* d1d6af111d32f53f6a210e96525be1f1ae582d8d create new release 0.6.28\n* 45429fc62507c548838a5938e56802a3fee37598 Merge pull request #773 from sushanth0910/release-0.6\n* 5a86962cb517226e9e367b6b477c8572167fa389 update owners list to sync master branch\n* 51b0daf73db978a9f02f7d26cecce979f86d9343 update owners list to sync master branch\n* 66a2493c48a58421c8d11093e8404014a505a963 remove nnmin-",
-    "published_at": "2024-11-18T23:01:25Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "c5c6889f6ac687d2",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html#id_root-user-access-management",
-    "title": "Centrally manage root access for member accounts",
-    "summary": "You can now manage privileged root user credentials across member accounts in AWS Organizations with centralized root access. Centrally secure the root user credentials of your AWS accounts managed using AWS Organizations to remove and prevent root user credential recovery and access at scale.",
-    "published_at": "2024-11-14T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "cc961a61fb57c88e",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.3.0",
-    "title": "Release: v1.3.0",
-    "summary": "## What's Changed\r\n* Add TPM key support for non-Windows systems\r\n* Fix previously unhandled error when parsing certificate data from a file\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.2.1...v1.3.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.3.0/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.3.0/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://r",
-    "published_at": "2024-11-14T01:27:42Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "fd5f415a61904cc0",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.2.1",
-    "title": "Release: v1.2.1",
-    "summary": "## What's Changed\r\n* Some security vulnerabilities have been patched\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.2.0...v1.2.1\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.2.1/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.2.1/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.2.1/X86_64/Windows/aws_signing_hel",
-    "published_at": "2024-10-22T19:01:00Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "a9a81e5ef890501f",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.6.27",
-    "title": "v0.6.27",
-    "summary": "## Changelog\n* 5f0f6e16d28d636d2f5cee08591de2350e86f7d9 Merge pull request #763 from bhavi-koduru/release-0.6\n* b27d3030f5d48e87bd1eef871713a15e453e5db7 Create new release 0.6.27\n* 861e573b7492146a2e1ebcb94055395633f4d82b Merge pull request #761 from bhavi-koduru/release-0.6\n* 68ef820502d95b1fbebd79a0e59b0954c2a609a2 use protobuf content type instead of json for k8s client\n\n",
-    "published_at": "2024-09-19T04:25:13Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "bfc3a865b70560db",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.1.1",
-    "title": "Release: v1.1.1",
-    "summary": "## What's Changed\r\n* Attempt to silence UIs displayed by providers when signing on Windows using the certificate store integration\r\n* Indirectly support the searching of certificates and private keys in Windows local machine certificate stores \r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.1.0...v1.1.1\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.1.1/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesany",
-    "published_at": "2023-10-12T20:31:49Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "bc1e02fec76a70f1",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.1.0",
-    "title": "Release: v1.1.0",
-    "summary": "## What's Changed\r\n* PKCS#11 Module Integration\r\n* Any debug logs that previously went to stderr now go to stdout in an effort to be consistent\r\n\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.0.6...v1.1.0\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.1.0/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.1.0/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: http",
-    "published_at": "2023-09-20T15:56:28Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "d3578c80d42f2ab6",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.0.6",
-    "title": "Release: v1.0.6",
-    "summary": "## What's Changed\r\n* Skip certificates in OS secure stores (MacOS Keychain and Windows CNG/CryptoAPI) that can't be parsed\r\n* Fix an issue relating to mismatched regions in ARN inputs to credentialing commands\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.0.5...v1.0.6\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.6/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.6/",
-    "published_at": "2023-08-16T19:19:33Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "8cf8847f5273e010",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.0.5",
-    "title": "Release: v1.0.5",
-    "summary": "## What's Changed\r\n* MacOS Keychain Integration\r\n* Windows CNG/CryptoAPI Integration\r\n* Fix bug related to file overwriting when refreshing credentials in update command\r\n* Support PKCS#12 containers that aren't password-protected\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.0.4...v1.0.5\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.5/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaw",
-    "published_at": "2023-07-26T00:59:13Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "c2b138f58d52e0d1",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.0.4",
-    "title": "Release: v1.0.4",
-    "summary": "## What's Changed\r\n* Include token TTL header in response from token API for serve command\r\n* Use os.Exit as opposed to syscall.Exit\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/compare/v1.0.3...v1.0.4\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.4/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.4/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rolesanyw",
-    "published_at": "2023-01-17T18:52:50Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "2f7999a474c70c8e",
-    "track": "iam",
-    "source": "github:aws/rolesanywhere-credential-helper",
-    "source_kind": "github",
-    "url": "https://github.com/aws/rolesanywhere-credential-helper/releases/tag/v1.0.3",
-    "title": "Release: v1.0.3",
-    "summary": "## What's Changed\r\n\r\n - Add update and serve commands, along with some unit tests\r\n - Add documentation for the new commands in the README\r\n\r\n**Full Changelog**: https://github.com/aws/rolesanywhere-credential-helper/commits/v1.0.2...v1.0.3\r\n**Darwin X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.3/X86_64/Darwin/aws_signing_helper\r\n**Linux X86_64 Binary**: https://rolesanywhere.amazonaws.com/releases/1.0.3/X86_64/Linux/aws_signing_helper\r\n**Windows X86_64 Binary**: https://rol",
-    "published_at": "2022-12-05T22:53:58Z",
-    "fetched_at": "2026-05-17T11:51:18.175364+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "80f8a5487a85ecf3",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa.html",
-    "title": "U2F deprecation and WebAuthn/FIDO update",
-    "summary": "Removed mentions of U2F as an MFA option and added information about WebAuthn, FIDO2, and FIDO security keys.",
-    "published_at": "2022-05-31T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "38abf4baeb6f9973",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_single-vs-multi-valued-condition-keys.html",
-    "title": "Updates to single-valued and multivalued condition keys",
-    "summary": "The differences between single-valued and multivalued condition keys are now explained in more detail. The value type was added to each AWS global condition context key .",
-    "published_at": "2021-09-30T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "df0027750dbad984",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage_delete.html",
-    "title": "Role last used",
-    "summary": "You can now view the date, time, and Region where a role was last used. This information also helps you identify unused roles in your account. You can use the AWS Management Console, AWS CLI and AWS API to view information about when a role was last used.",
-    "published_at": "2019-11-19T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "4cc28aad333b0020",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_last-accessed.html",
-    "title": "Access Analyzer API",
-    "summary": "You can now use the AWS CLI and AWS API to view service last accessed information.",
-    "published_at": "2018-12-07T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "7c4cfad73eeb054f",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_u2f.html",
-    "title": "U2F security keys",
-    "summary": "You can now use U2F security keys as a multi-factor authentication (MFA) option when signing in to the AWS Management Console.",
-    "published_at": "2018-09-25T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "810afddf86a46cb2",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/list_autoscaling.html",
-    "title": "Auto Scaling resources",
-    "summary": "Resource-level permissions can control access to and permissions for Auto Scaling resources.",
-    "published_at": "2017-05-16T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
-    }
-  },
-  {
-    "id": "7f050f915b1ddd14",
-    "track": "iam",
-    "source": "rss:aws-iam-release-notes",
-    "source_kind": "rss",
-    "url": "https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create-service-linked-role.html",
-    "title": "Service-linked roles",
-    "summary": "Service-linked roles provide an easier and more secure way to delegate permissions to AWS services.",
-    "published_at": "2017-04-19T19:00:00+00:00",
-    "fetched_at": "2026-05-17T11:51:16.544862+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 0.0
