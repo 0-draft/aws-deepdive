@@ -56,7 +56,10 @@ def release_to_item(rel: dict, repo: str, track: str, now: datetime) -> dict | N
         url=url,
         title=(rel.get("name") or rel.get("tag_name") or "").strip(),
         summary=(rel.get("body") or "")[:500],
-        published_at=(rel.get("published_at") or rel.get("created_at") or now.isoformat()),
+        # epoch fallback so items missing both timestamps sink rather than rise
+        published_at=(
+            rel.get("published_at") or rel.get("created_at") or "1970-01-01T00:00:00+00:00"
+        ),
         fetched_at=now.isoformat(),
         tags=["prerelease"] if rel.get("prerelease") else [],
     ).to_dict()

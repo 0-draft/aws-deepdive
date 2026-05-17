@@ -6,6 +6,8 @@ import html
 import json
 import re
 from datetime import UTC, datetime
+from urllib.error import URLError
+from urllib.request import Request, urlopen
 
 import feedparser
 
@@ -13,6 +15,8 @@ from .config import load_sources, track_dir
 from .schema import Item
 
 USER_AGENT = "aws-deepdive/0.1 (+https://github.com/0-draft/aws-deepdive)"
+FETCH_TIMEOUT = 30  # seconds
+EPOCH_ISO = "1970-01-01T00:00:00+00:00"
 
 
 def _id(url: str) -> str:
@@ -20,9 +24,22 @@ def _id(url: str) -> str:
 
 
 def _iso(time_struct) -> str:
+    # Fall back to the Unix epoch (not "now") so items with missing dates
+    # rank as stale and are not promoted by the freshness signal.
     if not time_struct:
-        return datetime.now(UTC).isoformat()
+        return EPOCH_ISO
     return datetime(*time_struct[:6], tzinfo=UTC).isoformat()
+
+
+def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> str | None:
+    """Fetch a feed body with an explicit timeout; None on network failure."""
+    req = Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", errors="replace")
+    except (URLError, TimeoutError) as e:
+        print(f"[collect_rss] fetch {url}: {e}")
+        return None
 
 
 def _strip_html(text: str) -> str:
@@ -76,11 +93,12 @@ def collect(track: str) -> None:
     items: list[dict] = []
     for feed in feeds:
         sid, url = feed["id"], feed["url"]
-        try:
-            parsed = feedparser.parse(url, request_headers={"User-Agent": USER_AGENT})
-        except Exception as e:
-            print(f"[collect_rss] {sid}: error {e}")
+        # Fetch with an explicit timeout — feedparser.parse(url) has no built-in
+        # timeout and a stuck origin would hang the whole pipeline.
+        body = _fetch(url)
+        if body is None:
             continue
+        parsed = feedparser.parse(body)
         if getattr(parsed, "bozo", 0) and not parsed.entries:
             print(
                 f"[collect_rss] {sid}: feed parse warning ({getattr(parsed, 'bozo_exception', '')})"

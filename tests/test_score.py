@@ -78,3 +78,11 @@ def test_unknown_severity_zero():
     item = _item(severity="info")
     b = score_item(item, SOURCES_IAM, NOW)
     assert b["severity"] == 0.0
+
+
+def test_corrupted_date_falls_back_to_epoch_not_now():
+    # Regression: previously fell back to datetime.now(UTC), which made
+    # garbage dates score as maximally fresh and floated bad data to the top.
+    item = _item(published_at="this is not a date")
+    b = score_item(item, SOURCES_IAM, NOW)
+    assert b["freshness"] < 0.01

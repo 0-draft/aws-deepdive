@@ -12,10 +12,12 @@ SEVERITY_WEIGHT = {"critical": 3.0, "high": 2.0, "medium": 1.0, "low": 0.5}
 
 def _parse_iso(s: str) -> datetime:
     # Python 3.11+ accepts the "Z" suffix natively.
+    # Fall back to the Unix epoch (not "now") so corrupted dates yield ~0
+    # freshness instead of an artificial max.
     try:
         return datetime.fromisoformat(s or "")
     except (ValueError, TypeError):
-        return datetime.now(UTC)
+        return datetime(1970, 1, 1, tzinfo=UTC)
 
 
 def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
