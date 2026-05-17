@@ -69,7 +69,12 @@ def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
 
 def score(track: str) -> None:
     p = track_dir(track) / "data" / "normalized.json"
-    items: list[dict] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+    items: list[dict] = []
+    if p.exists():
+        try:
+            items = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"[score] {track}: failed to load normalized.json: {e}")
     sources = load_sources(track)
     now = datetime.now(UTC)
     for it in items:

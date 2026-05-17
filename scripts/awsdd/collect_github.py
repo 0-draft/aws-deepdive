@@ -67,7 +67,9 @@ def _get_page(url: str) -> tuple[list[dict], str | None]:
     except HTTPError as e:
         print(f"[collect_github] {url}: HTTP {e.code}")
         return [], None
-    except (URLError, TimeoutError, UnicodeDecodeError, json.JSONDecodeError) as e:
+    except (URLError, TimeoutError, UnicodeDecodeError, ValueError, json.JSONDecodeError) as e:
+        # ValueError covers urlopen's "unknown url type" / malformed-URL path
+        # in case sources.yaml smuggles in an unsupported scheme.
         print(f"[collect_github] {url}: error {e}")
         return [], None
     # GitHub returns a JSON object (not a list) on error envelopes (rate-limit etc.);
