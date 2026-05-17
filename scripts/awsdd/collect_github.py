@@ -4,7 +4,7 @@ import argparse
 import hashlib
 import json
 import os
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
@@ -40,32 +40,38 @@ def _get(path: str) -> list[dict]:
         return []
 
 
+def release_to_item(rel: dict, repo: str, track: str, now: datetime) -> dict | None:
+    """Pure conversion from a GitHub Releases API dict to an Item dict. None if draft or missing url."""
+    url = rel.get("html_url") or ""
+    if not url or rel.get("draft"):
+        return None
+    return Item(
+        id=_id(url),
+        track=track,
+        source=f"github:{repo}",
+        source_kind="github",
+        url=url,
+        title=(rel.get("name") or rel.get("tag_name") or "").strip(),
+        summary=(rel.get("body") or "")[:500],
+        published_at=(rel.get("published_at") or rel.get("created_at") or now.isoformat()),
+        fetched_at=now.isoformat(),
+        tags=["prerelease"] if rel.get("prerelease") else [],
+    ).to_dict()
+
+
 def collect(track: str) -> None:
     sources = load_sources(track)
     repos = sources.get("github") or []
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     items: list[dict] = []
     for entry in repos:
         repo = entry["repo"]
         per_page = entry.get("per_page", 20)
         releases = _get(f"/repos/{repo}/releases?per_page={per_page}")
         for rel in releases:
-            url = rel.get("html_url") or ""
-            if not url or rel.get("draft"):
-                continue
-            item = Item(
-                id=_id(url),
-                track=track,
-                source=f"github:{repo}",
-                source_kind="github",
-                url=url,
-                title=(rel.get("name") or rel.get("tag_name") or "").strip(),
-                summary=(rel.get("body") or "")[:500],
-                published_at=(rel.get("published_at") or rel.get("created_at") or now.isoformat()),
-                fetched_at=now.isoformat(),
-                tags=["prerelease"] if rel.get("prerelease") else [],
-            )
-            items.append(item.to_dict())
+            item = release_to_item(rel, repo, track, now)
+            if item is not None:
+                items.append(item)
     out = track_dir(track) / "data" / "raw" / f"github-{now:%Y-%m-%d}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(items, indent=2, ensure_ascii=False))

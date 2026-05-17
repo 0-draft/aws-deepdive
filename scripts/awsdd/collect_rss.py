@@ -5,7 +5,7 @@ import hashlib
 import html
 import json
 import re
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 import feedparser
 
@@ -21,8 +21,8 @@ def _id(url: str) -> str:
 
 def _iso(time_struct) -> str:
     if not time_struct:
-        return datetime.now(timezone.utc).isoformat()
-    return datetime(*time_struct[:6], tzinfo=timezone.utc).isoformat()
+        return datetime.now(UTC).isoformat()
+    return datetime(*time_struct[:6], tzinfo=UTC).isoformat()
 
 
 def _strip_html(text: str) -> str:
@@ -49,10 +49,30 @@ def _severity(entry) -> str | None:
     return None
 
 
+def entry_to_item(entry, sid: str, track: str, now: datetime) -> dict | None:
+    """Pure conversion from a feedparser entry to an Item dict. Returns None if unusable."""
+    link = entry.get("link") or ""
+    if not link:
+        return None
+    return Item(
+        id=_id(link),
+        track=track,
+        source=f"rss:{sid}",
+        source_kind="rss",
+        url=link,
+        title=_title(entry),
+        summary=_summary(entry),
+        published_at=_iso(entry.get("published_parsed") or entry.get("updated_parsed")),
+        fetched_at=now.isoformat(),
+        tags=[t.term for t in entry.get("tags", []) if hasattr(t, "term")],
+        severity=_severity(entry),
+    ).to_dict()
+
+
 def collect(track: str) -> None:
     sources = load_sources(track)
     feeds = sources.get("rss") or []
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     items: list[dict] = []
     for feed in feeds:
         sid, url = feed["id"], feed["url"]
@@ -62,25 +82,13 @@ def collect(track: str) -> None:
             print(f"[collect_rss] {sid}: error {e}")
             continue
         if getattr(parsed, "bozo", 0) and not parsed.entries:
-            print(f"[collect_rss] {sid}: feed parse warning ({getattr(parsed, 'bozo_exception', '')})")
-        for entry in parsed.entries:
-            link = entry.get("link") or ""
-            if not link:
-                continue
-            item = Item(
-                id=_id(link),
-                track=track,
-                source=f"rss:{sid}",
-                source_kind="rss",
-                url=link,
-                title=_title(entry),
-                summary=_summary(entry),
-                published_at=_iso(entry.get("published_parsed") or entry.get("updated_parsed")),
-                fetched_at=now.isoformat(),
-                tags=[t.term for t in entry.get("tags", []) if hasattr(t, "term")],
-                severity=_severity(entry),
+            print(
+                f"[collect_rss] {sid}: feed parse warning ({getattr(parsed, 'bozo_exception', '')})"
             )
-            items.append(item.to_dict())
+        for entry in parsed.entries:
+            item = entry_to_item(entry, sid, track, now)
+            if item is not None:
+                items.append(item)
     out = track_dir(track) / "data" / "raw" / f"rss-{now:%Y-%m-%d}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(items, indent=2, ensure_ascii=False))

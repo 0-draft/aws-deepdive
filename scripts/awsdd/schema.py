@@ -8,13 +8,13 @@ from typing import Any
 class Item:
     id: str
     track: str
-    source: str          # e.g. "rss:aws-security-blog"
-    source_kind: str     # "rss" | "github"
+    source: str  # e.g. "rss:aws-security-blog"
+    source_kind: str  # "rss" | "github"
     url: str
     title: str
     summary: str
-    published_at: str    # ISO8601 UTC
-    fetched_at: str      # ISO8601 UTC
+    published_at: str  # ISO8601 UTC
+    fetched_at: str  # ISO8601 UTC
     tags: list[str] = field(default_factory=list)
     severity: str | None = None
     score: float = 0.0

@@ -25,7 +25,9 @@ def normalize(track: str) -> None:
                     prev = by_id.get(it["id"])
                     if prev:
                         # keep earliest fetched_at as a proxy for "first seen"
-                        it["fetched_at"] = min(prev.get("fetched_at", it["fetched_at"]), it["fetched_at"])
+                        it["fetched_at"] = min(
+                            prev.get("fetched_at", it["fetched_at"]), it["fetched_at"]
+                        )
                     by_id[it["id"]] = it
             except Exception as e:
                 print(f"[normalize] {path.name}: {e}")

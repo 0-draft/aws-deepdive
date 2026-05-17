@@ -1,0 +1,77 @@
+name: audit
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'requirements*.txt'
+      - 'web/package*.json'
+      - '.github/workflows/audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  python-vuln:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pip-audit
+      - name: pip-audit (runtime + dev)
+        run: pip-audit -r requirements.txt -r requirements-dev.txt
+
+  python-license:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt -r requirements-dev.txt pip-licenses
+      - name: report licenses
+        run: pip-licenses --format=markdown --output-file=python-licenses.md
+      - name: fail on copyleft (GPL family except LGPL)
+        run: |
+          if pip-licenses --format=plain-vertical --with-license-file=false \
+              | grep -E '^(License: )?(GNU )?(Affero )?General Public License' \
+              | grep -v 'Lesser'; then
+            echo "::error::Copyleft license found in dependency tree."
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: python-licenses
+          path: python-licenses.md
+          retention-days: 30
+
+  npm-vuln:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --prefix web
+      - name: npm audit (production, high+)
+        run: npm audit --prefix web --omit=dev --audit-level=high
+
+  npm-license:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --prefix web
+      - name: report licenses
+        run: npx --yes license-checker --start web --production --summary > npm-licenses.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: npm-licenses
+          path: npm-licenses.txt
+          retention-days: 30

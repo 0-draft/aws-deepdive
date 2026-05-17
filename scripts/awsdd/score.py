@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from .config import load_sources, track_dir
 
@@ -14,7 +14,7 @@ def _parse_iso(s: str) -> datetime:
     try:
         return datetime.fromisoformat((s or "").replace("Z", "+00:00"))
     except Exception:
-        return datetime.now(timezone.utc)
+        return datetime.now(UTC)
 
 
 def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
@@ -22,7 +22,7 @@ def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
     days = max(0.0, (now - pub).total_seconds() / 86400.0)
     freshness = math.exp(-days / 14.0)  # ~14-day decay
 
-    text = f"{item.get('title','')} {item.get('summary','')}".lower()
+    text = f"{item.get('title', '')} {item.get('summary', '')}".lower()
     kws = sources.get("keywords") or {}
     primary = [k.lower() for k in (kws.get("primary") or [])]
     secondary = [k.lower() for k in (kws.get("secondary") or [])]
@@ -55,7 +55,7 @@ def score(track: str) -> None:
     p = track_dir(track) / "data" / "normalized.json"
     items: list[dict] = json.loads(p.read_text()) if p.exists() else []
     sources = load_sources(track)
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     for it in items:
         b = score_item(it, sources, now)
         it["score"] = b["total"]
