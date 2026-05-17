@@ -60,3 +60,24 @@ def test_next_url_returns_none_when_no_next():
 def test_next_url_handles_missing_header():
     assert _next_url(None) is None
     assert _next_url("") is None
+
+
+def test_collect_skips_malformed_repo_entry(make_track, monkeypatch, capsys):
+    from awsdd import collect_github
+
+    make_track(
+        "test",
+        sources_yaml="""
+github:
+  - repo: aws/aws-cli
+  - per_page: 5  # no repo key
+""",
+    )
+    # stub _get_all so we don't actually hit the API
+    calls: list[str] = []
+    monkeypatch.setattr(collect_github, "_get_all", lambda path: calls.append(path) or [])
+    collect_github.collect("test")
+    # only the well-formed entry is fetched
+    assert calls == ["/repos/aws/aws-cli/releases?per_page=50"]
+    out = capsys.readouterr().out
+    assert "skipping malformed entry" in out

@@ -84,7 +84,9 @@ def _strip_html(text: str) -> str:
         # html.parser is fairly tolerant; if it bails on truly malformed input,
         # fall back to the raw text rather than dropping the whole summary.
         return re.sub(r"\s+", " ", text).strip()
-    return re.sub(r"\s+", " ", "".join(parser.parts)).strip()
+    # join with a space so adjacent block elements (e.g. `<div>A</div><div>B</div>`)
+    # don't merge into a single token; the \s+ collapse drops the extra space.
+    return re.sub(r"\s+", " ", " ".join(parser.parts)).strip()
 
 
 def _summary(entry) -> str:
@@ -133,7 +135,12 @@ def collect(track: str) -> None:
     now = datetime.now(UTC)
     items: list[dict] = []
     for feed in feeds:
-        sid, url = feed["id"], feed["url"]
+        # defensive: skip incomplete config entries instead of KeyError-ing the
+        # whole pipeline if one feed in sources.yaml is missing id or url.
+        sid, url = feed.get("id"), feed.get("url")
+        if not sid or not url:
+            print(f"[collect_rss] skipping malformed entry: {feed!r}")
+            continue
         # Fetch with an explicit timeout — feedparser.parse(url) has no built-in
         # timeout and a stuck origin would hang the whole pipeline.
         body = _fetch(url)

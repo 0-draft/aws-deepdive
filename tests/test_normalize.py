@@ -63,3 +63,27 @@ def test_missing_raw_dir_writes_empty(make_track):
     normalize("test")
     out = json.loads((td / "data" / "normalized.json").read_text())
     assert out == []
+
+
+def test_retention_prunes_old_items(make_track):
+    from datetime import timedelta
+
+    td = make_track("test")
+    raw = td / "data" / "raw"
+    (raw / "a.json").write_text(
+        json.dumps(
+            [
+                _raw_item("old", published_at="2024-01-01T00:00:00+00:00"),
+                _raw_item("new", published_at="2026-05-10T00:00:00+00:00"),
+                _raw_item("epoch", published_at="1970-01-01T00:00:00+00:00"),
+            ]
+        )
+    )
+
+    normalize("test", retention=timedelta(days=180))
+
+    out = json.loads((td / "data" / "normalized.json").read_text())
+    ids = {it["id"] for it in out}
+    assert "new" in ids
+    assert "old" not in ids  # > 180 days ago
+    assert "epoch" not in ids  # epoch fallback items are pruned by design

@@ -11,14 +11,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 10.545,
+    "score": 10.544,
     "score_breakdown": {
-      "freshness": 1.545,
+      "freshness": 1.544,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 10.545
+      "total": 10.544
     }
   },
   {
@@ -209,14 +209,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.144,
+    "score": 4.143,
     "score_breakdown": {
-      "freshness": 1.644,
+      "freshness": 1.643,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 4.144
+      "total": 4.143
     }
   },
   {
@@ -275,14 +275,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.429,
+    "score": 3.428,
     "score_breakdown": {
-      "freshness": 0.929,
+      "freshness": 0.928,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 3.429
+      "total": 3.428
     }
   },
   {
@@ -319,80 +319,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.764,
+    "score": 2.763,
     "score_breakdown": {
-      "freshness": 1.764,
+      "freshness": 1.763,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.764
-    }
-  },
-  {
-    "id": "b82ecc99152523ec",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.10",
-    "title": "Boto 3 - 0.0.10",
-    "summary": "-   bugfix:Documentation: Name collisions are now handled at the\n  resource model layer instead of the factory, meaning that the\n  documentation now uses the correct names. ([issue\n  67](https://github.com/boto/boto3/pull/67))\n-   feature:Session: Add a `region_name` option when creating a session.\n  ([issue 69](https://github.com/boto/boto3/pull/69), [issue\n  21](https://github.com/boto/boto3/issues/21))\n-   feature:Botocore: Update to Botocore 0.94.0\n  -   Update to the latest Amazon CloudeSea",
-    "published_at": "2015-03-24T22:14:37Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.7,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 1.8,
-      "keyword_signal": 2.7,
-      "severity": 0.0,
-      "total": 2.7
-    }
-  },
-  {
-    "id": "f7c5b807f96fdfc4",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.8",
-    "title": "Boto 3 - 0.0.8",
-    "summary": "-   bugfix:Resources: Fix Amazon S3 resource identifier order. ([issue\n  62](https://github.com/boto/boto3/pull/62))\n-   bugfix:Resources: Fix collection resource hydration path. ([issue\n  61](https://github.com/boto/boto3/pull/61))\n-   bugfix:Resources: Re-enable service-level access to all resources,\n  allowing e.g. `obj = s3.Object('bucket', 'key')`. ([issue\n  60](https://github.com/boto/boto3/pull/60))\n-   feature:Botocore: Update to Botocore 0.87.0\n  -   Add support for Amazon DynamoDB seco",
-    "published_at": "2015-02-11T02:16:30Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.7,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 1.8,
-      "keyword_signal": 2.7,
-      "severity": 0.0,
-      "total": 2.7
-    }
-  },
-  {
-    "id": "ac4d205b891e28a9",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.6",
-    "title": "Boto 3 - 0.0.6",
-    "summary": "-   feature:Amazon SQS: Add `purge` action to queue resources\n-   feature:Waiters: Add documentation for client and resource waiters\n  ([issue 44](https://github.com/boto/boto3/pull/44))\n-   feature:Waiters: Add support for resource waiters ([issue\n  43](https://github.com/boto/boto3/pull/43))\n-   bugfix:Installation: Remove dependency on the unused `six` module\n  ([issue 42](https://github.com/boto/boto3/pull/42))\n-   feature:Botocore: Update to Botocore 0.80.0\n  -   Update Amazon Simple Workfl",
-    "published_at": "2014-12-18T19:24:40Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.7,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 1.8,
-      "keyword_signal": 2.7,
-      "severity": 0.0,
-      "total": 2.7
+      "total": 2.763
     }
   },
   {
@@ -407,14 +341,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.643,
+    "score": 2.642,
     "score_breakdown": {
-      "freshness": 1.643,
+      "freshness": 1.642,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.643
+      "total": 2.642
     }
   },
   {
@@ -429,14 +363,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.642,
+    "score": 2.641,
     "score_breakdown": {
-      "freshness": 1.642,
+      "freshness": 1.641,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.642
+      "total": 2.641
     }
   },
   {
@@ -451,14 +385,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.531,
+    "score": 2.53,
     "score_breakdown": {
-      "freshness": 1.531,
+      "freshness": 1.53,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.531
+      "total": 2.53
     }
   },
   {
@@ -473,14 +407,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.529,
+    "score": 2.528,
     "score_breakdown": {
-      "freshness": 1.529,
+      "freshness": 1.528,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.529
+      "total": 2.528
     }
   },
   {
@@ -517,14 +451,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.266,
+    "score": 2.265,
     "score_breakdown": {
-      "freshness": 1.766,
+      "freshness": 1.765,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.266
+      "total": 2.265
     }
   },
   {
@@ -539,14 +473,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.265,
+    "score": 2.264,
     "score_breakdown": {
-      "freshness": 1.765,
+      "freshness": 1.764,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.265
+      "total": 2.264
     }
   },
   {
@@ -563,14 +497,14 @@
       "prerelease"
     ],
     "severity": null,
-    "score": 2.217,
+    "score": 2.216,
     "score_breakdown": {
-      "freshness": 1.717,
+      "freshness": 1.716,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.217
+      "total": 2.216
     }
   },
   {
@@ -585,14 +519,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.178,
+    "score": 2.177,
     "score_breakdown": {
-      "freshness": 1.678,
+      "freshness": 1.677,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.178
+      "total": 2.177
     }
   },
   {
@@ -629,14 +563,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.059,
+    "score": 2.058,
     "score_breakdown": {
-      "freshness": 1.559,
+      "freshness": 1.558,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.059
+      "total": 2.058
     }
   },
   {
@@ -651,14 +585,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.042,
+    "score": 2.041,
     "score_breakdown": {
-      "freshness": 1.542,
+      "freshness": 1.541,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.042
+      "total": 2.041
     }
   },
   {
@@ -673,14 +607,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.998,
+    "score": 1.997,
     "score_breakdown": {
-      "freshness": 0.998,
+      "freshness": 0.997,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.998
+      "total": 1.997
     }
   },
   {
@@ -695,14 +629,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.997,
+    "score": 1.996,
     "score_breakdown": {
-      "freshness": 0.997,
+      "freshness": 0.996,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.997
+      "total": 1.996
     }
   },
   {
@@ -717,14 +651,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.93,
+    "score": 1.929,
     "score_breakdown": {
-      "freshness": 0.93,
+      "freshness": 0.929,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.93
+      "total": 1.929
     }
   },
   {
@@ -816,204 +750,6 @@
     }
   },
   {
-    "id": "36141271ffe4353b",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.14",
-    "title": "Boto 3 - 0.0.14",
-    "summary": "-   feature:Resources: Update to the latest resource models for:\n  -   AWS CloudFormation\n  -   Amazon EC2\n  -   AWS IAM\n-   feature:Amazon S3: Add an `upload_file` and `download_file` to S3\n  clients that transparently handle parallel multipart transfers.\n-   feature:Botocore: Update to Botocore 0.102.0.\n  -   Add support for Amazon Machine Learning.\n  -   Add support for Amazon Workspaces.\n  -   Update `requests` to 2.6.0.\n  -   Update AWS Lambda to the latest API.\n  -   Update Amazon EC2 Cont",
-    "published_at": "2015-04-09T19:29:21Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "efb23f0bb44d6546",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.13",
-    "title": "Boto 3 - 0.0.13",
-    "summary": "-   feature:Botocore: Update to Botocore 0.100.0.\n  -   Update AWS CodeDeploy to the latest service API.\n  -   Update Amazon RDS to support the `describe_certificates` service\n    operation.\n  -   Update Amazon Elastic Transcoder to support PlayReady DRM.\n  -   Update Amazon EC2 to support D2 instance types.\n",
-    "published_at": "2015-04-03T17:24:35Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "a63a535baa9c2f49",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.12",
-    "title": "Boto 3 - 0.0.12",
-    "summary": "-   feature:Resources: Add the ability to load resource data from a\n  `has` relationship. This saves a call to `load` when available, and\n  otherwise fixes a problem where there was no way to get at certain\n  resource data. ([issue 74](https://github.com/boto/boto3/pull/72),\n-   feature:Botocore: Update to Botocore 0.99.0\n  -   Update service models for amazon Elastic Transcoder, AWS IAM and\n    AWS OpsWorks to the latest versions.\n  -   Add deprecation warnings for old interface.\n",
-    "published_at": "2015-03-27T18:22:36Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "db9e2bf656cfb300",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.11",
-    "title": "Boto 3 - 0.0.11",
-    "summary": "-   feature:Resources: Add Amazon EC2 support for ClassicLink actions\n  and add a delete action to EC2 `Volume` resources.\n-   feature:Resources: Add a `load` operation and `user` reference to\n  AWS IAM's `CurrentUser` resource. ([issue\n  72](https://github.com/boto/boto3/pull/72),\n-   feature:Resources: Add resources for AWS IAM managed policies.\n  ([issue 71](https://github.com/boto/boto3/pull/71))\n-   feature:Botocore: Update to Botocore 0.97.0\n  -   Add new Amazon EC2 waiters.\n  -   Add supp",
-    "published_at": "2015-03-24T22:14:00Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "70c4a270c52cdfc8",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.9",
-    "title": "Boto 3 - 0.0.9",
-    "summary": "-   feature:Botocore: Update to Botocore 0.92.0\n  -   Add support for the latest Amazon EC2 Container Service API.\n  -   Allow calling AWS STS `assume_role_with_saml` without\n    credentials.\n  -   Update to latest Amazon CloudFront API\n  -   Add support for AWS STS regionalized calls by passing both a\n    region name and an endpoint URL. ([botocore issue\n    464](https://github.com/boto/botocore/pull/464))\n  -   Add support for Amazon Simple Systems Management Service (SSM)\n  -   Fix Amazon S3 ",
-    "published_at": "2015-02-20T00:09:22Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "aa274f1f56d895ab",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.7",
-    "title": "Boto 3 - 0.0.7",
-    "summary": "-   feature:Resources: Enable support for Amazon Glacier.\n-   feature:Resources: Support plural references and nested JMESPath\n  queries for data members when building parameters and identifiers.\n  ([issue 52](https://github.com/boto/boto3/pull/52))\n-   feature:Resources: Update to the latest resource JSON format.This is\n  a **backward-incompatible** change as not all resources are exposed\n  at the service level anymore. For example, `s3.Object('bucket', 'key')`\n  is now `s3.Bucket('bucket').Obj",
-    "published_at": "2015-02-05T22:52:22Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "7f482e2e122ce8e1",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.5",
-    "title": "Boto 3 - 0.0.5",
-    "summary": "-   feature: Add support for batch actions on collections. ([issue\n  32](https://github.com/boto/boto3/pull/32))\n-   feature: Update to Botocore 0.78.0\n  -   Add support for Amazon Simple Queue Service purge queue which\n    allows users to delete the messages in their queue.\n  -   Add AWS OpsWorks support for registering and assigning existing\n    Amazon EC2 instances and on-premises servers.\n  -   Fix issue with expired signatures when retrying failed requests\n    ([botocore issue\n    399](http",
-    "published_at": "2014-12-16T23:05:32Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "62fcd2caa4d9b979",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.4",
-    "title": "Boto 3 - 0.0.4",
-    "summary": "-   feature: Update to Botocore 0.77.0\n  -   Add support for Kinesis PutRecords operation. It writes multiple\n    data records from a producer into an Amazon Kinesis stream in a\n    single call.\n  -   Add support for IAM GetAccountAuthorizationDetails operation. It\n    retrieves information about all IAM users, groups, and roles in\n    your account, including their relationships to one another and\n    their attached policies.\n  -   Add support for updating the comment of a Route53 hosted zone.\n ",
-    "published_at": "2014-12-04T23:55:54Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
-    "id": "5f03b58457076ece",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.3",
-    "title": "Boto 3 - 0.0.3",
-    "summary": "-   feature: Update to Botocore 0.76.0.\n  -   Add support for using AWS Data Pipeline templates to create\n    pipelines and bind values to parameters in the pipeline\n  -   Add support to Amazon Elastic Transcoder client for encryption\n    of files in Amazon S3.\n  -   Fix issue where Amazon S3 requests were not being resigned\n    correctly when using Signature Version 4. ([botocore issue\n    388](https://github.com/boto/botocore/pull/388))\n  -   Add support for custom response parsing in Botocore",
-    "published_at": "2014-11-26T20:14:11Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.8,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
-      "source": 1.8,
-      "keyword_signal": 1.8,
-      "severity": 0.0,
-      "total": 1.8
-    }
-  },
-  {
     "id": "efefb1e0dfc041b8",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
@@ -1025,14 +761,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.765,
+    "score": 1.763,
     "score_breakdown": {
-      "freshness": 1.765,
+      "freshness": 1.763,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.765
+      "total": 1.763
     }
   },
   {
@@ -1047,14 +783,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.739,
+    "score": 1.738,
     "score_breakdown": {
-      "freshness": 0.239,
+      "freshness": 0.238,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.739
+      "total": 1.738
     }
   },
   {
@@ -1113,14 +849,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.646,
+    "score": 1.645,
     "score_breakdown": {
-      "freshness": 1.646,
+      "freshness": 1.645,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.646
+      "total": 1.645
     }
   },
   {
@@ -1157,14 +893,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.53,
+    "score": 1.529,
     "score_breakdown": {
-      "freshness": 1.53,
+      "freshness": 1.529,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.53
+      "total": 1.529
     }
   },
   {
@@ -1179,14 +915,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.498,
+    "score": 1.497,
     "score_breakdown": {
-      "freshness": 0.998,
+      "freshness": 0.997,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.498
+      "total": 1.497
     }
   },
   {
@@ -1223,14 +959,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.394,
+    "score": 1.393,
     "score_breakdown": {
-      "freshness": 0.394,
+      "freshness": 0.393,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.394
+      "total": 1.393
     }
   },
   {
@@ -1289,14 +1025,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.364,
+    "score": 1.363,
     "score_breakdown": {
-      "freshness": 0.864,
+      "freshness": 0.863,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.364
+      "total": 1.363
     }
   },
   {
@@ -1311,14 +1047,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.364,
+    "score": 1.363,
     "score_breakdown": {
-      "freshness": 0.864,
+      "freshness": 0.863,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.364
+      "total": 1.363
     }
   },
   {
@@ -1377,14 +1113,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.223,
+    "score": 1.222,
     "score_breakdown": {
-      "freshness": 0.223,
+      "freshness": 0.222,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.223
+      "total": 1.222
     }
   },
   {
@@ -1553,14 +1289,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.062,
+    "score": 1.061,
     "score_breakdown": {
-      "freshness": 1.062,
+      "freshness": 1.061,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.062
+      "total": 1.061
     }
   },
   {
@@ -1784,30 +1520,6 @@
     }
   },
   {
-    "id": "781d7b8b35c851b8",
-    "track": "releases",
-    "source": "github:aws/aws-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cli/releases/tag/2.0.0dev0",
-    "title": "AWS CLI 2.0.0dev preview release",
-    "summary": "This is the first developer release of AWS CLI v2.0.0.\r\n\r\n**The AWS CLI v2.0.0 is not recommended for production use and is offered as a developer release.**\r\n\r\nMajor features include:\r\n\r\n* Improved auto-completion performance\r\n* Add support for resource value auto completion, which can auto complete resources such as Amazon DynamoDB table names, AWS IAM user names, etc.\r\n* Add support for wizards, which allows interactive prompting in order to create and configure AWS resources.\r\n* Add high lev",
-    "published_at": "2018-11-26T06:25:44Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [
-      "prerelease"
-    ],
-    "severity": null,
-    "score": 1.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.0
-    }
-  },
-  {
     "id": "2aa3eba038193754",
     "track": "releases",
     "source": "github:aws/aws-sdk-java-v2",
@@ -1841,36 +1553,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.929,
+    "score": 0.928,
     "score_breakdown": {
-      "freshness": 0.929,
+      "freshness": 0.928,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.929
-    }
-  },
-  {
-    "id": "730ef388af2e1408",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.2",
-    "title": "Boto 3 - 0.0.2",
-    "summary": "-   Adds resources for [AWS\n  CloudFormation](http://aws.amazon.com/cloudformation/) and [AWS\n  OpsWorks](http://aws.amazon.com/opsworks/).\n-   Update to Botocore 0.73.0 and JMESPath 0.5.0\n-   Adds support for [AWS\n  CodeDeploy](http://aws.amazon.com/codedeploy/), [AWS\n  Config](http://aws.amazon.com/config/), [AWS\n  KMS](http://aws.amazon.com/kms/), [AWS\n  Lambda](http://aws.amazon.com/lambda/).\n-   Make requests with a customized HTTP user-agent\n",
-    "published_at": "2014-11-26T20:13:49Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.9,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.8,
-      "keyword_signal": 0.9,
-      "severity": 0.0,
-      "total": 0.9
+      "total": 0.928
     }
   },
   {
@@ -1929,14 +1619,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.82,
+    "score": 0.819,
     "score_breakdown": {
-      "freshness": 0.32,
+      "freshness": 0.319,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.82
+      "total": 0.819
     }
   },
   {
@@ -2105,14 +1795,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.68,
+    "score": 0.679,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.179,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.68
+      "total": 0.679
     }
   },
   {
@@ -2127,14 +1817,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.68,
+    "score": 0.679,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.179,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.68
+      "total": 0.679
     }
   },
   {
@@ -2171,14 +1861,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.65,
+    "score": 0.649,
     "score_breakdown": {
-      "freshness": 0.65,
+      "freshness": 0.649,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.65
+      "total": 0.649
     }
   },
   {
@@ -2215,14 +1905,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.605,
+    "score": 0.604,
     "score_breakdown": {
-      "freshness": 0.605,
+      "freshness": 0.604,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.605
+      "total": 0.604
     }
   },
   {
@@ -2259,14 +1949,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.563,
+    "score": 0.562,
     "score_breakdown": {
-      "freshness": 0.563,
+      "freshness": 0.562,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.563
+      "total": 0.562
     }
   },
   {
@@ -2281,14 +1971,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.563,
+    "score": 0.562,
     "score_breakdown": {
-      "freshness": 0.563,
+      "freshness": 0.562,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.563
+      "total": 0.562
     }
   },
   {
@@ -2446,72 +2136,6 @@
     }
   },
   {
-    "id": "dd9283d0227f0cb0",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.146.0",
-    "title": "Release version: 1.146.0",
-    "summary": "### Changes:\n[d856d3c](https://api.github.com/repos/aws/aws-sam-cli/commits/d856d3cb2c89db967e32087669d8b71c07a372f4) - docs: add section to contributing.md about ai usage (#8359)\n[0114b36](https://api.github.com/repos/aws/aws-sam-cli/commits/0114b36bd44298db123b6c86b69fb7fb79200f60) - chore(deps): bump cryptography from 46.0.2 to 46.0.3 in /requirements (#8353)\n[5e385d7](https://api.github.com/repos/aws/aws-sam-cli/commits/5e385d7c6258d01e9fb3078ee265a83f36b6326b) - chore(deps): bump referencin",
-    "published_at": "2025-11-06T21:33:29Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.5
-    }
-  },
-  {
-    "id": "108b24db5abe0228",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.145.2",
-    "title": "Release version: 1.145.2",
-    "summary": "### Changes:\n[b0f4887](https://api.github.com/repos/aws/aws-sam-cli/commits/b0f48878201cdb8161b148bc1f42c37403ac0e53) - fix: Container runtime dind build issue (#8358)\n[41fd19e](https://api.github.com/repos/aws/aws-sam-cli/commits/41fd19e4125a5bb2edb979e58bc8a0255cd121cd) - chore: bump version to 1.145.2 (#8360)\n\n### Hashes:\nFilename | SHA256\n--- | ---\n**AWS_SAM_CLI_64_PY3.msi** | `3b0d3b7882bfbb9188d54f16914bf2015c90d973d469166f92fe358fa681cae0`\n**aws-sam-cli-linux-x86_64.zip** | `2402fd319e9fc",
-    "published_at": "2025-10-21T23:05:10Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.5
-    }
-  },
-  {
-    "id": "4072cb7899c50c8d",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.145.1",
-    "title": "Release version: 1.145.1",
-    "summary": "### Changes:\n[92e801e](https://api.github.com/repos/aws/aws-sam-cli/commits/92e801eddd82a7a2cfbe13d8fd0a39ec9280f826) - feat: Support all formats of function name in invoke (#8295)\n[8c61192](https://api.github.com/repos/aws/aws-sam-cli/commits/8c61192e437baf698250c40f65503055b75a394e) - Revert \"feat: Support all formats of function name in invoke (#8295)\" (#8349)\n[5411d62](https://api.github.com/repos/aws/aws-sam-cli/commits/5411d627a25cb53a92f2ea232e53d2f03048dfa5) - fix: Remove Docker client r",
-    "published_at": "2025-10-15T22:50:14Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.5
-    }
-  },
-  {
     "id": "afbdbf8979bcd813",
     "track": "releases",
     "source": "github:aws/aws-sdk-java-v2",
@@ -2523,14 +2147,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.49,
+    "score": 0.489,
     "score_breakdown": {
-      "freshness": 0.49,
+      "freshness": 0.489,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.49
+      "total": 0.489
     }
   },
   {
@@ -2545,14 +2169,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.49,
+    "score": 0.489,
     "score_breakdown": {
-      "freshness": 0.49,
+      "freshness": 0.489,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.49
+      "total": 0.489
     }
   },
   {
@@ -2589,14 +2213,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.395,
+    "score": 0.394,
     "score_breakdown": {
-      "freshness": 0.395,
+      "freshness": 0.394,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.395
+      "total": 0.394
     }
   },
   {
@@ -2677,14 +2301,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.367,
+    "score": 0.366,
     "score_breakdown": {
-      "freshness": 0.367,
+      "freshness": 0.366,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.367
+      "total": 0.366
     }
   },
   {
@@ -2699,14 +2323,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.346,
+    "score": 0.345,
     "score_breakdown": {
-      "freshness": 0.346,
+      "freshness": 0.345,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.346
+      "total": 0.345
     }
   },
   {
@@ -2721,14 +2345,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.342,
+    "score": 0.341,
     "score_breakdown": {
-      "freshness": 0.342,
+      "freshness": 0.341,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.342
+      "total": 0.341
     }
   },
   {
@@ -2765,14 +2389,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.32,
+    "score": 0.319,
     "score_breakdown": {
-      "freshness": 0.32,
+      "freshness": 0.319,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.32
+      "total": 0.319
     }
   },
   {
@@ -2949,28 +2573,6 @@
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 0.001
-    }
-  },
-  {
-    "id": "56955fd02bc0261f",
-    "track": "releases",
-    "source": "github:boto/boto3",
-    "source_kind": "github",
-    "url": "https://github.com/boto/boto3/releases/tag/0.0.1",
-    "title": "Boto 3 - 0.0.1",
-    "summary": "- Initial developer preview refresh of Boto 3\n- Supports S3, EC2, SQS, SNS, and IAM resources\n- Supports low-level clients for most services\n",
-    "published_at": "2014-11-26T20:13:13Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.0,
-      "source": 1.8,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.0
     }
   }
 ]

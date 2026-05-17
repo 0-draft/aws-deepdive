@@ -106,7 +106,11 @@ def collect(track: str) -> None:
     now = datetime.now(UTC)
     items: list[dict] = []
     for entry in repos:
-        repo = entry["repo"]
+        # defensive: skip malformed config rather than crashing the whole track
+        repo = entry.get("repo")
+        if not repo:
+            print(f"[collect_github] skipping malformed entry: {entry!r}")
+            continue
         per_page = entry.get("per_page", 50)
         releases = _get_all(f"/repos/{repo}/releases?per_page={per_page}")
         for rel in releases:
