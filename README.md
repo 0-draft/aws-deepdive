@@ -60,7 +60,7 @@ make -C tracks/iam weekly          # single track, weekly mode
 cd web && npm install && npm run build
 ```
 
-Python 3.12 / Node 20+.
+Python 3.12 / Node 22+ (Astro 6 requirement).
 
 ## Add a track or a deep-dive
 
