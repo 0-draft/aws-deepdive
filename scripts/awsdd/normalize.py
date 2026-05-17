@@ -21,7 +21,7 @@ def normalize(track: str, retention: timedelta = RETENTION) -> None:
     by_id: dict[str, dict] = {}
     if out.exists():
         try:
-            for it in json.loads(out.read_text()):
+            for it in json.loads(out.read_text(encoding="utf-8")):
                 by_id[it["id"]] = it
         except (OSError, json.JSONDecodeError) as e:
             print(f"[normalize] existing normalized.json unreadable: {e}")
@@ -29,7 +29,7 @@ def normalize(track: str, retention: timedelta = RETENTION) -> None:
     if raw_dir.exists():
         for path in sorted(raw_dir.glob("*.json")):
             try:
-                for it in json.loads(path.read_text()):
+                for it in json.loads(path.read_text(encoding="utf-8")):
                     prev = by_id.get(it["id"])
                     if prev:
                         # keep earliest fetched_at as a proxy for "first seen"
@@ -47,7 +47,7 @@ def normalize(track: str, retention: timedelta = RETENTION) -> None:
 
     items = sorted(kept.values(), key=lambda x: x.get("published_at", ""), reverse=True)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(items, indent=2, ensure_ascii=False))
+    out.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
     suffix = f" (pruned {pruned} older than {retention.days}d)" if pruned else ""
     print(f"[normalize] {track}: {len(items)} unique items{suffix}")
 

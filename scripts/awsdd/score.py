@@ -60,7 +60,7 @@ def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
 
 def score(track: str) -> None:
     p = track_dir(track) / "data" / "normalized.json"
-    items: list[dict] = json.loads(p.read_text()) if p.exists() else []
+    items: list[dict] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
     sources = load_sources(track)
     now = datetime.now(UTC)
     for it in items:
@@ -70,7 +70,7 @@ def score(track: str) -> None:
     items.sort(key=lambda x: x.get("score", 0.0), reverse=True)
     out = track_dir(track) / "data" / "scored.json"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(items, indent=2, ensure_ascii=False))
+    out.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[score] {track}: scored {len(items)} items")
 
 
