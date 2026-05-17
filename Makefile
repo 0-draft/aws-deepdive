@@ -1,6 +1,6 @@
 TRACKS := iam security whats-new releases
 
-.PHONY: install update weekly new-track new-deep-dive
+.PHONY: install update weekly new-track new-deep-dive test lint format audit dev-install
 
 install:
 	@for t in $(TRACKS); do echo "=== install: $$t ==="; $(MAKE) -C tracks/$$t install || exit $$?; done
@@ -19,3 +19,19 @@ new-deep-dive:
 	@test -n "$(TRACK)" || (echo "TRACK=<track> required" >&2; exit 1)
 	@test -n "$(TOPIC)" || (echo "TOPIC=<topic> required" >&2; exit 1)
 	bash scripts/new-deep-dive.sh "$(TRACK)" "$(TOPIC)"
+
+dev-install:
+	pip install -r requirements.txt -r requirements-dev.txt
+
+test:
+	pytest --cov=awsdd --cov-report=term
+
+lint:
+	ruff check .
+
+format:
+	ruff format .
+
+audit:
+	pip-audit -r requirements.txt -r requirements-dev.txt
+	cd web && npm audit --omit=dev --audit-level=high

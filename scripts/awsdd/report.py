@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from .config import track_dir
 
@@ -14,7 +14,7 @@ def _parse_iso(s: str) -> datetime:
     try:
         return datetime.fromisoformat((s or "").replace("Z", "+00:00"))
     except Exception:
-        return datetime.now(timezone.utc)
+        return datetime.now(UTC)
 
 
 def _filename(mode: str, now: datetime) -> str:
@@ -27,7 +27,7 @@ def _filename(mode: str, now: datetime) -> str:
 def render(track: str, mode: str) -> None:
     p = track_dir(track) / "data" / "scored.json"
     items: list[dict] = json.loads(p.read_text()) if p.exists() else []
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     cutoff = now - WINDOW[mode]
     fresh = [it for it in items if _parse_iso(it.get("published_at", "")) >= cutoff]
     fresh.sort(key=lambda x: x.get("score", 0.0), reverse=True)
@@ -48,7 +48,11 @@ def render(track: str, mode: str) -> None:
     lines.append("")
     lines.append(
         f"Window: last {window_days:.0f} day(s) · items in window: **{len(fresh)}** · top shown: **{len(top)}**"
-        + ("  \n_No items in window — showing top by score across all collected items._" if used_fallback else "")
+        + (
+            "  \n_No items in window — showing top by score across all collected items._"
+            if used_fallback
+            else ""
+        )
     )
     lines.append("")
 
