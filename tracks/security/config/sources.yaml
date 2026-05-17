@@ -1,0 +1,40 @@
+# Security bulletins, threat-detection services, key / secret management.
+
+keywords:
+  primary:
+    - cve
+    - vulnerability
+    - advisory
+    - guardduty
+    - inspector
+    - macie
+    - security-hub
+    - detective
+    - patch
+  secondary:
+    - security
+    - encryption
+    - kms
+    - secrets-manager
+    - waf
+    - shield
+    - firewall
+    - audit
+    - threat
+    - exposure
+
+source_weights:
+  default: 1.0
+  rss:aws-security-bulletins: 3.0
+  rss:aws-security-blog: 2.0
+  rss:amazon-linux-alas: 2.0
+
+rss:
+  - id: aws-security-bulletins
+    url: https://aws.amazon.com/security/security-bulletins/rss/feed/
+  - id: aws-security-blog
+    url: https://aws.amazon.com/blogs/security/feed/
+  - id: amazon-linux-alas
+    url: https://alas.aws.amazon.com/alas.rss
+
+github: []

@@ -1,0 +1,95 @@
+import fs from "node:fs";
+import path from "node:path";
+
+// Astro is always invoked from the web/ directory, so the repo root is one level up.
+// import.meta.url doesn't survive Astro's bundler reliably; cwd does.
+const ROOT = path.resolve(process.cwd(), "..");
+
+export const TRACKS = ["iam", "security", "whats-new", "releases"] as const;
+export type Track = (typeof TRACKS)[number];
+
+export interface Item {
+  id: string;
+  track: Track;
+  source: string;
+  source_kind: "rss" | "github" | string;
+  url: string;
+  title: string;
+  summary: string;
+  published_at: string;
+  fetched_at: string;
+  tags: string[];
+  severity: string | null;
+  score: number;
+  score_breakdown: Record<string, number>;
+}
+
+export interface Report {
+  track: Track;
+  mode: "daily" | "weekly";
+  slug: string;
+  markdown: string;
+  path: string;
+}
+
+export function tracks(): readonly Track[] {
+  return TRACKS;
+}
+
+export function loadScored(track: Track): Item[] {
+  const p = path.join(ROOT, "tracks", track, "data", "scored.json");
+  if (!fs.existsSync(p)) return [];
+  try {
+    return JSON.parse(fs.readFileSync(p, "utf-8")) as Item[];
+  } catch {
+    return [];
+  }
+}
+
+export function loadAll(): Item[] {
+  return TRACKS.flatMap(loadScored);
+}
+
+export function loadReports(track: Track, mode: "daily" | "weekly"): Report[] {
+  const dir = path.join(ROOT, "tracks", track, "reports", mode);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".md"))
+    .sort()
+    .reverse()
+    .map((f) => ({
+      track,
+      mode,
+      slug: f.replace(/\.md$/, ""),
+      markdown: fs.readFileSync(path.join(dir, f), "utf-8"),
+      path: path.join(dir, f),
+    }));
+}
+
+function isoWeekKey(d: Date): string | null {
+  if (Number.isNaN(d.valueOf())) return null;
+  const tmp = new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+  const dayNum = tmp.getUTCDay() || 7;
+  tmp.setUTCDate(tmp.getUTCDate() + 4 - dayNum);
+  const yearStart = Date.UTC(tmp.getUTCFullYear(), 0, 1);
+  const week = Math.ceil(((tmp.valueOf() - yearStart) / 86_400_000 + 1) / 7);
+  return `${tmp.getUTCFullYear()}-W${String(week).padStart(2, "0")}`;
+}
+
+export interface WeekBucket {
+  week: string;
+  count: number;
+}
+
+export function weeklyVolume(items: Item[]): WeekBucket[] {
+  const map = new Map<string, number>();
+  for (const it of items) {
+    const key = isoWeekKey(new Date(it.published_at));
+    if (!key) continue;
+    map.set(key, (map.get(key) ?? 0) + 1);
+  }
+  return [...map.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([week, count]) => ({ week, count }));
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  background: #0a0a0b;
+  color: #e7e7ea;
+  font-family: ui-sans-serif, system-ui, "Inter", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mono {
+  font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
+}
+
+/* tighten the rendered Markdown reports a bit */
+.prose :where(h1, h2, h3) {
+  font-family: ui-monospace, "JetBrains Mono", "SF Mono", Menlo, monospace;
+  letter-spacing: -0.01em;
+}
+.prose a {
+  text-decoration: none;
+}
+.prose a:hover {
+  text-decoration: underline;
+}

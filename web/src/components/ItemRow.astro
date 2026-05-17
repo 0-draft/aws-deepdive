@@ -1,0 +1,28 @@
+---
+import type { Item } from "../lib/data";
+
+interface Props {
+  item: Item;
+  showTrack?: boolean;
+}
+
+const { item, showTrack = false } = Astro.props as Props;
+const pub = (item.published_at ?? "").slice(0, 10);
+---
+<li class="py-3 border-b border-white/5">
+  <div class="flex items-baseline gap-3 flex-wrap">
+    <a
+      href={item.url}
+      class="text-sm hover:underline"
+      target="_blank"
+      rel="noopener"
+    >{item.title || "(untitled)"}</a>
+    {showTrack && <span class="text-[10px] mono text-white/50">[{item.track}]</span>}
+    <span class="text-[10px] mono text-white/30">{item.source}</span>
+    <span class="text-[10px] mono text-white/30">{pub}</span>
+    <span class="text-[10px] mono text-white/60 ml-auto">score {item.score.toFixed(2)}</span>
+  </div>
+  {item.summary && (
+    <p class="mt-1 text-xs text-white/50 line-clamp-2">{item.summary}</p>
+  )}
+</li>

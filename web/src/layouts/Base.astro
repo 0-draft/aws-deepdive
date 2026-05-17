@@ -1,0 +1,32 @@
+---
+import "../styles/global.css";
+import { TRACKS } from "../lib/data";
+const { title } = Astro.props as { title?: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title ? `${title} · aws-deepdive` : "aws-deepdive"}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <header class="border-b border-white/10 px-6 py-4 flex items-center justify-between gap-4">
+      <a href={base + "/"} class="mono text-sm tracking-tight hover:text-white">aws-deepdive</a>
+      <nav class="flex gap-4 text-xs text-white/60 mono">
+        {TRACKS.map((t) => (
+          <a href={`${base}/${t}/`} class="hover:text-white">{t}</a>
+        ))}
+      </nav>
+    </header>
+    <main class="max-w-6xl w-full mx-auto px-6 py-8 flex-1">
+      <slot />
+    </main>
+    <footer class="px-6 py-8 mt-16 text-xs text-white/40 mono">
+      <span>collected via GitHub Actions · </span>
+      <a class="underline" href="https://github.com/0-draft/aws-deepdive">source</a>
+    </footer>
+  </body>
+</html>

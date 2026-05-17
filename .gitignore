@@ -1,0 +1,26 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# node / astro
+node_modules/
+web/dist/
+web/.astro/
+
+# editor / os
+.DS_Store
+.vscode/
+.idea/
+
+# claude code (per-project state, transcripts, local settings)
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.aider*
+.cursor/
+
+# local scratch
+_notes/

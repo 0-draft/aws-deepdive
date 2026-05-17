@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+name="${1:?usage: new-track.sh <track-name>}"
+here="$(cd "$(dirname "$0")" && pwd)"
+src="$here/../templates/new-track"
+dst="$here/../tracks/$name"
+
+if [ -e "$dst" ]; then
+  echo "Track already exists: $dst" >&2
+  exit 1
+fi
+
+mkdir -p "$dst"
+cp -R "$src/." "$dst/"
+# substitute placeholder in README
+if [ -f "$dst/README.md" ]; then
+  sed "s/{{TRACK}}/$name/g" "$dst/README.md" > "$dst/README.md.tmp"
+  mv "$dst/README.md.tmp" "$dst/README.md"
+fi
+
+echo "Created tracks/$name"
+echo "Next:"
+echo "  1. edit tracks/$name/config/sources.yaml"
+echo "  2. add '$name' to TRACKS in Makefile and to matrix.track in .github/workflows/*.yml"
+echo "  3. make -C tracks/$name install update"
