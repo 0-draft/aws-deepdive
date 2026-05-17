@@ -1,4 +1,7 @@
-TRACKS := iam security whats-new releases
+# Auto-discover tracks so `make new-track NAME=…` is picked up by
+# install / update / weekly without a manual edit. Override with
+# `make TRACKS="iam security" update` for ad-hoc runs.
+TRACKS ?= $(notdir $(patsubst %/,%,$(wildcard tracks/*/)))
 
 .PHONY: install update weekly new-track new-deep-dive test lint format audit dev-install
 

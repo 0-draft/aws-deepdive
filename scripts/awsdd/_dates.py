@@ -10,9 +10,11 @@ def parse_iso(s: str) -> datetime:
 
     Falls back to the Unix epoch (not "now") so corrupted or missing
     timestamps sink to the bottom of freshness rankings instead of being
-    promoted to the top.
+    promoted to the top. If the input has no offset, UTC is assumed so the
+    result is always comparable with other tz-aware values.
     """
     try:
-        return datetime.fromisoformat(s or "")
+        dt = datetime.fromisoformat(s or "")
     except (ValueError, TypeError):
         return EPOCH
+    return dt if dt.tzinfo is not None else dt.replace(tzinfo=UTC)

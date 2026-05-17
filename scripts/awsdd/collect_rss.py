@@ -124,7 +124,7 @@ def entry_to_item(entry, sid: str, track: str, now: datetime) -> dict | None:
         summary=_summary(entry),
         published_at=_iso(entry.get("published_parsed") or entry.get("updated_parsed")),
         fetched_at=now.isoformat(),
-        tags=[t.term for t in entry.get("tags", []) if hasattr(t, "term")],
+        tags=[t.term for t in (entry.get("tags") or []) if hasattr(t, "term")],
         severity=_severity(entry),
     ).to_dict()
 

@@ -11,14 +11,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.152,
+    "score": 9.151,
     "score_breakdown": {
-      "freshness": 1.652,
+      "freshness": 1.651,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.152
+      "total": 9.151
     }
   },
   {
@@ -33,14 +33,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.447,
+    "score": 8.446,
     "score_breakdown": {
-      "freshness": 0.947,
+      "freshness": 0.946,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.447
+      "total": 8.446
     }
   },
   {
@@ -77,14 +77,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.797,
+    "score": 7.796,
     "score_breakdown": {
-      "freshness": 0.297,
+      "freshness": 0.296,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.797
+      "total": 7.796
     }
   },
   {
@@ -99,14 +99,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.765,
+    "score": 7.764,
     "score_breakdown": {
-      "freshness": 1.765,
+      "freshness": 1.764,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.765
+      "total": 7.764
     }
   },
   {
@@ -121,14 +121,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.765,
+    "score": 7.763,
     "score_breakdown": {
-      "freshness": 1.765,
+      "freshness": 1.763,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.765
+      "total": 7.763
     }
   },
   {
@@ -143,14 +143,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.692,
+    "score": 7.691,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.191,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.692
+      "total": 7.691
     }
   },
   {
@@ -297,14 +297,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.321,
+    "score": 7.32,
     "score_breakdown": {
-      "freshness": 1.321,
+      "freshness": 1.32,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.321
+      "total": 7.32
     }
   },
   {
@@ -319,14 +319,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.069,
+    "score": 7.068,
     "score_breakdown": {
-      "freshness": 1.069,
+      "freshness": 1.068,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.069
+      "total": 7.068
     }
   },
   {
@@ -341,14 +341,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": "low",
-    "score": 7.064,
+    "score": 7.063,
     "score_breakdown": {
-      "freshness": 0.564,
+      "freshness": 0.563,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.5,
-      "total": 7.064
+      "total": 7.063
     }
   },
   {
@@ -385,14 +385,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.813,
+    "score": 6.812,
     "score_breakdown": {
-      "freshness": 0.813,
+      "freshness": 0.812,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.813
+      "total": 6.812
     }
   },
   {
@@ -429,14 +429,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.652,
+    "score": 6.651,
     "score_breakdown": {
-      "freshness": 0.652,
+      "freshness": 0.651,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.652
+      "total": 6.651
     }
   },
   {
@@ -451,14 +451,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.564,
+    "score": 6.563,
     "score_breakdown": {
-      "freshness": 0.564,
+      "freshness": 0.563,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.564
+      "total": 6.563
     }
   },
   {
@@ -481,14 +481,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 6.542,
+    "score": 6.541,
     "score_breakdown": {
-      "freshness": 1.542,
+      "freshness": 1.541,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 6.542
+      "total": 6.541
     }
   },
   {
@@ -503,14 +503,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.49,
+    "score": 6.489,
     "score_breakdown": {
-      "freshness": 0.49,
+      "freshness": 0.489,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.49
+      "total": 6.489
     }
   },
   {
@@ -794,14 +794,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.996,
+    "score": 2.995,
     "score_breakdown": {
-      "freshness": 0.996,
+      "freshness": 0.995,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.996
+      "total": 2.995
     }
   },
   {
@@ -822,14 +822,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.757,
+    "score": 2.756,
     "score_breakdown": {
-      "freshness": 1.757,
+      "freshness": 1.756,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.757
+      "total": 2.756
     }
   },
   {
@@ -881,14 +881,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.517,
+    "score": 2.516,
     "score_breakdown": {
-      "freshness": 1.517,
+      "freshness": 1.516,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.517
+      "total": 2.516
     }
   },
   {
@@ -912,14 +912,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.435,
+    "score": 2.434,
     "score_breakdown": {
-      "freshness": 1.435,
+      "freshness": 1.434,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.435
+      "total": 2.434
     }
   },
   {
@@ -944,14 +944,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.322,
+    "score": 2.321,
     "score_breakdown": {
-      "freshness": 1.322,
+      "freshness": 1.321,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.322
+      "total": 2.321
     }
   },
   {
@@ -972,14 +972,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.864,
+    "score": 1.863,
     "score_breakdown": {
-      "freshness": 0.864,
+      "freshness": 0.863,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.864
+      "total": 1.863
     }
   },
   {
@@ -1003,14 +1003,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.854,
+    "score": 1.853,
     "score_breakdown": {
-      "freshness": 0.854,
+      "freshness": 0.853,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.854
+      "total": 1.853
     }
   },
   {
@@ -1043,14 +1043,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.653,
+    "score": 1.652,
     "score_breakdown": {
-      "freshness": 0.653,
+      "freshness": 0.652,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.653
+      "total": 1.652
     }
   },
   {
@@ -1065,42 +1065,11 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.652,
-    "score_breakdown": {
-      "freshness": 1.652,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.652
-    }
-  },
-  {
-    "id": "6f275c9854443926",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
-    "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
-    "summary": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity Center instance across multiple AWS Regions to improve resilience and reduce latency for a globally distributed […]",
-    "published_at": "2026-05-14T20:42:20+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [
-      "Advanced (300)",
-      "Amazon Route 53",
-      "AWS IAM Identity Center",
-      "Networking & Content Delivery",
-      "Security, Identity, & Compliance",
-      "Technical How-to",
-      "IAM Identity Center",
-      "Security Blog"
-    ],
-    "severity": null,
     "score": 1.651,
     "score_breakdown": {
       "freshness": 1.651,
       "keyword": 0.0,
-      "source": 2.0,
+      "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 1.651
@@ -1135,6 +1104,37 @@
     }
   },
   {
+    "id": "6f275c9854443926",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
+    "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
+    "summary": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity Center instance across multiple AWS Regions to improve resilience and reduce latency for a globally distributed […]",
+    "published_at": "2026-05-14T20:42:20+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [
+      "Advanced (300)",
+      "Amazon Route 53",
+      "AWS IAM Identity Center",
+      "Networking & Content Delivery",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "IAM Identity Center",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.65,
+    "score_breakdown": {
+      "freshness": 1.65,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.65
+    }
+  },
+  {
     "id": "43f6eb8895da7b21",
     "track": "security",
     "source": "rss:aws-security-blog",
@@ -1158,14 +1158,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 1.63,
+    "score": 1.628,
     "score_breakdown": {
-      "freshness": 1.63,
+      "freshness": 1.628,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.63
+      "total": 1.628
     }
   },
   {
@@ -1189,14 +1189,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.53,
+    "score": 1.529,
     "score_breakdown": {
-      "freshness": 1.53,
+      "freshness": 1.529,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.53
+      "total": 1.529
     }
   },
   {
@@ -1279,14 +1279,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.408,
+    "score": 1.407,
     "score_breakdown": {
-      "freshness": 1.408,
+      "freshness": 1.407,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.408
+      "total": 1.407
     }
   },
   {
@@ -1307,14 +1307,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.988,
+    "score": 0.987,
     "score_breakdown": {
-      "freshness": 0.988,
+      "freshness": 0.987,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.988
+      "total": 0.987
     }
   },
   {

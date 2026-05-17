@@ -18,5 +18,10 @@ if [ -e "$dst" ]; then
 fi
 
 mkdir -p "$dst_dir"
-sed -e "s|{{TRACK}}|$track|g" -e "s|{{TOPIC}}|$topic|g" -e "s|{{DATE}}|$(date -u +%Y-%m-%d)|g" "$src" > "$dst"
+# Escape sed metachars (`&`, `\`, `|`) in the substitution values so a track
+# or topic that contains them doesn't trigger sed's whole-match replacement.
+track_esc=$(printf '%s\n' "$track" | sed 's/[&|\\]/\\&/g')
+topic_esc=$(printf '%s\n' "$topic" | sed 's/[&|\\]/\\&/g')
+date_str=$(date -u +%Y-%m-%d)
+sed -e "s|{{TRACK}}|$track_esc|g" -e "s|{{TOPIC}}|$topic_esc|g" -e "s|{{DATE}}|$date_str|g" "$src" > "$dst"
 echo "Created $dst"

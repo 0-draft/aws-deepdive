@@ -65,6 +65,24 @@ def test_missing_raw_dir_writes_empty(make_track):
     assert out == []
 
 
+def test_load_sources_returns_dict_for_non_mapping_root(make_track):
+    # Regression: a sources.yaml whose root is a list (or scalar) used to
+    # crash downstream .get() calls. Should coerce to {}.
+    from awsdd.config import load_sources
+
+    make_track("test", sources_yaml="- not a mapping\n")
+    assert load_sources("test") == {}
+
+
+def test_parse_iso_assumes_utc_for_naive_input():
+    from datetime import UTC
+
+    from awsdd._dates import parse_iso
+
+    dt = parse_iso("2026-05-17T00:00:00")  # no offset → naive
+    assert dt.tzinfo is UTC
+
+
 def test_retention_prunes_old_items(make_track):
     from datetime import timedelta
 

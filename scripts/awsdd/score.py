@@ -32,7 +32,13 @@ def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
     keyword = p_hits * 2.0 + s_hits * 0.5
 
     weights = sources.get("source_weights") or {}
-    source_w = float(weights.get(item.get("source", ""), weights.get("default", 1.0)))
+    raw_weight = weights.get(item.get("source", ""), weights.get("default", 1.0))
+    try:
+        source_w = float(raw_weight)
+    except (TypeError, ValueError):
+        # A config typo (e.g. `rss:foo: bar`) used to abort the whole pipeline.
+        # Treat the malformed weight as default = 1.0 and keep scoring.
+        source_w = 1.0
 
     sev_label = (item.get("severity") or "").lower()
     sev = SEVERITY_WEIGHT.get(sev_label, 0.0)

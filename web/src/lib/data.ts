@@ -51,8 +51,10 @@ export function loadScored(track: Track): Item[] {
   if (!fs.existsSync(p)) return [];
   try {
     return JSON.parse(fs.readFileSync(p, "utf-8")) as Item[];
-  } catch {
-    return [];
+  } catch (err) {
+    // Fail loud: silently returning [] would ship an empty site as if it
+    // were a successful build, hiding the data corruption.
+    throw new Error(`[awsdd-web] failed to parse ${p}: ${err}`);
   }
 }
 

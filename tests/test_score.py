@@ -108,3 +108,16 @@ def test_keyword_match_hits_exact_words():
     b = score_item(item, SOURCES_IAM, NOW)
     # both "iam" and "sts" are secondary keywords: 2 hits * 0.5 = 1.0
     assert b["keyword"] == 1.0
+
+
+def test_malformed_source_weight_falls_back_to_one():
+    # Regression: a typo like `source_weights: { rss:foo: bar }` would crash
+    # float() and abort the entire scoring pipeline. The guard should
+    # quietly downgrade to 1.0.
+    sources = {
+        "keywords": {"primary": [], "secondary": []},
+        "source_weights": {"rss:bad": "not-a-number", "default": 1.0},
+    }
+    item = _item(source="rss:bad")
+    b = score_item(item, sources, NOW)
+    assert b["source"] == 1.0
