@@ -20,7 +20,12 @@ def _filename(mode: str, now: datetime) -> str:
 
 def render(track: str, mode: str) -> None:
     p = track_dir(track) / "data" / "scored.json"
-    items: list[dict] = json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+    items: list[dict] = []
+    if p.exists():
+        try:
+            items = json.loads(p.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"[report] {track}: failed to load scored.json: {e}")
     now = datetime.now(UTC)
     cutoff = now - WINDOW[mode]
     fresh = [it for it in items if parse_iso(it.get("published_at", "")) >= cutoff]

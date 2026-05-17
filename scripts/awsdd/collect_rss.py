@@ -47,7 +47,9 @@ def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> bytes | None:
             # truncated XML body to feedparser would just bozo-error silently
             # and partially populate the track. Better to skip the feed loudly.
             raw = r.read(MAX_FEED_BYTES + 1)
-    except (URLError, TimeoutError) as e:
+    except (URLError, TimeoutError, ValueError) as e:
+        # ValueError catches urlopen's "unknown url type" path so a typo in
+        # sources.yaml (missing scheme, etc.) doesn't crash the whole track.
         print(f"[collect_rss] fetch {url}: {e}")
         return None
     if len(raw) > MAX_FEED_BYTES:
