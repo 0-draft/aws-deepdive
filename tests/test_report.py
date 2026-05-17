@@ -110,6 +110,5 @@ def test_newline_in_title_is_collapsed(make_track):
     # all three title fragments collapse onto the one list-item line
     list_lines = [line for line in lines if line.startswith("- [")]
     assert any(
-        "multi-line" in line and "rogue heading" in line and "title" in line
-        for line in list_lines
+        "multi-line" in line and "rogue heading" in line and "title" in line for line in list_lines
     )
