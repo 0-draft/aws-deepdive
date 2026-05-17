@@ -33,12 +33,17 @@ def _iso(time_struct) -> str:
     return datetime(*time_struct[:6], tzinfo=UTC).isoformat()
 
 
-def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> str | None:
-    """Fetch a feed body with an explicit timeout; None on network failure."""
+def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> bytes | None:
+    """Fetch a feed body with an explicit timeout; None on network failure.
+
+    Returns raw bytes so feedparser can do its own encoding sniffing
+    (XML prolog charset, HTTP Content-Type, BOM) and gzip handling.
+    Decoding here would defeat that.
+    """
     req = Request(url, headers={"User-Agent": USER_AGENT})
     try:
         with urlopen(req, timeout=timeout) as r:
-            return r.read(MAX_FEED_BYTES).decode("utf-8", errors="replace")
+            return r.read(MAX_FEED_BYTES)
     except (URLError, TimeoutError) as e:
         print(f"[collect_rss] fetch {url}: {e}")
         return None

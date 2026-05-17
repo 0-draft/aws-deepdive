@@ -82,3 +82,14 @@ def test_no_scored_file_yields_empty_report(make_track):
     render("iam", "daily")
     body = next((td / "reports" / "daily").glob("*.md")).read_text()
     assert "No items at all" in body
+
+
+def test_gt_in_url_is_escaped(make_track):
+    # Regression: a `>` in the URL would close the `[t](<url>)` angle pair
+    # early and break Markdown link parsing.
+    td = make_track("iam")
+    (td / "data" / "scored.json").write_text(_scored([_item(url="https://example.com/?q=a>b")]))
+    render("iam", "daily")
+    body = next((td / "reports" / "daily").glob("*.md")).read_text()
+    assert "%3E" in body
+    assert "a>b" not in body

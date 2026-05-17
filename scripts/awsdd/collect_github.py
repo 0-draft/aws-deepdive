@@ -50,13 +50,24 @@ def _get_page(url: str) -> tuple[list[dict], str | None]:
     req = Request(url, headers=_headers())
     try:
         with urlopen(req, timeout=FETCH_TIMEOUT) as r:
-            body = r.read(MAX_RESPONSE_BYTES).decode("utf-8", errors="replace")
+            # Read one extra byte so we can detect (and refuse) responses that
+            # would otherwise be silently truncated mid-multibyte char and yield
+            # a corrupt JSONDecodeError downstream.
+            raw = r.read(MAX_RESPONSE_BYTES + 1)
             link = r.headers.get("Link")
-        res = json.loads(body)
+        if len(raw) > MAX_RESPONSE_BYTES:
+            print(
+                f"[collect_github] {url}: response exceeded {MAX_RESPONSE_BYTES} bytes; "
+                f"skipping (raise per_page or implement narrower paging)"
+            )
+            return [], None
+        # Strict decode so a real encoding bug surfaces instead of being
+        # masked by errors='replace' that would also corrupt the JSON.
+        res = json.loads(raw.decode("utf-8"))
     except HTTPError as e:
         print(f"[collect_github] {url}: HTTP {e.code}")
         return [], None
-    except (URLError, TimeoutError, json.JSONDecodeError) as e:
+    except (URLError, TimeoutError, UnicodeDecodeError, json.JSONDecodeError) as e:
         print(f"[collect_github] {url}: error {e}")
         return [], None
     # GitHub returns a JSON object (not a list) on error envelopes (rate-limit etc.);

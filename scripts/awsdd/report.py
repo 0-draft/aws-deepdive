@@ -68,12 +68,13 @@ def render(track: str, mode: str) -> None:
                 # escape both brackets so titles like "[CVE-...] thing" don't
                 # collide with markdown link parsing
                 title = (it.get("title") or "(untitled)").replace("[", r"\[").replace("]", r"\]")
-                url = it.get("url", "")
+                # angle-bracket the URL: AWS links sometimes contain `(` / `)`,
+                # which break vanilla Markdown link parsing. Escape any `>` in
+                # the URL itself so it doesn't terminate the bracket pair.
+                url = (it.get("url") or "").replace(">", "%3E")
                 src = it.get("source", "")
                 pub = (it.get("published_at") or "")[:10]
                 score = float(it.get("score", 0.0))
-                # angle-bracket the URL: AWS links sometimes contain `(` / `)`,
-                # which break vanilla Markdown link parsing.
                 lines.append(f"- [{title}](<{url}>) — `{src}` · {pub} · **score {score:.2f}**")
             lines.append("")
 
