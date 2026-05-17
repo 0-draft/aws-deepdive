@@ -72,7 +72,9 @@ def render(track: str, mode: str) -> None:
             lines.append(f"## {kind.upper()}")
             lines.append("")
             for it in g:
-                title = (it.get("title") or "(untitled)").replace("]", r"\]")
+                # escape both brackets so titles like "[CVE-...] thing" don't
+                # collide with markdown link parsing
+                title = (it.get("title") or "(untitled)").replace("[", r"\[").replace("]", r"\]")
                 url = it.get("url", "")
                 src = it.get("source", "")
                 pub = (it.get("published_at") or "")[:10]

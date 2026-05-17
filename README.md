@@ -45,12 +45,6 @@ tracks/<name>/
 web/                               # Astro 6 + Tailwind v4 + recharts (React island)
 ```
 
-## CI
-
-- Daily at 06:00 UTC: `make update` for every track in parallel; raw / normalized / scored / daily.md get committed.
-- Monday at 08:00 UTC: `make weekly` generates the weekly digest.
-- Push to `main`: `web/` is rebuilt and deployed to Pages.
-
 ## Local
 
 ```bash

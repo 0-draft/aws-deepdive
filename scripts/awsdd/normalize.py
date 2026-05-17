@@ -15,7 +15,7 @@ def normalize(track: str) -> None:
         try:
             for it in json.loads(out.read_text()):
                 by_id[it["id"]] = it
-        except Exception as e:
+        except (OSError, json.JSONDecodeError) as e:
             print(f"[normalize] existing normalized.json unreadable: {e}")
 
     if raw_dir.exists():
@@ -29,7 +29,7 @@ def normalize(track: str) -> None:
                             prev.get("fetched_at", it["fetched_at"]), it["fetched_at"]
                         )
                     by_id[it["id"]] = it
-            except Exception as e:
+            except (OSError, json.JSONDecodeError) as e:
                 print(f"[normalize] {path.name}: {e}")
 
     items = sorted(by_id.values(), key=lambda x: x.get("published_at", ""), reverse=True)
