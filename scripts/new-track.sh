@@ -13,9 +13,12 @@ fi
 
 mkdir -p "$dst"
 cp -R "$src/." "$dst/"
-# substitute placeholder in README
+# substitute placeholder in README — escape sed metachars (`&`, `\`, `|`)
+# in $name so a track name like "foo&bar" doesn't trigger sed's whole-match
+# substitution.
 if [ -f "$dst/README.md" ]; then
-  sed "s|{{TRACK}}|$name|g" "$dst/README.md" > "$dst/README.md.tmp"
+  name_esc=$(printf '%s\n' "$name" | sed 's/[&|\\]/\\&/g')
+  sed "s|{{TRACK}}|$name_esc|g" "$dst/README.md" > "$dst/README.md.tmp"
   mv "$dst/README.md.tmp" "$dst/README.md"
 fi
 

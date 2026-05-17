@@ -31,7 +31,9 @@ def render(track: str, mode: str) -> None:
         top = fresh[: TOP_N[mode]]
     else:
         # Fall back to top-N by score regardless of window so the report is never empty.
-        top = items[: TOP_N[mode]]
+        # Sort explicitly here instead of trusting scored.json's order — defends
+        # against an externally-edited or hand-written scored.json.
+        top = sorted(items, key=lambda x: float(x.get("score", 0.0)), reverse=True)[: TOP_N[mode]]
         used_fallback = True
 
     label = "Weekly digest" if mode == "weekly" else "Daily update"

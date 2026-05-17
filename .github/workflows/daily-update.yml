@@ -20,6 +20,10 @@ jobs:
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Pin to main so a workflow_dispatch from a feature branch can't
+          # publish data based on non-main code (the commit still lands on main).
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'

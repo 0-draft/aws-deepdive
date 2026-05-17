@@ -11,14 +11,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 10.544,
+    "score": 10.543,
     "score_breakdown": {
-      "freshness": 1.544,
+      "freshness": 1.543,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 10.544
+      "total": 10.543
     }
   },
   {
@@ -99,14 +99,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.178,
+    "score": 9.177,
     "score_breakdown": {
-      "freshness": 0.178,
+      "freshness": 0.177,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.178
+      "total": 9.177
     }
   },
   {
@@ -187,14 +187,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.807,
+    "score": 4.806,
     "score_breakdown": {
-      "freshness": 0.807,
+      "freshness": 0.806,
       "keyword": 4.0,
       "source": 1.0,
       "keyword_signal": 4.0,
       "severity": 0.0,
-      "total": 4.807
+      "total": 4.806
     }
   },
   {
@@ -209,14 +209,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.143,
+    "score": 4.142,
     "score_breakdown": {
-      "freshness": 1.643,
+      "freshness": 1.642,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 4.143
+      "total": 4.142
     }
   },
   {
@@ -297,14 +297,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.805,
+    "score": 2.804,
     "score_breakdown": {
-      "freshness": 0.805,
+      "freshness": 0.804,
       "keyword": 2.0,
       "source": 1.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.805
+      "total": 2.804
     }
   },
   {
@@ -319,14 +319,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.763,
+    "score": 2.761,
     "score_breakdown": {
-      "freshness": 1.763,
+      "freshness": 1.761,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.763
+      "total": 2.761
     }
   },
   {
@@ -341,14 +341,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.642,
+    "score": 2.641,
     "score_breakdown": {
-      "freshness": 1.642,
+      "freshness": 1.641,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.642
+      "total": 2.641
     }
   },
   {
@@ -363,14 +363,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.641,
+    "score": 2.64,
     "score_breakdown": {
-      "freshness": 1.641,
+      "freshness": 1.64,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.641
+      "total": 2.64
     }
   },
   {
@@ -385,14 +385,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.53,
+    "score": 2.529,
     "score_breakdown": {
-      "freshness": 1.53,
+      "freshness": 1.529,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.53
+      "total": 2.529
     }
   },
   {
@@ -407,14 +407,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.528,
+    "score": 2.527,
     "score_breakdown": {
-      "freshness": 1.528,
+      "freshness": 1.527,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.528
+      "total": 2.527
     }
   },
   {
@@ -429,14 +429,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.428,
+    "score": 2.427,
     "score_breakdown": {
-      "freshness": 0.928,
+      "freshness": 0.927,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.428
+      "total": 2.427
     }
   },
   {
@@ -451,14 +451,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.265,
+    "score": 2.263,
     "score_breakdown": {
-      "freshness": 1.765,
+      "freshness": 1.763,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.265
+      "total": 2.263
     }
   },
   {
@@ -473,14 +473,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.264,
+    "score": 2.262,
     "score_breakdown": {
-      "freshness": 1.764,
+      "freshness": 1.762,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.264
+      "total": 2.262
     }
   },
   {
@@ -497,14 +497,14 @@
       "prerelease"
     ],
     "severity": null,
-    "score": 2.216,
+    "score": 2.215,
     "score_breakdown": {
-      "freshness": 1.716,
+      "freshness": 1.715,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.216
+      "total": 2.215
     }
   },
   {
@@ -519,14 +519,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.177,
+    "score": 2.175,
     "score_breakdown": {
-      "freshness": 1.677,
+      "freshness": 1.675,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.177
+      "total": 2.175
     }
   },
   {
@@ -563,14 +563,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.058,
+    "score": 2.057,
     "score_breakdown": {
-      "freshness": 1.558,
+      "freshness": 1.557,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.058
+      "total": 2.057
     }
   },
   {
@@ -585,14 +585,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.041,
+    "score": 2.04,
     "score_breakdown": {
-      "freshness": 1.541,
+      "freshness": 1.54,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.041
+      "total": 2.04
     }
   },
   {
@@ -607,14 +607,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.997,
+    "score": 1.996,
     "score_breakdown": {
-      "freshness": 0.997,
+      "freshness": 0.996,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.997
+      "total": 1.996
     }
   },
   {
@@ -651,14 +651,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.929,
+    "score": 1.928,
     "score_breakdown": {
-      "freshness": 0.929,
+      "freshness": 0.928,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.929
+      "total": 1.928
     }
   },
   {
@@ -673,14 +673,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.925,
+    "score": 1.924,
     "score_breakdown": {
-      "freshness": 0.925,
+      "freshness": 0.924,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.925
+      "total": 1.924
     }
   },
   {
@@ -695,14 +695,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.863,
+    "score": 1.862,
     "score_breakdown": {
-      "freshness": 0.863,
+      "freshness": 0.862,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.863
+      "total": 1.862
     }
   },
   {
@@ -739,14 +739,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.804,
+    "score": 1.803,
     "score_breakdown": {
-      "freshness": 0.804,
+      "freshness": 0.803,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.804
+      "total": 1.803
     }
   },
   {
@@ -761,14 +761,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.763,
+    "score": 1.762,
     "score_breakdown": {
-      "freshness": 1.763,
+      "freshness": 1.762,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.763
+      "total": 1.762
     }
   },
   {
@@ -827,14 +827,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.649,
+    "score": 1.648,
     "score_breakdown": {
-      "freshness": 0.649,
+      "freshness": 0.648,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.649
+      "total": 1.648
     }
   },
   {
@@ -849,14 +849,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.645,
+    "score": 1.644,
     "score_breakdown": {
-      "freshness": 1.645,
+      "freshness": 1.644,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.645
+      "total": 1.644
     }
   },
   {
@@ -871,14 +871,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.604,
+    "score": 1.603,
     "score_breakdown": {
-      "freshness": 0.604,
+      "freshness": 0.603,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.604
+      "total": 1.603
     }
   },
   {
@@ -893,14 +893,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.529,
+    "score": 1.528,
     "score_breakdown": {
-      "freshness": 1.529,
+      "freshness": 1.528,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.529
+      "total": 1.528
     }
   },
   {
@@ -915,14 +915,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.497,
+    "score": 1.496,
     "score_breakdown": {
-      "freshness": 0.997,
+      "freshness": 0.996,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.497
+      "total": 1.496
     }
   },
   {
@@ -937,14 +937,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.489,
+    "score": 1.488,
     "score_breakdown": {
-      "freshness": 0.489,
+      "freshness": 0.488,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.489
+      "total": 1.488
     }
   },
   {
@@ -1003,14 +1003,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.366,
+    "score": 1.365,
     "score_breakdown": {
-      "freshness": 0.866,
+      "freshness": 0.865,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.366
+      "total": 1.365
     }
   },
   {
@@ -1091,14 +1091,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.296,
+    "score": 1.295,
     "score_breakdown": {
-      "freshness": 0.296,
+      "freshness": 0.295,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.296
+      "total": 1.295
     }
   },
   {
@@ -1267,14 +1267,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.063,
+    "score": 1.062,
     "score_breakdown": {
-      "freshness": 0.563,
+      "freshness": 0.562,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.063
+      "total": 1.062
     }
   },
   {
@@ -1531,14 +1531,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.998,
+    "score": 0.997,
     "score_breakdown": {
-      "freshness": 0.998,
+      "freshness": 0.997,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.998
+      "total": 0.997
     }
   },
   {
@@ -1575,14 +1575,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.894,
+    "score": 0.893,
     "score_breakdown": {
-      "freshness": 0.394,
+      "freshness": 0.393,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.894
+      "total": 0.893
     }
   },
   {
@@ -1641,14 +1641,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.807,
+    "score": 0.806,
     "score_breakdown": {
-      "freshness": 0.807,
+      "freshness": 0.806,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.807
+      "total": 0.806
     }
   },
   {
@@ -1751,14 +1751,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.739,
+    "score": 0.738,
     "score_breakdown": {
-      "freshness": 0.239,
+      "freshness": 0.238,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.739
+      "total": 0.738
     }
   },
   {
@@ -1773,14 +1773,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.68,
+    "score": 0.679,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.179,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.68
+      "total": 0.679
     }
   },
   {
@@ -1839,14 +1839,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.652,
+    "score": 0.651,
     "score_breakdown": {
-      "freshness": 0.652,
+      "freshness": 0.651,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.652
+      "total": 0.651
     }
   },
   {
@@ -2235,14 +2235,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.394,
+    "score": 0.393,
     "score_breakdown": {
-      "freshness": 0.394,
+      "freshness": 0.393,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.394
+      "total": 0.393
     }
   },
   {
@@ -2257,14 +2257,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.367,
+    "score": 0.366,
     "score_breakdown": {
-      "freshness": 0.367,
+      "freshness": 0.366,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.367
+      "total": 0.366
     }
   },
   {
@@ -2279,14 +2279,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.367,
+    "score": 0.366,
     "score_breakdown": {
-      "freshness": 0.367,
+      "freshness": 0.366,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.367
+      "total": 0.366
     }
   },
   {
@@ -2433,14 +2433,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.223,
+    "score": 0.222,
     "score_breakdown": {
-      "freshness": 0.223,
+      "freshness": 0.222,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.223
+      "total": 0.222
     }
   },
   {

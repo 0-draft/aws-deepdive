@@ -20,9 +20,13 @@ concurrency:
 
 jobs:
   build:
+    # Pages publishes the default environment; never deploy from a non-main ref.
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: '22'

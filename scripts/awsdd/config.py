@@ -16,4 +16,7 @@ def load_sources(track: str) -> dict:
     p = track_dir(track) / "config" / "sources.yaml"
     if not p.exists():
         return {}
-    return yaml.safe_load(p.read_text()) or {}
+    loaded = yaml.safe_load(p.read_text()) or {}
+    # If a sources.yaml is malformed and its root is a list / scalar, downstream
+    # .get() calls would crash. Coerce to {} so the track is just a no-op.
+    return loaded if isinstance(loaded, dict) else {}
