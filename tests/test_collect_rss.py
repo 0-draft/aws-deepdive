@@ -52,3 +52,14 @@ def test_summary_helper_strips_html():
         "E", (), {"get": lambda self, k, d=None: "<b>hi</b> there" if k == "summary" else d}
     )()
     assert _summary(fake) == "hi there"
+
+
+def test_summary_strips_entity_encoded_tags():
+    # Regression: some feeds double-encode tags as `&lt;script&gt;...`.
+    # The old strip-then-unescape order let those leak through as raw HTML.
+    payload = "&lt;script&gt;alert(1)&lt;/script&gt;hi"
+    fake = type("E", (), {"get": lambda self, k, d=None: payload if k == "summary" else d})()
+    out = _summary(fake)
+    assert "<script>" not in out
+    assert "&lt;" not in out
+    assert "hi" in out
