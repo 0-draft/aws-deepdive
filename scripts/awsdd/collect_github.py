@@ -5,7 +5,7 @@ import hashlib
 import json
 import os
 from datetime import UTC, datetime
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 from .config import load_sources, track_dir
@@ -38,7 +38,7 @@ def _get(path: str) -> list[dict]:
     except HTTPError as e:
         print(f"[collect_github] {path}: HTTP {e.code}")
         return []
-    except Exception as e:
+    except (URLError, TimeoutError, json.JSONDecodeError) as e:
         print(f"[collect_github] {path}: error {e}")
         return []
 

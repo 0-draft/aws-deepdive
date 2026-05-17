@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
-from typing import Any
+from typing import Any, Literal
+
+SourceKind = Literal["rss", "github"]
 
 
 @dataclass
@@ -9,7 +11,7 @@ class Item:
     id: str
     track: str
     source: str  # e.g. "rss:aws-security-blog"
-    source_kind: str  # "rss" | "github"
+    source_kind: SourceKind
     url: str
     title: str
     summary: str

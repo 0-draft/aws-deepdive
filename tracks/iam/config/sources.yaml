@@ -47,4 +47,4 @@ github:
   - repo: kubernetes-sigs/aws-iam-authenticator
   - repo: aws/rolesanywhere-credential-helper
   - repo: spiffe/spire
-  - repo: spiffe/spiffe
+  # spiffe/spiffe is the specs repo with no GitHub releases; drop until it has any.
