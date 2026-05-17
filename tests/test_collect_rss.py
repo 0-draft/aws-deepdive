@@ -103,8 +103,9 @@ def test_collect_skips_malformed_feed_entry(make_track, monkeypatch, capsys):
 rss:
   - id: good
     url: https://example.com/good
-  - url: https://example.com/orphan  # no id
-  - id: noisy  # no url
+  - url: https://example.com/orphan  # dict shape, no id
+  - id: noisy  # dict shape, no url
+  - null  # not a dict at all
 """,
     )
     fetches: list[str] = []
@@ -112,4 +113,5 @@ rss:
     collect_rss.collect("test")
     assert fetches == ["https://example.com/good"]
     out = capsys.readouterr().out
-    assert out.count("skipping malformed entry") == 2
+    assert out.count("skipping malformed entry") == 2  # missing-key entries
+    assert out.count("skipping non-dict entry") == 1  # null entry

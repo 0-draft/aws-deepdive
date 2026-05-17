@@ -117,7 +117,12 @@ def collect(track: str) -> None:
     now = datetime.now(UTC)
     items: list[dict] = []
     for entry in repos:
-        # defensive: skip malformed config rather than crashing the whole track
+        # defensive: skip malformed config rather than crashing the whole track.
+        # The isinstance guard covers null and scalar entries; .get covers
+        # dict-shaped but incomplete entries.
+        if not isinstance(entry, dict):
+            print(f"[collect_github] skipping non-dict entry: {entry!r}")
+            continue
         repo = entry.get("repo")
         if not repo:
             print(f"[collect_github] skipping malformed entry: {entry!r}")

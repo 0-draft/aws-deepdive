@@ -149,6 +149,10 @@ def collect(track: str) -> None:
     for feed in feeds:
         # defensive: skip incomplete config entries instead of KeyError-ing the
         # whole pipeline if one feed in sources.yaml is missing id or url.
+        # isinstance guard covers null / scalar entries (e.g. `- foo` in YAML).
+        if not isinstance(feed, dict):
+            print(f"[collect_rss] skipping non-dict entry: {feed!r}")
+            continue
         sid, url = feed.get("id"), feed.get("url")
         if not sid or not url:
             print(f"[collect_rss] skipping malformed entry: {feed!r}")

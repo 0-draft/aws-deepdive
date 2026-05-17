@@ -70,14 +70,16 @@ def test_collect_skips_malformed_repo_entry(make_track, monkeypatch, capsys):
         sources_yaml="""
 github:
   - repo: aws/aws-cli
-  - per_page: 5  # no repo key
+  - per_page: 5  # no repo key (dict shape but missing repo)
+  - null  # not a dict at all
+  - "just a string"  # also not a dict
 """,
     )
-    # stub _get_all so we don't actually hit the API
     calls: list[str] = []
     monkeypatch.setattr(collect_github, "_get_all", lambda path: calls.append(path) or [])
     collect_github.collect("test")
     # only the well-formed entry is fetched
     assert calls == ["/repos/aws/aws-cli/releases?per_page=50"]
     out = capsys.readouterr().out
-    assert "skipping malformed entry" in out
+    assert out.count("skipping non-dict entry") == 2
+    assert out.count("skipping malformed entry") == 1
