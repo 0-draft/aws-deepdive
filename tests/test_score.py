@@ -86,3 +86,25 @@ def test_corrupted_date_falls_back_to_epoch_not_now():
     item = _item(published_at="this is not a date")
     b = score_item(item, SOURCES_IAM, NOW)
     assert b["freshness"] < 0.01
+
+
+def test_keyword_match_is_word_bounded():
+    # Regression: substring matching let `iam` hit `diagram` and `sts` hit
+    # `tests`. With word boundaries, neither should match.
+    item = _item(
+        title="updated diagram and test results for hosts",
+        source="rss:aws-whats-new",
+    )
+    b = score_item(item, SOURCES_IAM, NOW)
+    assert b["keyword"] == 0.0
+    assert b["keyword_signal"] == 0.0
+
+
+def test_keyword_match_hits_exact_words():
+    item = _item(
+        title="iam supports sts session tags",
+        source="rss:aws-whats-new",
+    )
+    b = score_item(item, SOURCES_IAM, NOW)
+    # both "iam" and "sts" are secondary keywords: 2 hits * 0.5 = 1.0
+    assert b["keyword"] == 1.0

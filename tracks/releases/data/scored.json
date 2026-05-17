@@ -1,27 +1,5 @@
 [
   {
-    "id": "8ae14a33e6aa6037",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.251.0",
-    "title": "v2.251.0",
-    "summary": "### ⚠ BREAKING CHANGES\n\n* ** L1 resources are automatically generated from public CloudFormation Resource Schemas. They are built to closely reflect the real state of CloudFormation. Sometimes these updates can contain changes that are incompatible with previous types, but more accurately reflect reality. In this release we have changed:\n\naws-elasticloadbalancing: AWS::ElasticLoadBalancing::LoadBalancer: SourceSecurityGroup attribute removed.\naws-elasticloadbalancing: AWS::ElasticLoadBalancing::",
-    "published_at": "2026-04-24T23:30:00Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 14.4,
-    "score_breakdown": {
-      "freshness": 0.4,
-      "keyword": 7.0,
-      "source": 2.0,
-      "keyword_signal": 14.0,
-      "severity": 0.0,
-      "total": 14.4
-    }
-  },
-  {
     "id": "f3c9d8c8051ca8ec",
     "track": "releases",
     "source": "github:aws/aws-cdk",
@@ -33,36 +11,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 11.55,
+    "score": 10.545,
     "score_breakdown": {
-      "freshness": 1.55,
-      "keyword": 5.0,
+      "freshness": 1.545,
+      "keyword": 4.5,
       "source": 2.0,
-      "keyword_signal": 10.0,
+      "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 11.55
-    }
-  },
-  {
-    "id": "516cbc506762ff7d",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.242.0",
-    "title": "v2.242.0",
-    "summary": "### ⚠ BREAKING CHANGES\n\n* ** L1 resources are automatically generated from public CloudFormation Resource Schemas. They are built to closely reflect the real state of CloudFormation. Sometimes these updates can contain changes that are incompatible with previous types, but more accurately reflect reality. In this release we have changed:\n\n  - **aws-ssm**: AWS::SSM::MaintenanceWindow: Id attribute removed.\n\n### Features\n\n* **core:** support `PropertyMergeStrategy` to merge arbitrary CFN property ",
-    "published_at": "2026-03-10T18:24:22Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 11.016,
-    "score_breakdown": {
-      "freshness": 0.016,
-      "keyword": 5.5,
-      "source": 2.0,
-      "keyword_signal": 11.0,
-      "severity": 0.0,
-      "total": 11.016
+      "total": 10.545
     }
   },
   {
@@ -77,14 +33,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 11.009,
+    "score": 10.009,
     "score_breakdown": {
       "freshness": 0.009,
-      "keyword": 5.5,
+      "keyword": 5.0,
       "source": 2.0,
-      "keyword_signal": 11.0,
+      "keyword_signal": 10.0,
       "severity": 0.0,
-      "total": 11.009
+      "total": 10.009
+    }
+  },
+  {
+    "id": "8ae14a33e6aa6037",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.251.0",
+    "title": "v2.251.0",
+    "summary": "### ⚠ BREAKING CHANGES\n\n* ** L1 resources are automatically generated from public CloudFormation Resource Schemas. They are built to closely reflect the real state of CloudFormation. Sometimes these updates can contain changes that are incompatible with previous types, but more accurately reflect reality. In this release we have changed:\n\naws-elasticloadbalancing: AWS::ElasticLoadBalancing::LoadBalancer: SourceSecurityGroup attribute removed.\naws-elasticloadbalancing: AWS::ElasticLoadBalancing::",
+    "published_at": "2026-04-24T23:30:00Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 9.399,
+    "score_breakdown": {
+      "freshness": 0.399,
+      "keyword": 4.5,
+      "source": 2.0,
+      "keyword_signal": 9.0,
+      "severity": 0.0,
+      "total": 9.399
     }
   },
   {
@@ -99,14 +77,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 10.195,
+    "score": 9.194,
     "score_breakdown": {
-      "freshness": 0.195,
-      "keyword": 5.0,
+      "freshness": 0.194,
+      "keyword": 4.5,
       "source": 2.0,
-      "keyword_signal": 10.0,
+      "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 10.195
+      "total": 9.194
     }
   },
   {
@@ -121,14 +99,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 10.178,
+    "score": 9.178,
     "score_breakdown": {
       "freshness": 0.178,
-      "keyword": 5.0,
+      "keyword": 4.5,
       "source": 2.0,
-      "keyword_signal": 10.0,
+      "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 10.178
+      "total": 9.178
     }
   },
   {
@@ -143,14 +121,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 10.08,
+    "score": 9.08,
     "score_breakdown": {
       "freshness": 0.08,
-      "keyword": 5.0,
+      "keyword": 4.5,
       "source": 2.0,
-      "keyword_signal": 10.0,
+      "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 10.08
+      "total": 9.08
+    }
+  },
+  {
+    "id": "516cbc506762ff7d",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.242.0",
+    "title": "v2.242.0",
+    "summary": "### ⚠ BREAKING CHANGES\n\n* ** L1 resources are automatically generated from public CloudFormation Resource Schemas. They are built to closely reflect the real state of CloudFormation. Sometimes these updates can contain changes that are incompatible with previous types, but more accurately reflect reality. In this release we have changed:\n\n  - **aws-ssm**: AWS::SSM::MaintenanceWindow: Id attribute removed.\n\n### Features\n\n* **core:** support `PropertyMergeStrategy` to merge arbitrary CFN property ",
+    "published_at": "2026-03-10T18:24:22Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 9.016,
+    "score_breakdown": {
+      "freshness": 0.016,
+      "keyword": 4.5,
+      "source": 2.0,
+      "keyword_signal": 9.0,
+      "severity": 0.0,
+      "total": 9.016
     }
   },
   {
@@ -165,14 +165,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.004,
+    "score": 5.004,
     "score_breakdown": {
       "freshness": 0.004,
-      "keyword": 3.0,
+      "keyword": 2.5,
       "source": 2.0,
-      "keyword_signal": 6.0,
+      "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 6.004
+      "total": 5.004
     }
   },
   {
@@ -187,14 +187,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 5.31,
+    "score": 4.807,
     "score_breakdown": {
-      "freshness": 0.81,
-      "keyword": 4.5,
+      "freshness": 0.807,
+      "keyword": 4.0,
       "source": 1.0,
-      "keyword_signal": 4.5,
+      "keyword_signal": 4.0,
       "severity": 0.0,
-      "total": 5.31
+      "total": 4.807
     }
   },
   {
@@ -209,36 +209,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.649,
+    "score": 4.144,
     "score_breakdown": {
-      "freshness": 1.649,
-      "keyword": 3.0,
+      "freshness": 1.644,
+      "keyword": 2.5,
       "source": 1.0,
-      "keyword_signal": 3.0,
+      "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 4.649
-    }
-  },
-  {
-    "id": "56172ad9313633cb",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.3",
-    "title": "AWS SDK for Java v2 2.44.3",
-    "summary": "# __2.44.3__ __2026-05-06__\r\n## __AWS Glue__\r\n  - ### Features\r\n    - Adds support for a CustomLogGroupPrefix parameter in StartDataQualityRulesetEvaluationRun to specify custom CloudWatch log group paths, and a RulesetName filter in ListDataQualityRulesetEvaluationRuns to filter evaluation runs by ruleset name.\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Update Netty to 4.1.133\r\n\r\n## __AWS SecurityHub__\r\n  - ### Features\r\n    - Release GenerateRecommendedPolicyV2 and GetRecommendedPo",
-    "published_at": "2026-05-06T19:32:15Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 4.433,
-    "score_breakdown": {
-      "freshness": 0.933,
-      "keyword": 3.5,
-      "source": 1.0,
-      "keyword_signal": 3.5,
-      "severity": 0.0,
-      "total": 4.433
+      "total": 4.144
     }
   },
   {
@@ -297,14 +275,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.932,
+    "score": 3.429,
     "score_breakdown": {
-      "freshness": 0.932,
-      "keyword": 3.0,
+      "freshness": 0.929,
+      "keyword": 2.5,
       "source": 1.0,
-      "keyword_signal": 3.0,
+      "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 3.932
+      "total": 3.429
     }
   },
   {
@@ -319,124 +297,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.808,
+    "score": 2.805,
     "score_breakdown": {
-      "freshness": 0.808,
-      "keyword": 3.0,
+      "freshness": 0.805,
+      "keyword": 2.0,
       "source": 1.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.808
-    }
-  },
-  {
-    "id": "160ae819c94a22ba",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.7",
-    "title": "AWS SDK for Java v2 2.44.7",
-    "summary": "# __2.44.7__ __2026-05-15__\n## __AWS Elemental MediaPackage v2__\n  - ### Features\n    - This release adds support for AvailabilityStartTimeConfiguration in MediaPackageV2 DASH manifests\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n\n## __Amazon CloudWatch Logs__\n  - ### Features\n    - Service Release Notes\n\n## __Partner Central Selling API__\n  - ### Features\n    - Service Release Notes",
-    "published_at": "2026-05-15T19:05:17Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.271,
-    "score_breakdown": {
-      "freshness": 1.771,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 3.271
-    }
-  },
-  {
-    "id": "7addbf907b693d3a",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.34",
-    "title": "AWS SDK for Java v2 2.42.34",
-    "summary": "# __2.42.34__ __2026-04-13__\n## __AWS Glue__\n  - ### Features\n    - AWS Glue now defaults to Glue version 5.1 for newly created jobs if the Glue version is not specified in the request, and UpdateJob now preserves the existing Glue version of a job when the Glue version is not specified in the update request.\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n\n## __AWS SecurityHub__\n  - ### Features\n    - Provide organizational unit scoping capability for",
-    "published_at": "2026-04-13T19:16:21Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.18,
-    "score_breakdown": {
-      "freshness": 0.18,
-      "keyword": 3.0,
-      "source": 1.0,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 3.18
-    }
-  },
-  {
-    "id": "2b2e5f72b87c9a16",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1047.0",
-    "title": "v3.1047.0",
-    "summary": "#### 3.1047.0(2026-05-14)\n\n##### Chores\n\n*  upgrade fast-xml-parser to 5.7.3 ([#8021](https://github.com/aws/aws-sdk-js-v3/pull/8021)) ([b2aae04e](https://github.com/aws/aws-sdk-js-v3/commit/b2aae04e93b046dbb384cc5c9339298953ab3843))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-14 ([3505575d](https://github.com/aws/aws-sdk-js-v3/commit/3505575ddb0441cd291dfbb044bc01af6f859b32))\n* **client-glue:**  Release --has-databases parameter for AWS Glue get-catalogs API, whic",
-    "published_at": "2026-05-14T18:52:53Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.148,
-    "score_breakdown": {
-      "freshness": 1.648,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 3.148
-    }
-  },
-  {
-    "id": "8fad3ab4d4c552f9",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.5",
-    "title": "AWS SDK for Java v2 2.44.5",
-    "summary": "# __2.44.5__ __2026-05-13__\n## __ARC - Region switch__\n  - ### Features\n    - Service Release Notes\n\n## __AWS Batch__\n  - ### Features\n    - Adds a billing callout to docs regarding using the CE Scale Down Delay feature\n\n## __AWS End User Messaging Social__\n  - ### Features\n    - Adds parameters to call the GetWhatsAppMessageTemplate and UpdateWhatsAppMessageTemplate APIs with a template name and language code in place of the template ID. Linked WhatsApp accounts also describe whether the WABA i",
-    "published_at": "2026-05-13T19:12:30Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 3.036,
-    "score_breakdown": {
-      "freshness": 1.536,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 3.036
-    }
-  },
-  {
-    "id": "5906a0398e80ba28",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.253.0",
-    "title": "v2.253.0",
-    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37753](https://github.com/aws/aws-cdk/issues/37753)) ([a661c2d](https://github.com/aws/aws-cdk/commit/a661c2ddee343a610b0ab312996ce34e6cacb571))\n* **apigatewayv2-integrations:** auto-include EventBusName in HttpEventBridgeIntegration default parameter mapping ([#36780](https://github.com/aws/aws-cdk/issues/36780)) ([9734bb4](https://github.com/aws/aws-cdk/commit/9734bb4382db1123b3c78ffea1130d702fb5a845)), closes [#36775](https://gi",
-    "published_at": "2026-05-06T17:51:15Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.928,
-    "score_breakdown": {
-      "freshness": 0.928,
-      "keyword": 1.0,
-      "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.928
+      "total": 2.805
     }
   },
   {
@@ -451,14 +319,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.769,
+    "score": 2.764,
     "score_breakdown": {
-      "freshness": 1.769,
+      "freshness": 1.764,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.769
+      "total": 2.764
     }
   },
   {
@@ -528,6 +396,28 @@
     }
   },
   {
+    "id": "2b2e5f72b87c9a16",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1047.0",
+    "title": "v3.1047.0",
+    "summary": "#### 3.1047.0(2026-05-14)\n\n##### Chores\n\n*  upgrade fast-xml-parser to 5.7.3 ([#8021](https://github.com/aws/aws-sdk-js-v3/pull/8021)) ([b2aae04e](https://github.com/aws/aws-sdk-js-v3/commit/b2aae04e93b046dbb384cc5c9339298953ab3843))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-14 ([3505575d](https://github.com/aws/aws-sdk-js-v3/commit/3505575ddb0441cd291dfbb044bc01af6f859b32))\n* **client-glue:**  Release --has-databases parameter for AWS Glue get-catalogs API, whic",
+    "published_at": "2026-05-14T18:52:53Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.643,
+    "score_breakdown": {
+      "freshness": 1.643,
+      "keyword": 1.0,
+      "source": 1.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.643
+    }
+  },
+  {
     "id": "85d6b1801ae84ef8",
     "track": "releases",
     "source": "github:aws/aws-sdk-go-v2",
@@ -539,36 +429,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.647,
+    "score": 2.642,
     "score_breakdown": {
-      "freshness": 1.647,
+      "freshness": 1.642,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.647
+      "total": 2.642
     }
   },
   {
-    "id": "700c4dbe16ea6d3a",
+    "id": "8fad3ab4d4c552f9",
     "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
+    "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-13",
-    "title": "May 13th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-arcregionswitch` (1.23.0): Adds support for enabling and disabling Lambda event source mappings in Region switch plans.\n- `aws-sdk-bedrockagentcorecontrol` (1.54.0): Adds support for read-only summary APIs for Policy Engine, Policy, and Policy Generation resources, enabling metadata retrieval without KMS decryption for AWS Config integration.\n- `aws-sdk-billingconductor` (1.103.0): Add ConflictException to UpdateCustomLineItem operation.\n- `aws-sdk-connect` (1.17",
-    "published_at": "2026-05-13T18:57:15Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.5",
+    "title": "AWS SDK for Java v2 2.44.5",
+    "summary": "# __2.44.5__ __2026-05-13__\n## __ARC - Region switch__\n  - ### Features\n    - Service Release Notes\n\n## __AWS Batch__\n  - ### Features\n    - Adds a billing callout to docs regarding using the CE Scale Down Delay feature\n\n## __AWS End User Messaging Social__\n  - ### Features\n    - Adds parameters to call the GetWhatsAppMessageTemplate and UpdateWhatsAppMessageTemplate APIs with a template name and language code in place of the template ID. Linked WhatsApp accounts also describe whether the WABA i",
+    "published_at": "2026-05-13T19:12:30Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.535,
+    "score": 2.531,
     "score_breakdown": {
-      "freshness": 1.535,
+      "freshness": 1.531,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.535
+      "total": 2.531
     }
   },
   {
@@ -583,36 +473,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.534,
+    "score": 2.529,
     "score_breakdown": {
-      "freshness": 1.534,
+      "freshness": 1.529,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.534
-    }
-  },
-  {
-    "id": "5852ec5e4d9efc93",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1045.0",
-    "title": "v3.1045.0",
-    "summary": "#### 3.1045.0(2026-05-07)\n\n##### Documentation Changes\n\n* **client-guardduty:**  This is a documentation update ([1484574c](https://github.com/aws/aws-sdk-js-v3/commit/1484574cd28136e104e4364499a02f0435d274af))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-07 ([81310767](https://github.com/aws/aws-sdk-js-v3/commit/81310767bd884df988d524faf7d1f131f15c6197))\n* **client-bcm-data-exports:**  With this release, customers can configure their data exports to generate additi",
-    "published_at": "2026-05-07T19:17:31Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.501,
-    "score_breakdown": {
-      "freshness": 1.001,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 2.501
+      "total": 2.529
     }
   },
   {
@@ -627,14 +495,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.431,
+    "score": 2.428,
     "score_breakdown": {
-      "freshness": 0.931,
+      "freshness": 0.928,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.431
+      "total": 2.428
+    }
+  },
+  {
+    "id": "160ae819c94a22ba",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.7",
+    "title": "AWS SDK for Java v2 2.44.7",
+    "summary": "# __2.44.7__ __2026-05-15__\n## __AWS Elemental MediaPackage v2__\n  - ### Features\n    - This release adds support for AvailabilityStartTimeConfiguration in MediaPackageV2 DASH manifests\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n\n## __Amazon CloudWatch Logs__\n  - ### Features\n    - Service Release Notes\n\n## __Partner Central Selling API__\n  - ### Features\n    - Service Release Notes",
+    "published_at": "2026-05-15T19:05:17Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.266,
+    "score_breakdown": {
+      "freshness": 1.766,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 2.266
     }
   },
   {
@@ -649,14 +539,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.27,
+    "score": 2.265,
     "score_breakdown": {
-      "freshness": 1.77,
+      "freshness": 1.765,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.27
+      "total": 2.265
     }
   },
   {
@@ -673,14 +563,14 @@
       "prerelease"
     ],
     "severity": null,
-    "score": 2.222,
+    "score": 2.217,
     "score_breakdown": {
-      "freshness": 1.722,
+      "freshness": 1.717,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.222
+      "total": 2.217
     }
   },
   {
@@ -695,80 +585,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.183,
+    "score": 2.178,
     "score_breakdown": {
-      "freshness": 1.683,
+      "freshness": 1.678,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.183
-    }
-  },
-  {
-    "id": "a7aff002ee4c0ecb",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.43.2",
-    "title": "AWS SDK for Java v2 2.43.2",
-    "summary": "# __2.43.2__ __2026-04-30__\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n  - ### Bugfixes\r\n    - Improved error message when `ResponseTransformer.toFile()` or `AsyncResponseTransformer.toFile()` fails because the parent directory does not exist. The error now indicates that the parent directory must be created before calling the method.\r\n\r\n## __AWS Single Sign-On Admin__\r\n  - ### Features\r\n    - Add InstanceArn and IdentityStoreArn in the respo",
-    "published_at": "2026-04-30T19:03:01Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.107,
-    "score_breakdown": {
-      "freshness": 0.607,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 2.107
-    }
-  },
-  {
-    "id": "41bd625ca50b9cce",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.253.1",
-    "title": "v2.253.1",
-    "summary": "### Bug Fixes\n\n* **core:** \"exports cannot be updated\" for cross-region references ([#37790](https://github.com/aws/aws-cdk/issues/37790)) ([b0c00e2](https://github.com/aws/aws-cdk/commit/b0c00e2b1fde5da462d4fd848610f59e78b482ba))\n* **s3deploy:** empty sources leads to deployment error ([#37786](https://github.com/aws/aws-cdk/issues/37786)) ([f61656a](https://github.com/aws/aws-cdk/commit/f61656a3a408b0b50d79f43cdf18d0f5801e9a43))\n---\n## Alpha modules (2.253.1-alpha.0)\n",
-    "published_at": "2026-05-08T16:13:36Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.065,
-    "score_breakdown": {
-      "freshness": 1.065,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.065
-    }
-  },
-  {
-    "id": "373aeb8595c56749",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1046.0",
-    "title": "v3.1046.0",
-    "summary": "#### 3.1046.0(2026-05-14)\n\n##### Chores\n\n* **build:**  set compilation config module type to nodenext ([#8018](https://github.com/aws/aws-sdk-js-v3/pull/8018)) ([893d9e61](https://github.com/aws/aws-sdk-js-v3/commit/893d9e61bd48172967d814aea5522cabac103713))\n* **core/util:**\n  *  update tsconfig.types.json ([#8016](https://github.com/aws/aws-sdk-js-v3/pull/8016)) ([b09190e7](https://github.com/aws/aws-sdk-js-v3/commit/b09190e7ce4a01accf8aaca069c655036c1e4bae))\n  *  migrate minor utility function",
-    "published_at": "2026-05-14T01:17:36Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.064,
-    "score_breakdown": {
-      "freshness": 1.564,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 2.064
+      "total": 2.178
     }
   },
   {
@@ -783,36 +607,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.064,
+    "score": 2.062,
     "score_breakdown": {
-      "freshness": 0.564,
+      "freshness": 0.562,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.064
+      "total": 2.062
     }
   },
   {
-    "id": "ab39d8b167c3d52c",
+    "id": "373aeb8595c56749",
     "track": "releases",
-    "source": "github:aws/aws-cdk",
+    "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.245.0",
-    "title": "v2.245.0",
-    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37332](https://github.com/aws/aws-cdk/issues/37332)) ([6cdf84a](https://github.com/aws/aws-cdk/commit/6cdf84aa9a50ef41dae54f14c2bcf4f48d46dbd1))\n* **autoscaling:** add instanceLifecyclePolicy support to AutoScalingGroup Property ([#36434](https://github.com/aws/aws-cdk/issues/36434)) ([b72ffcc](https://github.com/aws/aws-cdk/commit/b72ffcc343a7bff1745dfea4d1e8de4a0d6b998e))\n* **cloudfront:** use JavaScript runtime 2.0 as the defaul",
-    "published_at": "2026-03-27T16:03:15Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1046.0",
+    "title": "v3.1046.0",
+    "summary": "#### 3.1046.0(2026-05-14)\n\n##### Chores\n\n* **build:**  set compilation config module type to nodenext ([#8018](https://github.com/aws/aws-sdk-js-v3/pull/8018)) ([893d9e61](https://github.com/aws/aws-sdk-js-v3/commit/893d9e61bd48172967d814aea5522cabac103713))\n* **core/util:**\n  *  update tsconfig.types.json ([#8016](https://github.com/aws/aws-sdk-js-v3/pull/8016)) ([b09190e7](https://github.com/aws/aws-sdk-js-v3/commit/b09190e7ce4a01accf8aaca069c655036c1e4bae))\n  *  migrate minor utility function",
+    "published_at": "2026-05-14T01:17:36Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.053,
+    "score": 2.059,
     "score_breakdown": {
-      "freshness": 0.053,
-      "keyword": 1.0,
-      "source": 2.0,
-      "keyword_signal": 2.0,
+      "freshness": 1.559,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.053
+      "total": 2.059
     }
   },
   {
@@ -827,102 +651,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.047,
+    "score": 2.042,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.542,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 2.047
+      "total": 2.042
     }
   },
   {
-    "id": "666d028dd5556349",
+    "id": "5852ec5e4d9efc93",
     "track": "releases",
-    "source": "github:aws/aws-cdk",
+    "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.244.0",
-    "title": "v2.244.0",
-    "summary": "### Features\n\n* **codebuild:** add support for macOS 26 runners ([#37240](https://github.com/aws/aws-cdk/issues/37240)) ([1b7b292](https://github.com/aws/aws-cdk/commit/1b7b2929fccd786c0bd38ea735b90aef9e470106)), closes [#37241](https://github.com/aws/aws-cdk/issues/37241) [#35836](https://github.com/aws/aws-cdk/issues/35836)\n* update L1 CloudFormation resource definitions ([#37260](https://github.com/aws/aws-cdk/issues/37260)) ([40a5142](https://github.com/aws/aws-cdk/commit/40a5142771b1ea450a2",
-    "published_at": "2026-03-19T17:31:51Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1045.0",
+    "title": "v3.1045.0",
+    "summary": "#### 3.1045.0(2026-05-07)\n\n##### Documentation Changes\n\n* **client-guardduty:**  This is a documentation update ([1484574c](https://github.com/aws/aws-sdk-js-v3/commit/1484574cd28136e104e4364499a02f0435d274af))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-07 ([81310767](https://github.com/aws/aws-sdk-js-v3/commit/81310767bd884df988d524faf7d1f131f15c6197))\n* **client-bcm-data-exports:**  With this release, customers can configure their data exports to generate additi",
+    "published_at": "2026-05-07T19:17:31Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.03,
+    "score": 1.998,
     "score_breakdown": {
-      "freshness": 0.03,
-      "keyword": 1.0,
-      "source": 2.0,
-      "keyword_signal": 2.0,
-      "severity": 0.0,
-      "total": 2.03
-    }
-  },
-  {
-    "id": "61c7d729f7f08f74",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.243.0",
-    "title": "v2.243.0",
-    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37201](https://github.com/aws/aws-cdk/issues/37201)) ([85daaf5](https://github.com/aws/aws-cdk/commit/85daaf5b58ca6c4184f215e48a4e953e228fd42e))\n* **cfn-property-mixins:** graduate to stable @aws-cdk/cfn-property-mixins package ([#37215](https://github.com/aws/aws-cdk/issues/37215)) ([f071e67](https://github.com/aws/aws-cdk/commit/f071e67878cf27aefd07c8820b2de8bdf5431d56))\n\n\n### Bug Fixes\n\n* **dynamodb:** resource policies don't ha",
-    "published_at": "2026-03-11T16:13:53Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.017,
-    "score_breakdown": {
-      "freshness": 0.017,
-      "keyword": 1.0,
-      "source": 2.0,
-      "keyword_signal": 2.0,
-      "severity": 0.0,
-      "total": 2.017
-    }
-  },
-  {
-    "id": "7de68198b4a340a2",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.240.0",
-    "title": "v2.240.0",
-    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37039](https://github.com/aws/aws-cdk/issues/37039)) ([17b2d93](https://github.com/aws/aws-cdk/commit/17b2d93f1f1aa422729e344649d43eb92e3999de))\n* **eks-v2:** graduate to stable 🚀 ([#36950](https://github.com/aws/aws-cdk/issues/36950)) ([a7de51c](https://github.com/aws/aws-cdk/commit/a7de51c33497b0c4db26c344da19e72eeb9327a7))\n* update L1 CloudFormation resource definitions ([#37034](https://github.com/aws/aws-cdk/issues/37034)) ([6",
-    "published_at": "2026-02-23T21:43:23Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.005,
-    "score_breakdown": {
-      "freshness": 0.005,
-      "keyword": 1.0,
-      "source": 2.0,
-      "keyword_signal": 2.0,
-      "severity": 0.0,
-      "total": 2.005
-    }
-  },
-  {
-    "id": "92afd10b0a871db9",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-07",
-    "title": "May 7th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-bcmdataexports` (1.98.0): With this release, customers can configure their data exports to generate additional integration artifacts for Athena and Redshift.\n- `aws-sdk-bedrockagentcore` (1.43.0): Launching AgentCore payments - a capability that provides secure, instant microtransaction payments for AI agents to access paid APIs, MCP servers, and content. It handles payment processing for x402 protocol, payment limits, and 3P wallet integrations with Coinbase CDP",
-    "published_at": "2026-05-07T19:12:22Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.001,
-    "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.998,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.001
+      "total": 1.998
     }
   },
   {
@@ -937,126 +695,58 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.0,
+    "score": 1.997,
     "score_breakdown": {
-      "freshness": 1.0,
+      "freshness": 0.997,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.0
+      "total": 1.997
     }
   },
   {
-    "id": "781d7b8b35c851b8",
+    "id": "56172ad9313633cb",
     "track": "releases",
-    "source": "github:aws/aws-cli",
+    "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-cli/releases/tag/2.0.0dev0",
-    "title": "AWS CLI 2.0.0dev preview release",
-    "summary": "This is the first developer release of AWS CLI v2.0.0.\r\n\r\n**The AWS CLI v2.0.0 is not recommended for production use and is offered as a developer release.**\r\n\r\nMajor features include:\r\n\r\n* Improved auto-completion performance\r\n* Add support for resource value auto completion, which can auto complete resources such as Amazon DynamoDB table names, AWS IAM user names, etc.\r\n* Add support for wizards, which allows interactive prompting in order to create and configure AWS resources.\r\n* Add high lev",
-    "published_at": "2018-11-26T06:25:44Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.3",
+    "title": "AWS SDK for Java v2 2.44.3",
+    "summary": "# __2.44.3__ __2026-05-06__\r\n## __AWS Glue__\r\n  - ### Features\r\n    - Adds support for a CustomLogGroupPrefix parameter in StartDataQualityRulesetEvaluationRun to specify custom CloudWatch log group paths, and a RulesetName filter in ListDataQualityRulesetEvaluationRuns to filter evaluation runs by ruleset name.\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Update Netty to 4.1.133\r\n\r\n## __AWS SecurityHub__\r\n  - ### Features\r\n    - Release GenerateRecommendedPolicyV2 and GetRecommendedPo",
+    "published_at": "2026-05-06T19:32:15Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [
-      "prerelease"
-    ],
+    "tags": [],
     "severity": null,
-    "score": 2.0,
+    "score": 1.93,
     "score_breakdown": {
-      "freshness": 0.0,
+      "freshness": 0.93,
       "keyword": 1.0,
+      "source": 1.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.93
+    }
+  },
+  {
+    "id": "5906a0398e80ba28",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.253.0",
+    "title": "v2.253.0",
+    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37753](https://github.com/aws/aws-cdk/issues/37753)) ([a661c2d](https://github.com/aws/aws-cdk/commit/a661c2ddee343a610b0ab312996ce34e6cacb571))\n* **apigatewayv2-integrations:** auto-include EventBusName in HttpEventBridgeIntegration default parameter mapping ([#36780](https://github.com/aws/aws-cdk/issues/36780)) ([9734bb4](https://github.com/aws/aws-cdk/commit/9734bb4382db1123b3c78ffea1130d702fb5a845)), closes [#36775](https://gi",
+    "published_at": "2026-05-06T17:51:15Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.925,
+    "score_breakdown": {
+      "freshness": 0.925,
+      "keyword": 0.5,
       "source": 2.0,
-      "keyword_signal": 2.0,
-      "severity": 0.0,
-      "total": 2.0
-    }
-  },
-  {
-    "id": "3ca8a99e57fb8172",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.41",
-    "title": "AWS SDK for Java v2 2.42.41",
-    "summary": "# __2.42.41__ __2026-04-24__\r\n## __AWS CRT HTTP Client__\r\n  - ### Bugfixes\r\n    - Fix connection pool leak in AwsCrtHttpClient when threads are externally interrupted.\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n## __AWS Transfer Family__\r\n  - ### Features\r\n    - AWS Transfer Family now support configurable IP address types for Web Apps of type VPC, enabling customers to select IPv4-only or dual-stack (IPv4 and IPv6) configurations based on ",
-    "published_at": "2026-04-24T19:32:36Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.896,
-    "score_breakdown": {
-      "freshness": 0.396,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.896
-    }
-  },
-  {
-    "id": "166af5c5dc409f3d",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.2",
-    "title": "AWS SDK for Java v2 2.44.2",
-    "summary": "# __2.44.2__ __2026-05-05__\r\n## __AWS Clean Rooms ML__\r\n  - ### Features\r\n    - Increase max configurable output limits in the Clean Rooms ML configured model algorithm association resource.\r\n\r\n## __AWS Health Imaging__\r\n  - ### Features\r\n    - Add support for DICOM Json Metadata Override features in startDICOMImportJob API\r\n\r\n## __AWS Marketplace Agreement Service__\r\n  - ### Features\r\n    - With this release, Agreements API provides a programmatic way to generate quotes, accept offers, track ch",
-    "published_at": "2026-05-05T19:41:51Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.869,
-    "score_breakdown": {
-      "freshness": 0.869,
-      "keyword": 1.0,
-      "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.869
-    }
-  },
-  {
-    "id": "e3ac20d2bb2488af",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1043.0",
-    "title": "v3.1043.0",
-    "summary": "#### 3.1043.0(2026-05-05)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-05 ([f577bd74](https://github.com/aws/aws-sdk-js-v3/commit/f577bd742cc58b4a2f936c5906a1e5889025b340))\n* **client-cloudfront:**  Adds support for tagging CloudFront Functions and KeyValueStores resources. ([cb71d306](https://github.com/aws/aws-sdk-js-v3/commit/cb71d306ef0d83818e90e7ce8b31689362605542))\n* **client-mediatailor:**  Added support for Monetization Functions. Monetization Functions let ",
-    "published_at": "2026-05-05T18:54:41Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.867,
-    "score_breakdown": {
-      "freshness": 0.867,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.867
-    }
-  },
-  {
-    "id": "97b03ee4ff21dffb",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-05",
-    "title": "May 5th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-cleanroomsml` (1.105.0): Increase max configurable output limits in the Clean Rooms ML configured model algorithm association resource.\n- `aws-sdk-cloudfront` (1.118.0): Adds support for tagging CloudFront Functions and KeyValueStores resources.\n- `aws-sdk-marketplaceagreement` (1.99.0): With this release, Agreements API provides a programmatic way to generate quotes, accept offers, track charges and entitlements, manage renewals and cancellations, and streamline",
-    "published_at": "2026-05-05T18:51:08Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.867,
-    "score_breakdown": {
-      "freshness": 0.867,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.867
+      "total": 1.925
     }
   },
   {
@@ -1071,14 +761,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.866,
+    "score": 1.863,
     "score_breakdown": {
-      "freshness": 0.866,
+      "freshness": 0.863,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.866
+      "total": 1.863
     }
   },
   {
@@ -1093,14 +783,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.842,
+    "score": 1.841,
     "score_breakdown": {
-      "freshness": 0.342,
+      "freshness": 0.341,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.842
+      "total": 1.841
     }
   },
   {
@@ -1115,14 +805,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.807,
+    "score": 1.804,
     "score_breakdown": {
-      "freshness": 0.807,
+      "freshness": 0.804,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.807
+      "total": 1.804
     }
   },
   {
@@ -1335,36 +1025,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.77,
+    "score": 1.765,
     "score_breakdown": {
-      "freshness": 1.77,
+      "freshness": 1.765,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.77
-    }
-  },
-  {
-    "id": "8014797b83cd7491",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.36",
-    "title": "AWS SDK for Java v2 2.42.36",
-    "summary": "# __2.42.36__ __2026-04-17__\n## __AWS CRT HTTP Client__\n  - ### Bugfixes\n    - Java CRT 0.39.3 enables and prefers Post Quantum TLS (PQ TLS) by default when supported by the platform and service. The `postQuantumTlsEnabled` builder option in aws-sdk-java-v2 now becomes an opt-out mechanism; setting it to false explicitly disables PQ TLS.\n        - Contributed by: [@WillChilds-Klein](https://github.com/WillChilds-Klein)\n\n## __AWS Clean Rooms Service__\n  - ### Features\n    - This release adds supp",
-    "published_at": "2026-04-17T23:47:22Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.743,
-    "score_breakdown": {
-      "freshness": 0.243,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.743
+      "total": 1.765
     }
   },
   {
@@ -1390,28 +1058,6 @@
     }
   },
   {
-    "id": "e8d30d15018116b8",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-16",
-    "title": "April 16th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-appstream` (1.110.0): Add content redirection to Update Stack\n- `aws-sdk-autoscaling` (1.114.0): This release adds support for specifying Availability Zone IDs as an alternative to Availability Zone names when creating or updating Auto Scaling groups.\n- `aws-sdk-bedrockagentcore` (1.38.0): Introducing NamespacePath in AgentCore Memory to support hierarchical prefix based memory record retrieval.\n- `aws-sdk-cloudwatchlogs` (1.126.0): Endpoint update for CloudWatch",
-    "published_at": "2026-04-16T18:47:42Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.723,
-    "score_breakdown": {
-      "freshness": 0.223,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.723
-    }
-  },
-  {
     "id": "83f1d0c0136c2ff1",
     "track": "releases",
     "source": "github:aws/aws-sdk-go-v2",
@@ -1423,102 +1069,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.723,
+    "score": 1.722,
     "score_breakdown": {
-      "freshness": 0.223,
+      "freshness": 0.222,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.723
-    }
-  },
-  {
-    "id": "d8a43fd37c45ab06",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-13",
-    "title": "April 13th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-customerprofiles` (1.110.0): This release introduces changes to SegmentDefinition APIs to support sorting by attributes.\n- `aws-sdk-deadline` (1.98.0): Adds GetMonitorSettings and UpdateMonitorSettings APIs to Deadline Cloud. Enables reading and writing monitor settings as key-value pairs (up to 64 keys per monitor). UpdateMonitorSettings supports upsert and delete (via empty value) semantics and is idempotent.\n- `aws-sdk-interconnect` (1.0.0): Initial release of",
-    "published_at": "2026-04-13T18:56:01Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.68,
-    "score_breakdown": {
-      "freshness": 0.18,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.68
-    }
-  },
-  {
-    "id": "03a6af1c753283a5",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-04-13",
-    "title": "Release (2026-04-13)",
-    "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/customerprofiles`: [v1.58.0](service/customerprofiles/CHANGELOG.md#v1580-2026-04-13)\n  * **Feature**: This release introduces changes to SegmentDefinition APIs to support sorting by attributes.\n* `github.com/aws/aws-sdk-go-v2/service/deadline`: [v1.30.0](service/deadline/CHANGELOG.md#v1300-2026-04-13)\n  * **Feature**: Adds GetMonitorSettings and UpdateMonitorSettings APIs to Deadline Cloud. Enables reading and writing monitor settings ",
-    "published_at": "2026-04-13T18:41:50Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.68,
-    "score_breakdown": {
-      "freshness": 0.18,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.68
-    }
-  },
-  {
-    "id": "05da4b34c8669cbb",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-14",
-    "title": "May 14th, 2026",
-    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.16|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.3|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.107.0|\n|aws-sdk-account|1.102.0|\n|aws-sdk-acm|1.102.0|\n|aws-sdk-acmpca|1.104.0|\n|aws-sdk-aiops|1.27.0|\n|aws-sdk-amp|1.105.0|\n|aws-sdk-amplify|1.107.0|\n|aws-sdk-amplifybackend|1.98.0|\n|aws-sdk-amplifyuibuilder|1.98.0|\n|aws-sdk-apigateway|1.104.0|\n|aws-sdk-apigatewaym",
-    "published_at": "2026-05-14T19:29:03Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.651,
-    "score_breakdown": {
-      "freshness": 1.651,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.651
-    }
-  },
-  {
-    "id": "80fa9665a53843b3",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-01",
-    "title": "May 1st, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-appstream` (1.112.0): Amazon WorkSpaces Applications now enables AI agents to securely operate desktop applications. Administrators configure stacks to provide agents access to WorkSpaces. Agents can click, type, and take screenshots. Agents authenticate with AWS IAM credentials with activity logged in AWS CloudTrail.\n- `aws-sdk-cloudwatch` (1.111.0): This release adds tag support for CloudWatch Dashboards. The PutDashboard API now accepts a Tags parameter, allow",
-    "published_at": "2026-05-01T18:59:24Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.651,
-    "score_breakdown": {
-      "freshness": 0.651,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.651
+      "total": 1.722
     }
   },
   {
@@ -1533,58 +1091,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.651,
+    "score": 1.649,
     "score_breakdown": {
-      "freshness": 0.651,
+      "freshness": 0.649,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.651
+      "total": 1.649
     }
   },
   {
-    "id": "a74b4077ebc85beb",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1040.0",
-    "title": "v3.1040.0",
-    "summary": "#### 3.1040.0(2026-04-30)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-30 ([2620ccbd](https://github.com/aws/aws-sdk-js-v3/commit/2620ccbde703e7736c282c18f661b05057048919))\n* **client-bedrock-agentcore-control:**  AgentCore Identity now supports on-behalf-of token exchange OAuth2. AgentCore Memory now supports metadata for LongTerm Memory Records. ([6b9d13e3](https://github.com/aws/aws-sdk-js-v3/commit/6b9d13e32ec62f14899030b3b6555c6e4e6d555a))\n* **client-route53glo",
-    "published_at": "2026-04-30T19:56:03Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.608,
-    "score_breakdown": {
-      "freshness": 0.608,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.608
-    }
-  },
-  {
-    "id": "68c26e338b5a7f0b",
+    "id": "05da4b34c8669cbb",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-30",
-    "title": "April 30th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcore` (1.42.0): AgentCore Identity now supports on-behalf-of token exchange OAuth2. AgentCore Memory now supports metadata for LongTerm Memory Records.\n- `aws-sdk-bedrockagentcorecontrol` (1.50.0): AgentCore Identity now supports on-behalf-of token exchange OAuth2. AgentCore Memory now supports metadata for LongTerm Memory Records.\n- `aws-sdk-datazone` (1.135.0): Adds support for asynchronous notebook runs\n- `aws-sdk-eks` (1.130.0): Vended logs update",
-    "published_at": "2026-04-30T18:49:34Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-14",
+    "title": "May 14th, 2026",
+    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.16|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.3|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.107.0|\n|aws-sdk-account|1.102.0|\n|aws-sdk-acm|1.102.0|\n|aws-sdk-acmpca|1.104.0|\n|aws-sdk-aiops|1.27.0|\n|aws-sdk-amp|1.105.0|\n|aws-sdk-amplify|1.107.0|\n|aws-sdk-amplifybackend|1.98.0|\n|aws-sdk-amplifyuibuilder|1.98.0|\n|aws-sdk-apigateway|1.104.0|\n|aws-sdk-apigatewaym",
+    "published_at": "2026-05-14T19:29:03Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.606,
+    "score": 1.646,
     "score_breakdown": {
-      "freshness": 0.606,
-      "keyword": 1.0,
+      "freshness": 1.646,
+      "keyword": 0.0,
       "source": 1.0,
-      "keyword_signal": 1.0,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.606
+      "total": 1.646
     }
   },
   {
@@ -1599,58 +1135,58 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.606,
+    "score": 1.604,
     "score_breakdown": {
-      "freshness": 0.606,
+      "freshness": 0.604,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.606
+      "total": 1.604
     }
   },
   {
-    "id": "290af54111d8afaf",
+    "id": "700c4dbe16ea6d3a",
     "track": "releases",
-    "source": "github:aws/aws-cdk",
+    "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.252.0",
-    "title": "v2.252.0",
-    "summary": "### Features\n\n* **core:** `Validations` class now supports `addWarning`, `addError`, and `acknowledge` ([#37668](https://github.com/aws/aws-cdk/issues/37668)) ([5e8083c](https://github.com/aws/aws-cdk/commit/5e8083c79f2657fe2364a31ed3f26d0d88638920)), closes [aws/aws-cdk-rfcs#899](https://github.com/aws/aws-cdk-rfcs/issues/899)\n* **core:** add Box API for deferred values with accurate stack traces ([#37604](https://github.com/aws/aws-cdk/issues/37604)) ([d592a96](https://github.com/aws/aws-cdk/c",
-    "published_at": "2026-04-30T12:40:15Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-13",
+    "title": "May 13th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-arcregionswitch` (1.23.0): Adds support for enabling and disabling Lambda event source mappings in Region switch plans.\n- `aws-sdk-bedrockagentcorecontrol` (1.54.0): Adds support for read-only summary APIs for Policy Engine, Policy, and Policy Generation resources, enabling metadata retrieval without KMS decryption for AWS Config integration.\n- `aws-sdk-billingconductor` (1.103.0): Add ConflictException to UpdateCustomLineItem operation.\n- `aws-sdk-connect` (1.17",
+    "published_at": "2026-05-13T18:57:15Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.595,
+    "score": 1.53,
     "score_breakdown": {
-      "freshness": 0.595,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
+      "freshness": 1.53,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.595
+      "total": 1.53
     }
   },
   {
-    "id": "2aa3eba038193754",
+    "id": "92afd10b0a871db9",
     "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
+    "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.4",
-    "title": "AWS SDK for Java v2 2.44.4",
-    "summary": "# __2.44.4__ __2026-05-07__\n## __Amazon Route 53 Resolver__\n  - ### Features\n    - Adds supports for DNS64 on inbound endpoints and IPv6 forwarding through the internet gateway (IGW) on outbound endpoints, making it easier to manage hybrid DNS across IPv4 and IPv6 networks.\n\n## __Amazon Bedrock AgentCore Control__\n  - ### Features\n    - Launching AgentCore payments - a capability that provides secure, instant microtransaction payments for AI agents to access paid APIs, MCP servers, and content. ",
-    "published_at": "2026-05-07T19:25:52Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-07",
+    "title": "May 7th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-bcmdataexports` (1.98.0): With this release, customers can configure their data exports to generate additional integration artifacts for Athena and Redshift.\n- `aws-sdk-bedrockagentcore` (1.43.0): Launching AgentCore payments - a capability that provides secure, instant microtransaction payments for AI agents to access paid APIs, MCP servers, and content. It handles payment processing for x402 protocol, payment limits, and 3P wallet integrations with Coinbase CDP",
+    "published_at": "2026-05-07T19:12:22Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.501,
+    "score": 1.498,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.998,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.501
+      "total": 1.498
     }
   },
   {
@@ -1665,58 +1201,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.491,
+    "score": 1.489,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.489,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.491
-    }
-  },
-  {
-    "id": "6fe932c73d7836a3",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-06",
-    "title": "May 6th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcorecontrol` (1.52.0): Adds support for bring-your-own file system in AgentCore Runtime. Developers can mount Amazon S3 Files and Amazon EFS access points directly into agent sessions using filesystemConfigurations.\n- `aws-sdk-glue` (1.145.0): Adds support for a CustomLogGroupPrefix parameter in StartDataQualityRulesetEvaluationRun to specify custom CloudWatch log group paths, and a RulesetName filter in ListDataQualityRulesetEvaluationRuns to filter ",
-    "published_at": "2026-05-06T19:12:33Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.432,
-    "score_breakdown": {
-      "freshness": 0.932,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.432
-    }
-  },
-  {
-    "id": "4b89a4c0b87d062f",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1037.0",
-    "title": "v3.1037.0",
-    "summary": "#### 3.1037.0(2026-04-24)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-24 ([ca3df2be](https://github.com/aws/aws-sdk-js-v3/commit/ca3df2be81f16be0919b8fe8f384d2495def6754))\n* **client-evs:**  EVS now supports i7i.metal-24xl EC2 bare metal instance type, delivering high random IOPS performance with real-time latency, ideal for IO intensive and latency-sensitive workloads such as transactional databases, real-time analytics, and AI ML pre-processing. ([fd92ee48](https",
-    "published_at": "2026-04-24T19:03:52Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.395,
-    "score_breakdown": {
-      "freshness": 0.395,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.395
+      "total": 1.489
     }
   },
   {
@@ -1731,14 +1223,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.395,
+    "score": 1.394,
     "score_breakdown": {
-      "freshness": 0.395,
+      "freshness": 0.394,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.395
+      "total": 1.394
     }
   },
   {
@@ -1753,58 +1245,80 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.37,
+    "score": 1.369,
     "score_breakdown": {
-      "freshness": 0.37,
+      "freshness": 0.369,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.37
+      "total": 1.369
     }
   },
   {
-    "id": "a17ac8eeb5ac2f08",
+    "id": "166af5c5dc409f3d",
     "track": "releases",
     "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.38",
-    "title": "AWS SDK for Java v2 2.42.38",
-    "summary": "# __2.42.38__ __2026-04-21__\r\n## __AWS Comprehend Medical__\r\n  - ### Features\r\n    - This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\r\n\r\n## __Amazon SageMaker Service__\r\n  - ### Features\r\n    - SageMaker AI now supports generative AI inference recommendations. Provide your model and workload, and SageMaker AI optimizes configurations, benchmarks them on real GPUs, and returns deployment-ready",
-    "published_at": "2026-04-22T01:29:29Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.2",
+    "title": "AWS SDK for Java v2 2.44.2",
+    "summary": "# __2.44.2__ __2026-05-05__\r\n## __AWS Clean Rooms ML__\r\n  - ### Features\r\n    - Increase max configurable output limits in the Clean Rooms ML configured model algorithm association resource.\r\n\r\n## __AWS Health Imaging__\r\n  - ### Features\r\n    - Add support for DICOM Json Metadata Override features in startDICOMImportJob API\r\n\r\n## __AWS Marketplace Agreement Service__\r\n  - ### Features\r\n    - With this release, Agreements API provides a programmatic way to generate quotes, accept offers, track ch",
+    "published_at": "2026-05-05T19:41:51Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.325,
+    "score": 1.366,
     "score_breakdown": {
-      "freshness": 0.325,
-      "keyword": 1.0,
+      "freshness": 0.866,
+      "keyword": 0.5,
       "source": 1.0,
-      "keyword_signal": 1.0,
+      "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.325
+      "total": 1.366
     }
   },
   {
-    "id": "c7dcfc90f2597006",
+    "id": "e3ac20d2bb2488af",
     "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
+    "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-21",
-    "title": "April 21st, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-cognitoidentityprovider` (1.116.0): Adding dutch language support for Cognito Managed Login and Terms on Console\n- `aws-sdk-comprehendmedical` (1.99.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\n- `aws-sdk-computeoptimizer` (1.104.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.0. The SDK will priorit",
-    "published_at": "2026-04-21T20:44:38Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1043.0",
+    "title": "v3.1043.0",
+    "summary": "#### 3.1043.0(2026-05-05)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-05 ([f577bd74](https://github.com/aws/aws-sdk-js-v3/commit/f577bd742cc58b4a2f936c5906a1e5889025b340))\n* **client-cloudfront:**  Adds support for tagging CloudFront Functions and KeyValueStores resources. ([cb71d306](https://github.com/aws/aws-sdk-js-v3/commit/cb71d306ef0d83818e90e7ce8b31689362605542))\n* **client-mediatailor:**  Added support for Monetization Functions. Monetization Functions let ",
+    "published_at": "2026-05-05T18:54:41Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.321,
+    "score": 1.364,
     "score_breakdown": {
-      "freshness": 0.321,
-      "keyword": 1.0,
+      "freshness": 0.864,
+      "keyword": 0.5,
       "source": 1.0,
-      "keyword_signal": 1.0,
+      "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.321
+      "total": 1.364
+    }
+  },
+  {
+    "id": "97b03ee4ff21dffb",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-05",
+    "title": "May 5th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-cleanroomsml` (1.105.0): Increase max configurable output limits in the Clean Rooms ML configured model algorithm association resource.\n- `aws-sdk-cloudfront` (1.118.0): Adds support for tagging CloudFront Functions and KeyValueStores resources.\n- `aws-sdk-marketplaceagreement` (1.99.0): With this release, Agreements API provides a programmatic way to generate quotes, accept offers, track charges and entitlements, manage renewals and cancellations, and streamline",
+    "published_at": "2026-05-05T18:51:08Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.364,
+    "score_breakdown": {
+      "freshness": 0.864,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 1.364
     }
   },
   {
@@ -1819,80 +1333,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.32,
+    "score": 1.319,
     "score_breakdown": {
-      "freshness": 0.32,
+      "freshness": 0.319,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.32
-    }
-  },
-  {
-    "id": "7deac136db9b7b67",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-04",
-    "title": "May 4th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcorecontrol` (1.51.0): Amazon Bedrock AgentCore gateways now support MCP Sessions and response streaming from MCP targets. Session timeouts can be set between 15 minutes and 8 hours, and response streaming enables forwarding stream events sent by MCP targets to gateway users.\n- `aws-sdk-cloudwatchlogs` (1.131.0): Adding an additional optional deliverySourceConfiguration field to PutDeliverySource API. This enables customers to pass service-specific co",
-    "published_at": "2026-05-04T19:58:41Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.31,
-    "score_breakdown": {
-      "freshness": 0.81,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.31
-    }
-  },
-  {
-    "id": "a2cf49044e139075",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.37",
-    "title": "AWS SDK for Java v2 2.42.37",
-    "summary": "# __2.42.37__ __2026-04-20__\n## __AWS CRT HTTP Client__\n  - ### Bugfixes\n    - Fixed a connection leak in the CRT HTTP client that occurred when aborting a response stream before fully consuming it (e.g., calling `abort()` on a `GetObject` `ResponseInputStream`).\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Added `AsyncRequestBody.fromInputStream(InputStream, Long)` overload that uses an SDK-managed thread pool, removing the need for users to provide their own ExecutorService.\n\n## __Amazon",
-    "published_at": "2026-04-20T19:17:45Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.297,
-    "score_breakdown": {
-      "freshness": 0.297,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.297
-    }
-  },
-  {
-    "id": "23f58934ad415998",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1033.0",
-    "title": "v3.1033.0",
-    "summary": "#### 3.1033.0(2026-04-20)\n\n##### Documentation Changes\n\n* **client-guardduty:**  Expanded support for new suppression rule fields. ([f0bb9093](https://github.com/aws/aws-sdk-js-v3/commit/f0bb90933df5ed6743069a49cc7e821a903df076))\n\n##### New Features\n\n* **clients:**\n  *  update client endpoints as of 2026-04-20 ([d6a7886a](https://github.com/aws/aws-sdk-js-v3/commit/d6a7886a68e4e65f74410e1068ec9f5cade83ca4))\n  *  use binary decision diagrams for endpoint resolution ([#7931](https://github.com/aws",
-    "published_at": "2026-04-20T19:02:08Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.297,
-    "score_breakdown": {
-      "freshness": 0.297,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.297
+      "total": 1.319
     }
   },
   {
@@ -1907,58 +1355,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.297,
+    "score": 1.296,
     "score_breakdown": {
-      "freshness": 0.297,
+      "freshness": 0.296,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.297
-    }
-  },
-  {
-    "id": "d4baafb61e15872b",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1032.0",
-    "title": "v3.1032.0",
-    "summary": "#### 3.1032.0(2026-04-17)\n\n##### Documentation Changes\n\n* **client-neptune:**  Improving Documentation for Neptune ([e27d9cd0](https://github.com/aws/aws-sdk-js-v3/commit/e27d9cd08193e5223b3cc54a0145429fa3b6099b))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-17 ([1fd8c265](https://github.com/aws/aws-sdk-js-v3/commit/1fd8c265d2098688e887fe7ba6d1407ded39272e))\n* **client-connect:**  Fixes in SDK for customers using TestCase APIs ([bd88a7ec](https://github.com/aws/aws-",
-    "published_at": "2026-04-17T18:53:41Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.24,
-    "score_breakdown": {
-      "freshness": 0.24,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.24
-    }
-  },
-  {
-    "id": "086cd57a6216e363",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-17",
-    "title": "April 17th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-cleanrooms` (1.120.0): This release adds support for configurable spark properties for Cleanrooms PySpark workloads.\n- `aws-sdk-connect` (1.170.0): Fixes in SDK for customers using TestCase APIs\n- `aws-sdk-connectcampaignsv2` (1.53.0): This release adds support for campaign entry limits configuration and hourly refresh frequency in Amazon Connect Outbound Campaigns.\n- `aws-sdk-groundstation` (1.102.0): Adds support for updating contacts, listing antennas, and lis",
-    "published_at": "2026-04-17T18:47:33Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.24,
-    "score_breakdown": {
-      "freshness": 0.24,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.24
+      "total": 1.296
     }
   },
   {
@@ -1984,91 +1388,69 @@
     }
   },
   {
-    "id": "950ecc2f26fcf5d7",
+    "id": "e8d30d15018116b8",
     "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
+    "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1030.0",
-    "title": "v3.1030.0",
-    "summary": "#### 3.1030.0(2026-04-13)\n\n##### Documentation Changes\n\n* **client-glue:**  AWS Glue now defaults to Glue version 5.1 for newly created jobs if the Glue version is not specified in the request, and UpdateJob now preserves the existing Glue version of a job when the Glue version is not specified in the update request. ([3f133ce0](https://github.com/aws/aws-sdk-js-v3/commit/3f133ce0dedca4284db752cbebb7979861c43efb))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-13 ([c2",
-    "published_at": "2026-04-13T18:57:36Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-16",
+    "title": "April 16th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-appstream` (1.110.0): Add content redirection to Update Stack\n- `aws-sdk-autoscaling` (1.114.0): This release adds support for specifying Availability Zone IDs as an alternative to Availability Zone names when creating or updating Auto Scaling groups.\n- `aws-sdk-bedrockagentcore` (1.38.0): Introducing NamespacePath in AgentCore Memory to support hierarchical prefix based memory record retrieval.\n- `aws-sdk-cloudwatchlogs` (1.126.0): Endpoint update for CloudWatch",
+    "published_at": "2026-04-16T18:47:42Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.18,
+    "score": 1.222,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.222,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.18
+      "total": 1.222
     }
   },
   {
-    "id": "44f77a54cc3b0dba",
+    "id": "03a6af1c753283a5",
     "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
+    "source": "github:aws/aws-sdk-go-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.0",
-    "title": "AWS SDK for Java v2 2.44.0",
-    "summary": "# __2.44.0__ __2026-05-01__\r\n## __AWS EntityResolution__\r\n  - ### Features\r\n    - Add support for transitive matching in AWS Entity Resolution rule-based matching workflows. When enabled, records that match through different rules are grouped together into the same match group, allowing related records to be connected across rule levels.\r\n\r\n## __AWS Identity and Access Management__\r\n  - ### Features\r\n    - Added guidance for CreateOpenIDConnectProvider to include multiple thumbprints when OIDC d",
-    "published_at": "2026-05-01T20:23:49Z",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-04-13",
+    "title": "Release (2026-04-13)",
+    "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/customerprofiles`: [v1.58.0](service/customerprofiles/CHANGELOG.md#v1580-2026-04-13)\n  * **Feature**: This release introduces changes to SegmentDefinition APIs to support sorting by attributes.\n* `github.com/aws/aws-sdk-go-v2/service/deadline`: [v1.30.0](service/deadline/CHANGELOG.md#v1300-2026-04-13)\n  * **Feature**: Adds GetMonitorSettings and UpdateMonitorSettings APIs to Deadline Cloud. Enables reading and writing monitor settings ",
+    "published_at": "2026-04-13T18:41:50Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.154,
+    "score": 1.179,
     "score_breakdown": {
-      "freshness": 0.654,
+      "freshness": 0.179,
+      "keyword": 1.0,
+      "source": 1.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.179
+    }
+  },
+  {
+    "id": "80fa9665a53843b3",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-01",
+    "title": "May 1st, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-appstream` (1.112.0): Amazon WorkSpaces Applications now enables AI agents to securely operate desktop applications. Administrators configure stacks to provide agents access to WorkSpaces. Agents can click, type, and take screenshots. Agents authenticate with AWS IAM credentials with activity logged in AWS CloudTrail.\n- `aws-sdk-cloudwatch` (1.111.0): This release adds tag support for CloudWatch Dashboards. The PutDashboard API now accepts a Tags parameter, allow",
+    "published_at": "2026-05-01T18:59:24Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.149,
+    "score_breakdown": {
+      "freshness": 0.649,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.154
-    }
-  },
-  {
-    "id": "6c6eda851170d485",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.33",
-    "title": "AWS SDK for Java v2 2.42.33",
-    "summary": "# __2.42.33__ __2026-04-10__\n## __AWS DevOps Agent Service__\n  - ### Features\n    - Devops Agent now supports associate Splunk, Datadog and custom MCP server to an Agent Space.\n\n## __AWS Elemental MediaConvert__\n  - ### Features\n    - Adds support for MV-HEVC video output and clear lead for AV1 DRM output.\n\n## __Amazon Connect Service__\n  - ### Features\n    - Conversational Analytics for Email\n\n## __Amazon EC2 Container Service__\n  - ### Features\n    - Minor updates to exceptions for completenes",
-    "published_at": "2026-04-10T19:13:52Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.145,
-    "score_breakdown": {
-      "freshness": 0.145,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.145
-    }
-  },
-  {
-    "id": "54cfe25ec4888bb3",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-10",
-    "title": "April 10th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-connect` (1.168.0): Conversational Analytics for Email\n- `aws-sdk-devopsagent` (1.2.0): Devops Agent now supports associate Splunk, Datadog and custom MCP server to an Agent Space.\n- `aws-sdk-ecs` (1.122.0): Minor updates to exceptions for completeness\n- `aws-sdk-imagebuilder` (1.109.0): Image pipelines can now automatically apply tags to images they create. Set the imageTags property when creating or updating your pipelines to get started.\n- `aws-sdk-mediaconver",
-    "published_at": "2026-04-10T18:57:56Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.145,
-    "score_breakdown": {
-      "freshness": 0.145,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.145
+      "total": 1.149
     }
   },
   {
@@ -2094,25 +1476,47 @@
     }
   },
   {
-    "id": "9135be530ea5bae8",
+    "id": "a74b4077ebc85beb",
     "track": "releases",
-    "source": "github:aws/aws-cdk",
+    "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.246.0",
-    "title": "v2.246.0",
-    "summary": "### Features\n\n* **bedrock:** add MiniMax and GLM foundation model identifiers ([#37348](https://github.com/aws/aws-cdk/issues/37348)) ([2015344](https://github.com/aws/aws-cdk/commit/201534444ac183959119c1849f34931fa8f3d18d)), closes [#37347](https://github.com/aws/aws-cdk/issues/37347)\n\n\n### Bug Fixes\n\n* **dynamodb:** throw error when grantee is an unsupported ServicePrincipal ([#37335](https://github.com/aws/aws-cdk/issues/37335)) ([d12754f](https://github.com/aws/aws-cdk/commit/d12754fdeda481",
-    "published_at": "2026-03-31T12:55:53Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1040.0",
+    "title": "v3.1040.0",
+    "summary": "#### 3.1040.0(2026-04-30)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-30 ([2620ccbd](https://github.com/aws/aws-sdk-js-v3/commit/2620ccbde703e7736c282c18f661b05057048919))\n* **client-bedrock-agentcore-control:**  AgentCore Identity now supports on-behalf-of token exchange OAuth2. AgentCore Memory now supports metadata for LongTerm Memory Records. ([6b9d13e3](https://github.com/aws/aws-sdk-js-v3/commit/6b9d13e32ec62f14899030b3b6555c6e4e6d555a))\n* **client-route53glo",
+    "published_at": "2026-04-30T19:56:03Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.07,
+    "score": 1.106,
     "score_breakdown": {
-      "freshness": 0.07,
+      "freshness": 0.606,
       "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
+      "source": 1.0,
+      "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.07
+      "total": 1.106
+    }
+  },
+  {
+    "id": "68c26e338b5a7f0b",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-30",
+    "title": "April 30th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcore` (1.42.0): AgentCore Identity now supports on-behalf-of token exchange OAuth2. AgentCore Memory now supports metadata for LongTerm Memory Records.\n- `aws-sdk-bedrockagentcorecontrol` (1.50.0): AgentCore Identity now supports on-behalf-of token exchange OAuth2. AgentCore Memory now supports metadata for LongTerm Memory Records.\n- `aws-sdk-datazone` (1.135.0): Adds support for asynchronous notebook runs\n- `aws-sdk-eks` (1.130.0): Vended logs update",
+    "published_at": "2026-04-30T18:49:34Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.104,
+    "score_breakdown": {
+      "freshness": 0.604,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 1.104
     }
   },
   {
@@ -2127,36 +1531,80 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.065,
+    "score": 1.063,
     "score_breakdown": {
-      "freshness": 0.565,
+      "freshness": 0.563,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.065
+      "total": 1.063
     }
   },
   {
-    "id": "f24198efd3f1314e",
+    "id": "41bd625ca50b9cce",
     "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
+    "source": "github:aws/aws-cdk",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-29",
-    "title": "April 29th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-account` (1.102.0): Adds AccountState in the response for the GetAccountInformation API. Each state represents a specific phase in the account lifecycle. Use this information to manage account access, automate workflows, or trigger actions based on account state changes.\n- `aws-sdk-bedrockagentcore` (1.41.0): Adds batch evaluation for running evaluators against multiple agent sessions with server-side orchestration, AI-powered recommendations for optimizing syste",
-    "published_at": "2026-04-29T18:50:32Z",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.253.1",
+    "title": "v2.253.1",
+    "summary": "### Bug Fixes\n\n* **core:** \"exports cannot be updated\" for cross-region references ([#37790](https://github.com/aws/aws-cdk/issues/37790)) ([b0c00e2](https://github.com/aws/aws-cdk/commit/b0c00e2b1fde5da462d4fd848610f59e78b482ba))\n* **s3deploy:** empty sources leads to deployment error ([#37786](https://github.com/aws/aws-cdk/issues/37786)) ([f61656a](https://github.com/aws/aws-cdk/commit/f61656a3a408b0b50d79f43cdf18d0f5801e9a43))\n---\n## Alpha modules (2.253.1-alpha.0)\n",
+    "published_at": "2026-05-08T16:13:36Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.064,
+    "score": 1.062,
     "score_breakdown": {
-      "freshness": 0.564,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
+      "freshness": 1.062,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.064
+      "total": 1.062
+    }
+  },
+  {
+    "id": "ab39d8b167c3d52c",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.245.0",
+    "title": "v2.245.0",
+    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37332](https://github.com/aws/aws-cdk/issues/37332)) ([6cdf84a](https://github.com/aws/aws-cdk/commit/6cdf84aa9a50ef41dae54f14c2bcf4f48d46dbd1))\n* **autoscaling:** add instanceLifecyclePolicy support to AutoScalingGroup Property ([#36434](https://github.com/aws/aws-cdk/issues/36434)) ([b72ffcc](https://github.com/aws/aws-cdk/commit/b72ffcc343a7bff1745dfea4d1e8de4a0d6b998e))\n* **cloudfront:** use JavaScript runtime 2.0 as the defaul",
+    "published_at": "2026-03-27T16:03:15Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.053,
+    "score_breakdown": {
+      "freshness": 0.053,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.053
+    }
+  },
+  {
+    "id": "666d028dd5556349",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.244.0",
+    "title": "v2.244.0",
+    "summary": "### Features\n\n* **codebuild:** add support for macOS 26 runners ([#37240](https://github.com/aws/aws-cdk/issues/37240)) ([1b7b292](https://github.com/aws/aws-cdk/commit/1b7b2929fccd786c0bd38ea735b90aef9e470106)), closes [#37241](https://github.com/aws/aws-cdk/issues/37241) [#35836](https://github.com/aws/aws-cdk/issues/35836)\n* update L1 CloudFormation resource definitions ([#37260](https://github.com/aws/aws-cdk/issues/37260)) ([40a5142](https://github.com/aws/aws-cdk/commit/40a5142771b1ea450a2",
+    "published_at": "2026-03-19T17:31:51Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.03,
+    "score_breakdown": {
+      "freshness": 0.03,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.03
     }
   },
   {
@@ -2171,14 +1619,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.029,
+    "score": 1.027,
     "score_breakdown": {
-      "freshness": 0.529,
+      "freshness": 0.527,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.029
+      "total": 1.027
+    }
+  },
+  {
+    "id": "61c7d729f7f08f74",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.243.0",
+    "title": "v2.243.0",
+    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37201](https://github.com/aws/aws-cdk/issues/37201)) ([85daaf5](https://github.com/aws/aws-cdk/commit/85daaf5b58ca6c4184f215e48a4e953e228fd42e))\n* **cfn-property-mixins:** graduate to stable @aws-cdk/cfn-property-mixins package ([#37215](https://github.com/aws/aws-cdk/issues/37215)) ([f071e67](https://github.com/aws/aws-cdk/commit/f071e67878cf27aefd07c8820b2de8bdf5431d56))\n\n\n### Bug Fixes\n\n* **dynamodb:** resource policies don't ha",
+    "published_at": "2026-03-11T16:13:53Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.017,
+    "score_breakdown": {
+      "freshness": 0.017,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.017
     }
   },
   {
@@ -2204,25 +1674,25 @@
     }
   },
   {
-    "id": "84ee7d763853ef0b",
+    "id": "7de68198b4a340a2",
     "track": "releases",
-    "source": "github:aws/aws-sam-cli",
+    "source": "github:aws/aws-cdk",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.154.0",
-    "title": "Release version: 1.154.0",
-    "summary": "### Changes:\n[3766900](https://api.github.com/repos/aws/aws-sam-cli/commits/3766900d2aa5758518cda097ce951264480ef948) - chore(deps-dev): bump ruff from 0.14.11 to 0.14.14 in /requirements (#8594)\n[3f218d9](https://api.github.com/repos/aws/aws-sam-cli/commits/3f218d997e79de17b341480dd85da286c1a7ec8b) - chore(deps-dev): bump the types group across 1 directory with 2 updates (#8610)\n[35eec76](https://api.github.com/repos/aws/aws-sam-cli/commits/35eec7699b5af7b139527d735846e79edda89506) - chore(deps",
-    "published_at": "2026-02-11T22:38:41Z",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.240.0",
+    "title": "v2.240.0",
+    "summary": "### Features\n\n* update L1 CloudFormation resource definitions ([#37039](https://github.com/aws/aws-cdk/issues/37039)) ([17b2d93](https://github.com/aws/aws-cdk/commit/17b2d93f1f1aa422729e344649d43eb92e3999de))\n* **eks-v2:** graduate to stable 🚀 ([#36950](https://github.com/aws/aws-cdk/issues/36950)) ([a7de51c](https://github.com/aws/aws-cdk/commit/a7de51c33497b0c4db26c344da19e72eeb9327a7))\n* update L1 CloudFormation resource definitions ([#37034](https://github.com/aws/aws-cdk/issues/37034)) ([6",
+    "published_at": "2026-02-23T21:43:23Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.002,
+    "score": 1.005,
     "score_breakdown": {
-      "freshness": 0.002,
-      "keyword": 1.0,
-      "source": 1.0,
+      "freshness": 0.005,
+      "keyword": 0.5,
+      "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.002
+      "total": 1.005
     }
   },
   {
@@ -2314,47 +1784,71 @@
     }
   },
   {
-    "id": "afbdbf8979bcd813",
+    "id": "781d7b8b35c851b8",
     "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
+    "source": "github:aws/aws-cli",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.43.0",
-    "title": "AWS SDK for Java v2 2.43.0",
-    "summary": "# __2.43.0__ __2026-04-27__\r\n## __AWS Glue__\r\n  - ### Features\r\n    - Addition of AdditionalAuditContext to GetPartition, GetPartitions, GetTableVersion, and GetTableVersions\r\n\r\n## __AWS Key Management Service__\r\n  - ### Features\r\n    - KMS GetKeyLastUsage API provides information on the last successful cryptographic operation performed on KMS keys. This new API provides KMS customers with the last timestamp, CloudTrail eventId, and the cryptographic operation that was performed on the key.\r\n\r\n#",
-    "published_at": "2026-04-27T20:08:31Z",
+    "url": "https://github.com/aws/aws-cli/releases/tag/2.0.0dev0",
+    "title": "AWS CLI 2.0.0dev preview release",
+    "summary": "This is the first developer release of AWS CLI v2.0.0.\r\n\r\n**The AWS CLI v2.0.0 is not recommended for production use and is offered as a developer release.**\r\n\r\nMajor features include:\r\n\r\n* Improved auto-completion performance\r\n* Add support for resource value auto completion, which can auto complete resources such as Amazon DynamoDB table names, AWS IAM user names, etc.\r\n* Add support for wizards, which allows interactive prompting in order to create and configure AWS resources.\r\n* Add high lev",
+    "published_at": "2018-11-26T06:25:44Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
+    "tags": [
+      "prerelease"
+    ],
     "severity": null,
-    "score": 0.991,
+    "score": 1.0,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.0,
       "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 1.0
     }
   },
   {
-    "id": "329229c2b004001b",
+    "id": "2aa3eba038193754",
     "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
+    "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-27",
-    "title": "April 27th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-applicationsignals` (1.79.0): Application Signals now supports creating composite Service Level Objectives on Service Operations. Users can now create service SLO on multiple operations.\n- `aws-sdk-billingconductor` (1.102.0): Add support for Passthrough pricing plan\n- `aws-sdk-cloudwatchlogs` (1.129.0): Adds support for selecting all logs sources and types in a single association.\n- `aws-sdk-glue` (1.144.0): Addition of AdditionalAuditContext to GetPartition, Ge",
-    "published_at": "2026-04-27T19:54:42Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.4",
+    "title": "AWS SDK for Java v2 2.44.4",
+    "summary": "# __2.44.4__ __2026-05-07__\n## __Amazon Route 53 Resolver__\n  - ### Features\n    - Adds supports for DNS64 on inbound endpoints and IPv6 forwarding through the internet gateway (IGW) on outbound endpoints, making it easier to manage hybrid DNS across IPv4 and IPv6 networks.\n\n## __Amazon Bedrock AgentCore Control__\n  - ### Features\n    - Launching AgentCore payments - a capability that provides secure, instant microtransaction payments for AI agents to access paid APIs, MCP servers, and content. ",
+    "published_at": "2026-05-07T19:25:52Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.991,
+    "score": 0.998,
     "score_breakdown": {
-      "freshness": 0.491,
-      "keyword": 0.5,
+      "freshness": 0.998,
+      "keyword": 0.0,
       "source": 1.0,
-      "keyword_signal": 0.5,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.998
+    }
+  },
+  {
+    "id": "6fe932c73d7836a3",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-06",
+    "title": "May 6th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcorecontrol` (1.52.0): Adds support for bring-your-own file system in AgentCore Runtime. Developers can mount Amazon S3 Files and Amazon EFS access points directly into agent sessions using filesystemConfigurations.\n- `aws-sdk-glue` (1.145.0): Adds support for a CustomLogGroupPrefix parameter in StartDataQualityRulesetEvaluationRun to specify custom CloudWatch log group paths, and a RulesetName filter in ListDataQualityRulesetEvaluationRuns to filter ",
+    "published_at": "2026-05-06T19:12:33Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.929,
+    "score_breakdown": {
+      "freshness": 0.929,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.929
     }
   },
   {
@@ -2380,157 +1874,113 @@
     }
   },
   {
-    "id": "64bb70201b87b20a",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-24",
-    "title": "April 24th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcorecontrol` (1.48.0): Added support for configuring identity providers and inbound authorizers within a private VPC for AWS Bedrock AgentCore, enabling secure network connection without public internet access\n- `aws-sdk-cloudwatchlogs` (1.128.0): Adding nextToken and maxItems to the GetQueryResults API.\n- `aws-sdk-connect` (1.172.0): Amazon Connect is expanding attachment capabilities to give customers greater flexibility and control. Currently limit",
-    "published_at": "2026-04-24T18:59:31Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.895,
-    "score_breakdown": {
-      "freshness": 0.395,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.895
-    }
-  },
-  {
-    "id": "ff01bf484a31a5d2",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.40",
-    "title": "AWS SDK for Java v2 2.42.40",
-    "summary": "# __2.42.40__ __2026-04-23__\n## __Amazon OpenSearch Service__\n  - ### Features\n    - Amazon OpenSearch UI applications now support cross-Region domain association, enabling you to connect OpenSearch Dashboards in one AWS Region to OpenSearch domains in other Regions within the same partition for centralized data visualization.\n\n## __Managed integrations for AWS IoT Device Management__\n  - ### Features\n    - Adds \"Status\" field to provisioning profile operation response types, giving users visibi",
-    "published_at": "2026-04-23T19:08:43Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.868,
-    "score_breakdown": {
-      "freshness": 0.368,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.868
-    }
-  },
-  {
-    "id": "a04c3aac4319b3f6",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-23",
-    "title": "April 23rd, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-datazone` (1.134.0): Releasing For LakehouseProperties attributes in the Connections API's\n- `aws-sdk-iotmanagedintegrations` (1.43.0): Adds \"Status\" field to provisioning profile operation response types, giving users visibility into the readiness of a provisioning profile to be used for device provisioning.\n- `aws-sdk-opensearch` (1.125.0): Amazon OpenSearch UI applications now support cross-Region domain association, enabling you to connect OpenSearch Dashboar",
-    "published_at": "2026-04-23T18:55:19Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.868,
-    "score_breakdown": {
-      "freshness": 0.368,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.868
-    }
-  },
-  {
-    "id": "2bbbc2aa763efa21",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.39",
-    "title": "AWS SDK for Java v2 2.42.39",
-    "summary": "# __2.42.39__ __2026-04-22__\r\n## __AWS Batch__\r\n  - ### Features\r\n    - Support of S3Files volume type, container start and stop timeouts.\r\n\r\n## __AWS IoT Wireless__\r\n  - ### Features\r\n    - Enable customers to optionally specify a desired confidence level for Cellular and WiFi position estimates. Customers can use this to trade off confidence level and radius of uncertainty based on their needs.\r\n\r\n## __AWS Lambda__\r\n  - ### Features\r\n    - Add Ruby 4.0 (ruby4.0) support to AWS Lambda.\r\n\r\n## __",
-    "published_at": "2026-04-22T23:04:24Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.847,
-    "score_breakdown": {
-      "freshness": 0.347,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.847
-    }
-  },
-  {
-    "id": "dd953af6f6c276e0",
+    "id": "4b89a4c0b87d062f",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1035.0",
-    "title": "v3.1035.0",
-    "summary": "#### 3.1035.0(2026-04-22)\n\n##### New Features\n\n* **client-iot-wireless:**  Enable customers to optionally specify a desired confidence level for Cellular and WiFi position estimates. Customers can use this to trade off confidence level and radius of uncertainty based on their needs. ([9fcaea59](https://github.com/aws/aws-sdk-js-v3/commit/9fcaea59ffb0c04d4263af037a2450a5ac1200ba))\n* **client-ecs:**  GPU health monitoring and auto-repair for ECS Managed Instances ([0ffa1090](https://github.com/aws",
-    "published_at": "2026-04-22T19:01:52Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1037.0",
+    "title": "v3.1037.0",
+    "summary": "#### 3.1037.0(2026-04-24)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-24 ([ca3df2be](https://github.com/aws/aws-sdk-js-v3/commit/ca3df2be81f16be0919b8fe8f384d2495def6754))\n* **client-evs:**  EVS now supports i7i.metal-24xl EC2 bare metal instance type, delivering high random IOPS performance with real-time latency, ideal for IO intensive and latency-sensitive workloads such as transactional databases, real-time analytics, and AI ML pre-processing. ([fd92ee48](https",
+    "published_at": "2026-04-24T19:03:52Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.843,
+    "score": 0.894,
     "score_breakdown": {
-      "freshness": 0.343,
+      "freshness": 0.394,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.843
+      "total": 0.894
     }
   },
   {
-    "id": "ddf754fb24d4797d",
+    "id": "a17ac8eeb5ac2f08",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.38",
+    "title": "AWS SDK for Java v2 2.42.38",
+    "summary": "# __2.42.38__ __2026-04-21__\r\n## __AWS Comprehend Medical__\r\n  - ### Features\r\n    - This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\r\n\r\n## __Amazon SageMaker Service__\r\n  - ### Features\r\n    - SageMaker AI now supports generative AI inference recommendations. Provide your model and workload, and SageMaker AI optimizes configurations, benchmarks them on real GPUs, and returns deployment-ready",
+    "published_at": "2026-04-22T01:29:29Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.824,
+    "score_breakdown": {
+      "freshness": 0.324,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.824
+    }
+  },
+  {
+    "id": "c7dcfc90f2597006",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-22",
-    "title": "April 22nd, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-batch` (1.113.0): Support of S3Files volume type, container start and stop timeouts.\n- `aws-sdk-bedrockagentcore` (1.40.0): Adds support for Amazon Bedrock AgentCore Harness data plane APIs, enabling customers to invoke managed agent loops and execute commands on live agent sessions with streaming responses.\n- `aws-sdk-bedrockagentcorecontrol` (1.47.0): Adds support for Amazon Bedrock AgentCore Harness control plane APIs, enabling customers to create, manage, and",
-    "published_at": "2026-04-22T18:56:42Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-21",
+    "title": "April 21st, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-cognitoidentityprovider` (1.116.0): Adding dutch language support for Cognito Managed Login and Terms on Console\n- `aws-sdk-comprehendmedical` (1.99.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\n- `aws-sdk-computeoptimizer` (1.104.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.0. The SDK will priorit",
+    "published_at": "2026-04-21T20:44:38Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.842,
+    "score": 0.82,
     "score_breakdown": {
-      "freshness": 0.342,
+      "freshness": 0.32,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.842
+      "total": 0.82
     }
   },
   {
-    "id": "2a20a26cddceb25d",
+    "id": "7deac136db9b7b67",
     "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
+    "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1034.0",
-    "title": "v3.1034.0",
-    "summary": "#### 3.1034.0(2026-04-21)\n\n##### Chores\n\n* **core/client:**  retry behavior control flag ([#7943](https://github.com/aws/aws-sdk-js-v3/pull/7943)) ([f8a0e2eb](https://github.com/aws/aws-sdk-js-v3/commit/f8a0e2ebdeae1aeeb4bd9127fb0527c73b2176fa))\n* **codegen:**  sync for http2 session concurrency fixes ([#7942](https://github.com/aws/aws-sdk-js-v3/pull/7942)) ([273ad5be](https://github.com/aws/aws-sdk-js-v3/commit/273ad5be3adc5288e480655de1c5887a38540fe4))\n\n##### New Features\n\n* **client-snowball",
-    "published_at": "2026-04-21T20:46:51Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-04",
+    "title": "May 4th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcorecontrol` (1.51.0): Amazon Bedrock AgentCore gateways now support MCP Sessions and response streaming from MCP targets. Session timeouts can be set between 15 minutes and 8 hours, and response streaming enables forwarding stream events sent by MCP targets to gateway users.\n- `aws-sdk-cloudwatchlogs` (1.131.0): Adding an additional optional deliverySourceConfiguration field to PutDeliverySource API. This enables customers to pass service-specific co",
+    "published_at": "2026-05-04T19:58:41Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.821,
+    "score": 0.807,
     "score_breakdown": {
-      "freshness": 0.321,
+      "freshness": 0.807,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.807
+    }
+  },
+  {
+    "id": "23f58934ad415998",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1033.0",
+    "title": "v3.1033.0",
+    "summary": "#### 3.1033.0(2026-04-20)\n\n##### Documentation Changes\n\n* **client-guardduty:**  Expanded support for new suppression rule fields. ([f0bb9093](https://github.com/aws/aws-sdk-js-v3/commit/f0bb90933df5ed6743069a49cc7e821a903df076))\n\n##### New Features\n\n* **clients:**\n  *  update client endpoints as of 2026-04-20 ([d6a7886a](https://github.com/aws/aws-sdk-js-v3/commit/d6a7886a68e4e65f74410e1068ec9f5cade83ca4))\n  *  use binary decision diagrams for endpoint resolution ([#7931](https://github.com/aws",
+    "published_at": "2026-04-20T19:02:08Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.796,
+    "score_breakdown": {
+      "freshness": 0.296,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.821
+      "total": 0.796
     }
   },
   {
@@ -2545,25 +1995,157 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.797,
+    "score": 0.796,
     "score_breakdown": {
-      "freshness": 0.297,
+      "freshness": 0.296,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.797
+      "total": 0.796
     }
   },
   {
-    "id": "f9325659ffcc6d44",
+    "id": "8014797b83cd7491",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.36",
+    "title": "AWS SDK for Java v2 2.42.36",
+    "summary": "# __2.42.36__ __2026-04-17__\n## __AWS CRT HTTP Client__\n  - ### Bugfixes\n    - Java CRT 0.39.3 enables and prefers Post Quantum TLS (PQ TLS) by default when supported by the platform and service. The `postQuantumTlsEnabled` builder option in aws-sdk-java-v2 now becomes an opt-out mechanism; setting it to false explicitly disables PQ TLS.\n        - Contributed by: [@WillChilds-Klein](https://github.com/WillChilds-Klein)\n\n## __AWS Clean Rooms Service__\n  - ### Features\n    - This release adds supp",
+    "published_at": "2026-04-17T23:47:22Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.742,
+    "score_breakdown": {
+      "freshness": 0.242,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.742
+    }
+  },
+  {
+    "id": "d4baafb61e15872b",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1041.0",
-    "title": "v3.1041.0",
-    "summary": "#### 3.1041.0(2026-05-01)\n\n##### Chores\n\n* **core/client:**  emit warning for Node.js 20.x end-of-support ([#7973](https://github.com/aws/aws-sdk-js-v3/pull/7973)) ([00383767](https://github.com/aws/aws-sdk-js-v3/commit/0038376702ea628e56dfd4da0887271355c28661))\n* **workflows:**  migrate git-sync SSH key from GitHub secret to Secrets Manager via OIDC ([#7978](https://github.com/aws/aws-sdk-js-v3/pull/7978)) ([c056a2e3](https://github.com/aws/aws-sdk-js-v3/commit/c056a2e3ad53b9ba7fe81a71d1f2a9e12",
-    "published_at": "2026-05-01T19:05:36Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1032.0",
+    "title": "v3.1032.0",
+    "summary": "#### 3.1032.0(2026-04-17)\n\n##### Documentation Changes\n\n* **client-neptune:**  Improving Documentation for Neptune ([e27d9cd0](https://github.com/aws/aws-sdk-js-v3/commit/e27d9cd08193e5223b3cc54a0145429fa3b6099b))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-17 ([1fd8c265](https://github.com/aws/aws-sdk-js-v3/commit/1fd8c265d2098688e887fe7ba6d1407ded39272e))\n* **client-connect:**  Fixes in SDK for customers using TestCase APIs ([bd88a7ec](https://github.com/aws/aws-",
+    "published_at": "2026-04-17T18:53:41Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.739,
+    "score_breakdown": {
+      "freshness": 0.239,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.739
+    }
+  },
+  {
+    "id": "086cd57a6216e363",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-17",
+    "title": "April 17th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-cleanrooms` (1.120.0): This release adds support for configurable spark properties for Cleanrooms PySpark workloads.\n- `aws-sdk-connect` (1.170.0): Fixes in SDK for customers using TestCase APIs\n- `aws-sdk-connectcampaignsv2` (1.53.0): This release adds support for campaign entry limits configuration and hourly refresh frequency in Amazon Connect Outbound Campaigns.\n- `aws-sdk-groundstation` (1.102.0): Adds support for updating contacts, listing antennas, and lis",
+    "published_at": "2026-04-17T18:47:33Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.739,
+    "score_breakdown": {
+      "freshness": 0.239,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.739
+    }
+  },
+  {
+    "id": "7addbf907b693d3a",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.34",
+    "title": "AWS SDK for Java v2 2.42.34",
+    "summary": "# __2.42.34__ __2026-04-13__\n## __AWS Glue__\n  - ### Features\n    - AWS Glue now defaults to Glue version 5.1 for newly created jobs if the Glue version is not specified in the request, and UpdateJob now preserves the existing Glue version of a job when the Glue version is not specified in the update request.\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n\n## __AWS SecurityHub__\n  - ### Features\n    - Provide organizational unit scoping capability for",
+    "published_at": "2026-04-13T19:16:21Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.68,
+    "score_breakdown": {
+      "freshness": 0.18,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.68
+    }
+  },
+  {
+    "id": "950ecc2f26fcf5d7",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1030.0",
+    "title": "v3.1030.0",
+    "summary": "#### 3.1030.0(2026-04-13)\n\n##### Documentation Changes\n\n* **client-glue:**  AWS Glue now defaults to Glue version 5.1 for newly created jobs if the Glue version is not specified in the request, and UpdateJob now preserves the existing Glue version of a job when the Glue version is not specified in the update request. ([3f133ce0](https://github.com/aws/aws-sdk-js-v3/commit/3f133ce0dedca4284db752cbebb7979861c43efb))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-04-13 ([c2",
+    "published_at": "2026-04-13T18:57:36Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.68,
+    "score_breakdown": {
+      "freshness": 0.18,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.68
+    }
+  },
+  {
+    "id": "d8a43fd37c45ab06",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-13",
+    "title": "April 13th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-customerprofiles` (1.110.0): This release introduces changes to SegmentDefinition APIs to support sorting by attributes.\n- `aws-sdk-deadline` (1.98.0): Adds GetMonitorSettings and UpdateMonitorSettings APIs to Deadline Cloud. Enables reading and writing monitor settings as key-value pairs (up to 64 keys per monitor). UpdateMonitorSettings supports upsert and delete (via empty value) semantics and is idempotent.\n- `aws-sdk-interconnect` (1.0.0): Initial release of",
+    "published_at": "2026-04-13T18:56:01Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.68,
+    "score_breakdown": {
+      "freshness": 0.18,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.68
+    }
+  },
+  {
+    "id": "44f77a54cc3b0dba",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.0",
+    "title": "AWS SDK for Java v2 2.44.0",
+    "summary": "# __2.44.0__ __2026-05-01__\r\n## __AWS EntityResolution__\r\n  - ### Features\r\n    - Add support for transitive matching in AWS Entity Resolution rule-based matching workflows. When enabled, records that match through different rules are grouped together into the same match group, allowing related records to be connected across rule levels.\r\n\r\n## __AWS Identity and Access Management__\r\n  - ### Features\r\n    - Added guidance for CreateOpenIDConnectProvider to include multiple thumbprints when OIDC d",
+    "published_at": "2026-05-01T20:23:49Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
@@ -2578,25 +2160,25 @@
     }
   },
   {
-    "id": "1104867053734890",
+    "id": "f9325659ffcc6d44",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1029.0",
-    "title": "v3.1029.0",
-    "summary": "#### 3.1029.0(2026-04-10)\n\n##### New Features\n\n* **client-observabilityadmin:**  CloudWatch Observability Admin adds support for multi-region telemetry evaluation and telemetry enablement rules. ([861e172a](https://github.com/aws/aws-sdk-js-v3/commit/861e172aa8c12a7226c9d312a8b411124d424d21))\n* **client-rtbfabric:**  Adds optional health check configuration for Responder Gateways with ASG Managed Endpoints. When provided, RTB Fabric continuously probes customers' instance IPs and routes traffic ",
-    "published_at": "2026-04-10T18:59:55Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1041.0",
+    "title": "v3.1041.0",
+    "summary": "#### 3.1041.0(2026-05-01)\n\n##### Chores\n\n* **core/client:**  emit warning for Node.js 20.x end-of-support ([#7973](https://github.com/aws/aws-sdk-js-v3/pull/7973)) ([00383767](https://github.com/aws/aws-sdk-js-v3/commit/0038376702ea628e56dfd4da0887271355c28661))\n* **workflows:**  migrate git-sync SSH key from GitHub secret to Secrets Manager via OIDC ([#7978](https://github.com/aws/aws-sdk-js-v3/pull/7978)) ([c056a2e3](https://github.com/aws/aws-sdk-js-v3/commit/c056a2e3ad53b9ba7fe81a71d1f2a9e12",
+    "published_at": "2026-05-01T19:05:36Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.645,
+    "score": 0.65,
     "score_breakdown": {
-      "freshness": 0.145,
-      "keyword": 0.5,
+      "freshness": 0.65,
+      "keyword": 0.0,
       "source": 1.0,
-      "keyword_signal": 0.5,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.645
+      "total": 0.65
     }
   },
   {
@@ -2622,6 +2204,50 @@
     }
   },
   {
+    "id": "a7aff002ee4c0ecb",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.43.2",
+    "title": "AWS SDK for Java v2 2.43.2",
+    "summary": "# __2.43.2__ __2026-04-30__\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n  - ### Bugfixes\r\n    - Improved error message when `ResponseTransformer.toFile()` or `AsyncResponseTransformer.toFile()` fails because the parent directory does not exist. The error now indicates that the parent directory must be created before calling the method.\r\n\r\n## __AWS Single Sign-On Admin__\r\n  - ### Features\r\n    - Add InstanceArn and IdentityStoreArn in the respo",
+    "published_at": "2026-04-30T19:03:01Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.605,
+    "score_breakdown": {
+      "freshness": 0.605,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.605
+    }
+  },
+  {
+    "id": "290af54111d8afaf",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.252.0",
+    "title": "v2.252.0",
+    "summary": "### Features\n\n* **core:** `Validations` class now supports `addWarning`, `addError`, and `acknowledge` ([#37668](https://github.com/aws/aws-cdk/issues/37668)) ([5e8083c](https://github.com/aws/aws-cdk/commit/5e8083c79f2657fe2364a31ed3f26d0d88638920)), closes [aws/aws-cdk-rfcs#899](https://github.com/aws/aws-cdk-rfcs/issues/899)\n* **core:** add Box API for deferred values with accurate stack traces ([#37604](https://github.com/aws/aws-cdk/issues/37604)) ([d592a96](https://github.com/aws/aws-cdk/c",
+    "published_at": "2026-04-30T12:40:15Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.593,
+    "score_breakdown": {
+      "freshness": 0.593,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.593
+    }
+  },
+  {
     "id": "755f1edba3bf7aa1",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
@@ -2633,14 +2259,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.565,
+    "score": 0.563,
     "score_breakdown": {
-      "freshness": 0.565,
+      "freshness": 0.563,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.565
+      "total": 0.563
+    }
+  },
+  {
+    "id": "f24198efd3f1314e",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-29",
+    "title": "April 29th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-account` (1.102.0): Adds AccountState in the response for the GetAccountInformation API. Each state represents a specific phase in the account lifecycle. Use this information to manage account access, automate workflows, or trigger actions based on account state changes.\n- `aws-sdk-bedrockagentcore` (1.41.0): Adds batch evaluation for running evaluators against multiple agent sessions with server-side orchestration, AI-powered recommendations for optimizing syste",
+    "published_at": "2026-04-29T18:50:32Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.563,
+    "score_breakdown": {
+      "freshness": 0.563,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.563
     }
   },
   {
@@ -2685,6 +2333,28 @@
       "keyword_signal": 0.5,
       "severity": 0.0,
       "total": 0.53
+    }
+  },
+  {
+    "id": "84ee7d763853ef0b",
+    "track": "releases",
+    "source": "github:aws/aws-sam-cli",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.154.0",
+    "title": "Release version: 1.154.0",
+    "summary": "### Changes:\n[3766900](https://api.github.com/repos/aws/aws-sam-cli/commits/3766900d2aa5758518cda097ce951264480ef948) - chore(deps-dev): bump ruff from 0.14.11 to 0.14.14 in /requirements (#8594)\n[3f218d9](https://api.github.com/repos/aws/aws-sam-cli/commits/3f218d997e79de17b341480dd85da286c1a7ec8b) - chore(deps-dev): bump the types group across 1 directory with 2 updates (#8610)\n[35eec76](https://api.github.com/repos/aws/aws-sam-cli/commits/35eec7699b5af7b139527d735846e79edda89506) - chore(deps",
+    "published_at": "2026-02-11T22:38:41Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.502,
+    "score_breakdown": {
+      "freshness": 0.002,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.502
     }
   },
   {
@@ -2842,6 +2512,28 @@
     }
   },
   {
+    "id": "afbdbf8979bcd813",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.43.0",
+    "title": "AWS SDK for Java v2 2.43.0",
+    "summary": "# __2.43.0__ __2026-04-27__\r\n## __AWS Glue__\r\n  - ### Features\r\n    - Addition of AdditionalAuditContext to GetPartition, GetPartitions, GetTableVersion, and GetTableVersions\r\n\r\n## __AWS Key Management Service__\r\n  - ### Features\r\n    - KMS GetKeyLastUsage API provides information on the last successful cryptographic operation performed on KMS keys. This new API provides KMS customers with the last timestamp, CloudTrail eventId, and the cryptographic operation that was performed on the key.\r\n\r\n#",
+    "published_at": "2026-04-27T20:08:31Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.49,
+    "score_breakdown": {
+      "freshness": 0.49,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.49
+    }
+  },
+  {
     "id": "40c8b7fa6c13ef19",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
@@ -2853,14 +2545,102 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.491,
+    "score": 0.49,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.49,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.491
+      "total": 0.49
+    }
+  },
+  {
+    "id": "329229c2b004001b",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-27",
+    "title": "April 27th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-applicationsignals` (1.79.0): Application Signals now supports creating composite Service Level Objectives on Service Operations. Users can now create service SLO on multiple operations.\n- `aws-sdk-billingconductor` (1.102.0): Add support for Passthrough pricing plan\n- `aws-sdk-cloudwatchlogs` (1.129.0): Adds support for selecting all logs sources and types in a single association.\n- `aws-sdk-glue` (1.144.0): Addition of AdditionalAuditContext to GetPartition, Ge",
+    "published_at": "2026-04-27T19:54:42Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.489,
+    "score_breakdown": {
+      "freshness": 0.489,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.489
+    }
+  },
+  {
+    "id": "3ca8a99e57fb8172",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.41",
+    "title": "AWS SDK for Java v2 2.42.41",
+    "summary": "# __2.42.41__ __2026-04-24__\r\n## __AWS CRT HTTP Client__\r\n  - ### Bugfixes\r\n    - Fix connection pool leak in AwsCrtHttpClient when threads are externally interrupted.\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n## __AWS Transfer Family__\r\n  - ### Features\r\n    - AWS Transfer Family now support configurable IP address types for Web Apps of type VPC, enabling customers to select IPv4-only or dual-stack (IPv4 and IPv6) configurations based on ",
+    "published_at": "2026-04-24T19:32:36Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.395,
+    "score_breakdown": {
+      "freshness": 0.395,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.395
+    }
+  },
+  {
+    "id": "64bb70201b87b20a",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-24",
+    "title": "April 24th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-bedrockagentcorecontrol` (1.48.0): Added support for configuring identity providers and inbound authorizers within a private VPC for AWS Bedrock AgentCore, enabling secure network connection without public internet access\n- `aws-sdk-cloudwatchlogs` (1.128.0): Adding nextToken and maxItems to the GetQueryResults API.\n- `aws-sdk-connect` (1.172.0): Amazon Connect is expanding attachment capabilities to give customers greater flexibility and control. Currently limit",
+    "published_at": "2026-04-24T18:59:31Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.394,
+    "score_breakdown": {
+      "freshness": 0.394,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.394
+    }
+  },
+  {
+    "id": "ff01bf484a31a5d2",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.40",
+    "title": "AWS SDK for Java v2 2.42.40",
+    "summary": "# __2.42.40__ __2026-04-23__\n## __Amazon OpenSearch Service__\n  - ### Features\n    - Amazon OpenSearch UI applications now support cross-Region domain association, enabling you to connect OpenSearch Dashboards in one AWS Region to OpenSearch domains in other Regions within the same partition for centralized data visualization.\n\n## __Managed integrations for AWS IoT Device Management__\n  - ### Features\n    - Adds \"Status\" field to provisioning profile operation response types, giving users visibi",
+    "published_at": "2026-04-23T19:08:43Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.367,
+    "score_breakdown": {
+      "freshness": 0.367,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.367
     }
   },
   {
@@ -2875,14 +2655,146 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.368,
+    "score": 0.367,
     "score_breakdown": {
-      "freshness": 0.368,
+      "freshness": 0.367,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.368
+      "total": 0.367
+    }
+  },
+  {
+    "id": "a04c3aac4319b3f6",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-23",
+    "title": "April 23rd, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-datazone` (1.134.0): Releasing For LakehouseProperties attributes in the Connections API's\n- `aws-sdk-iotmanagedintegrations` (1.43.0): Adds \"Status\" field to provisioning profile operation response types, giving users visibility into the readiness of a provisioning profile to be used for device provisioning.\n- `aws-sdk-opensearch` (1.125.0): Amazon OpenSearch UI applications now support cross-Region domain association, enabling you to connect OpenSearch Dashboar",
+    "published_at": "2026-04-23T18:55:19Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.367,
+    "score_breakdown": {
+      "freshness": 0.367,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.367
+    }
+  },
+  {
+    "id": "2bbbc2aa763efa21",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.39",
+    "title": "AWS SDK for Java v2 2.42.39",
+    "summary": "# __2.42.39__ __2026-04-22__\r\n## __AWS Batch__\r\n  - ### Features\r\n    - Support of S3Files volume type, container start and stop timeouts.\r\n\r\n## __AWS IoT Wireless__\r\n  - ### Features\r\n    - Enable customers to optionally specify a desired confidence level for Cellular and WiFi position estimates. Customers can use this to trade off confidence level and radius of uncertainty based on their needs.\r\n\r\n## __AWS Lambda__\r\n  - ### Features\r\n    - Add Ruby 4.0 (ruby4.0) support to AWS Lambda.\r\n\r\n## __",
+    "published_at": "2026-04-22T23:04:24Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.346,
+    "score_breakdown": {
+      "freshness": 0.346,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.346
+    }
+  },
+  {
+    "id": "dd953af6f6c276e0",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1035.0",
+    "title": "v3.1035.0",
+    "summary": "#### 3.1035.0(2026-04-22)\n\n##### New Features\n\n* **client-iot-wireless:**  Enable customers to optionally specify a desired confidence level for Cellular and WiFi position estimates. Customers can use this to trade off confidence level and radius of uncertainty based on their needs. ([9fcaea59](https://github.com/aws/aws-sdk-js-v3/commit/9fcaea59ffb0c04d4263af037a2450a5ac1200ba))\n* **client-ecs:**  GPU health monitoring and auto-repair for ECS Managed Instances ([0ffa1090](https://github.com/aws",
+    "published_at": "2026-04-22T19:01:52Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.342,
+    "score_breakdown": {
+      "freshness": 0.342,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.342
+    }
+  },
+  {
+    "id": "ddf754fb24d4797d",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-22",
+    "title": "April 22nd, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-batch` (1.113.0): Support of S3Files volume type, container start and stop timeouts.\n- `aws-sdk-bedrockagentcore` (1.40.0): Adds support for Amazon Bedrock AgentCore Harness data plane APIs, enabling customers to invoke managed agent loops and execute commands on live agent sessions with streaming responses.\n- `aws-sdk-bedrockagentcorecontrol` (1.47.0): Adds support for Amazon Bedrock AgentCore Harness control plane APIs, enabling customers to create, manage, and",
+    "published_at": "2026-04-22T18:56:42Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.341,
+    "score_breakdown": {
+      "freshness": 0.341,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.341
+    }
+  },
+  {
+    "id": "2a20a26cddceb25d",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1034.0",
+    "title": "v3.1034.0",
+    "summary": "#### 3.1034.0(2026-04-21)\n\n##### Chores\n\n* **core/client:**  retry behavior control flag ([#7943](https://github.com/aws/aws-sdk-js-v3/pull/7943)) ([f8a0e2eb](https://github.com/aws/aws-sdk-js-v3/commit/f8a0e2ebdeae1aeeb4bd9127fb0527c73b2176fa))\n* **codegen:**  sync for http2 session concurrency fixes ([#7942](https://github.com/aws/aws-sdk-js-v3/pull/7942)) ([273ad5be](https://github.com/aws/aws-sdk-js-v3/commit/273ad5be3adc5288e480655de1c5887a38540fe4))\n\n##### New Features\n\n* **client-snowball",
+    "published_at": "2026-04-21T20:46:51Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.32,
+    "score_breakdown": {
+      "freshness": 0.32,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.32
+    }
+  },
+  {
+    "id": "a2cf49044e139075",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.37",
+    "title": "AWS SDK for Java v2 2.42.37",
+    "summary": "# __2.42.37__ __2026-04-20__\n## __AWS CRT HTTP Client__\n  - ### Bugfixes\n    - Fixed a connection leak in the CRT HTTP client that occurred when aborting a response stream before fully consuming it (e.g., calling `abort()` on a `GetObject` `ResponseInputStream`).\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Added `AsyncRequestBody.fromInputStream(InputStream, Long)` overload that uses an SDK-managed thread pool, removing the need for users to provide their own ExecutorService.\n\n## __Amazon",
+    "published_at": "2026-04-20T19:17:45Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.296,
+    "score_breakdown": {
+      "freshness": 0.296,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.296
     }
   },
   {
@@ -2908,6 +2820,72 @@
     }
   },
   {
+    "id": "6c6eda851170d485",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.33",
+    "title": "AWS SDK for Java v2 2.42.33",
+    "summary": "# __2.42.33__ __2026-04-10__\n## __AWS DevOps Agent Service__\n  - ### Features\n    - Devops Agent now supports associate Splunk, Datadog and custom MCP server to an Agent Space.\n\n## __AWS Elemental MediaConvert__\n  - ### Features\n    - Adds support for MV-HEVC video output and clear lead for AV1 DRM output.\n\n## __Amazon Connect Service__\n  - ### Features\n    - Conversational Analytics for Email\n\n## __Amazon EC2 Container Service__\n  - ### Features\n    - Minor updates to exceptions for completenes",
+    "published_at": "2026-04-10T19:13:52Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.145,
+    "score_breakdown": {
+      "freshness": 0.145,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.145
+    }
+  },
+  {
+    "id": "1104867053734890",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1029.0",
+    "title": "v3.1029.0",
+    "summary": "#### 3.1029.0(2026-04-10)\n\n##### New Features\n\n* **client-observabilityadmin:**  CloudWatch Observability Admin adds support for multi-region telemetry evaluation and telemetry enablement rules. ([861e172a](https://github.com/aws/aws-sdk-js-v3/commit/861e172aa8c12a7226c9d312a8b411124d424d21))\n* **client-rtbfabric:**  Adds optional health check configuration for Responder Gateways with ASG Managed Endpoints. When provided, RTB Fabric continuously probes customers' instance IPs and routes traffic ",
+    "published_at": "2026-04-10T18:59:55Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.145,
+    "score_breakdown": {
+      "freshness": 0.145,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.145
+    }
+  },
+  {
+    "id": "54cfe25ec4888bb3",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-10",
+    "title": "April 10th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-connect` (1.168.0): Conversational Analytics for Email\n- `aws-sdk-devopsagent` (1.2.0): Devops Agent now supports associate Splunk, Datadog and custom MCP server to an Agent Space.\n- `aws-sdk-ecs` (1.122.0): Minor updates to exceptions for completeness\n- `aws-sdk-imagebuilder` (1.109.0): Image pipelines can now automatically apply tags to images they create. Set the imageTags property when creating or updating your pipelines to get started.\n- `aws-sdk-mediaconver",
+    "published_at": "2026-04-10T18:57:56Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.145,
+    "score_breakdown": {
+      "freshness": 0.145,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.145
+    }
+  },
+  {
     "id": "7aeed8be6df8ccad",
     "track": "releases",
     "source": "github:aws/aws-cdk",
@@ -2927,6 +2905,28 @@
       "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 0.085
+    }
+  },
+  {
+    "id": "9135be530ea5bae8",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.246.0",
+    "title": "v2.246.0",
+    "summary": "### Features\n\n* **bedrock:** add MiniMax and GLM foundation model identifiers ([#37348](https://github.com/aws/aws-cdk/issues/37348)) ([2015344](https://github.com/aws/aws-cdk/commit/201534444ac183959119c1849f34931fa8f3d18d)), closes [#37347](https://github.com/aws/aws-cdk/issues/37347)\n\n\n### Bug Fixes\n\n* **dynamodb:** throw error when grantee is an unsupported ServicePrincipal ([#37335](https://github.com/aws/aws-cdk/issues/37335)) ([d12754f](https://github.com/aws/aws-cdk/commit/d12754fdeda481",
+    "published_at": "2026-03-31T12:55:53Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.07,
+    "score_breakdown": {
+      "freshness": 0.07,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.07
     }
   },
   {

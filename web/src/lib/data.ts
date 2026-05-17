@@ -1,9 +1,19 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// Astro is always invoked from the web/ directory, so the repo root is one level up.
-// import.meta.url doesn't survive Astro's bundler reliably; cwd does.
+// Astro is always invoked from the web/ directory, so the repo root is one
+// level up. We tried import.meta.url first, but Astro's bundler relocates the
+// compiled module and the relative path no longer resolves to the source tree.
+// cwd works as long as the invocation contract is honored — assert it so a
+// wrong-cwd invocation fails loudly instead of silently rendering empty pages.
 const ROOT = path.resolve(process.cwd(), "..");
+if (!fs.existsSync(path.join(ROOT, "tracks"))) {
+  throw new Error(
+    `[awsdd-web] ROOT=${ROOT} does not contain a 'tracks/' directory. ` +
+      `Astro commands must be run from the web/ directory (cwd). ` +
+      `If you are invoking from elsewhere, cd into web/ first or use npm run --prefix web ...`,
+  );
+}
 
 export const TRACKS = ["iam", "security", "whats-new", "releases"] as const;
 export type Track = (typeof TRACKS)[number];

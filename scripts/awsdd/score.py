@@ -3,12 +3,19 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import re
 from datetime import UTC, datetime
 
 from ._dates import parse_iso
 from .config import load_sources, track_dir
 
 SEVERITY_WEIGHT = {"critical": 3.0, "high": 2.0, "medium": 1.0, "low": 0.5}
+
+
+def _keyword_hits(keywords: list[str], text: str) -> int:
+    """Count word-bounded matches. Substring matching would let `iam` hit
+    `diagram` or `sts` hit `tests`, which dilutes the topic signal."""
+    return sum(1 for k in keywords if re.search(rf"\b{re.escape(k)}\b", text))
 
 
 def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
@@ -20,8 +27,8 @@ def score_item(item: dict, sources: dict, now: datetime) -> dict[str, float]:
     kws = sources.get("keywords") or {}
     primary = [k.lower() for k in (kws.get("primary") or [])]
     secondary = [k.lower() for k in (kws.get("secondary") or [])]
-    p_hits = sum(1 for k in primary if k in text)
-    s_hits = sum(1 for k in secondary if k in text)
+    p_hits = _keyword_hits(primary, text)
+    s_hits = _keyword_hits(secondary, text)
     keyword = p_hits * 2.0 + s_hits * 0.5
 
     weights = sources.get("source_weights") or {}

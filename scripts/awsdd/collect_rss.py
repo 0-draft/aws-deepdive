@@ -6,6 +6,7 @@ import html
 import json
 import re
 from datetime import UTC, datetime
+from html.parser import HTMLParser
 from urllib.error import URLError
 from urllib.request import Request, urlopen
 
@@ -43,14 +44,47 @@ def _fetch(url: str, timeout: int = FETCH_TIMEOUT) -> str | None:
         return None
 
 
+class _TextExtractor(HTMLParser):
+    """Pull text content out of HTML, dropping <script>/<style> bodies entirely.
+
+    Uses stdlib html.parser so it correctly handles entities and `<` / `>`
+    inside text content (e.g. "1 < 2 and 4 > 3"), which a regex strip would
+    chomp.
+    """
+
+    _DROP_CONTENT = frozenset({"script", "style"})
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+        self._drop_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        if tag in self._DROP_CONTENT:
+            self._drop_depth += 1
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag in self._DROP_CONTENT and self._drop_depth > 0:
+            self._drop_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if self._drop_depth == 0:
+            self.parts.append(data)
+
+
 def _strip_html(text: str) -> str:
-    # Unescape FIRST so entity-encoded tags like `&lt;script&gt;` are turned
-    # into their bracketed form before the strip pass; otherwise they bypass
-    # the regex and leak through into the report as raw HTML.
+    # Unescape FIRST so entity-encoded tags like `&lt;script&gt;` become
+    # real tags the parser can recognise (otherwise they'd survive as text).
     text = html.unescape(text)
-    text = re.sub(r"<[^>]*>", " ", text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    parser = _TextExtractor()
+    try:
+        parser.feed(text)
+        parser.close()
+    except Exception:
+        # html.parser is fairly tolerant; if it bails on truly malformed input,
+        # fall back to the raw text rather than dropping the whole summary.
+        return re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+", " ", "".join(parser.parts)).strip()
 
 
 def _summary(entry) -> str:
@@ -62,12 +96,15 @@ def _title(entry) -> str:
     return html.unescape((entry.get("title") or "").strip())
 
 
+_SEVERITY_RE = re.compile(r"\b(critical|high|medium|low)\b", re.IGNORECASE)
+
+
 def _severity(entry) -> str | None:
-    title = (entry.get("title") or "").lower()
-    for s in ("critical", "high", "medium", "low"):
-        if s in title:
-            return s
-    return None
+    # Word-boundary match: avoids "Slow performance" hitting "low" and
+    # "Highlighted" hitting "high".
+    title = entry.get("title") or ""
+    m = _SEVERITY_RE.search(title)
+    return m.group(1).lower() if m else None
 
 
 def entry_to_item(entry, sid: str, track: str, now: datetime) -> dict | None:

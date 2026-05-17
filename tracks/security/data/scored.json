@@ -11,14 +11,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 15.158,
+    "score": 9.153,
     "score_breakdown": {
-      "freshness": 1.658,
-      "keyword": 4.5,
+      "freshness": 1.653,
+      "keyword": 2.5,
       "source": 3.0,
-      "keyword_signal": 13.5,
+      "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 15.158
+      "total": 9.153
     }
   },
   {
@@ -33,14 +33,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 14.45,
+    "score": 8.447,
     "score_breakdown": {
-      "freshness": 0.95,
-      "keyword": 4.5,
+      "freshness": 0.947,
+      "keyword": 2.5,
       "source": 3.0,
-      "keyword_signal": 13.5,
+      "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 14.45
+      "total": 8.447
     }
   },
   {
@@ -62,72 +62,6 @@
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.5,
-      "total": 8.0
-    }
-  },
-  {
-    "id": "0893f3e2cee545a3",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2022-1601.html",
-    "title": "ALAS-2022-1601 (important): log4j-cve-2021-44228-hotpatch",
-    "summary": "CVE-2022-33915",
-    "published_at": "2022-06-15T19:28:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 8.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 4.0,
-      "source": 2.0,
-      "keyword_signal": 8.0,
-      "severity": 0.0,
-      "total": 8.0
-    }
-  },
-  {
-    "id": "614b9a26018015fa",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2022-1580.html",
-    "title": "ALAS-2022-1580 (important): log4j-cve-2021-44228-hotpatch",
-    "summary": "CVE-2022-0070",
-    "published_at": "2022-04-19T21:23:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 8.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 4.0,
-      "source": 2.0,
-      "keyword_signal": 8.0,
-      "severity": 0.0,
-      "total": 8.0
-    }
-  },
-  {
-    "id": "c8e97aab553c8ca1",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2021-1554.html",
-    "title": "ALAS-2021-1554 (important): log4j-cve-2021-44228-hotpatch",
-    "summary": "CVE-2021-3100",
-    "published_at": "2021-12-23T19:08:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 8.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 4.0,
-      "source": 2.0,
-      "keyword_signal": 8.0,
-      "severity": 0.0,
       "total": 8.0
     }
   },
@@ -187,14 +121,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.897,
+    "score": 7.896,
     "score_breakdown": {
-      "freshness": 0.397,
+      "freshness": 0.396,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.897
+      "total": 7.896
     }
   },
   {
@@ -209,14 +143,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.798,
+    "score": 7.797,
     "score_breakdown": {
-      "freshness": 0.298,
+      "freshness": 0.297,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.798
+      "total": 7.797
     }
   },
   {
@@ -231,14 +165,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.772,
+    "score": 7.766,
     "score_breakdown": {
-      "freshness": 1.772,
+      "freshness": 1.766,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.772
+      "total": 7.766
     }
   },
   {
@@ -253,14 +187,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.771,
+    "score": 7.766,
     "score_breakdown": {
-      "freshness": 1.771,
+      "freshness": 1.766,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.771
+      "total": 7.766
     }
   },
   {
@@ -283,58 +217,6 @@
       "keyword_signal": 7.5,
       "severity": 0.0,
       "total": 7.692
-    }
-  },
-  {
-    "id": "2b47d6d1ef1cba99",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
-    "title": "Ongoing updates on Copy.fail and variants",
-    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
-    "published_at": "2026-05-14T20:52:36+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.658,
-    "score_breakdown": {
-      "freshness": 1.658,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.658
-    }
-  },
-  {
-    "id": "b96cd6cbcbfc17cb",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
-    "title": "Detecting and preventing crypto mining in your AWS environment",
-    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]",
-    "published_at": "2026-05-13T21:47:27+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [
-      "Amazon GuardDuty",
-      "Best Practices",
-      "Intermediate (200)",
-      "Security, Identity, & Compliance",
-      "crypto",
-      "cryptomining",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 7.548,
-    "score_breakdown": {
-      "freshness": 1.548,
-      "keyword": 3.0,
-      "source": 2.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.548
     }
   },
   {
@@ -569,14 +451,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.326,
+    "score": 7.322,
     "score_breakdown": {
-      "freshness": 1.326,
+      "freshness": 1.322,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.326
+      "total": 7.322
     }
   },
   {
@@ -591,14 +473,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.073,
+    "score": 7.07,
     "score_breakdown": {
-      "freshness": 1.073,
+      "freshness": 1.07,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.073
+      "total": 7.07
     }
   },
   {
@@ -613,14 +495,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": "low",
-    "score": 7.066,
+    "score": 7.064,
     "score_breakdown": {
-      "freshness": 0.566,
+      "freshness": 0.564,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.5,
-      "total": 7.066
+      "total": 7.064
     }
   },
   {
@@ -635,14 +517,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": "low",
-    "score": 7.065,
+    "score": 7.064,
     "score_breakdown": {
-      "freshness": 0.565,
+      "freshness": 0.564,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.5,
-      "total": 7.065
+      "total": 7.064
     }
   },
   {
@@ -2758,37 +2640,6 @@
     }
   },
   {
-    "id": "60ffa4cfe54fc46a",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/five-ways-to-use-kiro-and-amazon-q-to-strengthen-your-security-posture/",
-    "title": "Five ways to use Kiro and Amazon Q to strengthen your security posture",
-    "summary": "A Monday morning security alert flags unauthorized access attempts, security group misconfigurations, and AWS Identity and Access Management (IAM) policy violations. Your team needs answers fast. Security teams are using Kiro and Amazon Q Developer to handle repetitive tasks—scanning resources, drafting policies, and researching Common Vulnerabilities and Exposures (CVEs)—so engineers can focus on risk decisions […]",
-    "published_at": "2026-05-05T15:00:07+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [
-      "Advanced (300)",
-      "Artificial Intelligence",
-      "Generative AI",
-      "Kiro",
-      "Security, Identity, & Compliance",
-      "Technical How-to",
-      "artificial intelligence",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 6.857,
-    "score_breakdown": {
-      "freshness": 0.857,
-      "keyword": 3.0,
-      "source": 2.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 6.857
-    }
-  },
-  {
     "id": "ac3e68fa655f8834",
     "track": "security",
     "source": "rss:aws-security-bulletins",
@@ -2800,14 +2651,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.816,
+    "score": 6.813,
     "score_breakdown": {
-      "freshness": 0.816,
+      "freshness": 0.813,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.816
+      "total": 6.813
     }
   },
   {
@@ -2844,14 +2695,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.654,
+    "score": 6.652,
     "score_breakdown": {
-      "freshness": 0.654,
+      "freshness": 0.652,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.654
+      "total": 6.652
     }
   },
   {
@@ -2866,14 +2717,44 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.566,
+    "score": 6.564,
     "score_breakdown": {
-      "freshness": 0.566,
+      "freshness": 0.564,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.566
+      "total": 6.564
+    }
+  },
+  {
+    "id": "b96cd6cbcbfc17cb",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
+    "title": "Detecting and preventing crypto mining in your AWS environment",
+    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]",
+    "published_at": "2026-05-13T21:47:27+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [
+      "Amazon GuardDuty",
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "crypto",
+      "cryptomining",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 6.543,
+    "score_breakdown": {
+      "freshness": 1.543,
+      "keyword": 2.5,
+      "source": 2.0,
+      "keyword_signal": 5.0,
+      "severity": 0.0,
+      "total": 6.543
     }
   },
   {
@@ -2888,14 +2769,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.492,
+    "score": 6.49,
     "score_breakdown": {
-      "freshness": 0.492,
+      "freshness": 0.49,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.492
+      "total": 6.49
     }
   },
   {
@@ -2910,14 +2791,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.392,
+    "score": 6.391,
     "score_breakdown": {
-      "freshness": 0.392,
+      "freshness": 0.391,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.392
+      "total": 6.391
     }
   },
   {
@@ -2932,14 +2813,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.24,
+    "score": 6.239,
     "score_breakdown": {
-      "freshness": 0.24,
+      "freshness": 0.239,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.24
+      "total": 6.239
     }
   },
   {
@@ -2954,14 +2835,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.193,
+    "score": 6.192,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.192,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.193
+      "total": 6.192
     }
   },
   {
@@ -2976,14 +2857,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.193,
+    "score": 6.192,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.192,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.193
+      "total": 6.192
     }
   },
   {
@@ -3335,94 +3216,6 @@
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.0
-    }
-  },
-  {
-    "id": "06ee4f96b7c1e90b",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2023-1772.html",
-    "title": "ALAS-2023-1772 (medium): mod24_security",
-    "summary": "CVE-2022-48279",
-    "published_at": "2023-06-27T16:28:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "medium",
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
-      "severity": 1.0,
-      "total": 6.0
-    }
-  },
-  {
-    "id": "0a50fa2fc277ae94",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2023-1763.html",
-    "title": "ALAS-2023-1763 (medium): mod_security",
-    "summary": "CVE-2022-48279",
-    "published_at": "2023-06-08T13:14:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "medium",
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
-      "severity": 1.0,
-      "total": 6.0
-    }
-  },
-  {
-    "id": "0ff4592fa1992033",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2014-334.html",
-    "title": "ALAS-2014-334 (medium): mod24_security",
-    "summary": "CVE-2013-5705",
-    "published_at": "2014-05-06T22:19:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "medium",
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
-      "severity": 1.0,
-      "total": 6.0
-    }
-  },
-  {
-    "id": "e87fbe314ad34208",
-    "track": "security",
-    "source": "rss:amazon-linux-alas",
-    "source_kind": "rss",
-    "url": "https://alas.aws.amazon.com/ALAS-2014-335.html",
-    "title": "ALAS-2014-335 (medium): mod_security",
-    "summary": "CVE-2013-5705",
-    "published_at": "2014-05-06T22:19:00+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "medium",
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
-      "severity": 1.0,
       "total": 6.0
     }
   },
@@ -5033,6 +4826,28 @@
     }
   },
   {
+    "id": "06ee4f96b7c1e90b",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2023-1772.html",
+    "title": "ALAS-2023-1772 (medium): mod24_security",
+    "summary": "CVE-2022-48279",
+    "published_at": "2023-06-27T16:28:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": "medium",
+    "score": 5.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 1.0,
+      "total": 5.0
+    }
+  },
+  {
     "id": "d409c1f932cfe543",
     "track": "security",
     "source": "rss:amazon-linux-alas",
@@ -5106,6 +4921,28 @@
     "url": "https://alas.aws.amazon.com/ALAS-2023-1762.html",
     "title": "ALAS-2023-1762 (medium): openssl",
     "summary": "CVE-2023-0464, CVE-2023-0465, CVE-2023-0466, CVE-2023-2650",
+    "published_at": "2023-06-08T13:14:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": "medium",
+    "score": 5.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 1.0,
+      "total": 5.0
+    }
+  },
+  {
+    "id": "0a50fa2fc277ae94",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2023-1763.html",
+    "title": "ALAS-2023-1763 (medium): mod_security",
+    "summary": "CVE-2022-48279",
     "published_at": "2023-06-08T13:14:00+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
@@ -19443,6 +19280,50 @@
     }
   },
   {
+    "id": "0ff4592fa1992033",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2014-334.html",
+    "title": "ALAS-2014-334 (medium): mod24_security",
+    "summary": "CVE-2013-5705",
+    "published_at": "2014-05-06T22:19:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": "medium",
+    "score": 5.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 1.0,
+      "total": 5.0
+    }
+  },
+  {
+    "id": "e87fbe314ad34208",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2014-335.html",
+    "title": "ALAS-2014-335 (medium): mod_security",
+    "summary": "CVE-2013-5705",
+    "published_at": "2014-05-06T22:19:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": "medium",
+    "score": 5.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 1.0,
+      "total": 5.0
+    }
+  },
+  {
     "id": "b54079c89c90794c",
     "track": "security",
     "source": "rss:amazon-linux-alas",
@@ -31257,6 +31138,28 @@
     }
   },
   {
+    "id": "0893f3e2cee545a3",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2022-1601.html",
+    "title": "ALAS-2022-1601 (important): log4j-cve-2021-44228-hotpatch",
+    "summary": "CVE-2022-33915",
+    "published_at": "2022-06-15T19:28:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 4.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 0.0,
+      "total": 4.0
+    }
+  },
+  {
     "id": "a88b0b8169c891c4",
     "track": "security",
     "source": "rss:amazon-linux-alas",
@@ -31463,6 +31366,28 @@
     "title": "ALAS-2022-1584 (important): httpd24",
     "summary": "CVE-2022-22719, CVE-2022-22720, CVE-2022-22721, CVE-2022-23943",
     "published_at": "2022-04-28T23:40:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 4.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 0.0,
+      "total": 4.0
+    }
+  },
+  {
+    "id": "614b9a26018015fa",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2022-1580.html",
+    "title": "ALAS-2022-1580 (important): log4j-cve-2021-44228-hotpatch",
+    "summary": "CVE-2022-0070",
+    "published_at": "2022-04-19T21:23:00+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
@@ -31727,6 +31652,28 @@
     "title": "ALAS-2022-1562 (important): log4j",
     "summary": "CVE-2017-5645, CVE-2019-17571, CVE-2021-4104",
     "published_at": "2022-01-20T01:31:00+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 4.0,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 2.0,
+      "source": 2.0,
+      "keyword_signal": 4.0,
+      "severity": 0.0,
+      "total": 4.0
+    }
+  },
+  {
+    "id": "c8e97aab553c8ca1",
+    "track": "security",
+    "source": "rss:amazon-linux-alas",
+    "source_kind": "rss",
+    "url": "https://alas.aws.amazon.com/ALAS-2021-1554.html",
+    "title": "ALAS-2021-1554 (important): log4j-cve-2021-44228-hotpatch",
+    "summary": "CVE-2021-3100",
+    "published_at": "2021-12-23T19:08:00+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
@@ -41063,14 +41010,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 3.0,
+    "score": 2.997,
     "score_breakdown": {
-      "freshness": 1.0,
+      "freshness": 0.997,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 3.0
+      "total": 2.997
     }
   },
   {
@@ -41091,14 +41038,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.764,
+    "score": 2.758,
     "score_breakdown": {
-      "freshness": 1.764,
+      "freshness": 1.758,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.764
+      "total": 2.758
     }
   },
   {
@@ -41120,14 +41067,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.526,
+    "score": 2.524,
     "score_breakdown": {
-      "freshness": 0.526,
+      "freshness": 0.524,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.526
+      "total": 2.524
     }
   },
   {
@@ -41150,14 +41097,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.523,
+    "score": 2.518,
     "score_breakdown": {
-      "freshness": 1.523,
+      "freshness": 1.518,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.523
+      "total": 2.518
     }
   },
   {
@@ -41181,14 +41128,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.44,
+    "score": 2.436,
     "score_breakdown": {
-      "freshness": 1.44,
+      "freshness": 1.436,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.44
+      "total": 2.436
     }
   },
   {
@@ -41213,14 +41160,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.327,
+    "score": 2.323,
     "score_breakdown": {
-      "freshness": 1.327,
+      "freshness": 1.323,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.327
+      "total": 2.323
     }
   },
   {
@@ -41241,45 +41188,67 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.867,
+    "score": 1.864,
     "score_breakdown": {
-      "freshness": 0.867,
+      "freshness": 0.864,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.867
+      "total": 1.864
     }
   },
   {
-    "id": "6f275c9854443926",
+    "id": "60ffa4cfe54fc46a",
     "track": "security",
     "source": "rss:aws-security-blog",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
-    "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
-    "summary": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity Center instance across multiple AWS Regions to improve resilience and reduce latency for a globally distributed […]",
-    "published_at": "2026-05-14T20:42:20+00:00",
+    "url": "https://aws.amazon.com/blogs/security/five-ways-to-use-kiro-and-amazon-q-to-strengthen-your-security-posture/",
+    "title": "Five ways to use Kiro and Amazon Q to strengthen your security posture",
+    "summary": "A Monday morning security alert flags unauthorized access attempts, security group misconfigurations, and AWS Identity and Access Management (IAM) policy violations. Your team needs answers fast. Security teams are using Kiro and Amazon Q Developer to handle repetitive tasks—scanning resources, drafting policies, and researching Common Vulnerabilities and Exposures (CVEs)—so engineers can focus on risk decisions […]",
+    "published_at": "2026-05-05T15:00:07+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [
       "Advanced (300)",
-      "Amazon Route 53",
-      "AWS IAM Identity Center",
-      "Networking & Content Delivery",
+      "Artificial Intelligence",
+      "Generative AI",
+      "Kiro",
       "Security, Identity, & Compliance",
       "Technical How-to",
-      "IAM Identity Center",
+      "artificial intelligence",
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.657,
+    "score": 1.854,
     "score_breakdown": {
-      "freshness": 1.657,
-      "keyword": 0.0,
+      "freshness": 0.854,
+      "keyword": 0.5,
       "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.854
+    }
+  },
+  {
+    "id": "2b47d6d1ef1cba99",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
+    "title": "Ongoing updates on Copy.fail and variants",
+    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
+    "published_at": "2026-05-14T20:52:36+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.653,
+    "score_breakdown": {
+      "freshness": 1.653,
+      "keyword": 0.0,
+      "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.657
+      "total": 1.653
     }
   },
   {
@@ -41312,14 +41281,45 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.655,
+    "score": 1.653,
     "score_breakdown": {
-      "freshness": 0.655,
+      "freshness": 0.653,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.655
+      "total": 1.653
+    }
+  },
+  {
+    "id": "6f275c9854443926",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/regional-routing-for-aws-access-portals-implementing-custom-vanity-domains-for-iam-identity-center/",
+    "title": "Regional routing for AWS access portals: Implementing custom vanity domains for IAM Identity Center",
+    "summary": "AWS IAM Identity Center provides a web-based access portal that gives your workforce a single place to view their AWS accounts and applications. With the recent launch of IAM Identity Center multi-Region replication, customers can replicate their IAM Identity Center instance across multiple AWS Regions to improve resilience and reduce latency for a globally distributed […]",
+    "published_at": "2026-05-14T20:42:20+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [
+      "Advanced (300)",
+      "Amazon Route 53",
+      "AWS IAM Identity Center",
+      "Networking & Content Delivery",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "IAM Identity Center",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.652,
+    "score_breakdown": {
+      "freshness": 1.652,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.652
     }
   },
   {
@@ -41340,14 +41340,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 1.653,
+    "score": 1.651,
     "score_breakdown": {
-      "freshness": 0.653,
+      "freshness": 0.651,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.653
+      "total": 1.651
     }
   },
   {
@@ -41374,14 +41374,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 1.636,
+    "score": 1.631,
     "score_breakdown": {
-      "freshness": 1.636,
+      "freshness": 1.631,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.636
+      "total": 1.631
     }
   },
   {
@@ -41405,14 +41405,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.536,
+    "score": 1.531,
     "score_breakdown": {
-      "freshness": 1.536,
+      "freshness": 1.531,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.536
+      "total": 1.531
     }
   },
   {
@@ -41434,14 +41434,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.522,
+    "score": 1.52,
     "score_breakdown": {
-      "freshness": 0.522,
+      "freshness": 0.52,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.522
+      "total": 1.52
     }
   },
   {
@@ -41517,14 +41517,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.414,
+    "score": 1.409,
     "score_breakdown": {
-      "freshness": 1.414,
+      "freshness": 1.409,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.414
+      "total": 1.409
     }
   },
   {
@@ -41721,14 +41721,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.991,
+    "score": 0.988,
     "score_breakdown": {
-      "freshness": 0.991,
+      "freshness": 0.988,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.991
+      "total": 0.988
     }
   },
   {
@@ -41752,14 +41752,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.933,
+    "score": 0.93,
     "score_breakdown": {
-      "freshness": 0.933,
+      "freshness": 0.93,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.933
+      "total": 0.93
     }
   },
   {
@@ -41780,14 +41780,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.805,
+    "score": 0.803,
     "score_breakdown": {
-      "freshness": 0.805,
+      "freshness": 0.803,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.805
+      "total": 0.803
     }
   },
   {
@@ -41808,14 +41808,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.566,
+    "score": 0.564,
     "score_breakdown": {
-      "freshness": 0.566,
+      "freshness": 0.564,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.566
+      "total": 0.564
     }
   },
   {

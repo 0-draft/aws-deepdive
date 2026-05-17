@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 
-from awsdd.collect_github import release_to_item
+from awsdd.collect_github import _next_url, release_to_item
 
 from .conftest import FIXTURES, NOW
 
@@ -42,3 +42,21 @@ def test_falls_back_to_tag_name_when_no_name():
     }
     item = release_to_item(rel, "x/y", "releases", NOW)
     assert item["title"] == "v1"
+
+
+def test_next_url_parses_link_header():
+    link = (
+        '<https://api.github.com/repos/x/y/releases?page=2>; rel="next", '
+        '<https://api.github.com/repos/x/y/releases?page=5>; rel="last"'
+    )
+    assert _next_url(link) == "https://api.github.com/repos/x/y/releases?page=2"
+
+
+def test_next_url_returns_none_when_no_next():
+    link = '<https://api.github.com/repos/x/y/releases?page=5>; rel="last"'
+    assert _next_url(link) is None
+
+
+def test_next_url_handles_missing_header():
+    assert _next_url(None) is None
+    assert _next_url("") is None
