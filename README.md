@@ -21,7 +21,7 @@ Site: <https://0-draft.github.io/aws-deepdive/>
 collect (RSS + GitHub Releases) → normalize → score → report (daily | weekly)
 ```
 
-Score = `freshness × keyword × source-weight × severity`. Items below the threshold stay in `normalized.json` but are not surfaced in the report.
+Score = `(freshness × 2) + (keyword × source-weight) + severity`. The keyword × source-weight product means an item with zero keyword hits only gets the freshness baseline, so generic What's-New noise does not float into topic-specific tracks. See [`scripts/awsdd/score.py`](./scripts/awsdd/score.py) for the exact weights.
 
 ## Layout
 
@@ -38,10 +38,12 @@ tracks/<name>/
   reports/{daily,weekly}/<date>.md
   deep-dives/<topic>.md
 .github/workflows/
+  ci.yml                           # PR + push to main: lint / test / build
+  codeql.yml                       # CodeQL SAST (python + js/ts)
+  audit.yml                        # pip-audit + npm audit + license report
   daily-update.yml                 # 06:00 UTC, matrix.track
   weekly-digest.yml                # Mon 08:00 UTC
   deploy-pages.yml                 # push to main → Pages
-  pr-checks.yml
 web/                               # Astro 6 + Tailwind v4 + recharts (React island)
 ```
 
@@ -63,14 +65,14 @@ Python 3.12 / Node 22+ (Astro 6 requirement).
 
 ## CI
 
-| Workflow             | Trigger                                | Purpose                                                                  |
-| -------------------- | -------------------------------------- | ------------------------------------------------------------------------ |
-| `ci.yml`             | PR + push to `main` (code paths only)  | ruff, astro check, markdownlint, actionlint, pytest+coverage, builds     |
-| `codeql.yml`         | PR + push to `main` + weekly cron      | CodeQL SAST for Python and TS/JS                                         |
-| `audit.yml`          | weekly cron + manual + deps PR         | `pip-audit`, `npm audit --audit-level=high`, license report (copyleft gate) |
-| `daily-update.yml`   | 06:00 UTC cron                         | per-track collect / score / report; commits artefacts to `main`          |
-| `weekly-digest.yml`  | Mon 08:00 UTC cron                     | per-track weekly digest; commits artefact to `main`                      |
-| `deploy-pages.yml`   | push to `main` (web/, tracks/ changes) | builds `web/dist` and publishes to GitHub Pages                          |
+| Workflow            | Trigger                                | Purpose                                                                     |
+| ------------------- | -------------------------------------- | --------------------------------------------------------------------------- |
+| `ci.yml`            | PR + push to `main` (code paths only)  | ruff, astro check, markdownlint, actionlint, pytest+coverage, builds        |
+| `codeql.yml`        | PR + push to `main` + weekly cron      | CodeQL SAST for Python and TS/JS                                            |
+| `audit.yml`         | weekly cron + manual + deps PR         | `pip-audit`, `npm audit --audit-level=high`, license report (copyleft gate) |
+| `daily-update.yml`  | 06:00 UTC cron                         | per-track collect / score / report; commits artefacts to `main`             |
+| `weekly-digest.yml` | Mon 08:00 UTC cron                     | per-track weekly digest; commits artefact to `main`                         |
+| `deploy-pages.yml`  | push to `main` (web/, tracks/ changes) | builds `web/dist` and publishes to GitHub Pages                             |
 
 PRs into `main` should be gated by branch protection requiring `ci.yml` jobs to pass. Configure once in repo Settings → Branches.
 

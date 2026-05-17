@@ -4,20 +4,11 @@ import argparse
 import json
 from datetime import UTC, datetime, timedelta
 
+from ._dates import parse_iso
 from .config import track_dir
 
 TOP_N = {"daily": 10, "weekly": 25}
 WINDOW = {"daily": timedelta(days=2), "weekly": timedelta(days=7)}
-
-
-def _parse_iso(s: str) -> datetime:
-    # Python 3.11+ accepts the "Z" suffix natively.
-    # Fall back to the Unix epoch (not "now") so corrupted dates sink below
-    # the freshness window instead of getting promoted to the top.
-    try:
-        return datetime.fromisoformat(s or "")
-    except (ValueError, TypeError):
-        return datetime(1970, 1, 1, tzinfo=UTC)
 
 
 def _filename(mode: str, now: datetime) -> str:
@@ -32,7 +23,7 @@ def render(track: str, mode: str) -> None:
     items: list[dict] = json.loads(p.read_text()) if p.exists() else []
     now = datetime.now(UTC)
     cutoff = now - WINDOW[mode]
-    fresh = [it for it in items if _parse_iso(it.get("published_at", "")) >= cutoff]
+    fresh = [it for it in items if parse_iso(it.get("published_at", "")) >= cutoff]
     fresh.sort(key=lambda x: x.get("score", 0.0), reverse=True)
 
     used_fallback = False
