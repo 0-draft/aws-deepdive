@@ -24,7 +24,7 @@ jobs:
           # Pin to main so a workflow_dispatch from a feature branch can't
           # publish data based on non-main code (the commit still lands on main).
           ref: main
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           cache: pip
