@@ -36,7 +36,7 @@ jobs:
           PAGES_SITE: https://0-draft.github.io
           PAGES_BASE: /aws-deepdive
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: web/dist
 
