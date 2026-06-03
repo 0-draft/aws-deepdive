@@ -24,12 +24,10 @@ jobs:
           # Pin to main so a workflow_dispatch from a feature branch can't
           # publish a digest built from non-main code.
           ref: main
-          # Persist a PAT (admin owner) instead of GITHUB_TOKEN so the later
-          # push (a) bypasses the `main` ruleset via the Repository-admin bypass
-          # actor, and (b) triggers deploy-pages — GITHUB_TOKEN pushes are
-          # suppressed by GitHub's workflow-recursion guard, so the site would
-          # otherwise never refresh after a digest commit.
-          token: ${{ secrets.BOT_TOKEN }}
+          # Don't persist any token in .git/config: the pipeline step below runs
+          # repo/third-party code, and the admin PAT must not be readable by it.
+          # The PAT is applied inline only in the commit/push step.
+          persist-credentials: false
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
@@ -41,6 +39,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: make -C tracks/${{ matrix.track }} weekly
       - name: Commit and push
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -50,8 +50,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore(${{ matrix.track }}): weekly digest $(date -u +%Y-W%V)"
+          # Inline auth (never written to .git/config) with an admin PAT that the
+          # `main` ruleset bypasses; a PAT push also lets deploy-pages fire, which
+          # GITHUB_TOKEN pushes can't (workflow-recursion guard).
+          remote="https://x-access-token:${BOT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           for i in 1 2 3 4 5; do
-            if git pull --rebase origin main && git push origin HEAD:main; then
+            if git pull --rebase "$remote" main && git push "$remote" HEAD:main; then
               exit 0
             fi
             sleep $((i * 5))
