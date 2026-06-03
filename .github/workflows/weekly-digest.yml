@@ -24,6 +24,12 @@ jobs:
           # Pin to main so a workflow_dispatch from a feature branch can't
           # publish a digest built from non-main code.
           ref: main
+          # Persist a PAT (admin owner) instead of GITHUB_TOKEN so the later
+          # push (a) bypasses the `main` ruleset via the Repository-admin bypass
+          # actor, and (b) triggers deploy-pages — GITHUB_TOKEN pushes are
+          # suppressed by GitHub's workflow-recursion guard, so the site would
+          # otherwise never refresh after a digest commit.
+          token: ${{ secrets.BOT_TOKEN }}
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
