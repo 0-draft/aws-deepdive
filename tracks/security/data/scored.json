@@ -1,5 +1,34 @@
 [
   {
+    "id": "2ca0726127f27172",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/aws-security-hub-extended-why-enterprise-security-products-should-sell-themselves/",
+    "title": "AWS Security Hub Extended: Why enterprise security products should sell themselves",
+    "summary": "Our largest security services customers started the same way every customer does – with a click. They enabled Amazon GuardDuty, Amazon Inspector, AWS WAF, and AWS Security Hub, experienced the benefits in real time, and evaluated with transparent pay-as-you-go pricing. No RFP. No six-month evaluation. No multi-year commitment up front. Our field teams played a […]",
+    "published_at": "2026-05-20T17:32:58+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "AWS Security Hub",
+      "Foundational (100)",
+      "Partner solutions",
+      "Security, Identity, & Compliance",
+      "Thought Leadership",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 10.701,
+    "score_breakdown": {
+      "freshness": 0.701,
+      "keyword": 5.0,
+      "source": 2.0,
+      "keyword_signal": 10.0,
+      "severity": 0.0,
+      "total": 10.701
+    }
+  },
+  {
     "id": "c3b237b7f89dcd87",
     "track": "security",
     "source": "rss:aws-security-bulletins",
@@ -11,14 +40,58 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.151,
+    "score": 7.961,
     "score_breakdown": {
-      "freshness": 1.651,
+      "freshness": 0.461,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.151
+      "total": 7.961
+    }
+  },
+  {
+    "id": "263415012b61da02",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
+    "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
+    "summary": "Bulletin ID: 2026-038-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 12:15 PM PDT Description: Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified CVE-2026-10584 where, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information. I",
+    "published_at": "2026-06-02T19:17:39+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.783,
+    "score_breakdown": {
+      "freshness": 1.783,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.783
+    }
+  },
+  {
+    "id": "e516f183c474fc79",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
+    "title": "CVE-2026-10591 - Kiro IDE Insufficient File Write Restrictions to Execution-Sensitive Paths",
+    "summary": "Bulletin ID: 2026-037-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 08:45 AM PDT Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabli",
+    "published_at": "2026-06-02T15:39:24+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.764,
+    "score_breakdown": {
+      "freshness": 1.764,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.764
     }
   },
   {
@@ -33,14 +106,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.446,
+    "score": 7.764,
     "score_breakdown": {
-      "freshness": 0.946,
+      "freshness": 0.264,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.446
+      "total": 7.764
     }
   },
   {
@@ -55,14 +128,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.895,
+    "score": 7.61,
     "score_breakdown": {
-      "freshness": 0.395,
+      "freshness": 0.11,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.895
+      "total": 7.61
     }
   },
   {
@@ -77,58 +150,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.796,
+    "score": 7.583,
     "score_breakdown": {
-      "freshness": 0.296,
+      "freshness": 0.083,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.796
-    }
-  },
-  {
-    "id": "24cb222a3393aa98",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
-    "title": "CVE-2026-8686 - Heap out-of-bounds read in coreMQTT MQTT5 property parsing",
-    "summary": "Bulletin ID: 2026-032-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/15/2026 11:45 AM PDT Description: coreMQTT is a lightweight MQTT client library for embedded devices. We identified CVE-2026-8686, an issue where missing bounds validation in the MQTT v5.0 SUBACK and UNSUBACK property parser in coreMQTT before 5.0.1 allows an MQTT broker to cause a denial of service (crash via heap out-of-bounds read) by sending a crafted packet. Impacted versions: v5.0.0 Pleas",
-    "published_at": "2026-05-15T19:10:10+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.764,
-    "score_breakdown": {
-      "freshness": 1.764,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.764
-    }
-  },
-  {
-    "id": "0ba4357947bd046a",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
-    "title": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 & CVE-2026-8597)",
-    "summary": "Bulletin ID: 2026-031-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/14/2026 13:00 PM PDT Description: Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. The ModelBuilder component simplifies model deployment by automating model artifact preparation and SageMaker model creation. We identified two issues affecting the model artifact integrity verification mechanism in the ModelBuilder/Serv",
-    "published_at": "2026-05-15T19:02:12+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.763,
-    "score_breakdown": {
-      "freshness": 1.763,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.763
+      "total": 7.583
     }
   },
   {
@@ -143,14 +172,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.691,
+    "score": 7.553,
     "score_breakdown": {
-      "freshness": 0.191,
+      "freshness": 0.053,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.691
+      "total": 7.553
     }
   },
   {
@@ -165,14 +194,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.526,
+    "score": 7.507,
     "score_breakdown": {
-      "freshness": 0.026,
+      "freshness": 0.007,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.526
+      "total": 7.507
     }
   },
   {
@@ -187,14 +216,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.524,
+    "score": 7.507,
     "score_breakdown": {
-      "freshness": 0.024,
+      "freshness": 0.007,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.524
+      "total": 7.507
     }
   },
   {
@@ -209,14 +238,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.51,
+    "score": 7.503,
     "score_breakdown": {
-      "freshness": 0.01,
+      "freshness": 0.003,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.51
+      "total": 7.503
     }
   },
   {
@@ -231,14 +260,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.501,
+    "score": 7.5,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.501
+      "total": 7.5
     }
   },
   {
@@ -253,14 +282,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.501,
+    "score": 7.5,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.501
+      "total": 7.5
     }
   },
   {
@@ -286,6 +315,138 @@
     }
   },
   {
+    "id": "798a8eb492fb583b",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-036-aws/",
+    "title": "CVE-2026-9291 - Insecure Deserialization in Amazon Braket SDK Job Results Processing",
+    "summary": "Bulletin ID: 2026-036-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/22/2026 11:15 AM PDT Description: Amazon Braket SDK is an open-source Python library for interacting with the Amazon Braket quantum computing service, including managing hybrid quantum jobs and retrieving job results. We identified CVE-2026-9291, an insecure deserialization issue (CWE-502) in the job results processing component. The SDK's deserialize_values() function trusts the dataFormat fie",
+    "published_at": "2026-05-22T18:38:37+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.811,
+    "score_breakdown": {
+      "freshness": 0.811,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.811
+    }
+  },
+  {
+    "id": "79322c48474ffd24",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/",
+    "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI",
+    "summary": "Bulletin ID: 2026-035-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/22/2026 09:45 AM PDT Description: Kiro CLI is a command-line AI coding assistant that enables developers to interact with AI models to execute code, manage files, and run shell commands. We identified CVE-2026-9255, an issue where missing input source validation in the tool authorization prompt could allow a local actor to execute arbitrary tools, including shell commands, without user approval",
+    "published_at": "2026-05-22T16:42:15+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.807,
+    "score_breakdown": {
+      "freshness": 0.807,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.807
+    }
+  },
+  {
+    "id": "4d3c92565ea760f4",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/",
+    "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
+    "summary": "Bulletin ID: 2026-034-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/20/2026 12:45 PM PDT Description: rabbitmq-aws is a RabbitMQ plugin that resolves AWS ARNs in broker configuration at startup, fetching secrets (e.g., TLS certificates, private keys, passwords) from AWS services (Secrets Manager, S3, ACM Private CA) and passing them in-memory to RabbitMQ. We identified CVE-2026-9133, an active debug code issue in the plugin's ARN resolver. A debug ARN scheme (a",
+    "published_at": "2026-05-20T19:43:20+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.705,
+    "score_breakdown": {
+      "freshness": 0.705,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.705
+    }
+  },
+  {
+    "id": "1fd117d49dee23d2",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-033-aws/",
+    "title": "CVE-2026-8838 - Remote Code Execution in amazon-redshift-python-driver",
+    "summary": "Bulletin ID: 2026-033-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/18/2026 13:45 PM PDT Description: amazon-redshift-python-driver is the official Python connector for Amazon Redshift. We identified a code injection issue in versions 2.1.13 and earlier that could allow a rogue server or man-in-the-middle to execute arbitrary code on the client. Impacted versions: < =2.1.13 Please refer to the article below for the most up-to-date and complete information relat",
+    "published_at": "2026-05-18T20:27:07+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.613,
+    "score_breakdown": {
+      "freshness": 0.613,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.613
+    }
+  },
+  {
+    "id": "24cb222a3393aa98",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
+    "title": "CVE-2026-8686 - Heap out-of-bounds read in coreMQTT MQTT5 property parsing",
+    "summary": "Bulletin ID: 2026-032-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/15/2026 11:45 AM PDT Description: coreMQTT is a lightweight MQTT client library for embedded devices. We identified CVE-2026-8686, an issue where missing bounds validation in the MQTT v5.0 SUBACK and UNSUBACK property parser in coreMQTT before 5.0.1 allows an MQTT broker to cause a denial of service (crash via heap out-of-bounds read) by sending a crafted packet. Impacted versions: v5.0.0 Pleas",
+    "published_at": "2026-05-15T19:10:10+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.493,
+    "score_breakdown": {
+      "freshness": 0.493,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.493
+    }
+  },
+  {
+    "id": "0ba4357947bd046a",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
+    "title": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 & CVE-2026-8597)",
+    "summary": "Bulletin ID: 2026-031-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/14/2026 13:00 PM PDT Description: Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. The ModelBuilder component simplifies model deployment by automating model artifact preparation and SageMaker model creation. We identified two issues affecting the model artifact integrity verification mechanism in the ModelBuilder/Serv",
+    "published_at": "2026-05-15T19:02:12+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.493,
+    "score_breakdown": {
+      "freshness": 0.493,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.493
+    }
+  },
+  {
     "id": "c553d66f2e9ecc33",
     "track": "security",
     "source": "rss:aws-security-bulletins",
@@ -297,14 +458,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.32,
+    "score": 6.369,
     "score_breakdown": {
-      "freshness": 1.32,
+      "freshness": 0.369,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.32
+      "total": 6.369
     }
   },
   {
@@ -319,58 +480,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.068,
+    "score": 6.298,
     "score_breakdown": {
-      "freshness": 1.068,
+      "freshness": 0.298,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.068
-    }
-  },
-  {
-    "id": "62f0af1c4fc62a51",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
-    "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
-    "summary": "Bulletin ID: 2026-022-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:20 PM PDT Description: FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified CVE-2026-7424, where an integer underflow issue in the DHCPv6 sub-option parser could allow an adjacent network user to corrupt the device's IPv6 address assignment, DNS configuration, and lease times, and to cause a denial of service (IP task freeze requiring hardware reset)",
-    "published_at": "2026-04-29T19:30:04+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "low",
-    "score": 7.063,
-    "score_breakdown": {
-      "freshness": 0.563,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.5,
-      "total": 7.063
-    }
-  },
-  {
-    "id": "ee36c7e09a803f32",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
-    "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
-    "summary": "Bulletin ID: 2026-021-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:00 PM PDT Description: FreeRTOS-Plus-TCP is a scalable, open source, and thread-safe TCP/IP stack for FreeRTOS. - CVE-2026-7422: Insufficient packet validation in the IPv4 and IPv6 receive paths allows an adjacent network device to send a packet that bypasses checksum and minimum-size validation by spoofing the Ethernet source MAC address to match one of the target device's own regis",
-    "published_at": "2026-04-29T19:25:28+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "low",
-    "score": 7.063,
-    "score_breakdown": {
-      "freshness": 0.563,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.5,
-      "total": 7.063
+      "total": 6.298
     }
   },
   {
@@ -385,36 +502,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.812,
+    "score": 6.227,
     "score_breakdown": {
-      "freshness": 0.812,
+      "freshness": 0.227,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.812
-    }
-  },
-  {
-    "id": "dd07367dde48e94b",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
-    "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
-    "summary": "Bulletin ID: 2026-011-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/31 10:15 AM PDT Description: AWS Common Runtime library is used by several AWS SDKs to communicate with event-stream services (Ex. Kinesis, Transcribe). We identified CVE-2026-5190. AWS Common Runtime event-stream decoder component before 0.6.0 might allow a third party operating a server to cause memory corruption leading to arbitrary code execution on a client application that processes ",
-    "published_at": "2026-04-14T16:44:23+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": "low",
-    "score": 6.691,
-    "score_breakdown": {
-      "freshness": 0.191,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.5,
-      "total": 6.691
+      "total": 6.227
     }
   },
   {
@@ -429,14 +524,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.651,
+    "score": 6.182,
     "score_breakdown": {
-      "freshness": 0.651,
+      "freshness": 0.182,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.651
+      "total": 6.182
     }
   },
   {
@@ -451,44 +546,58 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.563,
+    "score": 6.157,
     "score_breakdown": {
-      "freshness": 0.563,
+      "freshness": 0.157,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.563
+      "total": 6.157
     }
   },
   {
-    "id": "b96cd6cbcbfc17cb",
+    "id": "62f0af1c4fc62a51",
     "track": "security",
-    "source": "rss:aws-security-blog",
+    "source": "rss:aws-security-bulletins",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
-    "title": "Detecting and preventing crypto mining in your AWS environment",
-    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]",
-    "published_at": "2026-05-13T21:47:27+00:00",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
+    "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
+    "summary": "Bulletin ID: 2026-022-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:20 PM PDT Description: FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified CVE-2026-7424, where an integer underflow issue in the DHCPv6 sub-option parser could allow an adjacent network user to corrupt the device's IPv6 address assignment, DNS configuration, and lease times, and to cause a denial of service (IP task freeze requiring hardware reset)",
+    "published_at": "2026-04-29T19:30:04+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [
-      "Amazon GuardDuty",
-      "Best Practices",
-      "Intermediate (200)",
-      "Security, Identity, & Compliance",
-      "crypto",
-      "cryptomining",
-      "Security Blog"
-    ],
+    "tags": [],
     "severity": null,
-    "score": 6.541,
+    "score": 6.157,
     "score_breakdown": {
-      "freshness": 1.541,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
+      "freshness": 0.157,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.541
+      "total": 6.157
+    }
+  },
+  {
+    "id": "ee36c7e09a803f32",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
+    "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
+    "summary": "Bulletin ID: 2026-021-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:00 PM PDT Description: FreeRTOS-Plus-TCP is a scalable, open source, and thread-safe TCP/IP stack for FreeRTOS. - CVE-2026-7422: Insufficient packet validation in the IPv4 and IPv6 receive paths allows an adjacent network device to send a packet that bypasses checksum and minimum-size validation by spoofing the Ethernet source MAC address to match one of the target device's own regis",
+    "published_at": "2026-04-29T19:25:28+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.157,
+    "score_breakdown": {
+      "freshness": 0.157,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.157
     }
   },
   {
@@ -503,14 +612,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.489,
+    "score": 6.137,
     "score_breakdown": {
-      "freshness": 0.489,
+      "freshness": 0.137,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.489
+      "total": 6.137
     }
   },
   {
@@ -525,14 +634,41 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.391,
+    "score": 6.109,
     "score_breakdown": {
-      "freshness": 0.391,
+      "freshness": 0.109,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.391
+      "total": 6.109
+    }
+  },
+  {
+    "id": "86b81c878bbc4c14",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
+    "title": "Well-architected best practices for software supply chain security",
+    "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
+    "published_at": "2026-05-26T17:03:30+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Advanced (300)",
+      "Best Practices",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 6.074,
+    "score_breakdown": {
+      "freshness": 1.074,
+      "keyword": 2.5,
+      "source": 2.0,
+      "keyword_signal": 5.0,
+      "severity": 0.0,
+      "total": 6.074
     }
   },
   {
@@ -547,14 +683,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.239,
+    "score": 6.067,
     "score_breakdown": {
-      "freshness": 0.239,
+      "freshness": 0.067,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.239
+      "total": 6.067
     }
   },
   {
@@ -569,14 +705,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.192,
+    "score": 6.054,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.054,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.192
+      "total": 6.054
     }
   },
   {
@@ -591,14 +727,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.192,
+    "score": 6.054,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.054,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.192
+      "total": 6.054
     }
   },
   {
@@ -613,14 +749,36 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.192,
+    "score": 6.054,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.054,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.192
+      "total": 6.054
+    }
+  },
+  {
+    "id": "dd07367dde48e94b",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
+    "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
+    "summary": "Bulletin ID: 2026-011-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/31 10:15 AM PDT Description: AWS Common Runtime library is used by several AWS SDKs to communicate with event-stream services (Ex. Kinesis, Transcribe). We identified CVE-2026-5190. AWS Common Runtime event-stream decoder component before 0.6.0 might allow a third party operating a server to cause memory corruption leading to arbitrary code execution on a client application that processes ",
+    "published_at": "2026-04-14T16:44:23+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.053,
+    "score_breakdown": {
+      "freshness": 0.053,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 6.053
     }
   },
   {
@@ -635,14 +793,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.03,
+    "score": 6.008,
     "score_breakdown": {
-      "freshness": 0.03,
+      "freshness": 0.008,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.03
+      "total": 6.008
     }
   },
   {
@@ -657,14 +815,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.024,
+    "score": 6.007,
     "score_breakdown": {
-      "freshness": 0.024,
+      "freshness": 0.007,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.024
+      "total": 6.007
     }
   },
   {
@@ -679,14 +837,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.009,
+    "score": 6.003,
     "score_breakdown": {
-      "freshness": 0.009,
+      "freshness": 0.003,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.009
+      "total": 6.003
     }
   },
   {
@@ -696,7 +854,7 @@
     "source_kind": "rss",
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-001-aws/",
     "title": "CVE-2026-0830 - Command Injection in Kiro GitLab Merge Request Helper",
-    "summary": "Bulletin ID: 2026-001-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/01/09 13:15 PM PST Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-0830 where opening a maliciously crafted workspace may lead to arbitrary command injection in Kiro IDE before Kiro version 0.6.18. This may occur if the workspace has specially crafted folder names within the workspace containing injected commands. Resolution: Kiro IDE <0.6.18 Please ",
+    "summary": "Bulletin ID: 2026-001-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/01/09 13:15 PM PST Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-0830 where opening a maliciously crafted workspace may lead to arbitrary command injection in Kiro IDE before Kiro version 0.6.18. This may occur if the workspace has specially crafted folder names within the workspace containing injected commands. Resolution: Kiro IDE < 0.6.18 Please",
     "published_at": "2026-01-09T21:25:49+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
@@ -734,47 +892,173 @@
     }
   },
   {
-    "id": "37fd42f34da66445",
+    "id": "b96cd6cbcbfc17cb",
     "track": "security",
-    "source": "rss:aws-security-bulletins",
+    "source": "rss:aws-security-blog",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-030/",
-    "title": "CVE-2025-66478: RCE in React Server Components",
-    "summary": "Bulletin ID: AWS-2025-030 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/12/03 20:00 PM PST Description: AWS is aware of the recently disclosed CVE-2025-55182 which affects the React Server Flight protocol in React versions 19.0, 19.1, and 19.2, as well as in Next.js versions 15.x, 16.x, Next.js 14.3.0-canary.77 and later canary releases when using App Router. This issue may permit unauthorized remote code execution on affected applications servers. AWS is aware o",
-    "published_at": "2025-12-04T04:21:47+00:00",
+    "url": "https://aws.amazon.com/blogs/security/detecting-and-preventing-crypto-mining-in-your-aws-environment/",
+    "title": "Detecting and preventing crypto mining in your AWS environment",
+    "summary": "This article guides you on how to use Amazon GuardDuty to identify and mitigate cryptocurrency mining threats in your Amazon Web Services (AWS) environment. You’ll learn about the specialized detection capabilities of GuardDuty and best practices to build a multi-layered defense strategy that protects your infrastructure costs and security posture. Understanding the crypto mining challenge […]",
+    "published_at": "2026-05-13T21:47:27+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
+    "tags": [
+      "Amazon GuardDuty",
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "crypto",
+      "cryptomining",
+      "Security Blog"
+    ],
     "severity": null,
-    "score": 6.0,
+    "score": 5.431,
     "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
+      "freshness": 0.431,
+      "keyword": 2.5,
+      "source": 2.0,
+      "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 6.0
+      "total": 5.431
     }
   },
   {
-    "id": "acf5dd8067cb5c31",
+    "id": "8d446e143edd6732",
     "track": "security",
-    "source": "rss:aws-security-bulletins",
+    "source": "rss:aws-security-blog",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-029/",
-    "title": "Call audio termination issue in AWS Wickr desktop clients",
-    "summary": "Bulletin ID: AWS-2025-029 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/21 12:15 PM PDT Description: AWS Wickr is an end-to-end encrypted service that helps organizations communicate securely through messaging, voice and video calling, file sharing, and screen sharing. We identified CVE-2025-13524, which describes an issue in the Wickr calling service. Under certain conditions, which require the affected user to take a particular action within the application,",
-    "published_at": "2025-11-21T20:29:44+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
+    "url": "https://aws.amazon.com/blogs/security/identify-unused-aws-kms-keys-and-prevent-accidental-key-deletions/",
+    "title": "Identify unused AWS KMS keys and prevent accidental key deletions",
+    "summary": "As you scale your use of Amazon Web Services (AWS), managing KMS keys becomes increasingly important. Whether you manage a handful of keys or thousands across multiple AWS accounts and AWS Regions, there’s often a need to audit key usage to help you meet compliance requirements, evaluate your risk posture, and optimize key management costs. […]",
+    "published_at": "2026-06-02T19:01:54+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Advanced (300)",
+      "AWS Key Management Service",
+      "Best Practices",
+      "Cloud Cost Optimization",
+      "Security, Identity, & Compliance",
+      "AWS KMS",
+      "Security Blog"
+    ],
     "severity": null,
-    "score": 6.0,
+    "score": 3.782,
     "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
+      "freshness": 1.782,
+      "keyword": 1.0,
+      "source": 2.0,
+      "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 6.0
+      "total": 3.782
+    }
+  },
+  {
+    "id": "95c6417ee4486da5",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/welcoming-the-aws-customer-incident-response-team/",
+    "title": "Welcoming the AWS Customer Incident Response Team",
+    "summary": "May 26, 2026: This post was originally published in July 2022. It has been updated to reflect current engagement options, new threat intelligence resources such as the Threat Technique Catalog for AWS (TTC), additional open-source tools, and the distinction between AWS CIRT support and the AWS Security Incident Response managed service. Welcome back, or welcome […]",
+    "published_at": "2026-05-26T19:04:17+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Announcements",
+      "Security, Identity, & Compliance",
+      "Incident response",
+      "Security Blog",
+      "Threat Detection & Incident Response"
+    ],
+    "severity": null,
+    "score": 3.081,
+    "score_breakdown": {
+      "freshness": 1.081,
+      "keyword": 1.0,
+      "source": 2.0,
+      "keyword_signal": 2.0,
+      "severity": 0.0,
+      "total": 3.081
+    }
+  },
+  {
+    "id": "da07e9806c53791f",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
+    "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
+    "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]",
+    "published_at": "2026-06-02T16:00:11+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Amazon Bedrock AgentCore",
+      "Expert (400)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.766,
+    "score_breakdown": {
+      "freshness": 1.766,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.766
+    }
+  },
+  {
+    "id": "3923d05c6ef17ed5",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/cirt-insights-how-to-help-prevent-unauthorized-account-removals-from-aws-organizations/",
+    "title": "CIRT insights: How to help prevent unauthorized account removals from AWS Organizations",
+    "summary": "The AWS Customer Incident Response Team works with customers to help them recover from active security incidents. As part of this work, the team often uncovers new or trending tactics used by various threat actors that take advantage of specific customer configurations and designs. Understanding these tactics can help inform your architecture decisions, improve your […]",
+    "published_at": "2026-05-19T21:34:25+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "AWS Organizations",
+      "Best Practices",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.66,
+    "score_breakdown": {
+      "freshness": 0.66,
+      "keyword": 1.0,
+      "source": 2.0,
+      "keyword_signal": 2.0,
+      "severity": 0.0,
+      "total": 2.66
+    }
+  },
+  {
+    "id": "128b29f3b9c57d10",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/governing-infrastructure-as-code-using-pattern-based-policy-as-code/",
+    "title": "Governing infrastructure as code using pattern-based policy as code",
+    "summary": "Organizations often struggle to enforce security and compliance requirements consistently across their cloud infrastructure. In one environment, a workload might be deployed in an AWS Region that was never approved for that class of data. In another, a security group might allow broader access than intended. Required tags might be missing. Encryption might be assumed […]",
+    "published_at": "2026-05-19T16:15:31+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Advanced (300)",
+      "Best Practices",
+      "Security, Identity, & Compliance",
+      "governance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.65,
+    "score_breakdown": {
+      "freshness": 0.65,
+      "keyword": 1.0,
+      "source": 2.0,
+      "keyword_signal": 2.0,
+      "severity": 0.0,
+      "total": 2.65
     }
   },
   {
@@ -794,42 +1078,70 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.995,
+    "score": 2.278,
     "score_breakdown": {
-      "freshness": 0.995,
+      "freshness": 0.278,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.995
+      "total": 2.278
     }
   },
   {
-    "id": "d3157a3521f32225",
+    "id": "5963cd9d38374765",
     "track": "security",
     "source": "rss:aws-security-blog",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/the-aws-ai-security-framework-securing-ai-with-the-right-controls-at-the-right-layers-at-the-right-phases/",
-    "title": "The AWS AI Security Framework: Securing AI with the right controls, at the right layers, at the right phases",
-    "summary": "TL;DR for busy executives The AWS AI Security Framework helps security leaders move fast and stay secure with AI. Security compounds from day 1 as workloads evolve from prototype to production to scale. Assess first. Request a no-cost SHIP engagement to baseline your posture and build a prioritized roadmap. Phase 1 – Foundational (zero to […]",
-    "published_at": "2026-05-15T17:38:16+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "url": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/",
+    "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall",
+    "summary": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall endpoints for traffic inspection) where their network firewall endpoints are deployed. This centralized deployment model reduces the […]",
+    "published_at": "2026-05-28T22:44:17+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [
-      "Artificial Intelligence",
-      "Best Practices",
-      "Intermediate (200)",
+      "Amazon VPC",
+      "AWS Network Firewall",
+      "AWS Transit Gateway",
       "Security, Identity, & Compliance",
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.756,
+    "score": 2.261,
     "score_breakdown": {
-      "freshness": 1.756,
+      "freshness": 1.261,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.756
+      "total": 2.261
+    }
+  },
+  {
+    "id": "f92c40f57e9775d8",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/simplifying-policy-management-with-url-and-domain-category-filtering-on-aws-network-firewall/",
+    "title": "Simplifying policy management with URL and Domain Category filtering on AWS Network Firewall",
+    "summary": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in coverage. This challenge intensifies when managing access to rapidly evolving categories like AI services, where new tools launch on […]",
+    "published_at": "2026-05-28T18:57:13+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Advanced (300)",
+      "AWS Network Firewall",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.246,
+    "score_breakdown": {
+      "freshness": 1.246,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.246
     }
   },
   {
@@ -851,14 +1163,190 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.524,
+    "score": 2.146,
     "score_breakdown": {
-      "freshness": 0.524,
+      "freshness": 0.146,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.524
+      "total": 2.146
+    }
+  },
+  {
+    "id": "a901fcd80a90ccf8",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/aws-ky3p-report-now-available-for-third-party-supplier-due-diligence/",
+    "title": "AWS KY3P report now available for third-party supplier due diligence",
+    "summary": "We’re excited to announce that Amazon Web Services (AWS) has completed the S&P Global Know Your Third Party (KY3P) assessment of its security posture. This assessment demonstrates our continued commitment to meet the heightened expectations of cloud service providers. Customers can now use the AWS KY3P assessment to reduce their supplier due diligence burden. KY3P, […]",
+    "published_at": "2026-05-21T19:58:03+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Announcements",
+      "Compliance",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.758,
+    "score_breakdown": {
+      "freshness": 0.758,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.758
+    }
+  },
+  {
+    "id": "6e149f860428540f",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/automating-identity-lifecycle-and-security-with-aws-directory-service-apis/",
+    "title": "Automating identity lifecycle and security with AWS Directory Service APIs",
+    "summary": "Managing identities and access across complex environments has become more critical than ever. AWS Directory Service for Managed Microsoft Active Directory, also known as AWS Managed Microsoft AD, has added new capabilities to manage users and groups. Now, you can perform create, read, update, and delete (CRUD) operations on users and groups directly through AWS […]",
+    "published_at": "2026-05-21T16:00:59+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Amazon EventBridge",
+      "Amazon GuardDuty",
+      "AWS CloudFormation",
+      "AWS Directory Service",
+      "AWS Step Functions",
+      "AWS Systems Manager",
+      "Expert (400)",
+      "Integration & Automation",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.749,
+    "score_breakdown": {
+      "freshness": 0.749,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.749
+    }
+  },
+  {
+    "id": "ae3b6972e71981c3",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/why-policy-in-amazon-bedrock-agentcore-chose-cedar-for-securing-agentic-workflows/",
+    "title": "Why Policy in Amazon Bedrock AgentCore chose Cedar for securing agentic workflows",
+    "summary": "Agents have agency: they adapt and find multiple ways to solve problems. This autonomy creates a fundamental security challenge: the large language model (LLM) at the heart of the agent is non-deterministic, and its decisions can’t be predicted or guaranteed in advance. It can hallucinate harmful actions with complete confidence. It’s vulnerable to prompt injection […]",
+    "published_at": "2026-05-20T20:56:03+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
+      "Generative AI",
+      "Intermediate (200)",
+      "Open Source",
+      "Security, Identity, & Compliance",
+      "AI",
+      "authorization",
+      "Automated reasoning",
+      "Open source",
+      "Security",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.708,
+    "score_breakdown": {
+      "freshness": 0.708,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.708
+    }
+  },
+  {
+    "id": "ea0211b6c4e6dcc8",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-2-and-3-reports-are-now-available-with-188-services-in-scope/",
+    "title": "Spring 2026 SOC 1, 2, and 3 reports are now available with 188 services in scope",
+    "summary": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a full year of assurance. These reports demonstrate our continuous commitment to adhering […]",
+    "published_at": "2026-06-01T16:07:48+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Announcements",
+      "Compliance",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog",
+      "SOC"
+    ],
+    "severity": null,
+    "score": 1.645,
+    "score_breakdown": {
+      "freshness": 1.645,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.645
+    }
+  },
+  {
+    "id": "385f344400a5e5d0",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/",
+    "title": "Unanchored ACCOUNT_ID webhook filters for CodeBuild",
+    "summary": "Bulletin ID: 2026-002-AWS Scope: AWS Content Type: Informational Publication Date: 2026/01/15 07:03 AM PST Description: A security research team identified a configuration issue affecting the following AWS-managed open source GitHub repositories that could have resulted in the introduction of inappropriate code: - aws-sdk-js-v3 - aws-lc - amazon-corretto-crypto-provider - awslabs/open-data-registry Specifically, researchers identified the above repositories' configured regular expressions for AW",
+    "published_at": "2026-01-15T15:43:30+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.5,
+    "score_breakdown": {
+      "freshness": 0.0,
+      "keyword": 0.5,
+      "source": 3.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 1.5
+    }
+  },
+  {
+    "id": "d3157a3521f32225",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/the-aws-ai-security-framework-securing-ai-with-the-right-controls-at-the-right-layers-at-the-right-phases/",
+    "title": "The AWS AI Security Framework: Securing AI with the right controls, at the right layers, at the right phases",
+    "summary": "May 26, 2026: We’ve updated this post to reflect recommended core services. TL;DR for busy executives The AWS AI Security Framework helps security leaders move fast and stay secure with AI. Security compounds from day 1 as workloads evolve from prototype to production to scale. Assess first. Request a no-cost SHIP engagement to baseline your […]",
+    "published_at": "2026-05-15T17:38:16+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [
+      "Artificial Intelligence",
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.491,
+    "score_breakdown": {
+      "freshness": 0.491,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.491
     }
   },
   {
@@ -881,14 +1369,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.516,
+    "score": 1.424,
     "score_breakdown": {
-      "freshness": 1.516,
+      "freshness": 0.424,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.516
+      "total": 1.424
     }
   },
   {
@@ -912,14 +1400,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.434,
+    "score": 1.401,
     "score_breakdown": {
-      "freshness": 1.434,
+      "freshness": 0.401,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.434
+      "total": 1.401
     }
   },
   {
@@ -944,14 +1432,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.321,
+    "score": 1.369,
     "score_breakdown": {
-      "freshness": 1.321,
+      "freshness": 0.369,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.321
+      "total": 1.369
     }
   },
   {
@@ -972,14 +1460,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.863,
+    "score": 1.241,
     "score_breakdown": {
-      "freshness": 0.863,
+      "freshness": 0.241,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.863
+      "total": 1.241
     }
   },
   {
@@ -1003,14 +1491,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.853,
+    "score": 1.238,
     "score_breakdown": {
-      "freshness": 0.853,
+      "freshness": 0.238,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.853
+      "total": 1.238
     }
   },
   {
@@ -1043,36 +1531,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.652,
+    "score": 1.182,
     "score_breakdown": {
-      "freshness": 0.652,
+      "freshness": 0.182,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.652
-    }
-  },
-  {
-    "id": "2b47d6d1ef1cba99",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
-    "title": "Ongoing updates on Copy.fail and variants",
-    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
-    "published_at": "2026-05-14T20:52:36+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.651,
-    "score_breakdown": {
-      "freshness": 1.651,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.651
+      "total": 1.182
     }
   },
   {
@@ -1093,14 +1559,65 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 1.651,
+    "score": 1.182,
     "score_breakdown": {
-      "freshness": 0.651,
+      "freshness": 0.182,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.651
+      "total": 1.182
+    }
+  },
+  {
+    "id": "f7d19489ef3bac23",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
+    "title": "Access control with IAM Identity Center session tags",
+    "summary": "As organizations expand their Amazon Web Services (AWS) footprint, managing secure, scalable, and cost-efficient access across multiple accounts becomes increasingly important. AWS IAM Identity Center offers a centralized, unified solution for managing workforce access to AWS accounts. It simplifies authentication, enhances security, and provides a seamless user sign-in experience to AWS services across diverse environments. […]",
+    "published_at": "2026-04-28T16:33:06+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [
+      "Advanced (300)",
+      "AWS Glue",
+      "AWS IAM Identity Center",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.145,
+    "score_breakdown": {
+      "freshness": 0.145,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.145
+    }
+  },
+  {
+    "id": "2b47d6d1ef1cba99",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
+    "title": "Ongoing updates on Copy.fail and variants",
+    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
+    "published_at": "2026-05-14T20:52:36+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.461,
+    "score_breakdown": {
+      "freshness": 0.461,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.461
     }
   },
   {
@@ -1124,14 +1641,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.65,
+    "score": 0.461,
     "score_breakdown": {
-      "freshness": 1.65,
+      "freshness": 0.461,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.65
+      "total": 0.461
     }
   },
   {
@@ -1158,14 +1675,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 1.628,
+    "score": 0.455,
     "score_breakdown": {
-      "freshness": 1.628,
+      "freshness": 0.455,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.628
+      "total": 0.455
     }
   },
   {
@@ -1189,65 +1706,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.529,
+    "score": 0.427,
     "score_breakdown": {
-      "freshness": 1.529,
+      "freshness": 0.427,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.529
-    }
-  },
-  {
-    "id": "f7d19489ef3bac23",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/access-control-with-iam-identity-center-session-tags/",
-    "title": "Access control with IAM Identity Center session tags",
-    "summary": "As organizations expand their Amazon Web Services (AWS) footprint, managing secure, scalable, and cost-efficient access across multiple accounts becomes increasingly important. AWS IAM Identity Center offers a centralized, unified solution for managing workforce access to AWS accounts. It simplifies authentication, enhances security, and provides a seamless user sign-in experience to AWS services across diverse environments. […]",
-    "published_at": "2026-04-28T16:33:06+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [
-      "Advanced (300)",
-      "AWS Glue",
-      "AWS IAM Identity Center",
-      "Security, Identity, & Compliance",
-      "Technical How-to",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 1.52,
-    "score_breakdown": {
-      "freshness": 0.52,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.52
-    }
-  },
-  {
-    "id": "385f344400a5e5d0",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/",
-    "title": "Unanchored ACCOUNT_ID webhook filters for CodeBuild",
-    "summary": "Bulletin ID: 2026-002-AWS Scope: AWS Content Type: Informational Publication Date: 2026/01/15 07:03 AM PST Description: A security research team identified a configuration issue affecting the following AWS-managed open source GitHub repositories that could have resulted in the introduction of inappropriate code: - aws-sdk-js-v3 - aws-lc - amazon-corretto-crypto-provider - awslabs/open-data-registry Specifically, researchers identified the above repositories' configured regular expressions for AW",
-    "published_at": "2026-01-15T15:43:30+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
+      "total": 0.427
     }
   },
   {
@@ -1279,14 +1745,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.407,
+    "score": 0.393,
     "score_breakdown": {
-      "freshness": 1.407,
+      "freshness": 0.393,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.407
+      "total": 0.393
     }
   },
   {
@@ -1307,14 +1773,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.987,
+    "score": 0.276,
     "score_breakdown": {
-      "freshness": 0.987,
+      "freshness": 0.276,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.987
+      "total": 0.276
     }
   },
   {
@@ -1338,14 +1804,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.929,
+    "score": 0.259,
     "score_breakdown": {
-      "freshness": 0.929,
+      "freshness": 0.259,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.929
+      "total": 0.259
     }
   },
   {
@@ -1366,14 +1832,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.802,
+    "score": 0.224,
     "score_breakdown": {
-      "freshness": 0.802,
+      "freshness": 0.224,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.802
+      "total": 0.224
     }
   },
   {
@@ -1394,14 +1860,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.563,
+    "score": 0.157,
     "score_breakdown": {
-      "freshness": 0.563,
+      "freshness": 0.157,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.563
+      "total": 0.157
     }
   }
 ]
