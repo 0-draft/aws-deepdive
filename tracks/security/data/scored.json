@@ -18,14 +18,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 10.701,
+    "score": 10.653,
     "score_breakdown": {
-      "freshness": 0.701,
+      "freshness": 0.653,
       "keyword": 5.0,
       "source": 2.0,
       "keyword_signal": 10.0,
       "severity": 0.0,
-      "total": 10.701
+      "total": 10.653
     }
   },
   {
@@ -40,58 +40,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.961,
+    "score": 7.93,
     "score_breakdown": {
-      "freshness": 0.461,
+      "freshness": 0.43,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.961
-    }
-  },
-  {
-    "id": "263415012b61da02",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
-    "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
-    "summary": "Bulletin ID: 2026-038-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 12:15 PM PDT Description: Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified CVE-2026-10584 where, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information. I",
-    "published_at": "2026-06-02T19:17:39+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.783,
-    "score_breakdown": {
-      "freshness": 1.783,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.783
-    }
-  },
-  {
-    "id": "e516f183c474fc79",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
-    "title": "CVE-2026-10591 - Kiro IDE Insufficient File Write Restrictions to Execution-Sensitive Paths",
-    "summary": "Bulletin ID: 2026-037-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 08:45 AM PDT Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabli",
-    "published_at": "2026-06-02T15:39:24+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.764,
-    "score_breakdown": {
-      "freshness": 1.764,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.764
+      "total": 7.93
     }
   },
   {
@@ -106,14 +62,58 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.764,
+    "score": 7.746,
     "score_breakdown": {
-      "freshness": 0.264,
+      "freshness": 0.246,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.764
+      "total": 7.746
+    }
+  },
+  {
+    "id": "263415012b61da02",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
+    "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
+    "summary": "Bulletin ID: 2026-038-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 12:15 PM PDT Description: Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified CVE-2026-10584 where, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information. I",
+    "published_at": "2026-06-02T19:17:39+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.661,
+    "score_breakdown": {
+      "freshness": 1.661,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.661
+    }
+  },
+  {
+    "id": "e516f183c474fc79",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
+    "title": "CVE-2026-10591 - Kiro IDE Insufficient File Write Restrictions to Execution-Sensitive Paths",
+    "summary": "Bulletin ID: 2026-037-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 08:45 AM PDT Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabli",
+    "published_at": "2026-06-02T15:39:24+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.643,
+    "score_breakdown": {
+      "freshness": 1.643,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.643
     }
   },
   {
@@ -128,14 +128,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.61,
+    "score": 7.603,
     "score_breakdown": {
-      "freshness": 0.11,
+      "freshness": 0.103,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.61
+      "total": 7.603
     }
   },
   {
@@ -150,14 +150,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.583,
+    "score": 7.577,
     "score_breakdown": {
-      "freshness": 0.083,
+      "freshness": 0.077,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.583
+      "total": 7.577
     }
   },
   {
@@ -172,14 +172,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.553,
+    "score": 7.55,
     "score_breakdown": {
-      "freshness": 0.053,
+      "freshness": 0.05,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.553
+      "total": 7.55
     }
   },
   {
@@ -216,14 +216,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.507,
+    "score": 7.506,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.507
+      "total": 7.506
     }
   },
   {
@@ -238,14 +238,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.503,
+    "score": 7.502,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.503
+      "total": 7.502
     }
   },
   {
@@ -326,14 +326,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.811,
+    "score": 6.756,
     "score_breakdown": {
-      "freshness": 0.811,
+      "freshness": 0.756,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.811
+      "total": 6.756
     }
   },
   {
@@ -348,14 +348,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.807,
+    "score": 6.751,
     "score_breakdown": {
-      "freshness": 0.807,
+      "freshness": 0.751,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.807
+      "total": 6.751
     }
   },
   {
@@ -370,14 +370,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.705,
+    "score": 6.657,
     "score_breakdown": {
-      "freshness": 0.705,
+      "freshness": 0.657,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.705
+      "total": 6.657
     }
   },
   {
@@ -392,14 +392,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.613,
+    "score": 6.571,
     "score_breakdown": {
-      "freshness": 0.613,
+      "freshness": 0.571,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.613
+      "total": 6.571
     }
   },
   {
@@ -414,14 +414,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.493,
+    "score": 6.459,
     "score_breakdown": {
-      "freshness": 0.493,
+      "freshness": 0.459,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.493
+      "total": 6.459
     }
   },
   {
@@ -436,14 +436,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.493,
+    "score": 6.459,
     "score_breakdown": {
-      "freshness": 0.493,
+      "freshness": 0.459,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.493
+      "total": 6.459
     }
   },
   {
@@ -458,14 +458,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.369,
+    "score": 6.344,
     "score_breakdown": {
-      "freshness": 0.369,
+      "freshness": 0.344,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.369
+      "total": 6.344
     }
   },
   {
@@ -480,14 +480,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.298,
+    "score": 6.278,
     "score_breakdown": {
-      "freshness": 0.298,
+      "freshness": 0.278,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.298
+      "total": 6.278
     }
   },
   {
@@ -502,14 +502,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.227,
+    "score": 6.211,
     "score_breakdown": {
-      "freshness": 0.227,
+      "freshness": 0.211,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.227
+      "total": 6.211
     }
   },
   {
@@ -524,14 +524,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.182,
+    "score": 6.17,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.17,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.182
+      "total": 6.17
     }
   },
   {
@@ -546,14 +546,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.157,
+    "score": 6.147,
     "score_breakdown": {
-      "freshness": 0.157,
+      "freshness": 0.147,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.157
+      "total": 6.147
     }
   },
   {
@@ -568,14 +568,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.157,
+    "score": 6.147,
     "score_breakdown": {
-      "freshness": 0.157,
+      "freshness": 0.147,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.157
+      "total": 6.147
     }
   },
   {
@@ -590,14 +590,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.157,
+    "score": 6.147,
     "score_breakdown": {
-      "freshness": 0.157,
+      "freshness": 0.147,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.157
+      "total": 6.147
     }
   },
   {
@@ -612,14 +612,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.137,
+    "score": 6.127,
     "score_breakdown": {
-      "freshness": 0.137,
+      "freshness": 0.127,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.137
+      "total": 6.127
     }
   },
   {
@@ -634,41 +634,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.109,
+    "score": 6.102,
     "score_breakdown": {
-      "freshness": 0.109,
+      "freshness": 0.102,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.109
-    }
-  },
-  {
-    "id": "86b81c878bbc4c14",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
-    "title": "Well-architected best practices for software supply chain security",
-    "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
-    "published_at": "2026-05-26T17:03:30+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [
-      "Advanced (300)",
-      "Best Practices",
-      "Security, Identity, & Compliance",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 6.074,
-    "score_breakdown": {
-      "freshness": 1.074,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
-      "severity": 0.0,
-      "total": 6.074
+      "total": 6.102
     }
   },
   {
@@ -683,14 +656,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.067,
+    "score": 6.062,
     "score_breakdown": {
-      "freshness": 0.067,
+      "freshness": 0.062,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.067
+      "total": 6.062
     }
   },
   {
@@ -705,14 +678,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.054,
+    "score": 6.05,
     "score_breakdown": {
-      "freshness": 0.054,
+      "freshness": 0.05,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.054
+      "total": 6.05
     }
   },
   {
@@ -727,14 +700,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.054,
+    "score": 6.05,
     "score_breakdown": {
-      "freshness": 0.054,
+      "freshness": 0.05,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.054
+      "total": 6.05
     }
   },
   {
@@ -749,14 +722,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.054,
+    "score": 6.05,
     "score_breakdown": {
-      "freshness": 0.054,
+      "freshness": 0.05,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.054
+      "total": 6.05
     }
   },
   {
@@ -771,14 +744,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.053,
+    "score": 6.05,
     "score_breakdown": {
-      "freshness": 0.053,
+      "freshness": 0.05,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.053
+      "total": 6.05
     }
   },
   {
@@ -815,14 +788,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.007,
+    "score": 6.006,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.007
+      "total": 6.006
     }
   },
   {
@@ -837,14 +810,41 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.003,
+    "score": 6.002,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.003
+      "total": 6.002
+    }
+  },
+  {
+    "id": "86b81c878bbc4c14",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
+    "title": "Well-architected best practices for software supply chain security",
+    "summary": "There have been multiple notable supply chain attacks using the npm Registry since September: Shai-Hulud, Chalk/Debug, one abusing tea.xyz tokens, and recently axios. Thanks to community efforts involving the Amazon Inspector team, the Open Source Security Foundation, and others, the affected packages were quickly flagged, which reduced the impact of these incidents. Supply chain attacks […]",
+    "published_at": "2026-05-26T17:03:30+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Advanced (300)",
+      "Best Practices",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 6.001,
+    "score_breakdown": {
+      "freshness": 1.001,
+      "keyword": 2.5,
+      "source": 2.0,
+      "keyword_signal": 5.0,
+      "severity": 0.0,
+      "total": 6.001
     }
   },
   {
@@ -911,14 +911,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 5.431,
+    "score": 5.401,
     "score_breakdown": {
-      "freshness": 0.431,
+      "freshness": 0.401,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 5.431
+      "total": 5.401
     }
   },
   {
@@ -941,14 +941,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 3.782,
+    "score": 3.66,
     "score_breakdown": {
-      "freshness": 1.782,
+      "freshness": 1.66,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 3.782
+      "total": 3.66
     }
   },
   {
@@ -969,14 +969,70 @@
       "Threat Detection & Incident Response"
     ],
     "severity": null,
-    "score": 3.081,
+    "score": 3.007,
     "score_breakdown": {
-      "freshness": 1.081,
+      "freshness": 1.007,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 3.081
+      "total": 3.007
+    }
+  },
+  {
+    "id": "15a3cc5714b9831d",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/amazon-cognito-unlocks-advanced-capabilities-with-next-generation-infrastructure/",
+    "title": "Amazon Cognito unlocks advanced capabilities with next-generation infrastructure",
+    "summary": "Amazon Cognito recently introduced high-throughput performance for demanding workloads, customer-managed keys for full control over data encryption at rest, and multi- Region replication for business continuity improvement. These capabilities were made possible through a next-generation storage infrastructure designed for extensibility and scale. To deliver this, we migrated hundreds of millions of user profiles, and you […]",
+    "published_at": "2026-06-04T21:45:42+00:00",
+    "fetched_at": "2026-06-05T09:38:33.531890+00:00",
+    "tags": [
+      "Amazon Cognito",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.931,
+    "score_breakdown": {
+      "freshness": 1.931,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.931
+    }
+  },
+  {
+    "id": "683355ffc8f5a684",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/gain-visibility-into-ddos-attacks-with-flow-logs-in-aws-shield-advanced/",
+    "title": "Gain visibility into DDoS attacks with flow logs in AWS Shield Advanced",
+    "summary": "Reconstructing distributed denial of service (DDoS) attack traffic used to mean combining data from multiple sources after the fact. AWS Shield Advanced attack flow logs change that—they capture traffic metadata during attacks so you can pinpoint sources, verify mitigations, and feed your existing analysis pipelines. Shield publishes logs to Amazon Simple Storage Service (Amazon S3), […]",
+    "published_at": "2026-06-04T19:21:34+00:00",
+    "fetched_at": "2026-06-05T09:38:33.531890+00:00",
+    "tags": [
+      "AWS Shield",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "AWS Shield Advanced",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.917,
+    "score_breakdown": {
+      "freshness": 1.917,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.917
     }
   },
   {
@@ -996,14 +1052,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.766,
+    "score": 2.645,
     "score_breakdown": {
-      "freshness": 1.766,
+      "freshness": 1.645,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.766
+      "total": 2.645
     }
   },
   {
@@ -1023,14 +1079,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.66,
+    "score": 2.615,
     "score_breakdown": {
-      "freshness": 0.66,
+      "freshness": 0.615,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.66
+      "total": 2.615
     }
   },
   {
@@ -1051,14 +1107,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.65,
+    "score": 2.606,
     "score_breakdown": {
-      "freshness": 0.65,
+      "freshness": 0.606,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.65
+      "total": 2.606
     }
   },
   {
@@ -1078,14 +1134,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.278,
+    "score": 2.259,
     "score_breakdown": {
-      "freshness": 0.278,
+      "freshness": 0.259,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.278
+      "total": 2.259
     }
   },
   {
@@ -1106,14 +1162,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.261,
+    "score": 2.174,
     "score_breakdown": {
-      "freshness": 1.261,
+      "freshness": 1.174,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.261
+      "total": 2.174
     }
   },
   {
@@ -1134,14 +1190,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.246,
+    "score": 2.161,
     "score_breakdown": {
-      "freshness": 1.246,
+      "freshness": 1.161,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.246
+      "total": 2.161
     }
   },
   {
@@ -1163,14 +1219,43 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.146,
+    "score": 2.136,
     "score_breakdown": {
-      "freshness": 0.146,
+      "freshness": 0.136,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.146
+      "total": 2.136
+    }
+  },
+  {
+    "id": "ae983a97994be468",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/customize-federated-sign-in-with-new-amazon-cognito-lambda-trigger/",
+    "title": "Customize federated sign-in with new Amazon Cognito Lambda trigger",
+    "summary": "You can use Amazon Cognito user pools to add sign-up and sign-in functionality to your web and mobile applications. You can authenticate users directly with Amazon Cognito managed accounts using passwords, passwordless flows, or custom authentication flows, or let users federate in through external identity providers (IdP) using SAML, OpenID Connect, or social providers such […]",
+    "published_at": "2026-06-04T15:49:15+00:00",
+    "fetched_at": "2026-06-05T09:38:33.531890+00:00",
+    "tags": [
+      "Advanced (300)",
+      "Amazon Cognito",
+      "AWS Lambda",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 1.897,
+    "score_breakdown": {
+      "freshness": 1.897,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.897
     }
   },
   {
@@ -1191,14 +1276,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.758,
+    "score": 1.706,
     "score_breakdown": {
-      "freshness": 0.758,
+      "freshness": 0.706,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.758
+      "total": 1.706
     }
   },
   {
@@ -1225,14 +1310,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.749,
+    "score": 1.698,
     "score_breakdown": {
-      "freshness": 0.749,
+      "freshness": 0.698,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.749
+      "total": 1.698
     }
   },
   {
@@ -1260,14 +1345,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.708,
+    "score": 1.66,
     "score_breakdown": {
-      "freshness": 0.708,
+      "freshness": 0.66,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.708
+      "total": 1.66
     }
   },
   {
@@ -1289,14 +1374,14 @@
       "SOC"
     ],
     "severity": null,
-    "score": 1.645,
+    "score": 1.532,
     "score_breakdown": {
-      "freshness": 1.645,
+      "freshness": 1.532,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.645
+      "total": 1.532
     }
   },
   {
@@ -1339,14 +1424,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.491,
+    "score": 1.457,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.457,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.491
+      "total": 1.457
     }
   },
   {
@@ -1369,14 +1454,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.424,
+    "score": 1.395,
     "score_breakdown": {
-      "freshness": 0.424,
+      "freshness": 0.395,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.424
+      "total": 1.395
     }
   },
   {
@@ -1400,14 +1485,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.401,
+    "score": 1.373,
     "score_breakdown": {
-      "freshness": 0.401,
+      "freshness": 0.373,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.401
+      "total": 1.373
     }
   },
   {
@@ -1432,14 +1517,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.369,
+    "score": 1.344,
     "score_breakdown": {
-      "freshness": 0.369,
+      "freshness": 0.344,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.369
+      "total": 1.344
     }
   },
   {
@@ -1460,14 +1545,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.241,
+    "score": 1.225,
     "score_breakdown": {
-      "freshness": 0.241,
+      "freshness": 0.225,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.241
+      "total": 1.225
     }
   },
   {
@@ -1491,14 +1576,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.238,
+    "score": 1.222,
     "score_breakdown": {
-      "freshness": 0.238,
+      "freshness": 0.222,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.238
+      "total": 1.222
     }
   },
   {
@@ -1531,14 +1616,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.182,
+    "score": 1.17,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.17,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.182
+      "total": 1.17
     }
   },
   {
@@ -1559,14 +1644,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 1.182,
+    "score": 1.169,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.169,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.182
+      "total": 1.169
     }
   },
   {
@@ -1588,14 +1673,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.145,
+    "score": 1.135,
     "score_breakdown": {
-      "freshness": 0.145,
+      "freshness": 0.135,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.145
+      "total": 1.135
     }
   },
   {
@@ -1610,14 +1695,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.461,
+    "score": 0.43,
     "score_breakdown": {
-      "freshness": 0.461,
+      "freshness": 0.43,
       "keyword": 0.0,
       "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.461
+      "total": 0.43
     }
   },
   {
@@ -1641,14 +1726,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.461,
+    "score": 0.429,
     "score_breakdown": {
-      "freshness": 0.461,
+      "freshness": 0.429,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.461
+      "total": 0.429
     }
   },
   {
@@ -1675,14 +1760,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 0.455,
+    "score": 0.424,
     "score_breakdown": {
-      "freshness": 0.455,
+      "freshness": 0.424,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.455
+      "total": 0.424
     }
   },
   {
@@ -1706,14 +1791,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.427,
+    "score": 0.398,
     "score_breakdown": {
-      "freshness": 0.427,
+      "freshness": 0.398,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.427
+      "total": 0.398
     }
   },
   {
@@ -1745,14 +1830,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.393,
+    "score": 0.366,
     "score_breakdown": {
-      "freshness": 0.393,
+      "freshness": 0.366,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.393
+      "total": 0.366
     }
   },
   {
@@ -1773,14 +1858,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.276,
+    "score": 0.257,
     "score_breakdown": {
-      "freshness": 0.276,
+      "freshness": 0.257,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.276
+      "total": 0.257
     }
   },
   {
@@ -1804,14 +1889,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.259,
+    "score": 0.242,
     "score_breakdown": {
-      "freshness": 0.259,
+      "freshness": 0.242,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.259
+      "total": 0.242
     }
   },
   {
@@ -1832,14 +1917,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.224,
+    "score": 0.209,
     "score_breakdown": {
-      "freshness": 0.224,
+      "freshness": 0.209,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.224
+      "total": 0.209
     }
   },
   {
@@ -1860,14 +1945,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.157,
+    "score": 0.147,
     "score_breakdown": {
-      "freshness": 0.157,
+      "freshness": 0.147,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.157
+      "total": 0.147
     }
   }
 ]
