@@ -1,5 +1,111 @@
 [
   {
+    "id": "9a6283a2e9f609bd",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-runtime/",
+    "title": "Amazon Bedrock AgentCore Runtime introduces interactive shells for terminal access into agent sessions",
+    "summary": "Amazon Bedrock AgentCore Runtime now supports interactive shells through a new InvokeAgentRuntimeCommandShell API, opening a persistent, PTY-backed terminal directly into a running agent session over WebSocket. This complements the existing InvokeAgentRuntimeCommand API for one-shot execution, giving developers a full terminal experience inside an isolated microVM with colors, tab completion, Ctrl+C, terminal resize, and automatic reconnect on network drop. This is particularly important for dev",
+    "published_at": "2026-06-05T22:25:00+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "619a8d59d8152bf9",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gdc-s3tables-simplified-permissions-in-aws-govcloud/",
+    "title": "Simplified permissions for Amazon S3 Tables and Iceberg materialized views are now available in AWS GovCloud (US) Regions",
+    "summary": "AWS Glue Data Catalog now supports AWS IAM-based authorization for Amazon S3 Tables and Apache Iceberg materialized views. With IAM-based authorization, you can define all necessary permissions across storage, catalog, and query engines in a single IAM policy. This capability simplifies the integration of S3 Tables or materialized views with any AWS Analytics service, including Amazon Athena, Amazon EMR, Amazon Redshift, and AWS Glue. You can also opt in to AWS Lake Formation at any time to mana",
+    "published_at": "2026-06-05T21:11:00+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "general:products/amazon-simple-storage-service,general:products/aws-glue,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "d4876f75deff1911",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-ui-govcloud-region",
+    "title": "Amazon OpenSearch UI is now available in GovCloud regions",
+    "summary": "Amazon OpenSearch Service expands its modernized operational analytics experience to GovCloud regions, including AWS GovCloud (US-East) and AWS GovCloud (US-West), enabling users to gain insights across data spanning managed domains and serverless collections from a single endpoint. The expansion includes Workspaces to enhance collaboration and productivity, allowing teams to create dedicated spaces. Discover is revamped to provide a unified log exploration experience supporting languages such a",
+    "published_at": "2026-06-05T20:40:00+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "general:products/amazon-opensearch-service,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "143a09b6686bc09b",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+    "title": "Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs",
+    "summary": "You can use the new console experience on Amazon Bedrock to browse and compare the latest AI models side by side, organize work into projects with streamlined evaluation workflows, and access project-aware live documentation with auto-prefilled code snippets ready to copy and run.",
+    "published_at": "2026-06-05T19:15:11+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Machine Learning",
+      "Artificial Intelligence",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "849383afaf43c27d",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-fargate-32vcpu",
+    "title": "Amazon ECS with AWS Fargate now supports 32vCPU compute configurations",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) with AWS Fargate now supports 32vCPU compute configurations, enabling customers to run more demanding applications with greater flexibility and performance. AWS Fargate offers 32vCPU tasks with the following memory configurations: 60 GiB, 120 GiB, or 244 GiB, for both x86-based and ARM-based workloads on Linux. These new task sizes extend Amazon ECS’s capability to support high-performance computing use-cases, large-scale data processing, AI inferenc",
+    "published_at": "2026-06-05T15:00:00+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "marketing:marchitecture/containers,general:products/amazon-ecs"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "b523e2ce80764c61",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-mcp-server/",
+    "title": "The AWS MCP Server now supports cross-account and cross-role access",
+    "summary": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS . This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multiple AWS accounts and AWS Identity and Access Management (IAM) roles within a single session, with no restarts required. Previously, switching profiles required stopping the AI coding session, updating local AWS credentials, and restarting the MCP serv",
+    "published_at": "2026-06-05T07:00:00+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "d90330e1c0ceb1ab",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -62,6 +168,23 @@
     "fetched_at": "2026-06-05T09:38:33.921624+00:00",
     "tags": [
       "marketing:marchitecture/containers,general:products/amazon-eks"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "21b8b200f0f29ad9",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/deadline-cloud/plugin-sync",
+    "title": "AWS Deadline Cloud now supports plugin sync for service-managed fleets",
+    "summary": "AWS Deadline Cloud now gives you an easier way to deliver plugins to cloud workers when using service-managed fleets. AWS Deadline Cloud is a fully managed service that helps teams run compute-intensive workloads in the cloud for visual effects, animation, product design, simulation, and gaming. Previously, deploying plugins to cloud workers required custom scripting or manual configuration for each digital content creation (DCC) application and version. With this feature, you upload your plugin",
+    "published_at": "2026-06-04T16:13:00+00:00",
+    "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "marketing:marchitecture/media-services,general:products/aws-deadline-cloud"
     ],
     "severity": null,
     "score": 0.0,
