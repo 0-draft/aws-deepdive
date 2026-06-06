@@ -18,14 +18,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 10.653,
+    "score": 10.61,
     "score_breakdown": {
-      "freshness": 0.653,
+      "freshness": 0.61,
       "keyword": 5.0,
       "source": 2.0,
       "keyword_signal": 10.0,
       "severity": 0.0,
-      "total": 10.653
+      "total": 10.61
     }
   },
   {
@@ -36,18 +36,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-029-aws/",
     "title": "Fragnesia Local Privilege Escalation report via ESP-in-TCP in the Linux Kernel",
     "summary": "Bulletin ID: 2026-029-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 18:45 PM PDT This is an ongoing issue. Information is subject to change. Please refer to our Security Bulletin (ID: 2026-030-AWS) for the most updated patching information. Description: Amazon is aware of CVE-2026-46300, a report of an additional privilege escalation issue in the Linux kernel related to the DirtyFrag, copy.fail class of issues (CVE-2026-43284). The proof of concept uses",
-    "published_at": "2026-05-14T20:52:35+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.93,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.43,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.93
+      "total": 9.423
     }
   },
   {
@@ -58,62 +58,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-026-aws/",
     "title": "CVE-2026-31431",
     "summary": "Bulletin ID: 2026-026-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/05/06 17:30 PM PDT Description: Amazon is aware of an issue in the Linux kernel (CVE-2026-31431) that could potentially allow an authenticated local user to escalate privileges. With the exception of the services listed below, AWS customers are not affected. See below for specific guidance on affected services. As a best practice, AWS recommends that you apply all security patches and softwar",
-    "published_at": "2026-05-07T01:45:36+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.746,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.246,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.746
-    }
-  },
-  {
-    "id": "263415012b61da02",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
-    "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
-    "summary": "Bulletin ID: 2026-038-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 12:15 PM PDT Description: Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified CVE-2026-10584 where, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information. I",
-    "published_at": "2026-06-02T19:17:39+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.661,
-    "score_breakdown": {
-      "freshness": 1.661,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.661
-    }
-  },
-  {
-    "id": "e516f183c474fc79",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
-    "title": "CVE-2026-10591 - Kiro IDE Insufficient File Write Restrictions to Execution-Sensitive Paths",
-    "summary": "Bulletin ID: 2026-037-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 08:45 AM PDT Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabli",
-    "published_at": "2026-06-02T15:39:24+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 7.643,
-    "score_breakdown": {
-      "freshness": 1.643,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 7.643
+      "total": 9.423
     }
   },
   {
@@ -124,18 +80,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-019-aws/",
     "title": "Issues in tough library and tuftool CLI utility",
     "summary": "Bulletin ID: 2026-019-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/24 13:30 AM PDT Description: Multiple security issues have been identified in the tough library and tuftool CLI utility. tough is a Rust library used for generating, signing, and managing TUF (The Update Framework) repositories, and tuftool is the command-line interface for repository management Operations. The following issues have been identified: - CVE-2026-6966 - CVE-2026-6967 - CVE-20",
-    "published_at": "2026-04-24T20:30:17+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.603,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.103,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.603
+      "total": 9.423
     }
   },
   {
@@ -146,18 +102,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-017-aws/",
     "title": "CVE-2026-6550 - Key commitment policy bypass via shared key cache in AWS Encryption SDK for Python",
     "summary": "Bulletin ID: 2026-017-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/20 12:45 PM PDT Description: AWS Encryption SDK (ESDK) for Python is a client-side encryption library. We identified CVE-2026-6550, which describes an issue with a key commitment policy bypass via shared key cache. Cryptographic algorithm downgrade in the caching layer of Amazon AWS Encryption SDK for Python before version 3.3.1 and before version 4.0.5 might allow an authenticated local t",
-    "published_at": "2026-04-20T19:45:34+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.577,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.077,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.577
+      "total": 9.423
     }
   },
   {
@@ -168,18 +124,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-012-aws/",
     "title": "CVE-2026-5429 - Kiro IDE Webview Cross-Site Scripting via Workspace Color Theme",
     "summary": "Bulletin ID: 2026-012-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/02 11:30 AM PDT Description: Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents. We identified CVE-2026-5429, where unsanitized input during web page generation in the Kiro Agent webview in Kiro IDE before version 0.8.140 allows a remote unauthenticated threat actor to execute arbitrary code via a malici",
-    "published_at": "2026-04-14T16:52:04+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.55,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.55
+      "total": 9.423
     }
   },
   {
@@ -190,18 +146,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-009-aws/",
     "title": "Arbitrary code execution via crafted project files in Kiro IDE",
     "summary": "Bulletin ID: 2026-009-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/17 12:15 PM PDT Description: Kiro is an AI-powered IDE for agentic software development. We identified CVE-2026-4295, where improper trust boundary enforcement allowed arbitrary code execution when a user opened a maliciously crafted project directory. Impacted versions: < 0.8.0 Please refer to the article below for the most up-to-date and complete information related to this AWS Security ",
-    "published_at": "2026-03-17T19:20:39+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.507,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.507
+      "total": 9.423
     }
   },
   {
@@ -212,18 +168,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-007-aws/",
     "title": "CVE-2026-4270 - AWS API MCP File Access Restriction Bypass",
     "summary": "Bulletin ID: 2026-007-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/16 09:15 AM PDT Description: The AWS API MCP Server is an open source Model Context Protocol (MCP) server that enables AI assistants to interact with AWS services and resources through AWS CLI commands. It provides programmatic access to manage your AWS infrastructure while maintaining proper security controls. This server acts as a bridge between AI assistants and AWS services, allowing y",
-    "published_at": "2026-03-16T16:31:30+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.506,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.006,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.506
+      "total": 9.423
     }
   },
   {
@@ -234,18 +190,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-006-aws/",
     "title": "MariaDB Server Audit Plugin Comment Handling Bypass",
     "summary": "Bulletin ID: 2026-006-AWS Scope: AWS Content Type: Informational Publication Date: 2026/03/03 10:15 AM PST Description: Amazon RDS/Aurora is a managed relational database service. We identified CVE-2026-3494. In MariaDB server version through 11.8.5, when server audit plugin is enabled with server_audit_events variable configured with QUERY_DCL, QUERY_DDL, or QUERY_DML filtering, if an authenticated database user invokes a SQL statement prefixed with double-hyphen (‐‐) or hash (#) style comments",
-    "published_at": "2026-03-03T18:28:58+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.502,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.002,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.502
+      "total": 9.423
     }
   },
   {
@@ -256,18 +212,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-004-aws/",
     "title": "Security Findings in SageMaker Python SDK",
     "summary": "Bulletin ID: 2026-004-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/02/02 14:30 PM PST Description: CVE-2026-1777 - Exposed HMAC in SageMaker Python SDK SageMaker Python SDK’s remote functions feature uses a per‑job HMAC key to protect the integrity of serialized functions, arguments, and results stored in S3. We identified an issue where the HMAC secret key is stored in environment variables and disclosed via the DescribeTrainingJob API. This allows third pa",
-    "published_at": "2026-02-02T22:32:53+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.5,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.0,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.5
+      "total": 9.423
     }
   },
   {
@@ -278,18 +234,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-003-aws/",
     "title": "CVE-2026-1386 - Arbitrary Host File Overwrite via Symlink in Firecracker Jailer",
     "summary": "Bulletin ID: 2026-003-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/01/23 12:30 PM PST Description: Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services. Firecracker runs in user space and uses the Linux Kernel-based Virtual Machine (KVM) to create microVMs. Each Firecracker microVM is further isolated with common Linux user-space security barriers by",
-    "published_at": "2026-01-23T20:51:09+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.5,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.0,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.5
+      "total": 9.423
     }
   },
   {
@@ -300,18 +256,150 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-032/",
     "title": "Key Commitment Issues in S3 Encryption Clients",
     "summary": "Bulletin ID: AWS-2025-032 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/12/17 12:15 PM PST We identify the following CVEs: CVE-2025-14763 - Key Commitment Issues in S3 Encryption Client in Java CVE-2025-14764 - Key Commitment Issues in S3 Encryption Client in Go CVE-2025-14759 - Key Commitment Issues in S3 Encryption Client in .NET CVE-2025-14760 - Key Commitment Issues in S3 Encryption Client in C++ - part of the AWS SDK for C++ CVE-2025-14761 - Key Commitment I",
-    "published_at": "2025-12-17T21:51:22+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.5,
+    "score": 9.423,
     "score_breakdown": {
-      "freshness": 0.0,
+      "freshness": 1.923,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 7.5
+      "total": 9.423
+    }
+  },
+  {
+    "id": "a8a36f8c20703720",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-015/",
+    "title": "[Redirected] Security Update for Amazon Q Developer Extension for Visual Studio Code (Version #1.84)",
+    "summary": "Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/07/23 6:00 PM PDT Updated Date: 2025/07/25 6:00 PM PDT Description: Amazon Q Developer for Visual Studio Code (VS Code) Extension is a development tool that integrates Amazon Q's AI-powered coding assistance directly into the VS Code integrated development environment (IDE). AWS is aware of and has addressed an issue in the Amazon Q Developer for VS Code Extension, which is assigned to CVE-2025-8217. AWS Security has ",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 9.423,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.5,
+      "source": 3.0,
+      "keyword_signal": 7.5,
+      "severity": 0.0,
+      "total": 9.423
+    }
+  },
+  {
+    "id": "7a30edbebc3f8538",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-013/",
+    "title": "CVE-2025-6031 - Insecure device pairing in end-of-life Amazon Cloud Cam",
+    "summary": "Scope: Amazon Content Type: Informational Publication Date: 2025/06/12 10:30 AM PDT Description Amazon Cloud Cam is a home security camera that was deprecated on December 2, 2022, is end of life, and is no longer actively supported. When a user powers on the Amazon Cloud Cam, the device attempts to connect to a remote service infrastructure that has been deprecated due to end-of-life status. The device defaults to a pairing status in which an arbitrary user can bypass SSL pinning to associate th",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 9.423,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.5,
+      "source": 3.0,
+      "keyword_signal": 7.5,
+      "severity": 0.0,
+      "total": 9.423
+    }
+  },
+  {
+    "id": "ba1611276c869dbd",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-027/",
+    "title": "CVE-2025-12829 - Integer Overflow issue in Amazon Ion-C",
+    "summary": "Bulletin ID: AWS-2025-027 Scope: Amazon Content Type: Important (requires attention) Publication Date: 2025/11/7 10:15 AM PDT Description: Amazon's Ion-C is a library for the C language that is used to read and write Amazon Ion data. We Identified CVE-2025-12829, which describes an uninitialized stack read issue in Ion-C versions < v1.1.4 that may allow a threat actor to craft data and serialize it to Ion text in such a way that sensitive data in memory could be exposed through UTF-8 escape sequ",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 9.423,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.5,
+      "source": 3.0,
+      "keyword_signal": 7.5,
+      "severity": 0.0,
+      "total": 9.423
+    }
+  },
+  {
+    "id": "bc5ed424e0872042",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/",
+    "title": "CVE-2025-31133, CVE-2025-52565, CVE-2025-52881 - runc container issues",
+    "summary": "Bulletin ID: AWS-2025-024 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/5 8:45 PM PDT CVE Identifiers: CVE-2025-31133, CVE-2025-52565, CVE-2025-52881 AWS is aware of recently disclosed security issues affecting the runc component of several open source container management systems (CVE-2025-31133, CVE-2025-52565, CVE-2025-52881) when launching new containers. AWS does not consider containers a security boundary, and does not utilize containers to isolate custo",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 9.423,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.5,
+      "source": 3.0,
+      "keyword_signal": 7.5,
+      "severity": 0.0,
+      "total": 9.423
+    }
+  },
+  {
+    "id": "263415012b61da02",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-038-aws/",
+    "title": "CVE-2026-10584 - HTTPS Fallback to HTTP in Graph Explorer",
+    "summary": "Bulletin ID: 2026-038-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 12:15 PM PDT Description: Graph Explorer is an open source application that provides visualization and exploration of data in graph databases such as Amazon Neptune. We identified CVE-2026-10584 where, under certain circumstances, the server silently falls back to HTTP when HTTPS is enabled but certificates are unavailable, resulting in cleartext transmission of sensitive information. I",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "e516f183c474fc79",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-037-aws/",
+    "title": "CVE-2026-10591 - Kiro IDE Insufficient File Write Restrictions to Execution-Sensitive Paths",
+    "summary": "Bulletin ID: 2026-037-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/02/2026 08:45 AM PDT Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-10591. Insufficient access control restrictions in the file write tool in Kiro IDE prior to version 0.11 might allow remote unauthenticated actors to execute arbitrary commands via crafted instructions that cause writes to execution-sensitive paths (such as .vscode/tasks.json), enabli",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
     }
   },
   {
@@ -322,18 +410,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-036-aws/",
     "title": "CVE-2026-9291 - Insecure Deserialization in Amazon Braket SDK Job Results Processing",
     "summary": "Bulletin ID: 2026-036-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/22/2026 11:15 AM PDT Description: Amazon Braket SDK is an open-source Python library for interacting with the Amazon Braket quantum computing service, including managing hybrid quantum jobs and retrieving job results. We identified CVE-2026-9291, an insecure deserialization issue (CWE-502) in the job results processing component. The SDK's deserialize_values() function trusts the dataFormat fie",
-    "published_at": "2026-05-22T18:38:37+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.756,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.756,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.756
+      "total": 7.923
     }
   },
   {
@@ -344,18 +432,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-035-aws/",
     "title": "CVE-2026-9255 - Tool Execution Without Authorization via Piped Stdin in Kiro CLI",
     "summary": "Bulletin ID: 2026-035-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/22/2026 09:45 AM PDT Description: Kiro CLI is a command-line AI coding assistant that enables developers to interact with AI models to execute code, manage files, and run shell commands. We identified CVE-2026-9255, an issue where missing input source validation in the tool authorization prompt could allow a local actor to execute arbitrary tools, including shell commands, without user approval",
-    "published_at": "2026-05-22T16:42:15+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.751,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.751,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.751
+      "total": 7.923
     }
   },
   {
@@ -366,18 +454,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-034-aws/",
     "title": "CVE-2026-9133 - Arbitrary file read in rabbitmq-aws plugin",
     "summary": "Bulletin ID: 2026-034-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/20/2026 12:45 PM PDT Description: rabbitmq-aws is a RabbitMQ plugin that resolves AWS ARNs in broker configuration at startup, fetching secrets (e.g., TLS certificates, private keys, passwords) from AWS services (Secrets Manager, S3, ACM Private CA) and passing them in-memory to RabbitMQ. We identified CVE-2026-9133, an active debug code issue in the plugin's ARN resolver. A debug ARN scheme (a",
-    "published_at": "2026-05-20T19:43:20+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.657,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.657,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.657
+      "total": 7.923
     }
   },
   {
@@ -388,18 +476,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-033-aws/",
     "title": "CVE-2026-8838 - Remote Code Execution in amazon-redshift-python-driver",
     "summary": "Bulletin ID: 2026-033-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/18/2026 13:45 PM PDT Description: amazon-redshift-python-driver is the official Python connector for Amazon Redshift. We identified a code injection issue in versions 2.1.13 and earlier that could allow a rogue server or man-in-the-middle to execute arbitrary code on the client. Impacted versions: < =2.1.13 Please refer to the article below for the most up-to-date and complete information relat",
-    "published_at": "2026-05-18T20:27:07+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.571,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.571,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.571
+      "total": 7.923
     }
   },
   {
@@ -410,18 +498,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-032-aws/",
     "title": "CVE-2026-8686 - Heap out-of-bounds read in coreMQTT MQTT5 property parsing",
     "summary": "Bulletin ID: 2026-032-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/15/2026 11:45 AM PDT Description: coreMQTT is a lightweight MQTT client library for embedded devices. We identified CVE-2026-8686, an issue where missing bounds validation in the MQTT v5.0 SUBACK and UNSUBACK property parser in coreMQTT before 5.0.1 allows an MQTT broker to cause a denial of service (crash via heap out-of-bounds read) by sending a crafted packet. Impacted versions: v5.0.0 Pleas",
-    "published_at": "2026-05-15T19:10:10+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.459,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.459,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.459
+      "total": 7.923
     }
   },
   {
@@ -432,18 +520,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-031-aws/",
     "title": "Issue with Amazon SageMaker Python SDK - Model artifact integrity verification issues (CVE-2026-8596 & CVE-2026-8597)",
     "summary": "Bulletin ID: 2026-031-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/14/2026 13:00 PM PDT Description: Amazon SageMaker Python SDK is an open-source library for training and deploying machine learning models on Amazon SageMaker. The ModelBuilder component simplifies model deployment by automating model artifact preparation and SageMaker model creation. We identified two issues affecting the model artifact integrity verification mechanism in the ModelBuilder/Serv",
-    "published_at": "2026-05-15T19:02:12+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.459,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.459,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.459
+      "total": 7.923
     }
   },
   {
@@ -454,18 +542,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-027-aws/",
     "title": "Dirty Frag and other issues in Amazon Linux kernels",
     "summary": "Bulletin ID: 2026-027-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/05/07 19:45 PM PDT Description: Amazon is aware of a class of issues in the Linux kernel related to the original issue (CVE-2026-31431). The issues commonly referred to as \"DirtyFrag\" are present in a number of loadable modules, including xfrm_user/esp4/esp6 and ipcomp4/ipcomp6. On systems that allow unprivileged users to create sockets directly or through CAP_NET_ADMIN, or allow the creation",
-    "published_at": "2026-05-11T17:44:32+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.344,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.344,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.344
+      "total": 7.923
     }
   },
   {
@@ -476,18 +564,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-028-aws/",
     "title": "CVE-2026-8178 - Remote Code Execution via Unsafe Class Loading in Amazon Redshift JDBC Driver",
     "summary": "Bulletin ID: 2026-028-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/05/08 11:30 AM PDT Description: Amazon Redshift JDBC Driver is a Type 4 JDBC driver that provides database connectivity through the standard JDBC application program interfaces (APIs). We identified an issue in Amazon Redshift JDBC Driver versions prior to 2.2.2. Under certain conditions, the driver could load and execute arbitrary classes when processing JDBC connection URL parameters. An ac",
-    "published_at": "2026-05-08T18:42:35+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.278,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.278,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.278
+      "total": 7.923
     }
   },
   {
@@ -498,18 +586,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-025-aws/",
     "title": "CVE-2026-7791 - Local Privilege Escalation via TOCTOU Race Condition in Amazon WorkSpaces Skylight Agent",
     "summary": "Bulletin ID: 2026-025-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/05/04 15:30 PM PDT Description: Amazon Skylight Workspace Config Service ( slwsconfigservice) is a critical background service within Amazon WorkSpaces that manages system configuration, monitors health, and updates components. We identified CVE-2026-7791 which allows a local non-admin authenticated user to escalate privileges to SYSTEM by exploiting a race condition in the Skylight Workspace",
-    "published_at": "2026-05-04T22:29:22+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.211,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.211,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.211
+      "total": 7.923
     }
   },
   {
@@ -520,18 +608,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-024-aws/",
     "title": "CVE-2026-7461 - OS Command Injection in Amazon ECS Agent via FSx Windows File Server Volume Credentials",
     "summary": "Bulletin ID: 2026-024-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/30 13:30 PM PDT Description: Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that enables customers to deploy, manage, and scale containerized applications. The Amazon ECS agent supports mounting FSx for Windows File Server volumes in task definitions on Windows EC2 instances. We identified CVE-2026-7461, a command injection issue in FSx vol",
-    "published_at": "2026-05-01T20:27:49+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.17,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.17,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.17
+      "total": 7.923
     }
   },
   {
@@ -542,18 +630,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-023-aws/",
     "title": "Issue with FreeRTOS-Plus-TCP - IPv6 Router Advertisement Memory Safety Issues",
     "summary": "Bulletin ID: 2026-023-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:30 PM PDT Description: FreeRTOS-Plus-TCP is an open source TCP/IP stack implementation designed for FreeRTOS, providing a standard Berkeley sockets interface and support for essential networking protocols including IPv6, ARP, DHCP, DNS, and Router Advertisement (RA). We identified CVE-2026-7425 and CVE-2026-7426, one of them being out-of-bounds read and another one being out-of-bound",
-    "published_at": "2026-04-29T19:34:40+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.147,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.147
+      "total": 7.923
     }
   },
   {
@@ -564,18 +652,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-022-aws/",
     "title": "CVE-2026-7424 - Integer Underflow in DHCPv6 Sub-Option Parser in FreeRTOS-Plus-TCP",
     "summary": "Bulletin ID: 2026-022-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:20 PM PDT Description: FreeRTOS-Plus-TCP is an open-source, scalable TCP/IP stack for FreeRTOS. We identified CVE-2026-7424, where an integer underflow issue in the DHCPv6 sub-option parser could allow an adjacent network user to corrupt the device's IPv6 address assignment, DNS configuration, and lease times, and to cause a denial of service (IP task freeze requiring hardware reset)",
-    "published_at": "2026-04-29T19:30:04+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.147,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.147
+      "total": 7.923
     }
   },
   {
@@ -586,18 +674,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-021-aws/",
     "title": "Issue with FreeRTOS-Plus-TCP - MAC Address Validation Bypass and ICMP Echo Reply Integer Underflow",
     "summary": "Bulletin ID: 2026-021-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/29 12:00 PM PDT Description: FreeRTOS-Plus-TCP is a scalable, open source, and thread-safe TCP/IP stack for FreeRTOS. - CVE-2026-7422: Insufficient packet validation in the IPv4 and IPv6 receive paths allows an adjacent network device to send a packet that bypasses checksum and minimum-size validation by spoofing the Ethernet source MAC address to match one of the target device's own regis",
-    "published_at": "2026-04-29T19:25:28+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.147,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.147
+      "total": 7.923
     }
   },
   {
@@ -608,18 +696,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-020-aws/",
     "title": "CVE-2026-7191- Arbitrary Code Execution via Sandbox Bypass in QnABot on AWS",
     "summary": "Bulletin ID: 2026-020-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/27 13:15 PM PDT Description: QnABot on AWS is an open-source solution that provides a multi-channel, multi-language conversational interface powered by Amazon Lex, Amazon OpenSearch Service, and optionally Amazon Bedrock. We identified CVE-2026-7191, where the improper use of the static-eval npm package may allow an authenticated administrator to execute arbitrary code within the fulfillme",
-    "published_at": "2026-04-27T20:21:23+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.127,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.127
+      "total": 7.923
     }
   },
   {
@@ -630,18 +718,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-018-aws/",
     "title": "Issue with AWS Ops Wheel (CVE-2026-6911 and CVE-2026-6912",
     "summary": "Bulletin ID: 2026-018-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/24 09:15 AM PDT Description: AWS Ops Wheel is an open-source tool that helps teams make random selections using a virtual spinning wheel, deployed into customer AWS accounts via CloudFormation. CVE-2026-6911 relates to an issue where JWT token signature verification was not enforced in the v2 API. CVE-2026-6912 relates to an issue in the v2 Cognito User Pool configuration where attribute w",
-    "published_at": "2026-04-24T16:42:04+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.102,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.102,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.102
+      "total": 7.923
     }
   },
   {
@@ -652,18 +740,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-016-aws/",
     "title": "CVE-2026-6437 - Mount Option Injection in Amazon EFS CSI Driver",
     "summary": "Bulletin ID: 2026-016-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/17 11:15 AM PDT Description: The Amazon EFS CSI Driver is a Container Storage Interface driver that allows Kubernetes clusters to use Amazon Elastic File System. We identified CVE-2026-6437, where an actor with PersistentVolume creation privileges can inject arbitrary mount options via two unsanitized fields: the Access Point ID in volumeHandle and the mounttargetip volumeAttribute. In bot",
-    "published_at": "2026-04-17T18:59:58+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.062,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.062,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.062
+      "total": 7.923
     }
   },
   {
@@ -674,18 +762,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-015-aws/",
     "title": "CVE-2026-5747 - Out-of-bounds Write in Firecracker virtio-pci Transport",
     "summary": "Bulletin ID: 2026-015-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/07 15:30 PM PDT Description: Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services. We identified CVE-2026-5747, an out-of-bounds write issue in the virtio PCI transport in Firecracker 1.13.0 through 1.14.3 and 1.15.0 on x86_64 and aarch64 that might allow a local guest user with ro",
-    "published_at": "2026-04-14T17:38:31+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.05,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.05
+      "total": 7.923
     }
   },
   {
@@ -696,18 +784,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-014-aws/",
     "title": "Issues with AWS Research and Engineering Studio (RES)",
     "summary": "Bulletin ID: 2026-014-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/06 14:00 PM PDT Description: Research and Engineering Studio (RES) on AWS is an open source, web portal design for administrators to create and manage secure cloud-based research and engineering environments. We have identified the following issues with the AWS Research and Engineering Studio (RES). CVE-2026-5707: Unsanitized input in an OS Command in the virtual desktop session name handl",
-    "published_at": "2026-04-14T17:31:02+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.05,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.05
+      "total": 7.923
     }
   },
   {
@@ -718,18 +806,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-013-aws/",
     "title": "Issues with Amazon Athena ODBC Driver",
     "summary": "Bulletin ID: 2026-013-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/04/03 13:00 PM PDT Description: The Amazon Athena ODBC driver implements standard ODBC application program interfaces (APIs). The ODBC driver provides access to Amazon Athena from any C/C++ application. The Amazon Athena ODBC driver provides 64-bit ODBC drivers for Windows, Linux and MAC operating systems. We identified the following: - CVE-2026-5485: OS command injection in browser-based aut",
-    "published_at": "2026-04-14T17:19:15+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.05,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.05
+      "total": 7.923
     }
   },
   {
@@ -740,18 +828,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-011-aws/",
     "title": "CVE-2026-5190 - AWS C Event Stream Streaming Decoder Stack Buffer Overflow",
     "summary": "Bulletin ID: 2026-011-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/31 10:15 AM PDT Description: AWS Common Runtime library is used by several AWS SDKs to communicate with event-stream services (Ex. Kinesis, Transcribe). We identified CVE-2026-5190. AWS Common Runtime event-stream decoder component before 0.6.0 might allow a third party operating a server to cause memory corruption leading to arbitrary code execution on a client application that processes ",
-    "published_at": "2026-04-14T16:44:23+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.05,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.05
+      "total": 7.923
     }
   },
   {
@@ -762,18 +850,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-010-aws/",
     "title": "CVE-2026-4428: Issues with AWS-LC - CRL Distribution Point Scope Check Logic Error",
     "summary": "Bulletin ID: 2026-010-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/19 13:30 PM PDT Description: AWS-LC is a general-purpose cryptographic library maintained by AWS. We identified CVE-2026-4428 affecting X.509 certificate verification. A logic error in the CRL (Certificate Revocation List) distribution point matching in AWS-LC allows a revoked certificate to bypass revocation checks during certificate validation, when the application enables CRL checking a",
-    "published_at": "2026-03-19T22:15:23+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.008,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.008,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.008
+      "total": 7.923
     }
   },
   {
@@ -784,18 +872,18 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-008-aws/",
     "title": "CVE-2026-4269 - Improper S3 ownership verification in Bedrock AgentCore Starter Toolkit",
     "summary": "Bulletin ID: 2026-008-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/16 11:15 AM PDT Description: A missing S3 ownership verification in the Bedrock AgentCore Starter Toolkit before version v0.1.13 may allow a remote actor to inject code during the build process, leading to code execution in the AgentCore Runtime. Impacted versions: All versions of Bedrock AgentCore Starter Toolkit versions before v0.1.13. This issue only affects users of the Bedrock AgentC",
-    "published_at": "2026-03-16T18:59:47+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.006,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.006,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.006
+      "total": 7.923
     }
   },
   {
@@ -806,18 +894,304 @@
     "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-005-aws/",
     "title": "Issue with AWS-LC: an open-source, general-purpose cryptographic library (CVE-2026-3336, CVE-2026-3337, CVE-2026-3338)",
     "summary": "Bulletin ID: 2026-005-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/03/02 14:30 PM PST Description: AWS-LC is an open-source, general-purpose cryptographic library. We identified three distinct issues: - CVE-2026-3336: PKCS7_verify Certificate Chain Validation Bypass in AWS-LC Improper certificate validation in PKCS7_verify() in AWS-LC allows an unauthenticated user to bypass certificate chain verification when processing PKCS7 objects with multiple signers, ",
-    "published_at": "2026-03-02T23:19:44+00:00",
+    "published_at": "2026-06-05T19:19:25+00:00",
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.002,
+    "score": 7.923,
     "score_breakdown": {
-      "freshness": 0.002,
+      "freshness": 1.923,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.002
+      "total": 7.923
+    }
+  },
+  {
+    "id": "5528f17a27fd0947",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-001-aws/",
+    "title": "CVE-2026-0830 - Command Injection in Kiro GitLab Merge Request Helper",
+    "summary": "Bulletin ID: 2026-001-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/01/09 13:15 PM PST Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-0830 where opening a maliciously crafted workspace may lead to arbitrary command injection in Kiro IDE before Kiro version 0.6.18. This may occur if the workspace has specially crafted folder names within the workspace containing injected commands. Resolution: Kiro IDE < 0.6.18 Please",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "c287ecdd36739964",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-031/",
+    "title": "Overly Permissive Trust Policy in Harmonix on AWS EKS",
+    "summary": "Bulletin ID: AWS-2025-031 Scope: AWS Content Type: Informational Publication Date: 2025/12/15 11:45 AM PST Description: Harmonix on AWS is an open source reference architecture and implementation of a Developer Platform that extends the CNCF Backstage project. We identified CVE-2025-14503 where an overly-permissive IAM trust policy in the Harmonix on AWS framework may allow authenticated users to escalate privileges via role assumption. The sample code for the EKS environment provisioning role i",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "8a9bd91c8552fbb9",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-014/",
+    "title": "CVE-2025-8069 - AWS Client VPN Windows Client Local Privilege Escalation",
+    "summary": "Scope: Amazon/AWS Content Type: Important (requires attention) Publication Date: 2025/07/23 8:30 AM PDT Description: AWS Client VPN is a managed client-based VPN service that enables secure access to AWS and on-premises resources. The AWS Client VPN client software runs on end-user devices, supporting Windows, macOS, and Linux and provides the ability for end users to establish a secure tunnel to the AWS Client VPN Service. We identified CVE-2025-###, an issue in AWS Client VPN. During the AWS C",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "4100094e074c609a",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-018/",
+    "title": "CVE-2025-9039 - Issue with Amazon ECS agent introspection server",
+    "summary": "Bulletin ID: AWS-2025-018 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/08/14 09:15 PM PDT Description: Amazon Elastic Container Service (Amazon ECS) is a fully managed container orchestration service that enables customers to deploy, manage, and scale containerized applications. Amazon ECS container agent provides an introspection API that provides information about the overall state of the Amazon ECS agent and the container instances. We identified CVE-2025-903",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "23b2c852de225773",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-017/",
+    "title": "CVE-2025-8904 - Issue with Amazon EMR Secret Agent component",
+    "summary": "Bulletin ID: AWS-2025-017 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/08/13 10:00 PM PDT Description: Amazon EMR is a managed cluster platform that simplifies running big data frameworks on AWS to process and analyze vast amounts of data. We identified CVE-2025-8904, an issue in the Amazon EMR Secret Agent component. The Secret Agent component securely stores secrets and distributes secrets to other Amazon EMR components and applications. When using Amazon EMR ",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "a27a43f7553ec3da",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-023/",
+    "title": "Buffer Over-read when receiving improperly sized ICMPv6 packets",
+    "summary": "Bulletin ID: AWS-2025-023 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/10 10:15 PM PDT We identified the following CVEs: CVE-2025-11616 - A Buffer Over-read when receiving ICMPv6 packets of certain message types which are smaller than the expected size. CVE-2025-11617 - A Buffer Over-read when receiving a IPv6 packet with incorrect payload lengths in the packet header. CVE-2025-11618 - An invalid pointer dereference when receiving a UDP/IPv6 packet with an in",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "70087ffadc1cbda0",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-022/",
+    "title": "CVE-2025-11573 - Denial of Service issue in Amazon.IonDotnet",
+    "summary": "Bulletin ID: AWS-2025-022 Scope: Amazon Content Type: Important (requires attention) Publication Date: 2025/10/09 11:00 PM PDT Description: Amazon.IonDotnet is a library for the Dotnet language that is used to read and write Amazon Ion data. We identified CVE-2025-11573, which describes an infinite loop issue in Amazon.IonDotnet library versions Affected versions: < 1.3.2",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "68b0b7d96e303bf2",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-020/",
+    "title": "CVE-2025-11462 AWS ClientVPN macOS Client Local Privilege Escalation",
+    "summary": "Bulletin ID: AWS-2025-020 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: AWS Client VPN is a managed client-based VPN service that enables secure access to AWS and on-premises resources. The AWS Client VPN client software runs on end-user devices, supporting Windows, macOS, and Linux and provides the ability for end users to establish a secure tunnel to the AWS Client VPN Service. We have identified CVE-2025-11462, an issue in AWS C",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "ae4a3df69369db72",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-026/",
+    "title": "CVE-2025-12815 - RES web portal may display preview of Virtual Desktops that the user shouldn't have access to",
+    "summary": "Bulletin ID: AWS-2025-026 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/6 09:15 AM PDT Description: Research and Engineering Studio on AWS (RES) is an open source, easy-to-use web-based portal for administrators to create and manage secure cloud-based research and engineering environments. We identified CVE-2025-12815, in which an ownership verification issue in the Virtual Desktop preview page in the Research and Engineering Studio (RES) on AWS before version",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "d08dfc3b61089869",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-025/",
+    "title": "Improper authentication token handling in the Amazon WorkSpaces client for Linux",
+    "summary": "Bulletin ID: AWS-2025-025 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/5 13:20 PM PDT Description: We identified CVE-2025-12779, which describes an issue in the Amazon WorkSpaces client for Linux . Improper handling of the authentication token in the Amazon WorkSpaces client for Linux, versions 2023.0 through 2024.8, may expose the authentication token for DCV-based WorkSpaces to other local users on the same client machine. Under certain circumstances, an un",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "f9bd1c3dae2370b4",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-028/",
+    "title": "Privilege Escalation in Aurora PostgreSQL using AWS JDBC Wrapper, AWS Go Wrapper, AWS NodeJS Wrapper, AWS Python Wrapper, AWS PGSQL ODBC driver",
+    "summary": "Bulletin ID: AWS-2025-028 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/11/10 10:15 AM PDT Description: Amazon Aurora PostgreSQL a fully managed relational database engine that's compatible with PostgreSQL. We identified CVE-2025-12967, an issue in AWS Wrappers for Amazon Aurora PostgreSQL may allow for privilege escalation to rds_superuser role. A low privilege authenticated user can create a crafted function that could be executed with permissions of other Amaz",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "37fd42f34da66445",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-030/",
+    "title": "CVE-2025-66478: RCE in React Server Components",
+    "summary": "Bulletin ID: AWS-2025-030 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/12/03 20:00 PM PST Description: AWS is aware of the recently disclosed CVE-2025-55182 which affects the React Server Flight protocol in React versions 19.0, 19.1, and 19.2, as well as in Next.js versions 15.x, 16.x, Next.js 14.3.0-canary.77 and later canary releases when using App Router. This issue may permit unauthorized remote code execution on affected applications servers. AWS is aware o",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
+    }
+  },
+  {
+    "id": "25059116d7e41dff",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-039-aws/",
+    "title": "CVE-2026-11400 and CVE-2026-11401",
+    "summary": "Bulletin ID: 2026-039-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/025/2026 12:15 PM PDT Description: Amazon Aurora PostgreSQL a fully managed relational database engine that's compatible with PostgreSQL. We identified CVE-2026-11400(JDBC) and CVE-2026-11401(Go), an issue in AWS Wrappers for Amazon Aurora PostgreSQL will allow for privilege escalation to rds_superuser role. A low privilege authenticated user can create a crafted function that could be executed",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-06-06T08:29:15.277559+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 7.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 2.0,
+      "source": 3.0,
+      "keyword_signal": 6.0,
+      "severity": 0.0,
+      "total": 7.923
     }
   },
   {
@@ -837,58 +1211,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 6.001,
+    "score": 5.935,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.935,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 6.001
-    }
-  },
-  {
-    "id": "5528f17a27fd0947",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-001-aws/",
-    "title": "CVE-2026-0830 - Command Injection in Kiro GitLab Merge Request Helper",
-    "summary": "Bulletin ID: 2026-001-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 2026/01/09 13:15 PM PST Description: Kiro is an agentic IDE users install on their desktop. We identified CVE-2026-0830 where opening a maliciously crafted workspace may lead to arbitrary command injection in Kiro IDE before Kiro version 0.6.18. This may occur if the workspace has specially crafted folder names within the workspace containing injected commands. Resolution: Kiro IDE < 0.6.18 Please",
-    "published_at": "2026-01-09T21:25:49+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 6.0
-    }
-  },
-  {
-    "id": "c287ecdd36739964",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-031/",
-    "title": "Overly Permissive Trust Policy in Harmonix on AWS EKS",
-    "summary": "Bulletin ID: AWS-2025-031 Scope: AWS Content Type: Informational Publication Date: 2025/12/15 11:45 AM PST Description: Harmonix on AWS is an open source reference architecture and implementation of a Developer Platform that extends the CNCF Backstage project. We identified CVE-2025-14503 where an overly-permissive IAM trust policy in the Harmonix on AWS framework may allow authenticated users to escalate privileges via role assumption. The sample code for the EKS environment provisioning role i",
-    "published_at": "2025-12-15T20:13:44+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 6.0,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 2.0,
-      "source": 3.0,
-      "keyword_signal": 6.0,
-      "severity": 0.0,
-      "total": 6.0
+      "total": 5.935
     }
   },
   {
@@ -911,14 +1241,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 5.401,
+    "score": 5.375,
     "score_breakdown": {
-      "freshness": 0.401,
+      "freshness": 0.375,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 5.401
+      "total": 5.375
     }
   },
   {
@@ -941,14 +1271,58 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 3.66,
+    "score": 3.551,
     "score_breakdown": {
-      "freshness": 1.66,
+      "freshness": 1.551,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 3.66
+      "total": 3.551
+    }
+  },
+  {
+    "id": "385f344400a5e5d0",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/",
+    "title": "Unanchored ACCOUNT_ID webhook filters for CodeBuild",
+    "summary": "Bulletin ID: 2026-002-AWS Scope: AWS Content Type: Informational Publication Date: 2026/01/15 07:03 AM PST Description: A security research team identified a configuration issue affecting the following AWS-managed open source GitHub repositories that could have resulted in the introduction of inappropriate code: - aws-sdk-js-v3 - aws-lc - amazon-corretto-crypto-provider - awslabs/open-data-registry Specifically, researchers identified the above repositories' configured regular expressions for AW",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 3.423,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 0.5,
+      "source": 3.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 3.423
+    }
+  },
+  {
+    "id": "6b62a211cd2063aa",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-016/",
+    "title": "[Redirected] Memory Dump Issue in AWS CodeBuild",
+    "summary": "Bulletin ID: AWS-2025-016 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/07/25 6:00 PM PDT Description: AWS CodeBuild is a fully managed on-demand continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. Security researchers reported a CodeBuild issue that could be leveraged for unapproved code modification absent sufficient repository controls and credential scoping. The researchers demonstrate",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 3.423,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 0.5,
+      "source": 3.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 3.423
     }
   },
   {
@@ -969,14 +1343,45 @@
       "Threat Detection & Incident Response"
     ],
     "severity": null,
-    "score": 3.007,
+    "score": 2.941,
     "score_breakdown": {
-      "freshness": 1.007,
+      "freshness": 0.941,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 3.007
+      "total": 2.941
+    }
+  },
+  {
+    "id": "9f5fa8c81636d17d",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/building-secure-b2c-applications-with-fine-grained-access-control-using-amazon-cognito-and-amazon-verified-permissions/",
+    "title": "Building secure B2C applications with fine-grained access control using Amazon Cognito and Amazon Verified Permissions",
+    "summary": "Modern web applications require robust security controls to protect user data and application resources. Authentication and authorization are two fundamental pillars of application security that answer critical questions: Who are you? and What are you allowed to do? Implementing these controls correctly can be challenging for developers, especially when building data-intensive applications with frameworks like […]",
+    "published_at": "2026-06-05T17:07:06+00:00",
+    "fetched_at": "2026-06-06T08:29:15.277559+00:00",
+    "tags": [
+      "Amazon Cognito",
+      "Amazon Verified Permissions",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Access Control",
+      "authentication",
+      "fine-grained authorization",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.911,
+    "score_breakdown": {
+      "freshness": 1.911,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.911
     }
   },
   {
@@ -996,14 +1401,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.931,
+    "score": 2.804,
     "score_breakdown": {
-      "freshness": 1.931,
+      "freshness": 1.804,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.931
+      "total": 2.804
     }
   },
   {
@@ -1025,41 +1430,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.917,
+    "score": 2.791,
     "score_breakdown": {
-      "freshness": 1.917,
+      "freshness": 1.791,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.917
-    }
-  },
-  {
-    "id": "da07e9806c53791f",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
-    "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
-    "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]",
-    "published_at": "2026-06-02T16:00:11+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [
-      "Amazon Bedrock AgentCore",
-      "Expert (400)",
-      "Security, Identity, & Compliance",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 2.645,
-    "score_breakdown": {
-      "freshness": 1.645,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.645
+      "total": 2.791
     }
   },
   {
@@ -1079,14 +1457,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.615,
+    "score": 2.575,
     "score_breakdown": {
-      "freshness": 0.615,
+      "freshness": 0.575,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.615
+      "total": 2.575
     }
   },
   {
@@ -1107,14 +1485,41 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.606,
+    "score": 2.566,
     "score_breakdown": {
-      "freshness": 0.606,
+      "freshness": 0.566,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.606
+      "total": 2.566
+    }
+  },
+  {
+    "id": "da07e9806c53791f",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
+    "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
+    "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]",
+    "published_at": "2026-06-02T16:00:11+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Amazon Bedrock AgentCore",
+      "Expert (400)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.537,
+    "score_breakdown": {
+      "freshness": 1.537,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.537
     }
   },
   {
@@ -1134,70 +1539,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.259,
+    "score": 2.242,
     "score_breakdown": {
-      "freshness": 0.259,
+      "freshness": 0.242,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.259
-    }
-  },
-  {
-    "id": "5963cd9d38374765",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/",
-    "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall",
-    "summary": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall endpoints for traffic inspection) where their network firewall endpoints are deployed. This centralized deployment model reduces the […]",
-    "published_at": "2026-05-28T22:44:17+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [
-      "Amazon VPC",
-      "AWS Network Firewall",
-      "AWS Transit Gateway",
-      "Security, Identity, & Compliance",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 2.174,
-    "score_breakdown": {
-      "freshness": 1.174,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.174
-    }
-  },
-  {
-    "id": "f92c40f57e9775d8",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/simplifying-policy-management-with-url-and-domain-category-filtering-on-aws-network-firewall/",
-    "title": "Simplifying policy management with URL and Domain Category filtering on AWS Network Firewall",
-    "summary": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in coverage. This challenge intensifies when managing access to rapidly evolving categories like AI services, where new tools launch on […]",
-    "published_at": "2026-05-28T18:57:13+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [
-      "Advanced (300)",
-      "AWS Network Firewall",
-      "Security, Identity, & Compliance",
-      "Technical How-to",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 2.161,
-    "score_breakdown": {
-      "freshness": 1.161,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.161
+      "total": 2.242
     }
   },
   {
@@ -1219,14 +1568,136 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.136,
+    "score": 2.127,
     "score_breakdown": {
-      "freshness": 0.136,
+      "freshness": 0.127,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.136
+      "total": 2.127
+    }
+  },
+  {
+    "id": "5963cd9d38374765",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/why-and-how-to-migrate-to-a-transit-gateway-attached-aws-network-firewall/",
+    "title": "Why and how to migrate to a Transit Gateway-attached AWS Network Firewall",
+    "summary": "AWS Network Firewall now supports native attachment to AWS Transit Gateway. Customers commonly use Transit Gateway to route traffic from Amazon Virtual Private Cloud (Amazon VPC) networks to a centralized inspection VPC (a VPC dedicated to hosting firewall endpoints for traffic inspection) where their network firewall endpoints are deployed. This centralized deployment model reduces the […]",
+    "published_at": "2026-05-28T22:44:17+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Amazon VPC",
+      "AWS Network Firewall",
+      "AWS Transit Gateway",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.097,
+    "score_breakdown": {
+      "freshness": 1.097,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.097
+    }
+  },
+  {
+    "id": "f92c40f57e9775d8",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/simplifying-policy-management-with-url-and-domain-category-filtering-on-aws-network-firewall/",
+    "title": "Simplifying policy management with URL and Domain Category filtering on AWS Network Firewall",
+    "summary": "Network administrators face a persistent challenge: maintaining domain blocklists and allowlists that keep pace with the internet. New websites and services emerge daily, and keeping these lists current requires constant manual updates that leave gaps in coverage. This challenge intensifies when managing access to rapidly evolving categories like AI services, where new tools launch on […]",
+    "published_at": "2026-05-28T18:57:13+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Advanced (300)",
+      "AWS Network Firewall",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.085,
+    "score_breakdown": {
+      "freshness": 1.085,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.085
+    }
+  },
+  {
+    "id": "2b47d6d1ef1cba99",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
+    "title": "Ongoing updates on Copy.fail and variants",
+    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.923
+    }
+  },
+  {
+    "id": "51bec48b6b1d0ead",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/",
+    "title": "Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE plugins",
+    "summary": "Bulletin ID: AWS-2025-019 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: We are aware of blog posts by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues in Amazon Q Developer and Kiro. Amazon Q Developer: Remote Code Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection. These issues require an open chat session and intentional access to a malicious fi",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.923
+    }
+  },
+  {
+    "id": "3588e88444510475",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-021/",
+    "title": "IMDS impersonation",
+    "summary": "Bulletin ID: AWS-2025-021 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: AWS is aware of a potential Instance Metadata Service (IMDS) impersonation issue that would lead to customers interacting with unexpected AWS accounts. IMDS, when running on an EC2 instance, runs on a loopback network interface and vends Instance Metadata Credentials, which customers use to interact with AWS Services. These network calls never leave the EC2 ins",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.923,
+    "score_breakdown": {
+      "freshness": 1.923,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.923
     }
   },
   {
@@ -1248,14 +1719,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.897,
+    "score": 1.772,
     "score_breakdown": {
-      "freshness": 1.897,
+      "freshness": 1.772,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.897
+      "total": 1.772
     }
   },
   {
@@ -1276,14 +1747,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.706,
+    "score": 1.66,
     "score_breakdown": {
-      "freshness": 0.706,
+      "freshness": 0.66,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.706
+      "total": 1.66
     }
   },
   {
@@ -1310,14 +1781,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.698,
+    "score": 1.652,
     "score_breakdown": {
-      "freshness": 0.698,
+      "freshness": 0.652,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.698
+      "total": 1.652
     }
   },
   {
@@ -1345,14 +1816,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.66,
+    "score": 1.616,
     "score_breakdown": {
-      "freshness": 0.66,
+      "freshness": 0.616,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.66
+      "total": 1.616
     }
   },
   {
@@ -1374,36 +1845,14 @@
       "SOC"
     ],
     "severity": null,
-    "score": 1.532,
+    "score": 1.432,
     "score_breakdown": {
-      "freshness": 1.532,
+      "freshness": 1.432,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.532
-    }
-  },
-  {
-    "id": "385f344400a5e5d0",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-002-aws/",
-    "title": "Unanchored ACCOUNT_ID webhook filters for CodeBuild",
-    "summary": "Bulletin ID: 2026-002-AWS Scope: AWS Content Type: Informational Publication Date: 2026/01/15 07:03 AM PST Description: A security research team identified a configuration issue affecting the following AWS-managed open source GitHub repositories that could have resulted in the introduction of inappropriate code: - aws-sdk-js-v3 - aws-lc - amazon-corretto-crypto-provider - awslabs/open-data-registry Specifically, researchers identified the above repositories' configured regular expressions for AW",
-    "published_at": "2026-01-15T15:43:30+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 3.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
+      "total": 1.432
     }
   },
   {
@@ -1424,14 +1873,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.457,
+    "score": 1.427,
     "score_breakdown": {
-      "freshness": 0.457,
+      "freshness": 0.427,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.457
+      "total": 1.427
     }
   },
   {
@@ -1454,14 +1903,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.395,
+    "score": 1.369,
     "score_breakdown": {
-      "freshness": 0.395,
+      "freshness": 0.369,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.395
+      "total": 1.369
     }
   },
   {
@@ -1485,14 +1934,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.373,
+    "score": 1.349,
     "score_breakdown": {
-      "freshness": 0.373,
+      "freshness": 0.349,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.373
+      "total": 1.349
     }
   },
   {
@@ -1517,14 +1966,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.344,
+    "score": 1.321,
     "score_breakdown": {
-      "freshness": 0.344,
+      "freshness": 0.321,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.344
+      "total": 1.321
     }
   },
   {
@@ -1545,14 +1994,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.225,
+    "score": 1.21,
     "score_breakdown": {
-      "freshness": 0.225,
+      "freshness": 0.21,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.225
+      "total": 1.21
     }
   },
   {
@@ -1576,14 +2025,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.222,
+    "score": 1.207,
     "score_breakdown": {
-      "freshness": 0.222,
+      "freshness": 0.207,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.222
+      "total": 1.207
     }
   },
   {
@@ -1616,14 +2065,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.17,
+    "score": 1.159,
     "score_breakdown": {
-      "freshness": 0.17,
+      "freshness": 0.159,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.17
+      "total": 1.159
     }
   },
   {
@@ -1644,14 +2093,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 1.169,
+    "score": 1.158,
     "score_breakdown": {
-      "freshness": 0.169,
+      "freshness": 0.158,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.169
+      "total": 1.158
     }
   },
   {
@@ -1673,36 +2122,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.135,
+    "score": 1.126,
     "score_breakdown": {
-      "freshness": 0.135,
+      "freshness": 0.126,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.135
-    }
-  },
-  {
-    "id": "2b47d6d1ef1cba99",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
-    "title": "Ongoing updates on Copy.fail and variants",
-    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
-    "published_at": "2026-05-14T20:52:36+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.43,
-    "score_breakdown": {
-      "freshness": 0.43,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.43
+      "total": 1.126
     }
   },
   {
@@ -1726,14 +2153,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.429,
+    "score": 0.401,
     "score_breakdown": {
-      "freshness": 0.429,
+      "freshness": 0.401,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.429
+      "total": 0.401
     }
   },
   {
@@ -1760,14 +2187,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 0.424,
+    "score": 0.396,
     "score_breakdown": {
-      "freshness": 0.424,
+      "freshness": 0.396,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.424
+      "total": 0.396
     }
   },
   {
@@ -1791,14 +2218,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.398,
+    "score": 0.372,
     "score_breakdown": {
-      "freshness": 0.398,
+      "freshness": 0.372,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.398
+      "total": 0.372
     }
   },
   {
@@ -1830,14 +2257,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.366,
+    "score": 0.342,
     "score_breakdown": {
-      "freshness": 0.366,
+      "freshness": 0.342,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.366
+      "total": 0.342
     }
   },
   {
@@ -1858,14 +2285,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.257,
+    "score": 0.24,
     "score_breakdown": {
-      "freshness": 0.257,
+      "freshness": 0.24,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.257
+      "total": 0.24
     }
   },
   {
@@ -1889,14 +2316,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.242,
+    "score": 0.226,
     "score_breakdown": {
-      "freshness": 0.242,
+      "freshness": 0.226,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.242
+      "total": 0.226
     }
   },
   {
@@ -1917,14 +2344,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.209,
+    "score": 0.195,
     "score_breakdown": {
-      "freshness": 0.209,
+      "freshness": 0.195,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.209
+      "total": 0.195
     }
   },
   {
@@ -1945,14 +2372,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.147,
+    "score": 0.137,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 0.137,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.147
+      "total": 0.137
     }
   }
 ]
