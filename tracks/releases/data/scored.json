@@ -33,14 +33,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.349,
+    "score": 9.323,
     "score_breakdown": {
-      "freshness": 0.349,
+      "freshness": 0.323,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.349
+      "total": 9.323
     }
   },
   {
@@ -55,14 +55,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.09,
+    "score": 9.084,
     "score_breakdown": {
-      "freshness": 0.09,
+      "freshness": 0.084,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.09
+      "total": 9.084
     }
   },
   {
@@ -77,14 +77,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.044,
+    "score": 9.041,
     "score_breakdown": {
-      "freshness": 0.044,
+      "freshness": 0.041,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.044
+      "total": 9.041
     }
   },
   {
@@ -99,14 +99,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.04,
+    "score": 9.037,
     "score_breakdown": {
-      "freshness": 0.04,
+      "freshness": 0.037,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.04
+      "total": 9.037
     }
   },
   {
@@ -121,14 +121,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.018,
+    "score": 9.017,
     "score_breakdown": {
-      "freshness": 0.018,
+      "freshness": 0.017,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.018
+      "total": 9.017
     }
   },
   {
@@ -143,36 +143,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.004,
+    "score": 9.003,
     "score_breakdown": {
-      "freshness": 0.004,
+      "freshness": 0.003,
       "keyword": 4.5,
       "source": 2.0,
       "keyword_signal": 9.0,
       "severity": 0.0,
-      "total": 9.004
-    }
-  },
-  {
-    "id": "42b2abc04ceadfc5",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.258.0",
-    "title": "v2.258.0",
-    "summary": "### ⚠ BREAKING CHANGES\n\n* ** L1 resources are automatically generated from public CloudFormation Resource Schemas. They are built to closely reflect the real state of CloudFormation. Sometimes these updates can contain changes that are incompatible with previous types, but more accurately reflect reality. In this release we have changed:\n\n - aws-pcaconnectorad: AWS::PCAConnectorAD::ServicePrincipalName: ConnectorArn property is now required.\n - aws-pcaconnectorad: AWS::PCAConnectorAD::ServicePri",
-    "published_at": "2026-06-04T20:43:31Z",
-    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 6.672,
-    "score_breakdown": {
-      "freshness": 1.672,
-      "keyword": 2.5,
-      "source": 2.0,
-      "keyword_signal": 5.0,
-      "severity": 0.0,
-      "total": 6.672
+      "total": 9.003
     }
   },
   {
@@ -187,14 +165,36 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 6.615,
+    "score": 6.569,
     "score_breakdown": {
-      "freshness": 0.615,
+      "freshness": 0.569,
       "keyword": 3.0,
       "source": 2.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 6.615
+      "total": 6.569
+    }
+  },
+  {
+    "id": "42b2abc04ceadfc5",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.258.0",
+    "title": "v2.258.0",
+    "summary": "### ⚠ BREAKING CHANGES\n\n* ** L1 resources are automatically generated from public CloudFormation Resource Schemas. They are built to closely reflect the real state of CloudFormation. Sometimes these updates can contain changes that are incompatible with previous types, but more accurately reflect reality. In this release we have changed:\n\n - aws-pcaconnectorad: AWS::PCAConnectorAD::ServicePrincipalName: ConnectorArn property is now required.\n - aws-pcaconnectorad: AWS::PCAConnectorAD::ServicePri",
+    "published_at": "2026-06-04T20:43:31Z",
+    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 6.549,
+    "score_breakdown": {
+      "freshness": 1.549,
+      "keyword": 2.5,
+      "source": 2.0,
+      "keyword_signal": 5.0,
+      "severity": 0.0,
+      "total": 6.549
     }
   },
   {
@@ -209,14 +209,14 @@
     "fetched_at": "2026-06-05T09:38:29.140503+00:00",
     "tags": [],
     "severity": null,
-    "score": 5.162,
+    "score": 5.04,
     "score_breakdown": {
-      "freshness": 1.662,
+      "freshness": 1.54,
       "keyword": 3.5,
       "source": 1.0,
       "keyword_signal": 3.5,
       "severity": 0.0,
-      "total": 5.162
+      "total": 5.04
     }
   },
   {
@@ -297,14 +297,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.991,
+    "score": 4.882,
     "score_breakdown": {
-      "freshness": 1.491,
+      "freshness": 1.382,
       "keyword": 3.5,
       "source": 1.0,
       "keyword_signal": 3.5,
       "severity": 0.0,
-      "total": 4.991
+      "total": 4.882
     }
   },
   {
@@ -319,14 +319,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.942,
+    "score": 4.836,
     "score_breakdown": {
-      "freshness": 1.442,
+      "freshness": 1.336,
       "keyword": 3.5,
       "source": 1.0,
       "keyword_signal": 3.5,
       "severity": 0.0,
-      "total": 4.942
+      "total": 4.836
     }
   },
   {
@@ -341,14 +341,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.182,
+    "score": 4.169,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.169,
       "keyword": 4.0,
       "source": 1.0,
       "keyword_signal": 4.0,
       "severity": 0.0,
-      "total": 4.182
+      "total": 4.169
     }
   },
   {
@@ -451,14 +451,14 @@
     "fetched_at": "2026-06-06T08:29:15.090654+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.285,
+    "score": 3.154,
     "score_breakdown": {
-      "freshness": 1.785,
+      "freshness": 1.654,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.285
+      "total": 3.154
     }
   },
   {
@@ -473,14 +473,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.004,
+    "score": 3.003,
     "score_breakdown": {
-      "freshness": 0.004,
+      "freshness": 0.003,
       "keyword": 3.0,
       "source": 1.0,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.004
+      "total": 3.003
     }
   },
   {
@@ -539,36 +539,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.871,
+    "score": 2.844,
     "score_breakdown": {
-      "freshness": 0.371,
+      "freshness": 0.344,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 2.871
-    }
-  },
-  {
-    "id": "3734c046bd6305e5",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-06-05.2",
-    "title": "Release (2026-06-05.2)",
-    "summary": "## General Highlights\n* **Bug Fix**: Undo the initial wave of schema-serde releases due to several customer-reported regressions.\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager`: [v0.2.8](feature/s3/transfermanager/CHANGELOG.md#v028-2026-06-052)\n  * **Bug Fix**: Fix the concurrent reader to return cached read error instead of panic when called again\n\n",
-    "published_at": "2026-06-05T21:21:19Z",
-    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.8,
-    "score_breakdown": {
-      "freshness": 1.8,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.8
+      "total": 2.844
     }
   },
   {
@@ -583,58 +561,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.71,
+    "score": 2.694,
     "score_breakdown": {
-      "freshness": 0.21,
+      "freshness": 0.194,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 2.71
+      "total": 2.694
     }
   },
   {
-    "id": "504a1ea86296e447",
+    "id": "3734c046bd6305e5",
     "track": "releases",
     "source": "github:aws/aws-sdk-go-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-05-29",
-    "title": "Release (2026-05-29)",
-    "summary": "## General Highlights\r\n* **Dependency Update**: Update to smithy-go v1.26.0.\r\n* **Dependency Update**: Updated to the latest SDK module versions\r\n\r\n## Module Highlights\r\n* `github.com/aws/aws-sdk-go-v2/service/account`: [v1.32.0](service/account/CHANGELOG.md#v1320-2026-05-29)\r\n  * **Feature**: Adding new BDD representation of endpoint ruleset\r\n* `github.com/aws/aws-sdk-go-v2/service/applicationinsights`: [v1.35.0](service/applicationinsights/CHANGELOG.md#v1350-2026-05-29)\r\n  * **Feature**: Addin",
-    "published_at": "2026-05-29T18:44:02Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-06-05.2",
+    "title": "Release (2026-06-05.2)",
+    "summary": "## General Highlights\n* **Bug Fix**: Undo the initial wave of schema-serde releases due to several customer-reported regressions.\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager`: [v0.2.8](feature/s3/transfermanager/CHANGELOG.md#v028-2026-06-052)\n  * **Bug Fix**: Fix the concurrent reader to return cached read error instead of panic when called again\n\n",
+    "published_at": "2026-06-05T21:21:19Z",
+    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.583,
+    "score": 2.667,
     "score_breakdown": {
-      "freshness": 1.083,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 2.583
-    }
-  },
-  {
-    "id": "aafee6e4fa6a28ce",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-06-03.2",
-    "title": "Release (2026-06-03.2)",
-    "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi`: [v1.30.0](service/apigatewaymanagementapi/CHANGELOG.md#v1300-2026-06-032)\n  * **Feature**: Adding new BDD representation of endpoint ruleset\n* `github.com/aws/aws-sdk-go-v2/service/appconfigdata`: [v1.24.0](service/appconfigdata/CHANGELOG.md#v1240-2026-06-032)\n  * **Feature**: Adding new BDD representation of endpoint ruleset\n* `github.com/aws/aws-sdk-go-v2/service/appfabric`: [v1.17.0](service/appfabric/CHANG",
-    "published_at": "2026-06-03T18:42:14Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.548,
-    "score_breakdown": {
-      "freshness": 1.548,
+      "freshness": 1.667,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.548
+      "total": 2.667
     }
   },
   {
@@ -649,14 +605,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.516,
+    "score": 2.515,
     "score_breakdown": {
-      "freshness": 0.016,
+      "freshness": 0.015,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 2.516
+      "total": 2.515
     }
   },
   {
@@ -682,6 +638,28 @@
     }
   },
   {
+    "id": "504a1ea86296e447",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-go-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-05-29",
+    "title": "Release (2026-05-29)",
+    "summary": "## General Highlights\r\n* **Dependency Update**: Update to smithy-go v1.26.0.\r\n* **Dependency Update**: Updated to the latest SDK module versions\r\n\r\n## Module Highlights\r\n* `github.com/aws/aws-sdk-go-v2/service/account`: [v1.32.0](service/account/CHANGELOG.md#v1320-2026-05-29)\r\n  * **Feature**: Adding new BDD representation of endpoint ruleset\r\n* `github.com/aws/aws-sdk-go-v2/service/applicationinsights`: [v1.35.0](service/applicationinsights/CHANGELOG.md#v1350-2026-05-29)\r\n  * **Feature**: Addin",
+    "published_at": "2026-05-29T18:44:02Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.503,
+    "score_breakdown": {
+      "freshness": 1.003,
+      "keyword": 1.5,
+      "source": 1.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 2.503
+    }
+  },
+  {
     "id": "d11ae936b61c9ba5",
     "track": "releases",
     "source": "github:aws/aws-sdk-java-v2",
@@ -693,14 +671,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.504,
+    "score": 2.503,
     "score_breakdown": {
-      "freshness": 0.004,
+      "freshness": 0.003,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 2.504
+      "total": 2.503
     }
   },
   {
@@ -715,14 +693,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.501,
+    "score": 2.5,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 2.5,
       "source": 1.0,
       "keyword_signal": 2.5,
       "severity": 0.0,
-      "total": 2.501
+      "total": 2.5
     }
   },
   {
@@ -858,6 +836,52 @@
     }
   },
   {
+    "id": "e037191a5ef55cc2",
+    "track": "releases",
+    "source": "github:aws/aws-sam-cli",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sam-cli/releases/tag/sam-cli-nightly",
+    "title": "[Stable] Nightly Release v1.161.1.dev202606080901 - 2026-06-08",
+    "summary": "\n### New Changes today:\n[c4bc8a2](https://api.github.com/repos/aws/aws-sam-cli/commits/c4bc8a2c65dc1bcb84d5695005700038d2728cb0) - feat(local): add --no-watch flag to disable hot reload (#8196)\n\n### Changes from last PROD version:\n[c4bc8a2](https://api.github.com/repos/aws/aws-sam-cli/commits/c4bc8a2c65dc1bcb84d5695005700038d2728cb0) - feat(local): add --no-watch flag to disable hot reload (#8196)\n[faf5ec8](https://api.github.com/repos/aws/aws-sam-cli/commits/faf5ec81261f66dfe9b64b9f6dd0dd2cc0a0",
+    "published_at": "2026-06-08T09:44:06Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [
+      "prerelease"
+    ],
+    "severity": null,
+    "score": 2.496,
+    "score_breakdown": {
+      "freshness": 1.996,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 2.496
+    }
+  },
+  {
+    "id": "aafee6e4fa6a28ce",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-go-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-06-03.2",
+    "title": "Release (2026-06-03.2)",
+    "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/apigatewaymanagementapi`: [v1.30.0](service/apigatewaymanagementapi/CHANGELOG.md#v1300-2026-06-032)\n  * **Feature**: Adding new BDD representation of endpoint ruleset\n* `github.com/aws/aws-sdk-go-v2/service/appconfigdata`: [v1.24.0](service/appconfigdata/CHANGELOG.md#v1240-2026-06-032)\n  * **Feature**: Adding new BDD representation of endpoint ruleset\n* `github.com/aws/aws-sdk-go-v2/service/appfabric`: [v1.17.0](service/appfabric/CHANG",
+    "published_at": "2026-06-03T18:42:14Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.434,
+    "score_breakdown": {
+      "freshness": 1.434,
+      "keyword": 1.0,
+      "source": 1.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.434
+    }
+  },
+  {
     "id": "c997ad064d94af36",
     "track": "releases",
     "source": "github:aws/aws-sdk-go-v2",
@@ -869,14 +893,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.439,
+    "score": 2.37,
     "score_breakdown": {
-      "freshness": 0.939,
+      "freshness": 0.87,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.439
+      "total": 2.37
     }
   },
   {
@@ -891,104 +915,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.341,
+    "score": 2.243,
     "score_breakdown": {
-      "freshness": 1.341,
+      "freshness": 1.243,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.341
-    }
-  },
-  {
-    "id": "254c7d6e09625e5f",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.46.5",
-    "title": "AWS SDK for Java v2 2.46.5",
-    "summary": "# __2.46.5__ __2026-06-05__\n## __AWS Elemental MediaConvert__\n  - ### Features\n    - Adds support for configurable number of Clear Lead segments at the beginning of encrypted output. Adds support for multiple trickplay variants.\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Update Netty to 4.1.135\n    - Updated endpoint and partition metadata.\n\n## __Amazon QuickSight__\n  - ### Features\n    - Adds support for Knowledge Base APIs and Index Capacity API\n\n## __Amazon SageMaker Service__\n  - ###",
-    "published_at": "2026-06-05T19:03:02Z",
-    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.287,
-    "score_breakdown": {
-      "freshness": 1.787,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 2.287
-    }
-  },
-  {
-    "id": "edcbdbda4e23ad2d",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1063.0",
-    "title": "v3.1063.0",
-    "summary": "#### 3.1063.0(2026-06-05)\n\n##### Chores\n\n*  update author URL in package.json ([#8080](https://github.com/aws/aws-sdk-js-v3/pull/8080)) ([9bd1a86b](https://github.com/aws/aws-sdk-js-v3/commit/9bd1a86b9bec0f69c58dcfdda481c9e1797dd73f))\n* **crt-loader:**  update to latest aws-crt ([#8079](https://github.com/aws/aws-sdk-js-v3/pull/8079)) ([8c2bdabd](https://github.com/aws/aws-sdk-js-v3/commit/8c2bdabd5826c8914eb1904880eade3c81ca6be4))\n\n##### New Features\n\n* **clients:**  update client endpoints as ",
-    "published_at": "2026-06-05T18:51:56Z",
-    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.286,
-    "score_breakdown": {
-      "freshness": 1.786,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 2.286
-    }
-  },
-  {
-    "id": "e037191a5ef55cc2",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/sam-cli-nightly",
-    "title": "[Stable] Nightly Release v1.161.1.dev202606050901 - 2026-06-05",
-    "summary": "\n### New Changes today:\n\n### Changes from last PROD version:\n[faf5ec8](https://api.github.com/repos/aws/aws-sam-cli/commits/faf5ec81261f66dfe9b64b9f6dd0dd2cc0a0e7bb) - ci: unpin durable functions emulator image tag (#9054)\n\n### Hashes:\nFilename | SHA256\n--- | ---\n**AWS_SAM_CLI_64_PY3.msi** | `2710efddc4acc3250b168268593965f46f123bc028e8022997f8d23923b260ac`\n**aws-sam-cli-linux-x86_64.zip** | `025ba47fac9977b12e70a5dbe0caba4d17da37bf044862d0ca2370e22bb76a88`\n**aws-sam-cli-linux-x86_64.zip.sig** |",
-    "published_at": "2026-06-05T09:39:05Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [
-      "prerelease"
-    ],
-    "severity": null,
-    "score": 2.238,
-    "score_breakdown": {
-      "freshness": 1.738,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 2.238
-    }
-  },
-  {
-    "id": "84d2e0ad117d82f3",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-06-04.2",
-    "title": "Release (2026-06-04.2)",
-    "summary": "## General Highlights\n* **Bug Fix**: Fixed a schema-serde bug where required, default-value input members weren't serialized.\n\n",
-    "published_at": "2026-06-04T23:34:01Z",
-    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.187,
-    "score_breakdown": {
-      "freshness": 1.687,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 2.187
+      "total": 2.243
     }
   },
   {
@@ -1003,14 +937,58 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.182,
+    "score": 2.168,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.168,
       "keyword": 2.0,
       "source": 1.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.182
+      "total": 2.168
+    }
+  },
+  {
+    "id": "254c7d6e09625e5f",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.46.5",
+    "title": "AWS SDK for Java v2 2.46.5",
+    "summary": "# __2.46.5__ __2026-06-05__\n## __AWS Elemental MediaConvert__\n  - ### Features\n    - Adds support for configurable number of Clear Lead segments at the beginning of encrypted output. Adds support for multiple trickplay variants.\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Update Netty to 4.1.135\n    - Updated endpoint and partition metadata.\n\n## __Amazon QuickSight__\n  - ### Features\n    - Adds support for Knowledge Base APIs and Index Capacity API\n\n## __Amazon SageMaker Service__\n  - ###",
+    "published_at": "2026-06-05T19:03:02Z",
+    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.156,
+    "score_breakdown": {
+      "freshness": 1.656,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 2.156
+    }
+  },
+  {
+    "id": "edcbdbda4e23ad2d",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1063.0",
+    "title": "v3.1063.0",
+    "summary": "#### 3.1063.0(2026-06-05)\n\n##### Chores\n\n*  update author URL in package.json ([#8080](https://github.com/aws/aws-sdk-js-v3/pull/8080)) ([9bd1a86b](https://github.com/aws/aws-sdk-js-v3/commit/9bd1a86b9bec0f69c58dcfdda481c9e1797dd73f))\n* **crt-loader:**  update to latest aws-crt ([#8079](https://github.com/aws/aws-sdk-js-v3/pull/8079)) ([8c2bdabd](https://github.com/aws/aws-sdk-js-v3/commit/8c2bdabd5826c8914eb1904880eade3c81ca6be4))\n\n##### New Features\n\n* **clients:**  update client endpoints as ",
+    "published_at": "2026-06-05T18:51:56Z",
+    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.155,
+    "score_breakdown": {
+      "freshness": 1.655,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 2.155
     }
   },
   {
@@ -1025,14 +1003,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.157,
+    "score": 2.109,
     "score_breakdown": {
-      "freshness": 0.657,
+      "freshness": 0.609,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.157
+      "total": 2.109
     }
   },
   {
@@ -1047,14 +1025,36 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.115,
+    "score": 2.07,
     "score_breakdown": {
-      "freshness": 0.615,
+      "freshness": 0.57,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.115
+      "total": 2.07
+    }
+  },
+  {
+    "id": "84d2e0ad117d82f3",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-go-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-06-04.2",
+    "title": "Release (2026-06-04.2)",
+    "summary": "## General Highlights\n* **Bug Fix**: Fixed a schema-serde bug where required, default-value input members weren't serialized.\n\n",
+    "published_at": "2026-06-04T23:34:01Z",
+    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 2.063,
+    "score_breakdown": {
+      "freshness": 1.563,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 2.063
     }
   },
   {
@@ -1069,80 +1069,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.07,
+    "score": 2.028,
     "score_breakdown": {
-      "freshness": 0.57,
+      "freshness": 0.528,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.07
-    }
-  },
-  {
-    "id": "abcb421dbe689073",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.46.3",
-    "title": "AWS SDK for Java v2 2.46.3",
-    "summary": "# __2.46.3__ __2026-06-03__\n## __ARC - Region switch__\n  - ### Features\n    - ARC Region Switch now supports three new execution blocks for multi-Region database workloads-Amazon Aurora Serverless scaling, Amazon Aurora Provisioned scaling, and Amazon Neptune Global Database failover.\n\n## __AWS Compute Optimizer__\n  - ### Features\n    - This release lets customers extend the lookback period for Amazon EBS volume and Amazon ECS rightsizing recommendations to 32 days.\n\n## __AWS Cost Explorer Servi",
-    "published_at": "2026-06-03T21:44:40Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.062,
-    "score_breakdown": {
-      "freshness": 1.562,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 2.062
-    }
-  },
-  {
-    "id": "745541d6c0b48ab0",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-05-19",
-    "title": "Release (2026-05-19)",
-    "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/bedrockagentcore`: [v1.26.0](service/bedrockagentcore/CHANGELOG.md#v1260-2026-05-19)\n  * **Feature**: Add RetryableConflictException (HTTP 409) to InvokeAgentRuntime and StopRuntimeSession to prevent orphaned VMs during concurrent session access. The SDK automatically retries this exception with backoff. Enforcement is not yet active and will be enabled in a future service update.\n* `github.com/aws/aws-sdk-go-v2/service/devopsagent`: [",
-    "published_at": "2026-05-19T18:50:29Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.03,
-    "score_breakdown": {
-      "freshness": 0.53,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 2.03
-    }
-  },
-  {
-    "id": "46485beef0a240cf",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-05-28",
-    "title": "Release (2026-05-28)",
-    "summary": "## General Highlights\n* **Dependency Update**: Updated to the latest SDK module versions\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2`: v1.41.8\n  * **Bug Fix**: Adds support for AWS_RESTRICT_FILE_PERMISSIONS for env and in-code config.\n* `github.com/aws/aws-sdk-go-v2/config`: [v1.32.19](config/CHANGELOG.md#v13219-2026-05-28)\n  * **Bug Fix**: Adds support for AWS_RESTRICT_FILE_PERMISSIONS for env and in-code config.\n* `github.com/aws/aws-sdk-go-v2/credentials`: [v1.19.18](credentials/CHA",
-    "published_at": "2026-05-28T18:48:43Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 2.009,
-    "score_breakdown": {
-      "freshness": 1.009,
-      "keyword": 1.0,
-      "source": 1.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.009
+      "total": 2.028
     }
   },
   {
@@ -1256,6 +1190,72 @@
     }
   },
   {
+    "id": "745541d6c0b48ab0",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-go-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-05-19",
+    "title": "Release (2026-05-19)",
+    "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/bedrockagentcore`: [v1.26.0](service/bedrockagentcore/CHANGELOG.md#v1260-2026-05-19)\n  * **Feature**: Add RetryableConflictException (HTTP 409) to InvokeAgentRuntime and StopRuntimeSession to prevent orphaned VMs during concurrent session access. The SDK automatically retries this exception with backoff. Enforcement is not yet active and will be enabled in a future service update.\n* `github.com/aws/aws-sdk-go-v2/service/devopsagent`: [",
+    "published_at": "2026-05-19T18:50:29Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.991,
+    "score_breakdown": {
+      "freshness": 0.491,
+      "keyword": 1.5,
+      "source": 1.0,
+      "keyword_signal": 1.5,
+      "severity": 0.0,
+      "total": 1.991
+    }
+  },
+  {
+    "id": "abcb421dbe689073",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.46.3",
+    "title": "AWS SDK for Java v2 2.46.3",
+    "summary": "# __2.46.3__ __2026-06-03__\n## __ARC - Region switch__\n  - ### Features\n    - ARC Region Switch now supports three new execution blocks for multi-Region database workloads-Amazon Aurora Serverless scaling, Amazon Aurora Provisioned scaling, and Amazon Neptune Global Database failover.\n\n## __AWS Compute Optimizer__\n  - ### Features\n    - This release lets customers extend the lookback period for Amazon EBS volume and Amazon ECS rightsizing recommendations to 32 days.\n\n## __AWS Cost Explorer Servi",
+    "published_at": "2026-06-03T21:44:40Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.947,
+    "score_breakdown": {
+      "freshness": 1.447,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 1.947
+    }
+  },
+  {
+    "id": "46485beef0a240cf",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-go-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2026-05-28",
+    "title": "Release (2026-05-28)",
+    "summary": "## General Highlights\n* **Dependency Update**: Updated to the latest SDK module versions\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2`: v1.41.8\n  * **Bug Fix**: Adds support for AWS_RESTRICT_FILE_PERMISSIONS for env and in-code config.\n* `github.com/aws/aws-sdk-go-v2/config`: [v1.32.19](config/CHANGELOG.md#v13219-2026-05-28)\n  * **Bug Fix**: Adds support for AWS_RESTRICT_FILE_PERMISSIONS for env and in-code config.\n* `github.com/aws/aws-sdk-go-v2/credentials`: [v1.19.18](credentials/CHA",
+    "published_at": "2026-05-28T18:48:43Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.934,
+    "score_breakdown": {
+      "freshness": 0.934,
+      "keyword": 1.0,
+      "source": 1.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 1.934
+    }
+  },
+  {
     "id": "8ecdafae508e7679",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
@@ -1267,14 +1267,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.993,
+    "score": 1.883,
     "score_breakdown": {
-      "freshness": 1.493,
+      "freshness": 1.383,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.993
+      "total": 1.883
     }
   },
   {
@@ -1289,14 +1289,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.944,
+    "score": 1.838,
     "score_breakdown": {
-      "freshness": 1.444,
+      "freshness": 1.338,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.944
+      "total": 1.838
     }
   },
   {
@@ -1311,14 +1311,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.943,
+    "score": 1.837,
     "score_breakdown": {
-      "freshness": 1.443,
+      "freshness": 1.337,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.943
+      "total": 1.837
     }
   },
   {
@@ -1333,14 +1333,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.875,
+    "score": 1.81,
     "score_breakdown": {
-      "freshness": 0.875,
+      "freshness": 0.81,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.875
+      "total": 1.81
     }
   },
   {
@@ -1355,14 +1355,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.843,
+    "score": 1.745,
     "score_breakdown": {
-      "freshness": 1.343,
+      "freshness": 1.245,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.843
+      "total": 1.745
     }
   },
   {
@@ -1377,36 +1377,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.843,
+    "score": 1.744,
     "score_breakdown": {
-      "freshness": 1.343,
+      "freshness": 1.244,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.843
-    }
-  },
-  {
-    "id": "8d1d40101d6c5df2",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-06-05",
-    "title": "June 5th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-dynamodb` (1.115.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-emrserverless` (1.113.0): Adds support for updating max capacity and custom fields while application is started\n- `aws-sdk-mediaconvert` (1.130.0): Adds support for configurable number of Clear Lead segments at the beginning of encrypted output. Adds support for multiple trickplay variants.\n- `aws-sdk-paymentcryptography` (1.112.0): Adds CloudFormation support for resource-based pol",
-    "published_at": "2026-06-05T18:51:39Z",
-    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.786,
-    "score_breakdown": {
-      "freshness": 1.786,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.786
+      "total": 1.744
     }
   },
   {
@@ -1421,80 +1399,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.71,
+    "score": 1.694,
     "score_breakdown": {
-      "freshness": 0.21,
+      "freshness": 0.194,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.71
+      "total": 1.694
     }
   },
   {
-    "id": "48be80a03ac5e514",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.46.4",
-    "title": "AWS SDK for Java v2 2.46.4",
-    "summary": "# __2.46.4__ __2026-06-04__\n## __AWS Audit Manager__\n  - ### Features\n    - Adding new BDD representation of endpoint ruleset\n\n## __AWS CRT HTTP Client__\n  - ### Bugfixes\n    - Fix connection pool exhaustion in the CRT HTTP client where connections were not released after a request abort or timeout.\n\n## __AWS CloudFormation__\n  - ### Features\n    - Adding new BDD representation of endpoint ruleset\n\n## __AWS Config__\n  - ### Features\n    - AWS Config now supports internal service-linked rules, al",
-    "published_at": "2026-06-04T19:11:30Z",
-    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.665,
-    "score_breakdown": {
-      "freshness": 1.665,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.665
-    }
-  },
-  {
-    "id": "a54c27e68fa05b47",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1062.0",
-    "title": "v3.1062.0",
-    "summary": "#### 3.1062.0(2026-06-04)\n\n##### Chores\n\n* **scripts:**  include generated packages when validating declared imports 1-1 with used imports ([#8072](https://github.com/aws/aws-sdk-js-v3/pull/8072)) ([291ad366](https://github.com/aws/aws-sdk-js-v3/commit/291ad3664d63b413e6c9631ac0a833e5819ceeaa))\n\n##### Documentation Changes\n\n* **client-guardduty:**  Remove unsupported RDS field for filter ([5815da7f](https://github.com/aws/aws-sdk-js-v3/commit/5815da7f30f1bdfdcd45fa09c59d0a199a4e8e0a))\n\n##### New",
-    "published_at": "2026-06-04T18:58:06Z",
-    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.664,
-    "score_breakdown": {
-      "freshness": 1.664,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.664
-    }
-  },
-  {
-    "id": "964566a5212bb424",
+    "id": "8d1d40101d6c5df2",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-06-04",
-    "title": "June 4th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-amplifybackend` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appflow` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appintegrations` (1.105.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-auditmanager` (1.106.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-chimesdkvoice` (1.106.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-cloudformation` (1.115.0): Adding ne",
-    "published_at": "2026-06-04T18:55:38Z",
-    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-06-05",
+    "title": "June 5th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-dynamodb` (1.115.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-emrserverless` (1.113.0): Adds support for updating max capacity and custom fields while application is started\n- `aws-sdk-mediaconvert` (1.130.0): Adds support for configurable number of Clear Lead segments at the beginning of encrypted output. Adds support for multiple trickplay variants.\n- `aws-sdk-paymentcryptography` (1.112.0): Adds CloudFormation support for resource-based pol",
+    "published_at": "2026-06-05T18:51:39Z",
+    "fetched_at": "2026-06-06T08:29:15.090654+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.663,
+    "score": 1.655,
     "score_breakdown": {
-      "freshness": 1.663,
+      "freshness": 1.655,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.663
+      "total": 1.655
     }
   },
   {
@@ -1509,14 +1443,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.627,
+    "score": 1.618,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.118,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.627
+      "total": 1.618
     }
   },
   {
@@ -1531,36 +1465,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.621,
+    "score": 1.576,
     "score_breakdown": {
-      "freshness": 0.621,
+      "freshness": 0.576,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.621
-    }
-  },
-  {
-    "id": "de6cdaec9bb0930f",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.161.1",
-    "title": "Release version: 1.161.1",
-    "summary": "### Changes:\n[58da8ea](https://api.github.com/repos/aws/aws-sam-cli/commits/58da8eab8fa008540600f4b1c4c9f7ec80705838) - docs(cfn-lang-ext): correct language-extensions precedence order (#9042)\n[999d51f](https://api.github.com/repos/aws/aws-sam-cli/commits/999d51faa17fa69bb5701d49622d568ec75477fe) - docs: align contributor Python version docs with package metadata (#9047)\n[ca0d8f5](https://api.github.com/repos/aws/aws-sam-cli/commits/ca0d8f5778414aa0987835e294fdc05c231ea20f) - fix(package): rewri",
-    "published_at": "2026-05-29T21:42:45Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.593,
-    "score_breakdown": {
-      "freshness": 1.093,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.593
+      "total": 1.576
     }
   },
   {
@@ -1575,14 +1487,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.577,
+    "score": 1.571,
     "score_breakdown": {
-      "freshness": 0.077,
+      "freshness": 0.071,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.577
+      "total": 1.571
     }
   },
   {
@@ -1597,14 +1509,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.554,
+    "score": 1.55,
     "score_breakdown": {
-      "freshness": 0.054,
+      "freshness": 0.05,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.554
+      "total": 1.55
     }
   },
   {
@@ -1619,58 +1531,80 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.55,
+    "score": 1.546,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 0.046,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.55
+      "total": 1.546
     }
   },
   {
-    "id": "2e4d276a81a5d711",
+    "id": "48be80a03ac5e514",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.46.4",
+    "title": "AWS SDK for Java v2 2.46.4",
+    "summary": "# __2.46.4__ __2026-06-04__\n## __AWS Audit Manager__\n  - ### Features\n    - Adding new BDD representation of endpoint ruleset\n\n## __AWS CRT HTTP Client__\n  - ### Bugfixes\n    - Fix connection pool exhaustion in the CRT HTTP client where connections were not released after a request abort or timeout.\n\n## __AWS CloudFormation__\n  - ### Features\n    - Adding new BDD representation of endpoint ruleset\n\n## __AWS Config__\n  - ### Features\n    - AWS Config now supports internal service-linked rules, al",
+    "published_at": "2026-06-04T19:11:30Z",
+    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.542,
+    "score_breakdown": {
+      "freshness": 1.542,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.542
+    }
+  },
+  {
+    "id": "a54c27e68fa05b47",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1061.0",
-    "title": "v3.1061.0",
-    "summary": "#### 3.1061.0(2026-06-03)\n\n##### Chores\n\n* **middleware-sdk-s3:**  consolidate S3 internal packages ([#8026](https://github.com/aws/aws-sdk-js-v3/pull/8026)) ([12160940](https://github.com/aws/aws-sdk-js-v3/commit/121609400451d15166872f5dc2a2d8fe75c7d7f6))\n\n##### New Features\n\n* **client-rds:**  Adding new BDD representation of endpoint ruleset ([907053d5](https://github.com/aws/aws-sdk-js-v3/commit/907053d559e5b0a4d4e02ca679d919537b91dee5))\n* **client-securitylake:**  Adding new BDD representat",
-    "published_at": "2026-06-03T18:53:41Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1062.0",
+    "title": "v3.1062.0",
+    "summary": "#### 3.1062.0(2026-06-04)\n\n##### Chores\n\n* **scripts:**  include generated packages when validating declared imports 1-1 with used imports ([#8072](https://github.com/aws/aws-sdk-js-v3/pull/8072)) ([291ad366](https://github.com/aws/aws-sdk-js-v3/commit/291ad3664d63b413e6c9631ac0a833e5819ceeaa))\n\n##### Documentation Changes\n\n* **client-guardduty:**  Remove unsupported RDS field for filter ([5815da7f](https://github.com/aws/aws-sdk-js-v3/commit/5815da7f30f1bdfdcd45fa09c59d0a199a4e8e0a))\n\n##### New",
+    "published_at": "2026-06-04T18:58:06Z",
+    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.549,
+    "score": 1.541,
     "score_breakdown": {
-      "freshness": 1.549,
+      "freshness": 1.541,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.549
+      "total": 1.541
     }
   },
   {
-    "id": "e4b25964e066beef",
+    "id": "964566a5212bb424",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-06-03.2",
-    "title": "June 3rd, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-apigatewaymanagement` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appconfigdata` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appfabric` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-applicationautoscaling` (1.108.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-arcregionswitch` (1.27.0): ARC Region Switch now supports three new execution blocks for multi-Region datab",
-    "published_at": "2026-06-03T18:52:35Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-06-04",
+    "title": "June 4th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-amplifybackend` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appflow` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appintegrations` (1.105.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-auditmanager` (1.106.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-chimesdkvoice` (1.106.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-cloudformation` (1.115.0): Adding ne",
+    "published_at": "2026-06-04T18:55:38Z",
+    "fetched_at": "2026-06-05T09:38:29.140503+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.549,
+    "score": 1.541,
     "score_breakdown": {
-      "freshness": 1.549,
+      "freshness": 1.541,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.549
+      "total": 1.541
     }
   },
   {
@@ -1685,14 +1619,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.526,
+    "score": 1.524,
     "score_breakdown": {
-      "freshness": 0.026,
+      "freshness": 0.024,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.526
+      "total": 1.524
     }
   },
   {
@@ -1707,14 +1641,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.518,
+    "score": 1.517,
     "score_breakdown": {
-      "freshness": 0.018,
+      "freshness": 0.017,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.518
+      "total": 1.517
     }
   },
   {
@@ -1729,14 +1663,36 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.516,
+    "score": 1.515,
     "score_breakdown": {
-      "freshness": 0.016,
+      "freshness": 0.015,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.516
+      "total": 1.515
+    }
+  },
+  {
+    "id": "de6cdaec9bb0930f",
+    "track": "releases",
+    "source": "github:aws/aws-sam-cli",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sam-cli/releases/tag/v1.161.1",
+    "title": "Release version: 1.161.1",
+    "summary": "### Changes:\n[58da8ea](https://api.github.com/repos/aws/aws-sam-cli/commits/58da8eab8fa008540600f4b1c4c9f7ec80705838) - docs(cfn-lang-ext): correct language-extensions precedence order (#9042)\n[999d51f](https://api.github.com/repos/aws/aws-sam-cli/commits/999d51faa17fa69bb5701d49622d568ec75477fe) - docs: align contributor Python version docs with package metadata (#9047)\n[ca0d8f5](https://api.github.com/repos/aws/aws-sam-cli/commits/ca0d8f5778414aa0987835e294fdc05c231ea20f) - fix(package): rewri",
+    "published_at": "2026-05-29T21:42:45Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.512,
+    "score_breakdown": {
+      "freshness": 1.012,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 1.512
     }
   },
   {
@@ -1751,14 +1707,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.509,
+    "score": 1.508,
     "score_breakdown": {
-      "freshness": 0.009,
+      "freshness": 0.008,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.509
+      "total": 1.508
     }
   },
   {
@@ -1839,14 +1795,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.503,
+    "score": 1.502,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.503
+      "total": 1.502
     }
   },
   {
@@ -1883,14 +1839,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.502,
+    "score": 1.501,
     "score_breakdown": {
-      "freshness": 0.002,
+      "freshness": 0.001,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.502
+      "total": 1.501
     }
   },
   {
@@ -2114,28 +2070,6 @@
     }
   },
   {
-    "id": "7851b4f32c22f739",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2025-12-09",
-    "title": "Release (2025-12-09)",
-    "summary": "## General Highlights\n* **Dependency Update**: Updated to the latest SDK module versions\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/account`: [v1.30.0](service/account/CHANGELOG.md#v1300-2025-12-09)\n  * **Feature**: This release adds a new API (GetGovCloudAccountInformation) used to retrieve information about a linked GovCloud account from the standard AWS partition.\n* `github.com/aws/aws-sdk-go-v2/service/appsync`: [v1.53.0](service/appsync/CHANGELOG.md#v1530-2025-12-09)\n  * ",
-    "published_at": "2025-12-09T19:56:30Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.5,
-    "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.5,
-      "source": 1.0,
-      "keyword_signal": 1.5,
-      "severity": 0.0,
-      "total": 1.5
-    }
-  },
-  {
     "id": "124fa202b66e5db9",
     "track": "releases",
     "source": "github:aws/aws-sdk-go-v2",
@@ -2147,14 +2081,58 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.494,
+    "score": 1.458,
     "score_breakdown": {
-      "freshness": 0.494,
+      "freshness": 0.458,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.494
+      "total": 1.458
+    }
+  },
+  {
+    "id": "2e4d276a81a5d711",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1061.0",
+    "title": "v3.1061.0",
+    "summary": "#### 3.1061.0(2026-06-03)\n\n##### Chores\n\n* **middleware-sdk-s3:**  consolidate S3 internal packages ([#8026](https://github.com/aws/aws-sdk-js-v3/pull/8026)) ([12160940](https://github.com/aws/aws-sdk-js-v3/commit/121609400451d15166872f5dc2a2d8fe75c7d7f6))\n\n##### New Features\n\n* **client-rds:**  Adding new BDD representation of endpoint ruleset ([907053d5](https://github.com/aws/aws-sdk-js-v3/commit/907053d559e5b0a4d4e02ca679d919537b91dee5))\n* **client-securitylake:**  Adding new BDD representat",
+    "published_at": "2026-06-03T18:53:41Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.435,
+    "score_breakdown": {
+      "freshness": 1.435,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.435
+    }
+  },
+  {
+    "id": "e4b25964e066beef",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-06-03.2",
+    "title": "June 3rd, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-apigatewaymanagement` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appconfigdata` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appfabric` (1.102.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-applicationautoscaling` (1.108.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-arcregionswitch` (1.27.0): ARC Region Switch now supports three new execution blocks for multi-Region datab",
+    "published_at": "2026-06-03T18:52:35Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.435,
+    "score_breakdown": {
+      "freshness": 1.435,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.435
     }
   },
   {
@@ -2169,14 +2147,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.493,
+    "score": 1.384,
     "score_breakdown": {
-      "freshness": 1.493,
+      "freshness": 1.384,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.493
+      "total": 1.384
     }
   },
   {
@@ -2191,36 +2169,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.492,
+    "score": 1.383,
     "score_breakdown": {
-      "freshness": 1.492,
+      "freshness": 1.383,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.492
-    }
-  },
-  {
-    "id": "b4a35fd1d532ef13",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1059.0",
-    "title": "v3.1059.0",
-    "summary": "#### 3.1059.0(2026-06-02)\n\n##### Chores\n\n* **codegen:**\n  *  improve formatting of generated lib-dynamodb files ([#8069](https://github.com/aws/aws-sdk-js-v3/pull/8069)) ([0d0ddc0f](https://github.com/aws/aws-sdk-js-v3/commit/0d0ddc0f70c371cf7fcbcd5f01d00d2087607c6b))\n  *  sync for adaptive retry fix, EAI_AGAIN transient error ([#8067](https://github.com/aws/aws-sdk-js-v3/pull/8067)) ([6b082a65](https://github.com/aws/aws-sdk-js-v3/commit/6b082a6526a0bb0ba213bb16b4c97a0b1134bc45))\n\n##### Documen",
-    "published_at": "2026-06-02T19:12:36Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.443,
-    "score_breakdown": {
-      "freshness": 1.443,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.443
+      "total": 1.383
     }
   },
   {
@@ -2235,14 +2191,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.398,
+    "score": 1.369,
     "score_breakdown": {
-      "freshness": 0.398,
+      "freshness": 0.369,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.398
+      "total": 1.369
     }
   },
   {
@@ -2257,14 +2213,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.371,
+    "score": 1.344,
     "score_breakdown": {
-      "freshness": 0.371,
+      "freshness": 0.344,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.371
+      "total": 1.344
     }
   },
   {
@@ -2279,14 +2235,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.371,
+    "score": 1.344,
     "score_breakdown": {
-      "freshness": 0.371,
+      "freshness": 0.344,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.371
+      "total": 1.344
+    }
+  },
+  {
+    "id": "b4a35fd1d532ef13",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1059.0",
+    "title": "v3.1059.0",
+    "summary": "#### 3.1059.0(2026-06-02)\n\n##### Chores\n\n* **codegen:**\n  *  improve formatting of generated lib-dynamodb files ([#8069](https://github.com/aws/aws-sdk-js-v3/pull/8069)) ([0d0ddc0f](https://github.com/aws/aws-sdk-js-v3/commit/0d0ddc0f70c371cf7fcbcd5f01d00d2087607c6b))\n  *  sync for adaptive retry fix, EAI_AGAIN transient error ([#8067](https://github.com/aws/aws-sdk-js-v3/pull/8067)) ([6b082a65](https://github.com/aws/aws-sdk-js-v3/commit/6b082a6526a0bb0ba213bb16b4c97a0b1134bc45))\n\n##### Documen",
+    "published_at": "2026-06-02T19:12:36Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.337,
+    "score_breakdown": {
+      "freshness": 1.337,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.337
     }
   },
   {
@@ -2301,14 +2279,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.345,
+    "score": 1.32,
     "score_breakdown": {
-      "freshness": 0.345,
+      "freshness": 0.32,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.345
+      "total": 1.32
     }
   },
   {
@@ -2323,14 +2301,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.342,
+    "score": 1.244,
     "score_breakdown": {
-      "freshness": 1.342,
+      "freshness": 1.244,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.342
+      "total": 1.244
     }
   },
   {
@@ -2345,14 +2323,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.225,
+    "score": 1.209,
     "score_breakdown": {
-      "freshness": 0.225,
+      "freshness": 0.209,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.225
+      "total": 1.209
     }
   },
   {
@@ -2367,14 +2345,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.225,
+    "score": 1.209,
     "score_breakdown": {
-      "freshness": 0.225,
+      "freshness": 0.209,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.225
+      "total": 1.209
     }
   },
   {
@@ -2389,14 +2367,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.21,
+    "score": 1.195,
     "score_breakdown": {
-      "freshness": 0.21,
+      "freshness": 0.195,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.21
+      "total": 1.195
     }
   },
   {
@@ -2411,14 +2389,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.209,
+    "score": 1.194,
     "score_breakdown": {
-      "freshness": 0.209,
+      "freshness": 0.194,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.209
+      "total": 1.194
     }
   },
   {
@@ -2433,14 +2411,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.195,
+    "score": 1.181,
     "score_breakdown": {
-      "freshness": 0.195,
+      "freshness": 0.181,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.195
+      "total": 1.181
     }
   },
   {
@@ -2455,36 +2433,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.182,
+    "score": 1.168,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.168,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.182
-    }
-  },
-  {
-    "id": "1b73b7158e2c8482",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1053.0",
-    "title": "v3.1053.0",
-    "summary": "#### 3.1053.0(2026-05-22)\n\n##### Documentation Changes\n\n* **client-gameliftstreams:**  Added new Gen6 stream classes based on the EC2 G6e instance family. These classes are designed for streaming high-fidelity, graphically demanding games and applications that benefit from additional GPU memory and performance. ([bf88fa50](https://github.com/aws/aws-sdk-js-v3/commit/bf88fa508bf74c7120202668d66b1657601e0d32))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-22 ([3518814a",
-    "published_at": "2026-05-22T18:55:36Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.157,
-    "score_breakdown": {
-      "freshness": 0.657,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.157
+      "total": 1.168
     }
   },
   {
@@ -2499,14 +2455,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.147,
+    "score": 1.136,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 0.136,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.147
+      "total": 1.136
     }
   },
   {
@@ -2521,58 +2477,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.136,
+    "score": 1.126,
     "score_breakdown": {
-      "freshness": 0.136,
+      "freshness": 0.126,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.136
+      "total": 1.126
     }
   },
   {
-    "id": "7ab3a4ebfd371325",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.11",
-    "title": "AWS SDK for Java v2 2.44.11",
-    "summary": "# __2.44.11__ __2026-05-21__\r\n## __AWS Batch__\r\n  - ### Features\r\n    - Clarified CreateComputeEnvironment parameter requirements - serviceRole is required for UNMANAGED compute environments, allocationStrategy is required for EKS compute environments, and compute environments must be created in the ENABLED state.\r\n\r\n## __AWS Clean Rooms ML__\r\n  - ### Features\r\n    - Collaboration creators can update payment configurations without recreating the collaboration. When multiple payer candidates are ",
-    "published_at": "2026-05-21T21:14:01Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.116,
-    "score_breakdown": {
-      "freshness": 0.616,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.116
-    }
-  },
-  {
-    "id": "aa0693042d3aecf2",
+    "id": "1b73b7158e2c8482",
     "track": "releases",
     "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1052.0",
-    "title": "v3.1052.0",
-    "summary": "#### 3.1052.0(2026-05-21)\n\n##### Chores\n\n* **codegen:**  update @smithy dependencies ([#8038](https://github.com/aws/aws-sdk-js-v3/pull/8038)) ([0d6242dc](https://github.com/aws/aws-sdk-js-v3/commit/0d6242dc938f36ac77e337d39f577e8727f87926))\n\n##### Documentation Changes\n\n* **client-batch:**  Clarified CreateComputeEnvironment parameter requirements - serviceRole is required for UNMANAGED compute environments, allocationStrategy is required for EKS compute environments, and compute environments m",
-    "published_at": "2026-05-21T20:59:58Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1053.0",
+    "title": "v3.1053.0",
+    "summary": "#### 3.1053.0(2026-05-22)\n\n##### Documentation Changes\n\n* **client-gameliftstreams:**  Added new Gen6 stream classes based on the EC2 G6e instance family. These classes are designed for streaming high-fidelity, graphically demanding games and applications that benefit from additional GPU memory and performance. ([bf88fa50](https://github.com/aws/aws-sdk-js-v3/commit/bf88fa508bf74c7120202668d66b1657601e0d32))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-22 ([3518814a",
+    "published_at": "2026-05-22T18:55:36Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.116,
+    "score": 1.109,
     "score_breakdown": {
-      "freshness": 0.616,
+      "freshness": 0.609,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.116
+      "total": 1.109
     }
   },
   {
@@ -2587,14 +2521,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.11,
+    "score": 1.102,
     "score_breakdown": {
-      "freshness": 0.11,
+      "freshness": 0.102,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.11
+      "total": 1.102
     }
   },
   {
@@ -2609,80 +2543,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.089,
+    "score": 1.082,
     "score_breakdown": {
-      "freshness": 0.089,
+      "freshness": 0.082,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.089
-    }
-  },
-  {
-    "id": "a60267d606c07975",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.45.1",
-    "title": "AWS SDK for Java v2 2.45.1",
-    "summary": "# __2.45.1__ __2026-05-29__\r\n## __AWS Ground Station__\r\n  - ### Features\r\n    - Adds support for Alpha-5 satellite number encoding in the Two-Line Element ephemeris format.\r\n\r\n## __AWS RDS DataService__\r\n  - ### Features\r\n    - RDS Data API arrays (longValues, doubleValues, stringValues, booleanValues) in ExecuteStatement responses now correctly support null elements. Runtime change for JS v3 and .NET. Compile-time change for C plus plus, .NET, Kotlin, Rust. No impact for Java, Python, Ruby, PHP",
-    "published_at": "2026-05-29T19:12:05Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.085,
-    "score_breakdown": {
-      "freshness": 1.085,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.085
-    }
-  },
-  {
-    "id": "564c0e07e31dfa18",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1057.0",
-    "title": "v3.1057.0",
-    "summary": "#### 3.1057.0(2026-05-29)\r\n\r\n##### Bug Fixes\r\n\r\n* **client-rds-data:** \r\n  * `ArrayValue` member element types are now nullable: `booleanValues`\r\n    is `(boolean | null)[]`, `longValues` and `doubleValues` are\r\n    `(number | null)[]`, `stringValues` is `(string | null)[]`, and\r\n    `arrayValues` is `(ArrayValue | null)[]`. This reflects that SQL\r\n    array responses can contain NULL elements. Existing TypeScript code\r\n    that reads elements as non-nullable values won't compile; migrate\r\n    b",
-    "published_at": "2026-05-29T19:01:37Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.084,
-    "score_breakdown": {
-      "freshness": 1.084,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.084
-    }
-  },
-  {
-    "id": "e38cfcbb6d1ae7a4",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-29",
-    "title": "May 29th, 2026",
-    "summary": "**Service Features:**\r\n- `aws-sdk-account` (1.105.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-applicationinsights` (1.102.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-arczonalshift` (1.105.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-athena` (1.108.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-autoscaling` (1.118.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-autoscalingplans` (1.101.0): Adding",
-    "published_at": "2026-05-29T18:56:48Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.084,
-    "score_breakdown": {
-      "freshness": 1.084,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.084
+      "total": 1.082
     }
   },
   {
@@ -2697,14 +2565,58 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.083,
+    "score": 1.077,
     "score_breakdown": {
-      "freshness": 0.083,
+      "freshness": 0.077,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.083
+      "total": 1.077
+    }
+  },
+  {
+    "id": "7ab3a4ebfd371325",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.11",
+    "title": "AWS SDK for Java v2 2.44.11",
+    "summary": "# __2.44.11__ __2026-05-21__\r\n## __AWS Batch__\r\n  - ### Features\r\n    - Clarified CreateComputeEnvironment parameter requirements - serviceRole is required for UNMANAGED compute environments, allocationStrategy is required for EKS compute environments, and compute environments must be created in the ENABLED state.\r\n\r\n## __AWS Clean Rooms ML__\r\n  - ### Features\r\n    - Collaboration creators can update payment configurations without recreating the collaboration. When multiple payer candidates are ",
+    "published_at": "2026-05-21T21:14:01Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.071,
+    "score_breakdown": {
+      "freshness": 0.571,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 1.071
+    }
+  },
+  {
+    "id": "aa0693042d3aecf2",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1052.0",
+    "title": "v3.1052.0",
+    "summary": "#### 3.1052.0(2026-05-21)\n\n##### Chores\n\n* **codegen:**  update @smithy dependencies ([#8038](https://github.com/aws/aws-sdk-js-v3/pull/8038)) ([0d6242dc](https://github.com/aws/aws-sdk-js-v3/commit/0d6242dc938f36ac77e337d39f577e8727f87926))\n\n##### Documentation Changes\n\n* **client-batch:**  Clarified CreateComputeEnvironment parameter requirements - serviceRole is required for UNMANAGED compute environments, allocationStrategy is required for EKS compute environments, and compute environments m",
+    "published_at": "2026-05-21T20:59:58Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.07,
+    "score_breakdown": {
+      "freshness": 0.57,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 1.07
     }
   },
   {
@@ -2719,58 +2631,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.072,
+    "score": 1.067,
     "score_breakdown": {
-      "freshness": 0.072,
+      "freshness": 0.067,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.072
-    }
-  },
-  {
-    "id": "2b03850d32a8e9b4",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.10",
-    "title": "AWS SDK for Java v2 2.44.10",
-    "summary": "# __2.44.10__ __2026-05-20__\r\n## __AWS Key Management Service__\r\n  - ### Features\r\n    - AWS KMS now supports creating grants for AWS service principals using new GranteeServicePrincipal and RetiringServicePrincipal parameters. This release adds SourceArn grant constraint and three condition keys for controlling CreateGrant access. For more information, see Grants in AWS KMS.\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n  - ### Bugfixes\r\n    ",
-    "published_at": "2026-05-20T19:13:56Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.07,
-    "score_breakdown": {
-      "freshness": 0.57,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.07
-    }
-  },
-  {
-    "id": "a2cf23b1287fa0a3",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-20",
-    "title": "May 20th, 2026",
-    "summary": "**New this release:**\n- :tada: ([smithy-rs#4638](https://github.com/smithy-lang/smithy-rs/issues/4638)) Implement retry behavior 2.1, opt-in via `AWS_NEW_RETRIES_2026=true` environment variable. Non-throttling errors now use 50ms base backoff (previously 1,000ms). Transient retry quota cost is 14 tokens (previously 5). DynamoDB and DynamoDB Streams use a 25ms base backoff and increase default max attempts to 4 (from 3). Long-polling operations (SQS `ReceiveMessage`, SFN `GetActivityTask`, SWF `P",
-    "published_at": "2026-05-20T18:58:23Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.07,
-    "score_breakdown": {
-      "freshness": 0.57,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 1.07
+      "total": 1.067
     }
   },
   {
@@ -2785,14 +2653,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.067,
+    "score": 1.062,
     "score_breakdown": {
-      "freshness": 0.067,
+      "freshness": 0.062,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.067
+      "total": 1.062
     }
   },
   {
@@ -2807,14 +2675,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.05,
+    "score": 1.047,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 0.047,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.05
+      "total": 1.047
     }
   },
   {
@@ -2829,14 +2697,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.05,
+    "score": 1.047,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 0.047,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.05
+      "total": 1.047
     }
   },
   {
@@ -2851,14 +2719,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.041,
+    "score": 1.038,
     "score_breakdown": {
-      "freshness": 0.041,
+      "freshness": 0.038,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.041
+      "total": 1.038
     }
   },
   {
@@ -2873,58 +2741,58 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.033,
+    "score": 1.03,
     "score_breakdown": {
-      "freshness": 0.033,
+      "freshness": 0.03,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.033
+      "total": 1.03
     }
   },
   {
-    "id": "71d431e50b3038b6",
+    "id": "2b03850d32a8e9b4",
     "track": "releases",
     "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.9",
-    "title": "AWS SDK for Java v2 2.44.9",
-    "summary": "# __2.44.9__ __2026-05-19__\r\n## __AWS DevOps Agent Service__\r\n  - ### Features\r\n    - Added a new serviceType mcpserversigv4 service and association. This provides feature to register MCP sigv4 authorization based MCPs\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n## __Amazon Bedrock AgentCore__\r\n  - ### Features\r\n    - Add RetryableConflictException (HTTP 409) to InvokeAgentRuntime and StopRuntimeSession to prevent orphaned VMs during concurr",
-    "published_at": "2026-05-19T19:25:48Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.10",
+    "title": "AWS SDK for Java v2 2.44.10",
+    "summary": "# __2.44.10__ __2026-05-20__\r\n## __AWS Key Management Service__\r\n  - ### Features\r\n    - AWS KMS now supports creating grants for AWS service principals using new GranteeServicePrincipal and RetiringServicePrincipal parameters. This release adds SourceArn grant constraint and three condition keys for controlling CreateGrant access. For more information, see Grants in AWS KMS.\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n  - ### Bugfixes\r\n    ",
+    "published_at": "2026-05-20T19:13:56Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.031,
+    "score": 1.028,
     "score_breakdown": {
-      "freshness": 0.531,
+      "freshness": 0.528,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.031
+      "total": 1.028
     }
   },
   {
-    "id": "5381961a59230d3e",
+    "id": "a2cf23b1287fa0a3",
     "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
+    "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1050.0",
-    "title": "v3.1050.0",
-    "summary": "#### 3.1050.0(2026-05-19)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-19 ([9a5e6f03](https://github.com/aws/aws-sdk-js-v3/commit/9a5e6f03be25b20c97a2f0826cb6b74061e57b8d))\n* **client-sagemaker:**  Add support for ml.p5.4xlarge and ml.p5en.48xlarge instances on SageMaker Notebook Instances Platform. ([73a3e28f](https://github.com/aws/aws-sdk-js-v3/commit/73a3e28f8c4741e657e131dfb0decc37700b828c))\n* **client-grafana:**  Introduce degraded workspace status as a possib",
-    "published_at": "2026-05-19T19:01:08Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-20",
+    "title": "May 20th, 2026",
+    "summary": "**New this release:**\n- :tada: ([smithy-rs#4638](https://github.com/smithy-lang/smithy-rs/issues/4638)) Implement retry behavior 2.1, opt-in via `AWS_NEW_RETRIES_2026=true` environment variable. Non-throttling errors now use 50ms base backoff (previously 1,000ms). Transient retry quota cost is 14 tokens (previously 5). DynamoDB and DynamoDB Streams use a 25ms base backoff and increase default max attempts to 4 (from 3). Long-polling operations (SQS `ReceiveMessage`, SFN `GetActivityTask`, SWF `P",
+    "published_at": "2026-05-20T18:58:23Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.031,
+    "score": 1.028,
     "score_breakdown": {
-      "freshness": 0.531,
+      "freshness": 0.528,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.031
+      "total": 1.028
     }
   },
   {
@@ -2939,14 +2807,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.03,
+    "score": 1.028,
     "score_breakdown": {
-      "freshness": 0.03,
+      "freshness": 0.028,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.03
+      "total": 1.028
     }
   },
   {
@@ -2961,14 +2829,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.028,
+    "score": 1.026,
     "score_breakdown": {
-      "freshness": 0.028,
+      "freshness": 0.026,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.028
+      "total": 1.026
     }
   },
   {
@@ -2983,14 +2851,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.025,
+    "score": 1.023,
     "score_breakdown": {
-      "freshness": 0.025,
+      "freshness": 0.023,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.025
+      "total": 1.023
     }
   },
   {
@@ -3005,14 +2873,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.025,
+    "score": 1.023,
     "score_breakdown": {
-      "freshness": 0.025,
+      "freshness": 0.023,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.025
+      "total": 1.023
     }
   },
   {
@@ -3027,14 +2895,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.02,
+    "score": 1.018,
     "score_breakdown": {
-      "freshness": 0.02,
+      "freshness": 0.018,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.02
+      "total": 1.018
     }
   },
   {
@@ -3049,14 +2917,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.018,
+    "score": 1.017,
     "score_breakdown": {
-      "freshness": 0.018,
+      "freshness": 0.017,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.018
+      "total": 1.017
     }
   },
   {
@@ -3071,14 +2939,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.017,
+    "score": 1.016,
     "score_breakdown": {
-      "freshness": 0.017,
+      "freshness": 0.016,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.017
+      "total": 1.016
     }
   },
   {
@@ -3093,14 +2961,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.016,
+    "score": 1.015,
     "score_breakdown": {
-      "freshness": 0.016,
+      "freshness": 0.015,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.016
+      "total": 1.015
     }
   },
   {
@@ -3115,14 +2983,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.015,
+    "score": 1.014,
     "score_breakdown": {
-      "freshness": 0.015,
+      "freshness": 0.014,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.015
+      "total": 1.014
     }
   },
   {
@@ -3137,14 +3005,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.012,
+    "score": 1.011,
     "score_breakdown": {
-      "freshness": 0.012,
+      "freshness": 0.011,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.012
+      "total": 1.011
     }
   },
   {
@@ -3159,14 +3027,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.012,
+    "score": 1.011,
     "score_breakdown": {
-      "freshness": 0.012,
+      "freshness": 0.011,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.012
+      "total": 1.011
     }
   },
   {
@@ -3181,34 +3049,12 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.011,
+    "score": 1.01,
     "score_breakdown": {
-      "freshness": 0.011,
+      "freshness": 0.01,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.011
-    }
-  },
-  {
-    "id": "3d06470e91a231c8",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.45.0",
-    "title": "AWS SDK for Java v2 2.45.0",
-    "summary": "# __2.45.0__ __2026-05-28__\r\n## __AWS Control Catalog__\r\n  - ### Features\r\n    - AWS Control Catalog - Added GovernedProviders response field and inclusion filter to GetControl and ListControls APIs to identify and filter by cloud provider. Added ParameterRequirementSummary response field indicating parameter requirements.\r\n\r\n## __AWS IoT__\r\n  - ### Features\r\n    - Adds new connectivity-related fields to Fleet Indexing API requests and responses.\r\n\r\n## __AWS IoT Data Plane__\r\n  - ### Features\r\n ",
-    "published_at": "2026-05-28T19:18:18Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.01,
-    "score_breakdown": {
-      "freshness": 1.01,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 1.01
     }
@@ -3247,56 +3093,12 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.01,
+    "score": 1.009,
     "score_breakdown": {
-      "freshness": 0.01,
+      "freshness": 0.009,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 1.01
-    }
-  },
-  {
-    "id": "80da3f116ae57dd7",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1056.0",
-    "title": "v3.1056.0",
-    "summary": "#### 3.1056.0(2026-05-28)\n\n##### Chores\n\n* **scripts:**  modify api-snapshot to allow automated updates to lib-dynamodb ([#8052](https://github.com/aws/aws-sdk-js-v3/pull/8052)) ([3e53ae7a](https://github.com/aws/aws-sdk-js-v3/commit/3e53ae7ac1aea22015dc9b63b6ab5a6c360bb059))\n* **codegen:**  sync for cyclic file dependency fixes ([#8051](https://github.com/aws/aws-sdk-js-v3/pull/8051)) ([7ae617c4](https://github.com/aws/aws-sdk-js-v3/commit/7ae617c43c11caf24ee171cb5f6eede64d5eeba7))\n\n##### Docum",
-    "published_at": "2026-05-28T19:05:13Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.009,
-    "score_breakdown": {
-      "freshness": 1.009,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.009
-    }
-  },
-  {
-    "id": "d3b97720f92980c0",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-28",
-    "title": "May 28th, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-accessanalyzer` (1.109.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-amp` (1.107.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-amplifyuibuilder` (1.100.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appstream` (1.114.0): Amazon WorkSpaces Applications now supports BYOL (Bring Your Own License). This enables customers to import their own WorkSpaces images and use them in WorkSpaces Applications.\n- `aws-sdk-ar",
-    "published_at": "2026-05-28T19:01:56Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.009,
-    "score_breakdown": {
-      "freshness": 1.009,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 1.009
     }
@@ -3313,14 +3115,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.009,
+    "score": 1.008,
     "score_breakdown": {
-      "freshness": 0.009,
+      "freshness": 0.008,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.009
+      "total": 1.008
     }
   },
   {
@@ -3335,14 +3137,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.009,
+    "score": 1.008,
     "score_breakdown": {
-      "freshness": 0.009,
+      "freshness": 0.008,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.009
+      "total": 1.008
     }
   },
   {
@@ -3357,14 +3159,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.009,
+    "score": 1.008,
     "score_breakdown": {
-      "freshness": 0.009,
+      "freshness": 0.008,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.009
+      "total": 1.008
     }
   },
   {
@@ -3379,14 +3181,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.007,
+    "score": 1.006,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.007
+      "total": 1.006
     }
   },
   {
@@ -3401,14 +3203,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.007,
+    "score": 1.006,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.007
+      "total": 1.006
+    }
+  },
+  {
+    "id": "a60267d606c07975",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.45.1",
+    "title": "AWS SDK for Java v2 2.45.1",
+    "summary": "# __2.45.1__ __2026-05-29__\r\n## __AWS Ground Station__\r\n  - ### Features\r\n    - Adds support for Alpha-5 satellite number encoding in the Two-Line Element ephemeris format.\r\n\r\n## __AWS RDS DataService__\r\n  - ### Features\r\n    - RDS Data API arrays (longValues, doubleValues, stringValues, booleanValues) in ExecuteStatement responses now correctly support null elements. Runtime change for JS v3 and .NET. Compile-time change for C plus plus, .NET, Kotlin, Rust. No impact for Java, Python, Ruby, PHP",
+    "published_at": "2026-05-29T19:12:05Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.005,
+    "score_breakdown": {
+      "freshness": 1.005,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.005
     }
   },
   {
@@ -3423,14 +3247,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.006,
+    "score": 1.005,
     "score_breakdown": {
-      "freshness": 0.006,
+      "freshness": 0.005,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.006
+      "total": 1.005
     }
   },
   {
@@ -3453,6 +3277,50 @@
       "keyword_signal": 1.0,
       "severity": 0.0,
       "total": 1.005
+    }
+  },
+  {
+    "id": "564c0e07e31dfa18",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1057.0",
+    "title": "v3.1057.0",
+    "summary": "#### 3.1057.0(2026-05-29)\r\n\r\n##### Bug Fixes\r\n\r\n* **client-rds-data:** \r\n  * `ArrayValue` member element types are now nullable: `booleanValues`\r\n    is `(boolean | null)[]`, `longValues` and `doubleValues` are\r\n    `(number | null)[]`, `stringValues` is `(string | null)[]`, and\r\n    `arrayValues` is `(ArrayValue | null)[]`. This reflects that SQL\r\n    array responses can contain NULL elements. Existing TypeScript code\r\n    that reads elements as non-nullable values won't compile; migrate\r\n    b",
+    "published_at": "2026-05-29T19:01:37Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.004,
+    "score_breakdown": {
+      "freshness": 1.004,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.004
+    }
+  },
+  {
+    "id": "e38cfcbb6d1ae7a4",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-29",
+    "title": "May 29th, 2026",
+    "summary": "**Service Features:**\r\n- `aws-sdk-account` (1.105.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-applicationinsights` (1.102.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-arczonalshift` (1.105.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-athena` (1.108.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-autoscaling` (1.118.0): Adding new BDD representation of endpoint ruleset\r\n- `aws-sdk-autoscalingplans` (1.101.0): Adding",
+    "published_at": "2026-05-29T18:56:48Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.004,
+    "score_breakdown": {
+      "freshness": 1.004,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.004
     }
   },
   {
@@ -3511,14 +3379,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.004,
+    "score": 1.003,
     "score_breakdown": {
-      "freshness": 0.004,
+      "freshness": 0.003,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.004
+      "total": 1.003
     }
   },
   {
@@ -3533,14 +3401,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.004,
+    "score": 1.003,
     "score_breakdown": {
-      "freshness": 0.004,
+      "freshness": 0.003,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.004
+      "total": 1.003
     }
   },
   {
@@ -3599,14 +3467,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.003,
+    "score": 1.002,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.003
+      "total": 1.002
     }
   },
   {
@@ -3819,14 +3687,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.001,
+    "score": 1.0,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 1.0,
       "source": 1.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.001
+      "total": 1.0
     }
   },
   {
@@ -4864,25 +4732,47 @@
     }
   },
   {
-    "id": "3ec90ce33f744b30",
+    "id": "71d431e50b3038b6",
     "track": "releases",
     "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.40.5",
-    "title": "AWS SDK for Java v2 2.40.5",
-    "summary": "# __2.40.5__ __2025-12-09__\n## __AWS Account__\n  - ### Features\n    - This release adds a new API (GetGovCloudAccountInformation) used to retrieve information about a linked GovCloud account from the standard AWS partition.\n\n## __AWS AppSync__\n  - ### Features\n    - Update Event API to require EventConfig parameter in creation and update requests.\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n\n## __Amazon GuardDuty__\n  - ### Features\n    - Adding sup",
-    "published_at": "2025-12-09T21:03:33Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.9",
+    "title": "AWS SDK for Java v2 2.44.9",
+    "summary": "# __2.44.9__ __2026-05-19__\r\n## __AWS DevOps Agent Service__\r\n  - ### Features\r\n    - Added a new serviceType mcpserversigv4 service and association. This provides feature to register MCP sigv4 authorization based MCPs\r\n\r\n## __AWS SDK for Java v2__\r\n  - ### Features\r\n    - Updated endpoint and partition metadata.\r\n\r\n## __Amazon Bedrock AgentCore__\r\n  - ### Features\r\n    - Add RetryableConflictException (HTTP 409) to InvokeAgentRuntime and StopRuntimeSession to prevent orphaned VMs during concurr",
+    "published_at": "2026-05-19T19:25:48Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.0,
+    "score": 0.992,
     "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 1.0,
+      "freshness": 0.492,
+      "keyword": 0.5,
       "source": 1.0,
-      "keyword_signal": 1.0,
+      "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.0
+      "total": 0.992
+    }
+  },
+  {
+    "id": "5381961a59230d3e",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1050.0",
+    "title": "v3.1050.0",
+    "summary": "#### 3.1050.0(2026-05-19)\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2026-05-19 ([9a5e6f03](https://github.com/aws/aws-sdk-js-v3/commit/9a5e6f03be25b20c97a2f0826cb6b74061e57b8d))\n* **client-sagemaker:**  Add support for ml.p5.4xlarge and ml.p5en.48xlarge instances on SageMaker Notebook Instances Platform. ([73a3e28f](https://github.com/aws/aws-sdk-js-v3/commit/73a3e28f8c4741e657e131dfb0decc37700b828c))\n* **client-grafana:**  Introduce degraded workspace status as a possib",
+    "published_at": "2026-05-19T19:01:08Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.992,
+    "score_breakdown": {
+      "freshness": 0.492,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.992
     }
   },
   {
@@ -4897,14 +4787,80 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.994,
+    "score": 0.958,
     "score_breakdown": {
-      "freshness": 0.494,
+      "freshness": 0.458,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.994
+      "total": 0.958
+    }
+  },
+  {
+    "id": "3d06470e91a231c8",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.45.0",
+    "title": "AWS SDK for Java v2 2.45.0",
+    "summary": "# __2.45.0__ __2026-05-28__\r\n## __AWS Control Catalog__\r\n  - ### Features\r\n    - AWS Control Catalog - Added GovernedProviders response field and inclusion filter to GetControl and ListControls APIs to identify and filter by cloud provider. Added ParameterRequirementSummary response field indicating parameter requirements.\r\n\r\n## __AWS IoT__\r\n  - ### Features\r\n    - Adds new connectivity-related fields to Fleet Indexing API requests and responses.\r\n\r\n## __AWS IoT Data Plane__\r\n  - ### Features\r\n ",
+    "published_at": "2026-05-28T19:18:18Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.936,
+    "score_breakdown": {
+      "freshness": 0.936,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.936
+    }
+  },
+  {
+    "id": "80da3f116ae57dd7",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1056.0",
+    "title": "v3.1056.0",
+    "summary": "#### 3.1056.0(2026-05-28)\n\n##### Chores\n\n* **scripts:**  modify api-snapshot to allow automated updates to lib-dynamodb ([#8052](https://github.com/aws/aws-sdk-js-v3/pull/8052)) ([3e53ae7a](https://github.com/aws/aws-sdk-js-v3/commit/3e53ae7ac1aea22015dc9b63b6ab5a6c360bb059))\n* **codegen:**  sync for cyclic file dependency fixes ([#8051](https://github.com/aws/aws-sdk-js-v3/pull/8051)) ([7ae617c4](https://github.com/aws/aws-sdk-js-v3/commit/7ae617c43c11caf24ee171cb5f6eede64d5eeba7))\n\n##### Docum",
+    "published_at": "2026-05-28T19:05:13Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.935,
+    "score_breakdown": {
+      "freshness": 0.935,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.935
+    }
+  },
+  {
+    "id": "d3b97720f92980c0",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-28",
+    "title": "May 28th, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-accessanalyzer` (1.109.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-amp` (1.107.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-amplifyuibuilder` (1.100.0): Adding new BDD representation of endpoint ruleset\n- `aws-sdk-appstream` (1.114.0): Amazon WorkSpaces Applications now supports BYOL (Bring Your Own License). This enables customers to import their own WorkSpaces images and use them in WorkSpaces Applications.\n- `aws-sdk-ar",
+    "published_at": "2026-05-28T19:01:56Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.935,
+    "score_breakdown": {
+      "freshness": 0.935,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.935
     }
   },
   {
@@ -4919,14 +4875,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.94,
+    "score": 0.871,
     "score_breakdown": {
-      "freshness": 0.94,
+      "freshness": 0.871,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.94
+      "total": 0.871
     }
   },
   {
@@ -4941,14 +4897,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.939,
+    "score": 0.87,
     "score_breakdown": {
-      "freshness": 0.939,
+      "freshness": 0.87,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.939
+      "total": 0.87
     }
   },
   {
@@ -4963,14 +4919,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.939,
+    "score": 0.87,
     "score_breakdown": {
-      "freshness": 0.939,
+      "freshness": 0.87,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.939
+      "total": 0.87
     }
   },
   {
@@ -4985,14 +4941,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.899,
+    "score": 0.87,
     "score_breakdown": {
-      "freshness": 0.399,
+      "freshness": 0.37,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.899
+      "total": 0.87
     }
   },
   {
@@ -5007,14 +4963,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.899,
+    "score": 0.869,
     "score_breakdown": {
-      "freshness": 0.399,
+      "freshness": 0.369,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.899
+      "total": 0.869
     }
   },
   {
@@ -5029,80 +4985,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.879,
+    "score": 0.851,
     "score_breakdown": {
-      "freshness": 0.379,
+      "freshness": 0.351,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.879
-    }
-  },
-  {
-    "id": "c46292677e12360d",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.13",
-    "title": "AWS SDK for Java v2 2.44.13",
-    "summary": "# __2.44.13__ __2026-05-26__\r\n## __AWS Backup__\r\n  - ### Features\r\n    - Launching S3 PITR malware scanning support for AWS Backup\r\n\r\n## __AWS Batch__\r\n  - ### Features\r\n    - Increase the maximum value of jobExecutionTimeoutMinutes to support longer job timeouts during compute environment infrastructure updates.\r\n\r\n## __AWS Budgets__\r\n  - ### Features\r\n    - AWS Budget Name Validation Documentation Updates.\r\n\r\n## __AWS Resource Groups Tagging API__\r\n  - ### Features\r\n    - The GetResources API ",
-    "published_at": "2026-05-26T19:23:33Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.876,
-    "score_breakdown": {
-      "freshness": 0.876,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.876
-    }
-  },
-  {
-    "id": "95182835852a38dc",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1054.0",
-    "title": "v3.1054.0",
-    "summary": "#### 3.1054.0(2026-05-26)\n\n##### Documentation Changes\n\n* **client-budgets:**  AWS Budget Name Validation Documentation Updates. ([09ab0ba6](https://github.com/aws/aws-sdk-js-v3/commit/09ab0ba65958d5b74a5b0c2b662037bd988c71ed))\n\n##### New Features\n\n* **client-iot-managed-integrations:**  Adding new BDD representation of endpoint ruleset ([99b55d17](https://github.com/aws/aws-sdk-js-v3/commit/99b55d173f3fdf06a23e3dc5457caa9f60e122a2))\n* **client-servicediscovery:**  Adding new BDD representation ",
-    "published_at": "2026-05-26T19:08:59Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.875,
-    "score_breakdown": {
-      "freshness": 0.875,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.875
-    }
-  },
-  {
-    "id": "3cda54cbe7068847",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-26",
-    "title": "May 26th, 2026",
-    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.17|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.4|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.108.0|\n|aws-sdk-account|1.103.0|\n|aws-sdk-acm|1.103.0|\n|aws-sdk-acmpca|1.105.0|\n|aws-sdk-aiops|1.28.0|\n|aws-sdk-amp|1.106.0|\n|aws-sdk-amplify|1.108.0|\n|aws-sdk-amplifybackend|1.99.0|\n|aws-sdk-amplifyuibuilder|1.99.0|\n|aws-sdk-apigateway|1.105.0|\n|aws-sdk-apigatewaym",
-    "published_at": "2026-05-26T19:04:39Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.875,
-    "score_breakdown": {
-      "freshness": 0.875,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.875
+      "total": 0.851
     }
   },
   {
@@ -5117,14 +5007,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.852,
+    "score": 0.826,
     "score_breakdown": {
-      "freshness": 0.352,
+      "freshness": 0.326,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.852
+      "total": 0.826
     }
   },
   {
@@ -5139,14 +5029,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.848,
+    "score": 0.823,
     "score_breakdown": {
-      "freshness": 0.348,
+      "freshness": 0.323,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.848
+      "total": 0.823
     }
   },
   {
@@ -5161,14 +5051,80 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.846,
+    "score": 0.82,
     "score_breakdown": {
-      "freshness": 0.346,
+      "freshness": 0.32,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.846
+      "total": 0.82
+    }
+  },
+  {
+    "id": "c46292677e12360d",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-java-v2",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.13",
+    "title": "AWS SDK for Java v2 2.44.13",
+    "summary": "# __2.44.13__ __2026-05-26__\r\n## __AWS Backup__\r\n  - ### Features\r\n    - Launching S3 PITR malware scanning support for AWS Backup\r\n\r\n## __AWS Batch__\r\n  - ### Features\r\n    - Increase the maximum value of jobExecutionTimeoutMinutes to support longer job timeouts during compute environment infrastructure updates.\r\n\r\n## __AWS Budgets__\r\n  - ### Features\r\n    - AWS Budget Name Validation Documentation Updates.\r\n\r\n## __AWS Resource Groups Tagging API__\r\n  - ### Features\r\n    - The GetResources API ",
+    "published_at": "2026-05-26T19:23:33Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.811,
+    "score_breakdown": {
+      "freshness": 0.811,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.811
+    }
+  },
+  {
+    "id": "95182835852a38dc",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1054.0",
+    "title": "v3.1054.0",
+    "summary": "#### 3.1054.0(2026-05-26)\n\n##### Documentation Changes\n\n* **client-budgets:**  AWS Budget Name Validation Documentation Updates. ([09ab0ba6](https://github.com/aws/aws-sdk-js-v3/commit/09ab0ba65958d5b74a5b0c2b662037bd988c71ed))\n\n##### New Features\n\n* **client-iot-managed-integrations:**  Adding new BDD representation of endpoint ruleset ([99b55d17](https://github.com/aws/aws-sdk-js-v3/commit/99b55d173f3fdf06a23e3dc5457caa9f60e122a2))\n* **client-servicediscovery:**  Adding new BDD representation ",
+    "published_at": "2026-05-26T19:08:59Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.811,
+    "score_breakdown": {
+      "freshness": 0.811,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.811
+    }
+  },
+  {
+    "id": "3cda54cbe7068847",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-26",
+    "title": "May 26th, 2026",
+    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.17|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.4|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.108.0|\n|aws-sdk-account|1.103.0|\n|aws-sdk-acm|1.103.0|\n|aws-sdk-acmpca|1.105.0|\n|aws-sdk-aiops|1.28.0|\n|aws-sdk-amp|1.106.0|\n|aws-sdk-amplify|1.108.0|\n|aws-sdk-amplifybackend|1.99.0|\n|aws-sdk-amplifyuibuilder|1.99.0|\n|aws-sdk-apigateway|1.105.0|\n|aws-sdk-apigatewaym",
+    "published_at": "2026-05-26T19:04:39Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.811,
+    "score_breakdown": {
+      "freshness": 0.811,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.811
     }
   },
   {
@@ -5183,14 +5139,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.725,
+    "score": 0.709,
     "score_breakdown": {
-      "freshness": 0.225,
+      "freshness": 0.209,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.725
+      "total": 0.709
     }
   },
   {
@@ -5205,14 +5161,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.696,
+    "score": 0.681,
     "score_breakdown": {
-      "freshness": 0.196,
+      "freshness": 0.181,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.696
+      "total": 0.681
     }
   },
   {
@@ -5227,14 +5183,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.695,
+    "score": 0.681,
     "score_breakdown": {
-      "freshness": 0.195,
+      "freshness": 0.181,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.695
+      "total": 0.681
     }
   },
   {
@@ -5249,58 +5205,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.695,
+    "score": 0.681,
     "score_breakdown": {
-      "freshness": 0.195,
+      "freshness": 0.181,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.695
-    }
-  },
-  {
-    "id": "c42f72d35f747335",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.12",
-    "title": "AWS SDK for Java v2 2.44.12",
-    "summary": "# __2.44.12__ __2026-05-22__\n## __AWS Invoicing__\n  - ### Features\n    - Adds support for idempotency with a new ClientToken field for the CreateInvoiceUnit, DeleteInvoiceUnit, UpdateInvoiceUnit, DeleteProcurementPortalPreference, PutProcurementPortalPreference, and UpdateProcurementPortalPreferenceStatus APIs.\n\n## __AWS Performance Insights__\n  - ### Features\n    - Added ListPerformanceAnalysisReportRecommendations API to retrieve recommendations for a performance analysis report. Added analysi",
-    "published_at": "2026-05-22T19:12:28Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.658,
-    "score_breakdown": {
-      "freshness": 0.658,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.658
-    }
-  },
-  {
-    "id": "c14dba64f6bfca41",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-22",
-    "title": "May 22nd, 2026",
-    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.17|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.4|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.108.0|\n|aws-sdk-account|1.103.0|\n|aws-sdk-acm|1.103.0|\n|aws-sdk-acmpca|1.105.0|\n|aws-sdk-aiops|1.28.0|\n|aws-sdk-amp|1.106.0|\n|aws-sdk-amplify|1.108.0|\n|aws-sdk-amplifybackend|1.99.0|\n|aws-sdk-amplifyuibuilder|1.99.0|\n|aws-sdk-apigateway|1.105.0|\n|aws-sdk-apigatewaym",
-    "published_at": "2026-05-22T18:51:18Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.657,
-    "score_breakdown": {
-      "freshness": 0.657,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.657
+      "total": 0.681
     }
   },
   {
@@ -5315,14 +5227,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.647,
+    "score": 0.636,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 0.136,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.647
+      "total": 0.636
     }
   },
   {
@@ -5337,14 +5249,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.637,
+    "score": 0.627,
     "score_breakdown": {
-      "freshness": 0.137,
+      "freshness": 0.127,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.637
+      "total": 0.627
     }
   },
   {
@@ -5359,14 +5271,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.637,
+    "score": 0.626,
     "score_breakdown": {
-      "freshness": 0.137,
+      "freshness": 0.126,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.637
+      "total": 0.626
     }
   },
   {
@@ -5381,14 +5293,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.627,
+    "score": 0.618,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.118,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.627
+      "total": 0.618
     }
   },
   {
@@ -5403,36 +5315,58 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.619,
+    "score": 0.61,
     "score_breakdown": {
-      "freshness": 0.119,
+      "freshness": 0.11,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.619
+      "total": 0.61
     }
   },
   {
-    "id": "9710da2616a95a81",
+    "id": "c42f72d35f747335",
     "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
+    "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-21",
-    "title": "May 21st, 2026",
-    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.17|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.4|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.108.0|\n|aws-sdk-account|1.103.0|\n|aws-sdk-acm|1.103.0|\n|aws-sdk-acmpca|1.105.0|\n|aws-sdk-aiops|1.28.0|\n|aws-sdk-amp|1.106.0|\n|aws-sdk-amplify|1.108.0|\n|aws-sdk-amplifybackend|1.99.0|\n|aws-sdk-amplifyuibuilder|1.99.0|\n|aws-sdk-apigateway|1.105.0|\n|aws-sdk-apigatewaym",
-    "published_at": "2026-05-21T20:54:52Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.44.12",
+    "title": "AWS SDK for Java v2 2.44.12",
+    "summary": "# __2.44.12__ __2026-05-22__\n## __AWS Invoicing__\n  - ### Features\n    - Adds support for idempotency with a new ClientToken field for the CreateInvoiceUnit, DeleteInvoiceUnit, UpdateInvoiceUnit, DeleteProcurementPortalPreference, PutProcurementPortalPreference, and UpdateProcurementPortalPreferenceStatus APIs.\n\n## __AWS Performance Insights__\n  - ### Features\n    - Added ListPerformanceAnalysisReportRecommendations API to retrieve recommendations for a performance analysis report. Added analysi",
+    "published_at": "2026-05-22T19:12:28Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.616,
+    "score": 0.609,
     "score_breakdown": {
-      "freshness": 0.616,
+      "freshness": 0.609,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.616
+      "total": 0.609
+    }
+  },
+  {
+    "id": "c14dba64f6bfca41",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-22",
+    "title": "May 22nd, 2026",
+    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.17|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.4|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.108.0|\n|aws-sdk-account|1.103.0|\n|aws-sdk-acm|1.103.0|\n|aws-sdk-acmpca|1.105.0|\n|aws-sdk-aiops|1.28.0|\n|aws-sdk-amp|1.106.0|\n|aws-sdk-amplify|1.108.0|\n|aws-sdk-amplifybackend|1.99.0|\n|aws-sdk-amplifyuibuilder|1.99.0|\n|aws-sdk-apigateway|1.105.0|\n|aws-sdk-apigatewaym",
+    "published_at": "2026-05-22T18:51:18Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.609,
+    "score_breakdown": {
+      "freshness": 0.609,
+      "keyword": 0.0,
+      "source": 1.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.609
     }
   },
   {
@@ -5447,69 +5381,25 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.589,
+    "score": 0.582,
     "score_breakdown": {
-      "freshness": 0.089,
+      "freshness": 0.082,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.589
+      "total": 0.582
     }
   },
   {
-    "id": "a17ac8eeb5ac2f08",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.38",
-    "title": "AWS SDK for Java v2 2.42.38",
-    "summary": "# __2.42.38__ __2026-04-21__\r\n## __AWS Comprehend Medical__\r\n  - ### Features\r\n    - This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\r\n\r\n## __Amazon SageMaker Service__\r\n  - ### Features\r\n    - SageMaker AI now supports generative AI inference recommendations. Provide your model and workload, and SageMaker AI optimizes configurations, benchmarks them on real GPUs, and returns deployment-ready",
-    "published_at": "2026-04-22T01:29:29Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.573,
-    "score_breakdown": {
-      "freshness": 0.073,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.573
-    }
-  },
-  {
-    "id": "c7dcfc90f2597006",
+    "id": "9710da2616a95a81",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-21",
-    "title": "April 21st, 2026",
-    "summary": "**Service Features:**\n- `aws-sdk-cognitoidentityprovider` (1.116.0): Adding dutch language support for Cognito Managed Login and Terms on Console\n- `aws-sdk-comprehendmedical` (1.99.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\n- `aws-sdk-computeoptimizer` (1.104.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.0. The SDK will priorit",
-    "published_at": "2026-04-21T20:44:38Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.572,
-    "score_breakdown": {
-      "freshness": 0.072,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.572
-    }
-  },
-  {
-    "id": "d6e6441b0e869d1c",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1051.0",
-    "title": "v3.1051.0",
-    "summary": "#### 3.1051.0(2026-05-20)\n\n##### Chores\n\n*  harden GitHub Actions workflows ([#8032](https://github.com/aws/aws-sdk-js-v3/pull/8032)) ([3e48a098](https://github.com/aws/aws-sdk-js-v3/commit/3e48a0984e0c54346e48bc4a7a02233fe2638937))\n\n##### Documentation Changes\n\n* **client-mwaa:**  Updated API documentation to describe the PublicAndPrivate webserver access mode. ([d96c0a14](https://github.com/aws/aws-sdk-js-v3/commit/d96c0a14bb62de71c643405a62e891c3e85720e5))\n\n##### New Features\n\n* **clients:** ",
-    "published_at": "2026-05-20T19:02:36Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-21",
+    "title": "May 21st, 2026",
+    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.17|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.4|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.108.0|\n|aws-sdk-account|1.103.0|\n|aws-sdk-acm|1.103.0|\n|aws-sdk-acmpca|1.105.0|\n|aws-sdk-aiops|1.28.0|\n|aws-sdk-amp|1.106.0|\n|aws-sdk-amplify|1.108.0|\n|aws-sdk-amplifybackend|1.99.0|\n|aws-sdk-amplifyuibuilder|1.99.0|\n|aws-sdk-apigateway|1.105.0|\n|aws-sdk-apigatewaym",
+    "published_at": "2026-05-21T20:54:52Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
@@ -5524,14 +5414,36 @@
     }
   },
   {
-    "id": "23f58934ad415998",
+    "id": "a17ac8eeb5ac2f08",
     "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
+    "source": "github:aws/aws-sdk-java-v2",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1033.0",
-    "title": "v3.1033.0",
-    "summary": "#### 3.1033.0(2026-04-20)\n\n##### Documentation Changes\n\n* **client-guardduty:**  Expanded support for new suppression rule fields. ([f0bb9093](https://github.com/aws/aws-sdk-js-v3/commit/f0bb90933df5ed6743069a49cc7e821a903df076))\n\n##### New Features\n\n* **clients:**\n  *  update client endpoints as of 2026-04-20 ([d6a7886a](https://github.com/aws/aws-sdk-js-v3/commit/d6a7886a68e4e65f74410e1068ec9f5cade83ca4))\n  *  use binary decision diagrams for endpoint resolution ([#7931](https://github.com/aws",
-    "published_at": "2026-04-20T19:02:08Z",
+    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.42.38",
+    "title": "AWS SDK for Java v2 2.42.38",
+    "summary": "# __2.42.38__ __2026-04-21__\r\n## __AWS Comprehend Medical__\r\n  - ### Features\r\n    - This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\r\n\r\n## __Amazon SageMaker Service__\r\n  - ### Features\r\n    - SageMaker AI now supports generative AI inference recommendations. Provide your model and workload, and SageMaker AI optimizes configurations, benchmarks them on real GPUs, and returns deployment-ready",
+    "published_at": "2026-04-22T01:29:29Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.568,
+    "score_breakdown": {
+      "freshness": 0.068,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.568
+    }
+  },
+  {
+    "id": "c7dcfc90f2597006",
+    "track": "releases",
+    "source": "github:awslabs/aws-sdk-rust",
+    "source_kind": "github",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-04-21",
+    "title": "April 21st, 2026",
+    "summary": "**Service Features:**\n- `aws-sdk-cognitoidentityprovider` (1.116.0): Adding dutch language support for Cognito Managed Login and Terms on Console\n- `aws-sdk-comprehendmedical` (1.99.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.1. The SDK will prioritize its most performant protocol.\n- `aws-sdk-computeoptimizer` (1.104.0): This release adds Smithy RPC v2 CBOR as an additional protocol alongside the existing AWS JSON 1.0. The SDK will priorit",
+    "published_at": "2026-04-21T20:44:38Z",
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
@@ -5543,6 +5455,28 @@
       "keyword_signal": 0.5,
       "severity": 0.0,
       "total": 0.567
+    }
+  },
+  {
+    "id": "23f58934ad415998",
+    "track": "releases",
+    "source": "github:aws/aws-sdk-js-v3",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1033.0",
+    "title": "v3.1033.0",
+    "summary": "#### 3.1033.0(2026-04-20)\n\n##### Documentation Changes\n\n* **client-guardduty:**  Expanded support for new suppression rule fields. ([f0bb9093](https://github.com/aws/aws-sdk-js-v3/commit/f0bb90933df5ed6743069a49cc7e821a903df076))\n\n##### New Features\n\n* **clients:**\n  *  update client endpoints as of 2026-04-20 ([d6a7886a](https://github.com/aws/aws-sdk-js-v3/commit/d6a7886a68e4e65f74410e1068ec9f5cade83ca4))\n  *  use binary decision diagrams for endpoint resolution ([#7931](https://github.com/aws",
+    "published_at": "2026-04-20T19:02:08Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.562,
+    "score_breakdown": {
+      "freshness": 0.062,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.562
     }
   },
   {
@@ -5557,36 +5491,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.567,
+    "score": 0.562,
     "score_breakdown": {
-      "freshness": 0.067,
+      "freshness": 0.062,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.567
-    }
-  },
-  {
-    "id": "705f244759c29025",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.256.1",
-    "title": "v2.256.1",
-    "summary": "### Bug Fixes\n\n* invalid lock file ([#37943](https://github.com/aws/aws-cdk/issues/37943)) ([73ae91d](https://github.com/aws/aws-cdk/commit/73ae91d5eb074cb975a07de04238cf205111e2fb)), closes [#37726](https://github.com/aws/aws-cdk/issues/37726) [#37929](https://github.com/aws/aws-cdk/issues/37929) [#37870](https://github.com/aws/aws-cdk/issues/37870)\n---\n## Alpha modules (2.256.1-alpha.0)\n",
-    "published_at": "2026-05-20T15:48:47Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.564,
-    "score_breakdown": {
-      "freshness": 0.564,
-      "keyword": 0.0,
-      "source": 2.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.564
+      "total": 0.562
     }
   },
   {
@@ -5601,14 +5513,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.555,
+    "score": 0.551,
     "score_breakdown": {
-      "freshness": 0.055,
+      "freshness": 0.051,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.555
+      "total": 0.551
     }
   },
   {
@@ -5623,14 +5535,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.554,
+    "score": 0.55,
     "score_breakdown": {
-      "freshness": 0.054,
+      "freshness": 0.05,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.554
+      "total": 0.55
     }
   },
   {
@@ -5645,14 +5557,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.554,
+    "score": 0.55,
     "score_breakdown": {
-      "freshness": 0.054,
+      "freshness": 0.05,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.554
+      "total": 0.55
     }
   },
   {
@@ -5667,14 +5579,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.541,
+    "score": 0.538,
     "score_breakdown": {
-      "freshness": 0.041,
+      "freshness": 0.038,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.541
+      "total": 0.538
     }
   },
   {
@@ -5689,14 +5601,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.541,
+    "score": 0.538,
     "score_breakdown": {
-      "freshness": 0.041,
+      "freshness": 0.038,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.541
+      "total": 0.538
     }
   },
   {
@@ -5711,36 +5623,36 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.541,
+    "score": 0.538,
     "score_breakdown": {
-      "freshness": 0.041,
+      "freshness": 0.038,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.541
+      "total": 0.538
     }
   },
   {
-    "id": "c5b4fa2be81f12a9",
+    "id": "d6e6441b0e869d1c",
     "track": "releases",
-    "source": "github:aws/aws-cdk",
+    "source": "github:aws/aws-sdk-js-v3",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.256.0",
-    "title": "v2.256.0",
-    "summary": "### Features\n\n* **aws-cdk-lib:** emits performance counters if synthesis is slow  ([#37919](https://github.com/aws/aws-cdk/issues/37919)) ([caa0f4c](https://github.com/aws/aws-cdk/commit/caa0f4c1eea4e9d47843b1fa2aee661ef0c3fa24)), closes [#37843](https://github.com/aws/aws-cdk/issues/37843)\n* **core:** validations report is always written to cloud assembly ([#37867](https://github.com/aws/aws-cdk/issues/37867)) ([dddc6e0](https://github.com/aws/aws-cdk/commit/dddc6e09fd9736126eacf40811450550b1c0",
-    "published_at": "2026-05-19T23:02:53Z",
+    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.1051.0",
+    "title": "v3.1051.0",
+    "summary": "#### 3.1051.0(2026-05-20)\n\n##### Chores\n\n*  harden GitHub Actions workflows ([#8032](https://github.com/aws/aws-sdk-js-v3/pull/8032)) ([3e48a098](https://github.com/aws/aws-sdk-js-v3/commit/3e48a0984e0c54346e48bc4a7a02233fe2638937))\n\n##### Documentation Changes\n\n* **client-mwaa:**  Updated API documentation to describe the PublicAndPrivate webserver access mode. ([d96c0a14](https://github.com/aws/aws-sdk-js-v3/commit/d96c0a14bb62de71c643405a62e891c3e85720e5))\n\n##### New Features\n\n* **clients:** ",
+    "published_at": "2026-05-20T19:02:36Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.537,
+    "score": 0.528,
     "score_breakdown": {
-      "freshness": 0.537,
+      "freshness": 0.528,
       "keyword": 0.0,
-      "source": 2.0,
+      "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.537
+      "total": 0.528
     }
   },
   {
@@ -5755,14 +5667,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.531,
+    "score": 0.528,
     "score_breakdown": {
-      "freshness": 0.031,
+      "freshness": 0.028,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.531
+      "total": 0.528
     }
   },
   {
@@ -5777,36 +5689,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.531,
+    "score": 0.528,
     "score_breakdown": {
-      "freshness": 0.031,
+      "freshness": 0.028,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.531
-    }
-  },
-  {
-    "id": "d284aeeac03955c6",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-19",
-    "title": "May 19th, 2026",
-    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.16|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.3|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.107.0|\n|aws-sdk-account|1.102.0|\n|aws-sdk-acm|1.102.0|\n|aws-sdk-acmpca|1.104.0|\n|aws-sdk-aiops|1.27.0|\n|aws-sdk-amp|1.105.0|\n|aws-sdk-amplify|1.107.0|\n|aws-sdk-amplifybackend|1.98.0|\n|aws-sdk-amplifyuibuilder|1.98.0|\n|aws-sdk-apigateway|1.104.0|\n|aws-sdk-apigatewaym",
-    "published_at": "2026-05-19T18:55:38Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.53,
-    "score_breakdown": {
-      "freshness": 0.53,
-      "keyword": 0.0,
-      "source": 1.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.53
+      "total": 0.528
     }
   },
   {
@@ -5821,14 +5711,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.53,
+    "score": 0.528,
     "score_breakdown": {
-      "freshness": 0.03,
+      "freshness": 0.028,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.53
+      "total": 0.528
     }
   },
   {
@@ -5843,14 +5733,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.528,
+    "score": 0.526,
     "score_breakdown": {
-      "freshness": 0.028,
+      "freshness": 0.026,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.528
+      "total": 0.526
     }
   },
   {
@@ -5865,14 +5755,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.526,
+    "score": 0.524,
     "score_breakdown": {
-      "freshness": 0.026,
+      "freshness": 0.024,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.526
+      "total": 0.524
     }
   },
   {
@@ -5887,14 +5777,36 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.526,
+    "score": 0.524,
     "score_breakdown": {
-      "freshness": 0.026,
+      "freshness": 0.024,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.526
+      "total": 0.524
+    }
+  },
+  {
+    "id": "705f244759c29025",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.256.1",
+    "title": "v2.256.1",
+    "summary": "### Bug Fixes\n\n* invalid lock file ([#37943](https://github.com/aws/aws-cdk/issues/37943)) ([73ae91d](https://github.com/aws/aws-cdk/commit/73ae91d5eb074cb975a07de04238cf205111e2fb)), closes [#37726](https://github.com/aws/aws-cdk/issues/37726) [#37929](https://github.com/aws/aws-cdk/issues/37929) [#37870](https://github.com/aws/aws-cdk/issues/37870)\n---\n## Alpha modules (2.256.1-alpha.0)\n",
+    "published_at": "2026-05-20T15:48:47Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.523,
+    "score_breakdown": {
+      "freshness": 0.523,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.523
     }
   },
   {
@@ -5909,36 +5821,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.52,
+    "score": 0.518,
     "score_breakdown": {
-      "freshness": 0.02,
+      "freshness": 0.018,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.52
-    }
-  },
-  {
-    "id": "dbff0ab6c065e2dd",
-    "track": "releases",
-    "source": "github:aws/aws-cdk",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.255.0",
-    "title": "v2.255.0",
-    "summary": "### Features\n\n* **aws-cdk-lib:** emits performance counters if synthesis is slow ([#37843](https://github.com/aws/aws-cdk/issues/37843)) ([ea33967](https://github.com/aws/aws-cdk/commit/ea339670cb537e0e9aeb6b419c8bd43591aec32b))\n* **bedrockagentcore:** graduate to stable 🚀 ([#37876](https://github.com/aws/aws-cdk/issues/37876)) ([00cf601](https://github.com/aws/aws-cdk/commit/00cf6015f30755653de7a541f79c944d4a68f423))\n* **core:** builtin `PropertyMergeStrategy`s are now compatible with deferred ",
-    "published_at": "2026-05-19T11:26:34Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.519,
-    "score_breakdown": {
-      "freshness": 0.519,
-      "keyword": 0.0,
-      "source": 2.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.519
+      "total": 0.518
     }
   },
   {
@@ -5953,14 +5843,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.519,
+    "score": 0.517,
     "score_breakdown": {
-      "freshness": 0.019,
+      "freshness": 0.017,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.519
+      "total": 0.517
     }
   },
   {
@@ -5975,14 +5865,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.515,
+    "score": 0.514,
     "score_breakdown": {
-      "freshness": 0.015,
+      "freshness": 0.014,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.515
+      "total": 0.514
     }
   },
   {
@@ -5997,14 +5887,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.511,
+    "score": 0.51,
     "score_breakdown": {
-      "freshness": 0.011,
+      "freshness": 0.01,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.511
+      "total": 0.51
     }
   },
   {
@@ -6019,14 +5909,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.511,
+    "score": 0.51,
     "score_breakdown": {
-      "freshness": 0.011,
+      "freshness": 0.01,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.511
+      "total": 0.51
     }
   },
   {
@@ -6041,14 +5931,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.511,
+    "score": 0.51,
     "score_breakdown": {
-      "freshness": 0.011,
+      "freshness": 0.01,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.511
+      "total": 0.51
     }
   },
   {
@@ -6107,14 +5997,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.51,
+    "score": 0.509,
     "score_breakdown": {
-      "freshness": 0.01,
+      "freshness": 0.009,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.51
+      "total": 0.509
     }
   },
   {
@@ -6129,14 +6019,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.507,
+    "score": 0.506,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.507
+      "total": 0.506
     }
   },
   {
@@ -6151,14 +6041,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.507,
+    "score": 0.506,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.507
+      "total": 0.506
     }
   },
   {
@@ -6173,14 +6063,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.507,
+    "score": 0.506,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.507
+      "total": 0.506
     }
   },
   {
@@ -6239,14 +6129,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.506,
+    "score": 0.505,
     "score_breakdown": {
-      "freshness": 0.006,
+      "freshness": 0.005,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.506
+      "total": 0.505
     }
   },
   {
@@ -6503,14 +6393,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.502,
+    "score": 0.501,
     "score_breakdown": {
-      "freshness": 0.002,
+      "freshness": 0.001,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.502
+      "total": 0.501
     }
   },
   {
@@ -6525,14 +6415,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.502,
+    "score": 0.501,
     "score_breakdown": {
-      "freshness": 0.002,
+      "freshness": 0.001,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.502
+      "total": 0.501
     }
   },
   {
@@ -6921,14 +6811,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.501,
+    "score": 0.5,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.501
+      "total": 0.5
     }
   },
   {
@@ -6943,14 +6833,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.501,
+    "score": 0.5,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.501
+      "total": 0.5
     }
   },
   {
@@ -6965,14 +6855,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.501,
+    "score": 0.5,
     "score_breakdown": {
-      "freshness": 0.001,
+      "freshness": 0.0,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.501
+      "total": 0.5
     }
   },
   {
@@ -7922,47 +7812,69 @@
     }
   },
   {
-    "id": "630a84e6a859ac51",
+    "id": "c5b4fa2be81f12a9",
     "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
+    "source": "github:aws/aws-cdk",
     "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.948.0",
-    "title": "v3.948.0",
-    "summary": "#### 3.948.0(2025-12-09)\n\n##### Chores\n\n* **middleware-recursion-detection:**  upgrade lambda-invoke-store dependency ([#7559](https://github.com/aws/aws-sdk-js-v3/pull/7559)) ([dbc65195](https://github.com/aws/aws-sdk-js-v3/commit/dbc65195096ebbe3bda6a5773f109f0fc8a4f470))\n\n##### New Features\n\n* **clients:**  update client endpoints as of 2025-12-09 ([012e1f9a](https://github.com/aws/aws-sdk-js-v3/commit/012e1f9ada35a7fb597bbd7df72e765bc75ffeec))\n* **client-mgn:**  Added parameters encryption, ",
-    "published_at": "2025-12-09T20:15:46Z",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.256.0",
+    "title": "v2.256.0",
+    "summary": "### Features\n\n* **aws-cdk-lib:** emits performance counters if synthesis is slow  ([#37919](https://github.com/aws/aws-cdk/issues/37919)) ([caa0f4c](https://github.com/aws/aws-cdk/commit/caa0f4c1eea4e9d47843b1fa2aee661ef0c3fa24)), closes [#37843](https://github.com/aws/aws-cdk/issues/37843)\n* **core:** validations report is always written to cloud assembly ([#37867](https://github.com/aws/aws-cdk/issues/37867)) ([dddc6e0](https://github.com/aws/aws-cdk/commit/dddc6e09fd9736126eacf40811450550b1c0",
+    "published_at": "2026-05-19T23:02:53Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.5,
+    "score": 0.498,
     "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
+      "freshness": 0.498,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.5
+      "total": 0.498
     }
   },
   {
-    "id": "4c91aa84273ec986",
+    "id": "d284aeeac03955c6",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
     "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2025-12-09",
-    "title": "December 9th, 2025",
-    "summary": "**New this release:**\n- :bug: ([smithy-rs#4427](https://github.com/smithy-lang/smithy-rs/issues/4427)) Fix Content-Type and Accept headers for event streams in RPC v2 CBOR to set `application/vnd.amazon.eventstream`\n- :bug: ([aws-sdk-rust#1390](https://github.com/awslabs/aws-sdk-rust/issues/1390), @arielb1) In `legacy-rustls-ring`, polyfill `with_native_roots` to use `rustls_native_certs 0.8` to avoid\n    RUSTSEC-2025-0134.\n- :bug: (@arielby) Publish an MSRV for all packages\n\n\n**Service Features",
-    "published_at": "2025-12-09T19:59:39Z",
+    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2026-05-19",
+    "title": "May 19th, 2026",
+    "summary": "**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.16|\n|aws-credential-types|1.2.14|\n|aws-runtime|1.7.3|\n|aws-runtime-api|1.1.12|\n|aws-sdk-accessanalyzer|1.107.0|\n|aws-sdk-account|1.102.0|\n|aws-sdk-acm|1.102.0|\n|aws-sdk-acmpca|1.104.0|\n|aws-sdk-aiops|1.27.0|\n|aws-sdk-amp|1.105.0|\n|aws-sdk-amplify|1.107.0|\n|aws-sdk-amplifybackend|1.98.0|\n|aws-sdk-amplifyuibuilder|1.98.0|\n|aws-sdk-apigateway|1.104.0|\n|aws-sdk-apigatewaym",
+    "published_at": "2026-05-19T18:55:38Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.5,
+    "score": 0.492,
     "score_breakdown": {
-      "freshness": 0.0,
-      "keyword": 0.5,
+      "freshness": 0.492,
+      "keyword": 0.0,
       "source": 1.0,
-      "keyword_signal": 0.5,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.5
+      "total": 0.492
+    }
+  },
+  {
+    "id": "dbff0ab6c065e2dd",
+    "track": "releases",
+    "source": "github:aws/aws-cdk",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-cdk/releases/tag/v2.255.0",
+    "title": "v2.255.0",
+    "summary": "### Features\n\n* **aws-cdk-lib:** emits performance counters if synthesis is slow ([#37843](https://github.com/aws/aws-cdk/issues/37843)) ([ea33967](https://github.com/aws/aws-cdk/commit/ea339670cb537e0e9aeb6b419c8bd43591aec32b))\n* **bedrockagentcore:** graduate to stable 🚀 ([#37876](https://github.com/aws/aws-cdk/issues/37876)) ([00cf601](https://github.com/aws/aws-cdk/commit/00cf6015f30755653de7a541f79c944d4a68f423))\n* **core:** builtin `PropertyMergeStrategy`s are now compatible with deferred ",
+    "published_at": "2026-05-19T11:26:34Z",
+    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.481,
+    "score_breakdown": {
+      "freshness": 0.481,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.481
     }
   },
   {
@@ -7977,14 +7889,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.494,
+    "score": 0.458,
     "score_breakdown": {
-      "freshness": 0.494,
+      "freshness": 0.458,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.494
+      "total": 0.458
     }
   },
   {
@@ -7999,14 +7911,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.494,
+    "score": 0.458,
     "score_breakdown": {
-      "freshness": 0.494,
+      "freshness": 0.458,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.494
+      "total": 0.458
     }
   },
   {
@@ -8021,14 +7933,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.399,
+    "score": 0.369,
     "score_breakdown": {
-      "freshness": 0.399,
+      "freshness": 0.369,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.399
+      "total": 0.369
     }
   },
   {
@@ -8043,14 +7955,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.372,
+    "score": 0.344,
     "score_breakdown": {
-      "freshness": 0.372,
+      "freshness": 0.344,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.372
+      "total": 0.344
     }
   },
   {
@@ -8065,14 +7977,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.346,
+    "score": 0.32,
     "score_breakdown": {
-      "freshness": 0.346,
+      "freshness": 0.32,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.346
+      "total": 0.32
     }
   },
   {
@@ -8087,14 +7999,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.24,
+    "score": 0.222,
     "score_breakdown": {
-      "freshness": 0.24,
+      "freshness": 0.222,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.24
+      "total": 0.222
     }
   },
   {
@@ -8109,14 +8021,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.225,
+    "score": 0.209,
     "score_breakdown": {
-      "freshness": 0.225,
+      "freshness": 0.209,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.225
+      "total": 0.209
     }
   },
   {
@@ -8131,14 +8043,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.21,
+    "score": 0.194,
     "score_breakdown": {
-      "freshness": 0.21,
+      "freshness": 0.194,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.21
+      "total": 0.194
     }
   },
   {
@@ -8153,14 +8065,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.182,
+    "score": 0.169,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.169,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.182
+      "total": 0.169
     }
   },
   {
@@ -8175,14 +8087,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.147,
+    "score": 0.136,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 0.136,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.147
+      "total": 0.136
     }
   },
   {
@@ -8197,14 +8109,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.147,
+    "score": 0.136,
     "score_breakdown": {
-      "freshness": 0.147,
+      "freshness": 0.136,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.147
+      "total": 0.136
     }
   },
   {
@@ -8219,14 +8131,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.137,
+    "score": 0.127,
     "score_breakdown": {
-      "freshness": 0.137,
+      "freshness": 0.127,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.137
+      "total": 0.127
     }
   },
   {
@@ -8241,14 +8153,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.134,
+    "score": 0.124,
     "score_breakdown": {
-      "freshness": 0.134,
+      "freshness": 0.124,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.134
+      "total": 0.124
     }
   },
   {
@@ -8263,14 +8175,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.127,
+    "score": 0.118,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.118,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.127
+      "total": 0.118
     }
   },
   {
@@ -8285,14 +8197,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.127,
+    "score": 0.118,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.118,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.127
+      "total": 0.118
     }
   },
   {
@@ -8307,14 +8219,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.111,
+    "score": 0.102,
     "score_breakdown": {
-      "freshness": 0.111,
+      "freshness": 0.102,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.111
+      "total": 0.102
     }
   },
   {
@@ -8329,14 +8241,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.111,
+    "score": 0.102,
     "score_breakdown": {
-      "freshness": 0.111,
+      "freshness": 0.102,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.111
+      "total": 0.102
     }
   },
   {
@@ -8351,14 +8263,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.111,
+    "score": 0.102,
     "score_breakdown": {
-      "freshness": 0.111,
+      "freshness": 0.102,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.111
+      "total": 0.102
     }
   },
   {
@@ -8373,14 +8285,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.089,
+    "score": 0.083,
     "score_breakdown": {
-      "freshness": 0.089,
+      "freshness": 0.083,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.089
+      "total": 0.083
     }
   },
   {
@@ -8395,14 +8307,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.089,
+    "score": 0.082,
     "score_breakdown": {
-      "freshness": 0.089,
+      "freshness": 0.082,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.089
+      "total": 0.082
     }
   },
   {
@@ -8417,14 +8329,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.083,
+    "score": 0.077,
     "score_breakdown": {
-      "freshness": 0.083,
+      "freshness": 0.077,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.083
+      "total": 0.077
     }
   },
   {
@@ -8439,14 +8351,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.083,
+    "score": 0.077,
     "score_breakdown": {
-      "freshness": 0.083,
+      "freshness": 0.077,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.083
+      "total": 0.077
     }
   },
   {
@@ -8461,14 +8373,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.083,
+    "score": 0.077,
     "score_breakdown": {
-      "freshness": 0.083,
+      "freshness": 0.077,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.083
+      "total": 0.077
     }
   },
   {
@@ -8483,14 +8395,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.078,
+    "score": 0.072,
     "score_breakdown": {
-      "freshness": 0.078,
+      "freshness": 0.072,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.078
+      "total": 0.072
     }
   },
   {
@@ -8505,14 +8417,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.077,
+    "score": 0.071,
     "score_breakdown": {
-      "freshness": 0.077,
+      "freshness": 0.071,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.077
+      "total": 0.071
     }
   },
   {
@@ -8527,14 +8439,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.077,
+    "score": 0.071,
     "score_breakdown": {
-      "freshness": 0.077,
+      "freshness": 0.071,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.077
+      "total": 0.071
     }
   },
   {
@@ -8549,14 +8461,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.072,
+    "score": 0.067,
     "score_breakdown": {
-      "freshness": 0.072,
+      "freshness": 0.067,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.072
+      "total": 0.067
     }
   },
   {
@@ -8571,14 +8483,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.067,
+    "score": 0.062,
     "score_breakdown": {
-      "freshness": 0.067,
+      "freshness": 0.062,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.067
+      "total": 0.062
     }
   },
   {
@@ -8593,14 +8505,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.05,
+    "score": 0.047,
     "score_breakdown": {
-      "freshness": 0.05,
+      "freshness": 0.047,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.05
+      "total": 0.047
     }
   },
   {
@@ -8615,14 +8527,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.033,
+    "score": 0.03,
     "score_breakdown": {
-      "freshness": 0.033,
+      "freshness": 0.03,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.033
+      "total": 0.03
     }
   },
   {
@@ -8637,14 +8549,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.033,
+    "score": 0.03,
     "score_breakdown": {
-      "freshness": 0.033,
+      "freshness": 0.03,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.033
+      "total": 0.03
     }
   },
   {
@@ -8659,14 +8571,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.033,
+    "score": 0.03,
     "score_breakdown": {
-      "freshness": 0.033,
+      "freshness": 0.03,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.033
+      "total": 0.03
     }
   },
   {
@@ -8681,14 +8593,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.03,
+    "score": 0.028,
     "score_breakdown": {
-      "freshness": 0.03,
+      "freshness": 0.028,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.03
+      "total": 0.028
     }
   },
   {
@@ -8703,14 +8615,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.028,
+    "score": 0.026,
     "score_breakdown": {
-      "freshness": 0.028,
+      "freshness": 0.026,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.028
+      "total": 0.026
     }
   },
   {
@@ -8725,14 +8637,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.028,
+    "score": 0.026,
     "score_breakdown": {
-      "freshness": 0.028,
+      "freshness": 0.026,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.028
+      "total": 0.026
     }
   },
   {
@@ -8747,14 +8659,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.026,
+    "score": 0.025,
     "score_breakdown": {
-      "freshness": 0.026,
+      "freshness": 0.025,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.026
+      "total": 0.025
     }
   },
   {
@@ -8769,14 +8681,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.025,
+    "score": 0.023,
     "score_breakdown": {
-      "freshness": 0.025,
+      "freshness": 0.023,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.025
+      "total": 0.023
     }
   },
   {
@@ -8791,14 +8703,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.025,
+    "score": 0.023,
     "score_breakdown": {
-      "freshness": 0.025,
+      "freshness": 0.023,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.025
+      "total": 0.023
     }
   },
   {
@@ -8813,14 +8725,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.02,
+    "score": 0.018,
     "score_breakdown": {
-      "freshness": 0.02,
+      "freshness": 0.018,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.02
+      "total": 0.018
     }
   },
   {
@@ -8835,14 +8747,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.02,
+    "score": 0.018,
     "score_breakdown": {
-      "freshness": 0.02,
+      "freshness": 0.018,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.02
+      "total": 0.018
     }
   },
   {
@@ -8857,14 +8769,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.019,
+    "score": 0.018,
     "score_breakdown": {
-      "freshness": 0.019,
+      "freshness": 0.018,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.019
+      "total": 0.018
     }
   },
   {
@@ -8879,14 +8791,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.018,
+    "score": 0.017,
     "score_breakdown": {
-      "freshness": 0.018,
+      "freshness": 0.017,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.018
+      "total": 0.017
     }
   },
   {
@@ -8901,14 +8813,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.017,
+    "score": 0.016,
     "score_breakdown": {
-      "freshness": 0.017,
+      "freshness": 0.016,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.017
+      "total": 0.016
     }
   },
   {
@@ -8923,14 +8835,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.017,
+    "score": 0.016,
     "score_breakdown": {
-      "freshness": 0.017,
+      "freshness": 0.016,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.017
+      "total": 0.016
     }
   },
   {
@@ -8945,14 +8857,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.017,
+    "score": 0.016,
     "score_breakdown": {
-      "freshness": 0.017,
+      "freshness": 0.016,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.017
+      "total": 0.016
     }
   },
   {
@@ -8967,14 +8879,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.016,
+    "score": 0.015,
     "score_breakdown": {
-      "freshness": 0.016,
+      "freshness": 0.015,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.016
+      "total": 0.015
     }
   },
   {
@@ -8989,14 +8901,14 @@
     "fetched_at": "2026-05-17T11:52:10.733766+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.016,
+    "score": 0.015,
     "score_breakdown": {
-      "freshness": 0.016,
+      "freshness": 0.015,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.016
+      "total": 0.015
     }
   },
   {
@@ -9011,14 +8923,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.015,
+    "score": 0.014,
     "score_breakdown": {
-      "freshness": 0.015,
+      "freshness": 0.014,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.015
+      "total": 0.014
     }
   },
   {
@@ -9033,14 +8945,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.015,
+    "score": 0.014,
     "score_breakdown": {
-      "freshness": 0.015,
+      "freshness": 0.014,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.015
+      "total": 0.014
     }
   },
   {
@@ -9055,14 +8967,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.012,
+    "score": 0.011,
     "score_breakdown": {
-      "freshness": 0.012,
+      "freshness": 0.011,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.012
+      "total": 0.011
     }
   },
   {
@@ -9077,14 +8989,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.012,
+    "score": 0.011,
     "score_breakdown": {
-      "freshness": 0.012,
+      "freshness": 0.011,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.012
+      "total": 0.011
     }
   },
   {
@@ -9099,14 +9011,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.012,
+    "score": 0.011,
     "score_breakdown": {
-      "freshness": 0.012,
+      "freshness": 0.011,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.012
+      "total": 0.011
     }
   },
   {
@@ -9121,14 +9033,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.011,
+    "score": 0.01,
     "score_breakdown": {
-      "freshness": 0.011,
+      "freshness": 0.01,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.011
+      "total": 0.01
     }
   },
   {
@@ -9165,14 +9077,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.01,
+    "score": 0.009,
     "score_breakdown": {
-      "freshness": 0.01,
+      "freshness": 0.009,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.01
+      "total": 0.009
     }
   },
   {
@@ -9187,14 +9099,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.01,
+    "score": 0.009,
     "score_breakdown": {
-      "freshness": 0.01,
+      "freshness": 0.009,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.01
+      "total": 0.009
     }
   },
   {
@@ -9275,14 +9187,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.007,
+    "score": 0.006,
     "score_breakdown": {
-      "freshness": 0.007,
+      "freshness": 0.006,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.007
+      "total": 0.006
     }
   },
   {
@@ -9319,14 +9231,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.006,
+    "score": 0.005,
     "score_breakdown": {
-      "freshness": 0.006,
+      "freshness": 0.005,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.006
+      "total": 0.005
     }
   },
   {
@@ -9341,14 +9253,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.006,
+    "score": 0.005,
     "score_breakdown": {
-      "freshness": 0.006,
+      "freshness": 0.005,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.006
+      "total": 0.005
     }
   },
   {
@@ -9583,14 +9495,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.003,
+    "score": 0.002,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.003
+      "total": 0.002
     }
   },
   {
@@ -9605,14 +9517,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.003,
+    "score": 0.002,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.003
+      "total": 0.002
     }
   },
   {
@@ -9627,14 +9539,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.003,
+    "score": 0.002,
     "score_breakdown": {
-      "freshness": 0.003,
+      "freshness": 0.002,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.003
+      "total": 0.002
     }
   },
   {
@@ -9737,14 +9649,14 @@
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.002,
+    "score": 0.001,
     "score_breakdown": {
-      "freshness": 0.002,
+      "freshness": 0.001,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.002
+      "total": 0.001
     }
   },
   {
