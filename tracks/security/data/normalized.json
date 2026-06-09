@@ -1,5 +1,63 @@
 [
   {
+    "id": "5156094aa0282f37",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/icymi-may-2026-aws-security/",
+    "title": "ICYMI: May 2026 @AWS Security",
+    "summary": "Read all about the latest AWS security features, compliance updates, and hands-on resources in our new, monthly digest posts. You’ll find expert blog posts, new service capabilities, code samples, and workshops. AWS Security Blog posts This month’s AWS Security Blog posts covered AI security, network protection, identity management, compliance frameworks, and supply chain security. Read […]",
+    "published_at": "2026-06-08T21:00:11+00:00",
+    "fetched_at": "2026-06-09T09:34:02.267667+00:00",
+    "tags": [
+      "Announcements",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "6a954f339427ac13",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-040-aws/",
+    "title": "CVE-2026-11393 - Code Injection via Improper Triple-Quote Escaping in AgentCore CLI Bedrock Agent Import",
+    "summary": "Bulletin ID: 2026-040-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/08/2026 11:45 AM PDT Description: The AWS AgentCore CLI (@aws/agentcore) is a developer tool for managing agent infrastructure lifecycle on Amazon Bedrock AgentCore. We identified CVE-2026-11393 in which improper neutralization of triple-quote characters during Python code generation may allow an authenticated user in the same AWS account to inject arbitrary Python code into the source file gen",
+    "published_at": "2026-06-08T18:54:30+00:00",
+    "fetched_at": "2026-06-09T09:34:02.267667+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "7ff617d8b45342a2",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/operationalizing-aws-security-a-maturity-roadmap/",
+    "title": "Operationalizing AWS security: A maturity roadmap",
+    "summary": "Enabling security tooling is the starting point. Making it operational—where findings drive decisions, response times are measurable, and your security posture improves week over week—is where most organizations struggle. This blog post provides a phased maturity roadmap for organizations that have already enabled AWS Security Hub and Amazon GuardDuty. These two services form the foundation […]",
+    "published_at": "2026-06-08T16:18:04+00:00",
+    "fetched_at": "2026-06-09T09:34:02.267667+00:00",
+    "tags": [
+      "Amazon GuardDuty",
+      "AWS Security Hub",
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Security",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "263415012b61da02",
     "track": "security",
     "source": "rss:aws-security-bulletins",
