@@ -1,5 +1,292 @@
 [
   {
+    "id": "1cab8fd48e78311c",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer-intelligent-cost-explanations",
+    "title": "AWS Cost Explorer launches intelligent cost explanations powered by Amazon Q",
+    "summary": "AWS Cost Explorer now supports 'Analyze with Amazon Q', a new capability that delivers comprehensive cost explanations for any report you configure in Cost Explorer. With a single button click you now can receive detailed analysis from Amazon Q Developer covering your cost trends, top cost drivers, and anomalies. All analysis uses your exact filters and time-period and provides guidance to discover optimization opportunities through follow-up questions. Previously, cost analysis required manual ",
+    "published_at": "2026-06-09T03:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:products/aws-cost-explorer,marketing:marchitecture/cost-management,general:products/cloud-financial-management,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "beab180e9828dd1e",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-byom-for-amazon-rds-for-sql-server-aws-iot-device-sdk-for-swift-and-more-june-8-2026/",
+    "title": "AWS Weekly Roundup: BYOM for Amazon RDS for SQL Server, AWS IoT Device SDK for Swift, and more (June 8, 2026)",
+    "summary": "This week, the AWS IoT Device SDK for Swift reached general availability. As a member of the Swift Server Workgroup (SSWG), this one caught my attention. The SDK brings production-ready MQTT 5 connectivity, Device Shadow, Jobs, and fleet provisioning to Swift developers on macOS, iOS, tvOS, and Linux. I’m curious to see what you will build with it. […]",
+    "published_at": "2026-06-08T21:27:12+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
+      "Amazon Cognito",
+      "Amazon EKS Distro",
+      "Amazon Elastic Container Service",
+      "Amazon Elastic Kubernetes Service",
+      "Announcements",
+      "AWS Cost and Usage Report",
+      "AWS Step Functions",
+      "Launch",
+      "News",
+      "RDS for SQL Server",
+      "Week in Review"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "f8f6ade9bb392f40",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
+    "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
+    "summary": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This expansion enables you to detect unused resources across more of your AWS environment and identify potential cost savings. Compute Optimizer analyzes utilization metrics to determine whether a resource is idle. Customers can set this lookback period",
+    "published_at": "2026-06-08T21:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/cost-management,general:products/aws-compute-optimizer"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "ee82c8585761804c",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
+    "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
+    "summary": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create or manage topics for stateful operations. MSK Express Brokers are designed to deliver up to three times more throughput per broker, scale up to 20 times faster, and reduce recovery time by 90 percent. Kafka Streams uses topics to store state and repartition data for stateful operations.",
+    "published_at": "2026-06-08T19:36:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/amazon-msk"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "cb3b9522f38231c8",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-documentdb-engine-minor-version-5-0-1/",
+    "title": "Amazon DocumentDB now supports engine minor version starting with 5.0.1",
+    "summary": "Amazon DocumentDB (with MongoDB compatibility) now supports engine minor versions, starting with 5.0.1. This release delivers enhanced aggregation capabilities with new operators ($rand, $pow, $dateToParts, $dateFromParts), the active connections metric to monitor instances, and granular command-level performance metrics in CloudWatch (find, insert, findAndModify, update, etc.). For a full list of what's included, see release notes . Minor versions provide new features and bug fixes within the s",
+    "published_at": "2026-06-08T18:59:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:products/amazon-documentdb,marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "eee50801a6c92cbb",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-logs-insights-new/",
+    "title": "Amazon CloudWatch Logs Insights adds 23 new query commands and functions",
+    "summary": "Amazon CloudWatch Logs Insights query language now supports 23 new commands and functions that give you new ways to query, parse, transform, and analyze your logs. Customers analyzing logs in CloudWatch Logs Insights often need to do conditional processing, string conversions, process IP addresses, parse different file formats, and execute complex stats commands. With this launch, CloudWatch Logs Insights provides new hash functions (md5, sha256), string functions (strcontains supporting case-in",
+    "published_at": "2026-06-08T17:50:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:products/amazon-cloudwatch-logs,general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "b436e8c90ad2b62a",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-savings-plans-coverage/",
+    "title": "AWS Savings Plans Purchase Analyzer now supports target coverage analysis",
+    "summary": "Today, AWS announces target coverage analysis in Savings Plans Purchase Analyzer, a capability in AWS Billing and Cost Management that helps you plan your Savings Plans purchases based on your coverage target. Savings Plans Purchase Analyzer helps you evaluate different purchase scenarios by estimating the potential impact of Savings Plans purchases on cost, coverage, utilization, and savings. With target coverage analysis, you can set a specific percentage of On-Demand spend to be covered by Sa",
+    "published_at": "2026-06-08T17:16:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:products/cloud-financial-management,marketing:marchitecture/cost-management"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "0c252ea3156fd27d",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
+    "title": "PostgreSQL 19 Beta 1 is now available in Amazon RDS Database Preview Environment",
+    "summary": "Amazon RDS for PostgreSQL 19 Beta 1 is now available in the Amazon RDS Database Preview Environment , allowing you to evaluate the pre-release of PostgreSQL 19 on Amazon RDS for PostgreSQL. You can deploy PostgreSQL 19 Beta 1 in the Amazon RDS Database Preview Environment that has the benefits of a fully managed database. PostgreSQL 19 adds native graph query support via SQL Property Graph Queries (SQL/PGQ), so you can express complex relationship traversals directly in standard SQL instead of b",
+    "published_at": "2026-06-08T17:03:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/databases,general:products/amazon-rds"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e063148f80358a70",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-region-expansion/",
+    "title": "AWS Lambda Managed Instances expands to additional AWS Regions",
+    "summary": "AWS Lambda Managed Instances (LMI) is now available in all commercial AWS Regions, except Israel (Tel Aviv), Middle East (Bahrain), Middle East (UAE), and Asia Pacific (Auckland). LMI lets you run Lambda functions on managed Amazon EC2 instances, giving you access to specialized compute configurations and EC2 pricing advantages while maintaining Lambda's operational simplicity. LMI fully manages instance lifecycle, OS and runtime patching, routing, load balancing, and auto-scaling, so you can fo",
+    "published_at": "2026-06-08T17:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "03b4b9c30cbc41b8",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-mgn-rebrand/",
+    "title": "AWS Application Migration Service is now AWS Transform MGN",
+    "summary": "AWS Application Migration Service (MGN) is now available as AWS Transform MGN . This name change reflects MGN's role as the proven replication engine powering AWS Transform, the agentic migration service. You can choose between two rehosting experiences. Use the AWS Transform MGN console for direct control over replication and cutover. Or use the AWS Transform agentic workflow, where an agent handles discovery, wave planning, landing zone setup, network creation, and rehosting or containerizatio",
+    "published_at": "2026-06-08T17:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/migration,general:products/aws-application-migration-service"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "74afbd67ec2c7c08",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-dsql-supports-jsonb/",
+    "title": "Amazon Aurora DSQL now supports the JSONB data type with compression",
+    "summary": "Amazon Aurora DSQL introduces support for the PostgreSQL JSONB data type with optional compression. You can now use code and tools that depend on PostgreSQL's JSONB type with Aurora DSQL, making it easier to store semi-structured data alongside relational data. You can use the JSONB data type when creating or modifying tables to store semi-structured data such as system configuration metadata, API parameters, and event logs. With PostgreSQL compression enabled by default, larger JSONB payloads a",
+    "published_at": "2026-06-08T17:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c5ab0d25333edbeb",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/integrating-event-source-mappings-with-aws-lambda-tenant-isolation-mode/",
+    "title": "Integrating Event Source Mappings with AWS Lambda tenant isolation mode",
+    "summary": "Building event-driven multi-tenant SaaS applications typically requires compute isolation between tenants to prevent data leakage, maintain security boundaries, and ensure compliance. Traditionally, you had to choose between two approaches: sharing execution environments across tenants (risking cross-tenant contamination of in-memory state) or managing separate Lambda functions per tenant (which introduces operational overhead, increasing costs, and complicating […]",
+    "published_at": "2026-06-08T16:41:40+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "Amazon EventBridge",
+      "Amazon Kinesis",
+      "Amazon Simple Queue Service (SQS)",
+      "AWS Lambda",
+      "Technical How-to",
+      "Amazon SQS"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "6a2c99f2676e2b0a",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-ai-powered-cost-investigations/",
+    "title": "AWS now provides AI-powered cost investigations for cost anomalies",
+    "summary": "AWS Cost Anomaly Detection now includes AI-powered cost investigation, which uses Amazon Q to analyze the root cause of detected cost anomalies. Investigating a cost change typically requires correlating cost data with AWS CloudTrail events and resource activity, which can take hours. Cost investigation delivers a plain-language explanation in minutes, helping FinOps practitioners and engineering teams move from alert to action faster. When you investigate an anomaly, Amazon Q determines whether",
+    "published_at": "2026-06-08T16:41:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:products/aws-cost-explorer,marketing:marchitecture/cost-management"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "bb7a1c04875f1855",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-ai-agent-traces/",
+    "title": "Amazon Connect Customer now offers AI agent trace details for self-service voice interactions",
+    "summary": "Amazon Connect Customer now provides AI agent traces for self-service voice interactions, enabling you to understand how AI agents reason, act, and respond during each customer conversation. With this launch, you have full visibility into how the AI agent handled an interaction, so you can confirm what worked, diagnose issues, validate behavior, and deploy agentic experiences with confidence. For example, if your AI agent fails to resolve a customer request, you can access the step-by-step trace",
+    "published_at": "2026-06-08T16:17:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:products/amazon-connect,marketing:marchitecture/contact-center"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "14b77606d22eb751",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-redshift-incremental-manual-snapshots/",
+    "title": "Amazon Redshift reduces manual snapshot cost for Serverless and RG instances",
+    "summary": "Amazon Redshift announces a new billing model for manual snapshots on Amazon Redshift Serverless and Amazon Redshift RG instances. With this enhancement, Amazon Redshift now meters manual snapshot storage based on the unique data blocks stored across your snapshots rather than the total size of each individual snapshot. This results in lower manual snapshot costs for customers who maintain multiple snapshots. Customers who maintain multiple manual snapshots for disaster recovery, testing, or lon",
+    "published_at": "2026-06-08T15:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "general:use-case/backup-and-storage,marketing:benefits-realized/lower-cost,general:products/amazon-redshift,marketing:marchitecture/analytics,general:use-case/database-and-data-warehouse"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "4bc0105ebb3f15ee",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-sql-server-cost-assessment-aws-transform/",
+    "title": "Amazon RDS for SQL Server migration cost assessment capabilities now available in AWS Transform",
+    "summary": "Amazon RDS for SQL Server now offers TCO assessment in AWS Transform, so you can estimate costs when migrating on-premises SQL Server databases to RDS for SQL Server. Using AI-powered agents, AWS Transform analyzes your on-premises SQL Server environment and provides optimal database instance recommendations that meet your workload requirements and reduce cost. With AI-powered what-if analysis, you can evaluate different options, compare costs, and choose the best option for your migration. RDS ",
+    "published_at": "2026-06-08T07:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/databases,general:products/amazon-rds-for-sql-server"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "9a6283a2e9f609bd",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -83,6 +370,23 @@
     "fetched_at": "2026-06-06T08:29:12.659239+00:00",
     "tags": [
       "marketing:marchitecture/containers,general:products/amazon-ecs"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "26e727ff45060e50",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8in-asia-pacific-europe/",
+    "title": "Amazon EC2 C8in instances are now available in additional regions",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8in instances are available in the AWS Asia Pacific (Sydney, Singapore, Malaysia) and Europe (Frankfurt) regions. C8in instances are powered by custom, sixth generation Intel Xeon Scalable processors, available only on AWS. These instances feature the latest sixth generation AWS Nitro cards, delivering up to 43% higher performance compared to previous generation C6in instances. C8in instances deliver larger sizes and scale up to 384 vCPU",
+    "published_at": "2026-06-05T15:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
     "score": 0.0,
