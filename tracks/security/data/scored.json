@@ -18,14 +18,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 10.491,
+    "score": 10.457,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.457,
       "keyword": 5.0,
       "source": 2.0,
       "keyword_signal": 10.0,
       "severity": 0.0,
-      "total": 10.491
+      "total": 10.457
     }
   },
   {
@@ -40,14 +40,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -62,14 +62,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -84,14 +84,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -106,14 +106,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -128,14 +128,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -150,14 +150,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -172,14 +172,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -194,14 +194,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -216,14 +216,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -238,14 +238,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -260,14 +260,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -282,14 +282,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -304,14 +304,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -326,14 +326,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -348,14 +348,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 9.047,
+    "score": 8.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 9.047
+      "total": 8.939
     }
   },
   {
@@ -370,14 +370,14 @@
     "fetched_at": "2026-06-09T09:34:02.267667+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.915,
+    "score": 7.781,
     "score_breakdown": {
-      "freshness": 1.915,
+      "freshness": 1.781,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.915
+      "total": 7.781
     }
   },
   {
@@ -392,14 +392,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -414,14 +414,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -436,14 +436,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -458,14 +458,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -480,14 +480,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -502,14 +502,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -524,14 +524,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -546,14 +546,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -568,14 +568,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -590,14 +590,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -612,14 +612,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -634,14 +634,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -656,14 +656,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -678,14 +678,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -700,14 +700,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -722,14 +722,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -744,14 +744,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -766,14 +766,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -788,14 +788,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -810,14 +810,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -832,14 +832,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -854,14 +854,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -876,14 +876,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -898,14 +898,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -920,14 +920,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -942,14 +942,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -964,14 +964,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -986,14 +986,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1008,14 +1008,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1030,14 +1030,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1052,14 +1052,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1074,14 +1074,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1096,14 +1096,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1118,14 +1118,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1140,14 +1140,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1162,14 +1162,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1184,14 +1184,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1206,14 +1206,14 @@
     "fetched_at": "2026-06-06T08:29:15.277559+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.547,
+    "score": 7.439,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.547
+      "total": 7.439
     }
   },
   {
@@ -1236,14 +1236,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 6.9,
+    "score": 6.767,
     "score_breakdown": {
-      "freshness": 1.9,
+      "freshness": 1.767,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 6.9
+      "total": 6.767
     }
   },
   {
@@ -1263,14 +1263,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 5.752,
+    "score": 5.7,
     "score_breakdown": {
-      "freshness": 0.752,
+      "freshness": 0.7,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 5.752
+      "total": 5.7
     }
   },
   {
@@ -1293,14 +1293,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 5.301,
+    "score": 5.28,
     "score_breakdown": {
-      "freshness": 0.301,
+      "freshness": 0.28,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 5.301
+      "total": 5.28
     }
   },
   {
@@ -1323,14 +1323,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 3.248,
+    "score": 3.161,
     "score_breakdown": {
-      "freshness": 1.248,
+      "freshness": 1.161,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 3.248
+      "total": 3.161
     }
   },
   {
@@ -1345,14 +1345,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.047,
+    "score": 2.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 0.5,
       "source": 3.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.047
+      "total": 2.939
     }
   },
   {
@@ -1367,14 +1367,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.047,
+    "score": 2.939,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.439,
       "keyword": 0.5,
       "source": 3.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.047
+      "total": 2.939
     }
   },
   {
@@ -1394,14 +1394,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.927,
+    "score": 2.792,
     "score_breakdown": {
-      "freshness": 1.927,
+      "freshness": 1.792,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.927
+      "total": 2.792
     }
   },
   {
@@ -1422,14 +1422,14 @@
       "Threat Detection & Incident Response"
     ],
     "severity": null,
-    "score": 2.757,
+    "score": 2.704,
     "score_breakdown": {
-      "freshness": 0.757,
+      "freshness": 0.704,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.757
+      "total": 2.704
     }
   },
   {
@@ -1453,14 +1453,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.537,
+    "score": 2.43,
     "score_breakdown": {
-      "freshness": 1.537,
+      "freshness": 1.43,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.537
+      "total": 2.43
     }
   },
   {
@@ -1480,14 +1480,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.462,
+    "score": 2.43,
     "score_breakdown": {
-      "freshness": 0.462,
+      "freshness": 0.43,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.462
+      "total": 2.43
     }
   },
   {
@@ -1508,14 +1508,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.455,
+    "score": 2.424,
     "score_breakdown": {
-      "freshness": 0.455,
+      "freshness": 0.424,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.455
+      "total": 2.424
     }
   },
   {
@@ -1535,14 +1535,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.451,
+    "score": 2.35,
     "score_breakdown": {
-      "freshness": 1.451,
+      "freshness": 1.35,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.451
+      "total": 2.35
     }
   },
   {
@@ -1564,41 +1564,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.441,
+    "score": 2.34,
     "score_breakdown": {
-      "freshness": 1.441,
+      "freshness": 1.34,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.441
-    }
-  },
-  {
-    "id": "da07e9806c53791f",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
-    "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
-    "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]",
-    "published_at": "2026-06-02T16:00:11+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [
-      "Amazon Bedrock AgentCore",
-      "Expert (400)",
-      "Security, Identity, & Compliance",
-      "Security Blog"
-    ],
-    "severity": null,
-    "score": 2.237,
-    "score_breakdown": {
-      "freshness": 1.237,
-      "keyword": 0.5,
-      "source": 2.0,
-      "keyword_signal": 1.0,
-      "severity": 0.0,
-      "total": 2.237
+      "total": 2.34
     }
   },
   {
@@ -1618,14 +1591,41 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.195,
+    "score": 2.181,
     "score_breakdown": {
-      "freshness": 0.195,
+      "freshness": 0.181,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.195
+      "total": 2.181
+    }
+  },
+  {
+    "id": "da07e9806c53791f",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/secure-multi-tenant-ai-agents-with-amazon-bedrock-agentcore-resource-based-policies/",
+    "title": "Secure multi-tenant AI agents with Amazon Bedrock AgentCore resource-based policies",
+    "summary": "Software as a service (SaaS) providers building AI-powered applications on Amazon Bedrock AgentCore often need to serve multiple tenants with distinct security requirements from a shared infrastructure. Some tenants require cross-account access from their own Amazon Web Services (AWS) accounts, while others mandate that traffic stay within a private virtual private cloud (VPC) for regulatory […]",
+    "published_at": "2026-06-02T16:00:11+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Amazon Bedrock AgentCore",
+      "Expert (400)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 2.15,
+    "score_breakdown": {
+      "freshness": 1.15,
+      "keyword": 0.5,
+      "source": 2.0,
+      "keyword_signal": 1.0,
+      "severity": 0.0,
+      "total": 2.15
     }
   },
   {
@@ -1647,14 +1647,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.102,
+    "score": 2.095,
     "score_breakdown": {
-      "freshness": 0.102,
+      "freshness": 0.095,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.102
+      "total": 2.095
     }
   },
   {
@@ -1675,14 +1675,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.883,
+    "score": 1.821,
     "score_breakdown": {
-      "freshness": 0.883,
+      "freshness": 0.821,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.883
+      "total": 1.821
     }
   },
   {
@@ -1703,80 +1703,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.873,
+    "score": 1.812,
     "score_breakdown": {
-      "freshness": 0.873,
+      "freshness": 0.812,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.873
-    }
-  },
-  {
-    "id": "2b47d6d1ef1cba99",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
-    "title": "Ongoing updates on Copy.fail and variants",
-    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
-    "published_at": "2026-06-05T19:19:25+00:00",
-    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.547,
-    "score_breakdown": {
-      "freshness": 1.547,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.547
-    }
-  },
-  {
-    "id": "51bec48b6b1d0ead",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/",
-    "title": "Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE plugins",
-    "summary": "Bulletin ID: AWS-2025-019 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: We are aware of blog posts by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues in Amazon Q Developer and Kiro. Amazon Q Developer: Remote Code Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection. These issues require an open chat session and intentional access to a malicious fi",
-    "published_at": "2026-06-05T19:19:25+00:00",
-    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.547,
-    "score_breakdown": {
-      "freshness": 1.547,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.547
-    }
-  },
-  {
-    "id": "3588e88444510475",
-    "track": "security",
-    "source": "rss:aws-security-bulletins",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-021/",
-    "title": "IMDS impersonation",
-    "summary": "Bulletin ID: AWS-2025-021 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: AWS is aware of a potential Instance Metadata Service (IMDS) impersonation issue that would lead to customers interacting with unexpected AWS accounts. IMDS, when running on an EC2 instance, runs on a loopback network interface and vends Instance Metadata Credentials, which customers use to interact with AWS Services. These network calls never leave the EC2 ins",
-    "published_at": "2026-06-05T19:19:25+00:00",
-    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.547,
-    "score_breakdown": {
-      "freshness": 1.547,
-      "keyword": 0.0,
-      "source": 3.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.547
+      "total": 1.812
     }
   },
   {
@@ -1797,14 +1731,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.531,
+    "score": 1.494,
     "score_breakdown": {
-      "freshness": 0.531,
+      "freshness": 0.494,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.531
+      "total": 1.494
     }
   },
   {
@@ -1831,14 +1765,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.525,
+    "score": 1.488,
     "score_breakdown": {
-      "freshness": 0.525,
+      "freshness": 0.488,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.525
+      "total": 1.488
     }
   },
   {
@@ -1866,14 +1800,80 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.496,
+    "score": 1.461,
     "score_breakdown": {
-      "freshness": 0.496,
+      "freshness": 0.461,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.496
+      "total": 1.461
+    }
+  },
+  {
+    "id": "2b47d6d1ef1cba99",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-030-aws/",
+    "title": "Ongoing updates on Copy.fail and variants",
+    "summary": "Bulletin ID: 2026-030-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 05/13/2026 10:00 PM PDT This is an ongoing issue. This bulletin will be updated as more information becomes available. Description: AWS is aware of the copy.fail or DirtyFrag class of issues - a set of privilege escalation issues affecting the Linux Kernel. We will update this bulletin as more information becomes available. Please see below for current patching timelines for affected services rela",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:05.280140+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.439,
+    "score_breakdown": {
+      "freshness": 1.439,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.439
+    }
+  },
+  {
+    "id": "51bec48b6b1d0ead",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-019/",
+    "title": "Amazon Q Developer and Kiro – Prompt Injection Issues in Kiro and Q IDE plugins",
+    "summary": "Bulletin ID: AWS-2025-019 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: We are aware of blog posts by Embrace The Red (“The Month of AI Bugs”) describing prompt injection issues in Amazon Q Developer and Kiro. Amazon Q Developer: Remote Code Execution with Prompt Injection” and “Amazon Q Developer for VS Code Vulnerable to Invisible Prompt Injection. These issues require an open chat session and intentional access to a malicious fi",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.439,
+    "score_breakdown": {
+      "freshness": 1.439,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.439
+    }
+  },
+  {
+    "id": "3588e88444510475",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/aws-2025-021/",
+    "title": "IMDS impersonation",
+    "summary": "Bulletin ID: AWS-2025-021 Scope: AWS Content Type: Important (requires attention) Publication Date: 2025/10/07 01:30 PM PDT Description: AWS is aware of a potential Instance Metadata Service (IMDS) impersonation issue that would lead to customers interacting with unexpected AWS accounts. IMDS, when running on an EC2 instance, runs on a loopback network interface and vends Instance Metadata Credentials, which customers use to interact with AWS Services. These network calls never leave the EC2 ins",
+    "published_at": "2026-06-05T19:19:25+00:00",
+    "fetched_at": "2026-05-17T11:52:43.993594+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.439,
+    "score_breakdown": {
+      "freshness": 1.439,
+      "keyword": 0.0,
+      "source": 3.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.439
     }
   },
   {
@@ -1895,14 +1895,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.426,
+    "score": 1.326,
     "score_breakdown": {
-      "freshness": 1.426,
+      "freshness": 1.326,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.426
+      "total": 1.326
     }
   },
   {
@@ -1923,14 +1923,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.344,
+    "score": 1.32,
     "score_breakdown": {
-      "freshness": 0.344,
+      "freshness": 0.32,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.344
+      "total": 1.32
     }
   },
   {
@@ -1953,14 +1953,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.297,
+    "score": 1.276,
     "score_breakdown": {
-      "freshness": 0.297,
+      "freshness": 0.276,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.297
+      "total": 1.276
     }
   },
   {
@@ -1984,14 +1984,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.281,
+    "score": 1.261,
     "score_breakdown": {
-      "freshness": 0.281,
+      "freshness": 0.261,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.281
+      "total": 1.261
     }
   },
   {
@@ -2016,14 +2016,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.258,
+    "score": 1.24,
     "score_breakdown": {
-      "freshness": 0.258,
+      "freshness": 0.24,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.258
+      "total": 1.24
     }
   },
   {
@@ -2044,14 +2044,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.169,
+    "score": 1.157,
     "score_breakdown": {
-      "freshness": 0.169,
+      "freshness": 0.157,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.169
+      "total": 1.157
     }
   },
   {
@@ -2075,43 +2075,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.167,
+    "score": 1.155,
     "score_breakdown": {
-      "freshness": 0.167,
+      "freshness": 0.155,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.167
-    }
-  },
-  {
-    "id": "ea0211b6c4e6dcc8",
-    "track": "security",
-    "source": "rss:aws-security-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-2-and-3-reports-are-now-available-with-188-services-in-scope/",
-    "title": "Spring 2026 SOC 1, 2, and 3 reports are now available with 188 services in scope",
-    "summary": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a full year of assurance. These reports demonstrate our continuous commitment to adhering […]",
-    "published_at": "2026-06-01T16:07:48+00:00",
-    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
-    "tags": [
-      "Announcements",
-      "Compliance",
-      "Foundational (100)",
-      "Security, Identity, & Compliance",
-      "Security Blog",
-      "SOC"
-    ],
-    "severity": null,
-    "score": 1.152,
-    "score_breakdown": {
-      "freshness": 1.152,
-      "keyword": 0.0,
-      "source": 2.0,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.152
+      "total": 1.155
     }
   },
   {
@@ -2144,14 +2115,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.128,
+    "score": 1.119,
     "score_breakdown": {
-      "freshness": 0.128,
+      "freshness": 0.119,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.128
+      "total": 1.119
     }
   },
   {
@@ -2172,14 +2143,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 1.127,
+    "score": 1.118,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.118,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.127
+      "total": 1.118
     }
   },
   {
@@ -2201,14 +2172,43 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.102,
+    "score": 1.095,
     "score_breakdown": {
-      "freshness": 0.102,
+      "freshness": 0.095,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.102
+      "total": 1.095
+    }
+  },
+  {
+    "id": "ea0211b6c4e6dcc8",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-2-and-3-reports-are-now-available-with-188-services-in-scope/",
+    "title": "Spring 2026 SOC 1, 2, and 3 reports are now available with 188 services in scope",
+    "summary": "Amazon Web Services (AWS) is pleased to announce that the Spring 2026 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 188 services over the 12-month period from April 1, 2025–March 31, 2026, giving customers a full year of assurance. These reports demonstrate our continuous commitment to adhering […]",
+    "published_at": "2026-06-01T16:07:48+00:00",
+    "fetched_at": "2026-06-04T09:50:23.525103+00:00",
+    "tags": [
+      "Announcements",
+      "Compliance",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog",
+      "SOC"
+    ],
+    "severity": null,
+    "score": 1.071,
+    "score_breakdown": {
+      "freshness": 1.071,
+      "keyword": 0.0,
+      "source": 2.0,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.071
     }
   },
   {
@@ -2232,14 +2232,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.323,
+    "score": 0.3,
     "score_breakdown": {
-      "freshness": 0.323,
+      "freshness": 0.3,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.323
+      "total": 0.3
     }
   },
   {
@@ -2266,14 +2266,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 0.319,
+    "score": 0.296,
     "score_breakdown": {
-      "freshness": 0.319,
+      "freshness": 0.296,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.319
+      "total": 0.296
     }
   },
   {
@@ -2297,14 +2297,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.299,
+    "score": 0.278,
     "score_breakdown": {
-      "freshness": 0.299,
+      "freshness": 0.278,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.299
+      "total": 0.278
     }
   },
   {
@@ -2336,14 +2336,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.275,
+    "score": 0.256,
     "score_breakdown": {
-      "freshness": 0.275,
+      "freshness": 0.256,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.275
+      "total": 0.256
     }
   },
   {
@@ -2364,14 +2364,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.193,
+    "score": 0.18,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.18,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.193
+      "total": 0.18
     }
   },
   {
@@ -2395,14 +2395,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.182,
+    "score": 0.169,
     "score_breakdown": {
-      "freshness": 0.182,
+      "freshness": 0.169,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.182
+      "total": 0.169
     }
   },
   {
@@ -2423,14 +2423,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.157,
+    "score": 0.146,
     "score_breakdown": {
-      "freshness": 0.157,
+      "freshness": 0.146,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.157
+      "total": 0.146
     }
   },
   {
@@ -2451,14 +2451,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.11,
+    "score": 0.102,
     "score_breakdown": {
-      "freshness": 0.11,
+      "freshness": 0.102,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.11
+      "total": 0.102
     }
   }
 ]
