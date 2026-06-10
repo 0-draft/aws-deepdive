@@ -1,5 +1,166 @@
 [
   {
+    "id": "cc0cceeb6fc1599e",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
+    "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+    "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for interactive analytics and data engineering workloads. In addition to Amazon Athena Spark, users can now leverage Amazon EMR Serverless as their Spark runtime, selecting the optimal engine based on their requirements. With this launch, you can run PySpark and Spark SQL on an EMR Serverless Spark Application i",
+    "published_at": "2026-06-09T18:46:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "9f567ab5f2391a83",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+    "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
+    "summary": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use.",
+    "published_at": "2026-06-09T17:40:31+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Machine Learning",
+      "Artificial Intelligence",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "98e985f6150490f5",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-s3-access-grants-european-sovereign-cloud-germany-region",
+    "title": "Amazon S3 Access Grants are now available in the AWS European Sovereign Cloud (Germany) Region",
+    "summary": "You can now create Amazon S3 Access Grants in the AWS European Sovereign Cloud (Germany) Region. Amazon S3 Access Grants map identities in directories such as Microsoft Entra ID, or AWS Identity and Access Management (IAM) principals, to datasets in S3. This helps you manage data permissions at scale by automatically granting S3 access to end users based on their corporate identity. Visit the AWS Region Table for complete regional availability information. To learn more about Amazon S3 Access Gr",
+    "published_at": "2026-06-09T17:14:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "general:products/amazon-s3,marketing:marchitecture/storage"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "ad99c4371356e26d",
+    "track": "whats-new",
+    "source": "rss:aws-containers-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/containers/better-together-amazon-eks-auto-mode-and-istio-ambient-mesh/",
+    "title": "Better Together: Amazon EKS Auto Mode and Istio Ambient Mesh",
+    "summary": "In this post, you will learn how Amazon EKS Auto Mode and Istio Ambient Mesh work together to automate infrastructure management while providing automatic mTLS-based service-to-service security, helping reduce operational overhead and designed to help strengthen your security posture.",
+    "published_at": "2026-06-09T16:52:39+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "Amazon Elastic Kubernetes Service",
+      "Technical How-to"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e558aa0a638e91da",
+    "track": "whats-new",
+    "source": "rss:aws-architecture-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/architecture/automate-medical-record-digitization-with-amazon-bedrock-data-automation-and-aws-healthlake/",
+    "title": "Automate medical record digitization with Amazon Bedrock Data Automation and AWS HealthLake",
+    "summary": "In this post, you learn how to build an automated, serverless pipeline that converts scanned PDF medical records into FHIR R4-compliant data using Amazon Bedrock Data Automation and AWS HealthLake. We walk through the architecture, explain how each AWS service connects to the next, show you what the pipeline looks like when it runs, and get you deployed in under 20 minutes.",
+    "published_at": "2026-06-09T16:51:55+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "AWS HealthLake",
+      "Intermediate (200)",
+      "Technical How-to"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e125b77dc6f9821e",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+    "title": "AWS FinOps Agent is now available in preview",
+    "summary": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically investigates cost anomalies, and runs recurring FinOps workflows on a schedule you define. With the AWS FinOps Agent, you can ask questions about your AWS costs and generate cloud cost reports for finance and engineering teams. The agent surfaces rightsizing, idle resource, and Savings Plans recommend",
+    "published_at": "2026-06-09T15:28:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "marketing:marchitecture/cost-management,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "0459eeaf507c6314",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
+    "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
+    "summary": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is state-of-the-art on nearly all tested benchmarks and delivers a step-change in autonomous knowledge work and coding for developers and enterprises building production AI applications. Claude Mythos 5, the same model without those safety classifiers, is available to a small group of customers who currently have acc",
+    "published_at": "2026-06-09T14:15:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "general:products/amazon-bedrock,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "6f0e64510239d74e",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-backup-amazon-eks-aws-european-sovereign-cloud/",
+    "title": "AWS Backup support for Amazon EKS is now available in the AWS European Sovereign Cloud (Germany) Region",
+    "summary": "AWS Backup support for Amazon Elastic Kubernetes Service (EKS) is now available in the AWS European Sovereign Cloud (Germany) Region. This expansion brings fully-managed, policy-based data protection and recovery to your Amazon EKS clusters in this newly supported Region — including automated scheduling, retention management, immutable vaults, and cross-Region and cross-account copies. You can use AWS Backup for Amazon EKS to protect entire EKS clusters, specific namespaces, or individual persis",
+    "published_at": "2026-06-09T10:00:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "general:products/aws-backup,marketing:marchitecture/storage"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "472b3f405a02517f",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-emr-serverless-spark-connect",
+    "title": "Run Interactive Workloads on Amazon EMR Serverless with Spark Connect",
+    "summary": "Amazon EMR Serverless now supports interactive sessions with Spark Connect, enabling you to develop and run Apache Spark applications from managed notebooks in Amazon SageMaker Unified Studio, as well as your favorite notebook environments and IDEs such as Jupyter and Visual Studio Code. You can also monitor and debug active and completed sessions in the EMR console, and get granular cost and usage visibility for individual sessions. An interactive session provides a persistent Spark context tha",
+    "published_at": "2026-06-09T07:00:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/amazon-emr"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "1cab8fd48e78311c",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -402,6 +563,23 @@
     "summary": "Today, AWS announced cross-account and cross-role access for the AWS Model Context Protocol (MCP) Server, part of the Agent Toolkit for AWS . This feature allows developers using AI coding agents like Kiro, Claude Code, or Codex to work across multiple AWS accounts and AWS Identity and Access Management (IAM) roles within a single session, with no restarts required. Previously, switching profiles required stopping the AI coding session, updating local AWS credentials, and restarting the MCP serv",
     "published_at": "2026-06-05T07:00:00+00:00",
     "fetched_at": "2026-06-06T08:29:12.659239+00:00",
+    "tags": [
+      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "6ece7f767e42b9e5",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cli-agent-toolkit/",
+    "title": "The AWS Command Line Interface (CLI) now supports the Agent Toolkit for AWS",
+    "summary": "Today, AWS announced that the AWS Command Line Interface (CLI) allows users to install the Agent Toolkit for AWS across multiple coding agents with a simple interactive wizard. The Agent Toolkit for AWS gives coding agents the tools, guidance, and guardrails they need to operate safely, effectively, and efficiently on AWS. Starting today, customers can simply type `aws configure agent-toolkit` to install the Agent Toolkit across Kiro, Claude Code, Codex, Cursor, and other popular coding agents. ",
+    "published_at": "2026-06-05T07:00:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
     "tags": [
       "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
     ],
@@ -837,6 +1015,23 @@
     "score_breakdown": {}
   },
   {
+    "id": "6eca913f3f1b3df6",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-connect-customer/",
+    "title": "Amazon Connect Customer launches real-time dashboard alerts from conversational analytics",
+    "summary": "Amazon Connect Customer now enables contact center supervisors to receive real-time alerts directly on the dashboard when specific keywords, phrases, or sentiment patterns are detected during live calls and chats, enabling faster intervention and improved customer outcomes. For example, when a customer says \"cancel my account\" during a call, a supervisor receives an alert on the real-time dashboard, listens to the live conversation while viewing the real-time transcript and sentiment analysis, a",
+    "published_at": "2026-06-03T03:11:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "general:products/amazon-connect,general:products/aws-govcloud-us,marketing:marchitecture/business-productivity,marketing:marchitecture/contact-center"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "1e7052e80b9ed22b",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -1065,7 +1260,7 @@
     "source_kind": "rss",
     "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
     "title": "Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock",
-    "summary": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are now generally available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security, governance, and pay-per-token pricing.",
+    "summary": "OpenAI frontier models GPT-5.5 and GPT-5.4, and Codex, the OpenAI coding agent, are available on Amazon Bedrock. Deploy frontier models on Bedrock's high performance inference engine with built-in security, governance, and pay-per-token pricing.",
     "published_at": "2026-06-01T21:33:28+00:00",
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [
