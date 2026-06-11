@@ -1,5 +1,35 @@
 [
   {
+    "id": "e38c84e2360c006f",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-042-aws/",
+    "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic",
+    "summary": "Bulletin ID: 2026-042-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/10/2026 11:15 AM PDT Description: s2n-quic is a Rust implementation of the QUIC protocol. We identified CVE-2026-10740, an issue of unbounded memory allocation in the CRYPTO frame reassembler in s2n-quic before 1.82.0. An unauthenticated user can attempt to exhaust server memory on an s2n-quic endpoint by sending crafted CRYPTO frames with high offsets. The buffer used for processing CRYPTO fra",
+    "published_at": "2026-06-10T18:15:57+00:00",
+    "fetched_at": "2026-06-11T10:16:05.035449+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "4bba1e34ab9c6490",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-041-aws/",
+    "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic",
+    "summary": "Bulletin ID: 2026-041-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/10/2026 10:45 AM PDT Description: AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified CVE-2026-11417, an OS command injection issue in the NodejsFunction local bundling pipeline in aws-cdk-lib before 2.245.0 (2.246.0 on Windows) that may allow an actor who controls the value of one or more bund",
+    "published_at": "2026-06-10T17:51:59+00:00",
+    "fetched_at": "2026-06-11T10:16:05.035449+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "5156094aa0282f37",
     "track": "security",
     "source": "rss:aws-security-blog",
