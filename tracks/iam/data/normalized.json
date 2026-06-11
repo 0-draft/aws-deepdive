@@ -1,5 +1,152 @@
 [
   {
+    "id": "fe1a30ddd453d918",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/openai-gpt-us-east-virginia-amazon/",
+    "title": "OpenAI GPT-5.4 and GPT-5.5 models now available in US East (N. Virginia) on Amazon Bedrock",
+    "summary": "Today, AWS announces the expanded availability of OpenAI's GPT-5.4 and GPT-5.5 models, which are now available in the US East (N. Virginia) Region on Amazon Bedrock. With GPT-5.4 and GPT-5.5, you can build generative AI applications across reasoning, coding, computer use, document workflows, and long-running agentic tasks. GPT-5.5 is OpenAI's most capable model, designed for advanced coding, research, analysis, software operation, document workflows, and long-running agentic tasks. It can unders",
+    "published_at": "2026-06-11T00:12:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "aab766b1c988f319",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/opensearch-agentic-observability-mcp-app",
+    "title": "Amazon OpenSearch Service launches MCP Apps for agentic observability",
+    "summary": "Amazon OpenSearch Service now supports MCP Apps, bringing observability workflows directly into compatible agentic IDEs such as Claude Desktop and VS Code. With this capability, your AI agent in local environment can investigate incidents using logs, traces, metrics, and alerts stored in OpenSearch domains, collections and Amazon Managed Service for Prometheus. You can easily review and verify the results in interactive MCP App visualizations without leaving your local environment. Each MCP App ",
+    "published_at": "2026-06-10T22:58:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-opensearch-service"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "087b3af89f6e3efb",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ecs-managed-daemons-pid-ipc-modes/",
+    "title": "Amazon ECS Managed Daemons now support inter-task visibility and communication",
+    "summary": "Amazon ECS Managed Daemons now support inter-task visibility and communication, enabling customers to deploy tracing, profiling, and security agents that require access to application processes and shared IPC resources on ECS Managed Instances . With this launch, you can configure two new settings in ECS daemon definitions: pidMode controls whether the daemon can see all processes on the instance, and ipcMode controls whether the daemon shares an IPC namespace with other containers on the instan",
+    "published_at": "2026-06-10T20:00:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "marketing:marchitecture/containers,general:products/amazon-ecs"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e38c84e2360c006f",
+    "track": "iam",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-042-aws/",
+    "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic",
+    "summary": "Bulletin ID: 2026-042-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/10/2026 11:15 AM PDT Description: s2n-quic is a Rust implementation of the QUIC protocol. We identified CVE-2026-10740, an issue of unbounded memory allocation in the CRYPTO frame reassembler in s2n-quic before 1.82.0. An unauthenticated user can attempt to exhaust server memory on an s2n-quic endpoint by sending crafted CRYPTO frames with high offsets. The buffer used for processing CRYPTO fra",
+    "published_at": "2026-06-10T18:15:57+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "4bba1e34ab9c6490",
+    "track": "iam",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-041-aws/",
+    "title": "CVE-2026-10740 - Excessive memory allocation in s2n-quic",
+    "summary": "Bulletin ID: 2026-041-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/10/2026 10:45 AM PDT Description: AWS CDK (aws-cdk-lib) is an open-source framework for defining cloud infrastructure in code and provisioning it through AWS CloudFormation. We identified CVE-2026-11417, an OS command injection issue in the NodejsFunction local bundling pipeline in aws-cdk-lib before 2.245.0 (2.246.0 on Windows) that may allow an actor who controls the value of one or more bund",
+    "published_at": "2026-06-10T17:51:59+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "5e43752d102b0a07",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-m9g-m9gd-instances-graviton5-processors-available",
+    "title": "Amazon EC2 M9g and M9gd general purpose instances are now available",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) M9g and M9gd instances , powered by AWS Graviton5 processors, are generally available. AWS Graviton5 processors are the fifth generation of custom-designed AWS processors, delivering the best price performance for general purpose workloads running on Amazon EC2 . ​​M9g instances serve a broad range of general-purpose workloads including application servers, microservices, gaming, caching, and containers, while also delivering the performa",
+    "published_at": "2026-06-10T15:00:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "general:products/amazon-ec2,marketing:marchitecture/compute"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3af073161c9869ff",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-p6-b200-aws-govcloud/",
+    "title": "Amazon EC2 P6-B200 instances are now available in the AWS GovCloud (US-East) Region",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) P6-B200 instances accelerated by NVIDIA Blackwell GPUs are available in AWS GovCloud (US-East) Region. These instances offer up to 2x performance compared to P5en instances for AI training and inference. P6-B200 instances feature 8 Blackwell GPUs with 1440 GB of high-bandwidth GPU memory and a 60% increase in GPU memory bandwidth compared to P5en, 5th Generation Intel Xeon processors (Emerald Rapids), and up to 3.2 terabits per second of ",
+    "published_at": "2026-06-10T14:32:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "general:products/aws-govcloud-us,marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "91275e7b59a6db76",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-usage-report/",
+    "title": "AWS Cost and Usage Report 2.0 now supports table configurations update",
+    "summary": "AWS today announces that AWS Cost and Usage Report 2.0 (CUR 2.0) now supports updates to data table configurations via the AWS Management Console and SDK/CLI. This capability allows customers to modify their existing exports to take advantage of new CUR 2.0 features without having to delete and recreate their exports. Previously, customers configured CUR 2.0 exports with specific table settings — including export content, time granularity, column selection, export format, and destination setting",
+    "published_at": "2026-06-10T13:33:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "marketing:marchitecture/cost-management,general:products/aws-account-billing"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "208de4462399e630",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+    "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+    "summary": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx Intelligent-Tiering is built for general-purpose file workloads such as file shares, archives, media libraries, and migrations from on-premises HDD storage. It automatically moves your data across three storage tiers (Frequent Access, Infrequent Access, and Archive) based on access patterns, and an optional SSD r",
+    "published_at": "2026-06-09T20:52:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "general:products/amazon-fsx-for-openzfs,marketing:marchitecture/storage"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "cc0cceeb6fc1599e",
     "track": "iam",
     "source": "rss:aws-whats-new",
@@ -45,6 +192,23 @@
     "fetched_at": "2026-06-10T09:50:37.109737+00:00",
     "tags": [
       "marketing:marchitecture/cost-management,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "083cca143e84be73",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-metal-sizes-network-EBS/",
+    "title": "Announcing metal-48xl and metal-96xl for Amazon EC2 network/EBS instances",
+    "summary": "AWS is announcing the general availability of metal-48xl and metal-96xl sizes for Amazon Elastic Compute Cloud (Amazon EC2) M8in, M8ib, M8idn, M8idb, R8in, R8ib, R8idn, and R8idb instances. These instances are powered by custom sixth generation Intel Xeon Scalable processors, available only on AWS and feature the latest sixth generation AWS Nitro cards. These instances deliver up to 43% better compute performance per vCPU compared to previous generation M6in, M6idn, R6in, and R6idn instances. M8",
+    "published_at": "2026-06-09T15:00:00+00:00",
+    "fetched_at": "2026-06-11T10:16:01.776305+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
     "score": 0.0,
