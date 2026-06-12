@@ -1,5 +1,178 @@
 [
   {
+    "id": "9acf584e180735fc",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/aws-nitro-isolation-engine-formally-verifying-the-hypervisor-in-the-aws-nitro-system/",
+    "title": "AWS Nitro Isolation Engine: Formally verifying the hypervisor in the AWS Nitro System",
+    "summary": "Ali Saidi is a VP and Distinguished Engineer at AWS Millions of customers use the AWS Nitro System to protect their most sensitive workloads, and AWS is an industry leader in innovation to secure customer data. Helping our customers keep their data secure and confidential is our highest priority, and we continue to make investments […]",
+    "published_at": "2026-06-11T21:42:48+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "Amazon EC2",
+      "AWS Nitro System"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "47979e3433294ccc",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-application-signals-supports infrastructure-logs-traces-context-for-faster troubleshooting/",
+    "title": "Amazon CloudWatch Application Signals now supports infrastructure, logs, and traces context for faster troubleshooting",
+    "summary": "Amazon CloudWatch Application Signals introduces service health ranking on the application map and new infrastructure, logs, and traces tabs on the service overview page. These capabilities let operators triage unhealthy services and inspect the underlying compute environment, log snippets, and trace details in one place, making it easier to find root causes without switching tools. Customers use Application Signals to monitor the health of distributed applications, but identifying why a service",
+    "published_at": "2026-06-11T20:10:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "6fcf3f8b489204e0",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-aurora-postgresql-major-version-18/",
+    "title": "Amazon Aurora now supports PostgreSQL major version 18",
+    "summary": "Amazon Aurora PostgreSQL-Compatible Edition now supports PostgreSQL major version 18, starting with version 18.3. This release brings community improvements to query performance and database management, and introduces support for pg_roaringbitmap, a new extension that performs fast, memory-efficient set operations on large collections of integers. This enables use cases such as audience segmentation, tag-based filtering, and permission checks directly in the database without application-layer pr",
+    "published_at": "2026-06-11T18:59:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "general:products/aws-govcloud-us,marketing:marchitecture/databases,general:products/amazon-aurora"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "b1b4a5aa413f76f5",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/elastic-beanstalk-cloudwatch-logs/",
+    "title": "AWS Elastic Beanstalk console now integrates CloudWatch Logs in the Logs tab",
+    "summary": "AWS Elastic Beanstalk now provides a CloudWatch Logs integration directly in the environment Logs tab of the Elastic Beanstalk console. Previously, customers had to navigate to the CloudWatch console to find the relevant log groups and log streams for their environments. With this launch, customers can view CloudWatch log events without leaving the Elastic Beanstalk console. The Logs tab displays log groups that an environment streams logs to, as well as log groups matching the aws/elasticbeanst",
+    "published_at": "2026-06-11T17:00:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "marketing:marchitecture/management-tools,general:products/aws-elastic-beanstalk"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "ec330b622c7d3a0b",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-mwaa-serverless-eventbridge/",
+    "title": "Amazon MWAA Serverless now supports Amazon EventBridge notifications",
+    "summary": "Amazon Managed Workflows for Apache Airflow (MWAA) Serverless now supports workflow and task state change events to Amazon EventBridge , enabling data engineering and platform teams to build event-driven automation for their Apache Airflow workflows. Previously, monitoring workflow execution required custom polling logic or manual observation. With this launch, MWAA Serverless can emit events when workflows transition between states, including started, running, succeeded, or failed, and when ind",
+    "published_at": "2026-06-11T17:00:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "marketing:marchitecture/serverless,general:products/amazon-mwaa,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3f1fd7a11d3e9bf9",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/build-rag-powered-ai-solutions-at-the-edge-with-aws-local-zones-and-outposts/",
+    "title": "Build RAG-powered AI solutions at the edge with AWS Local Zones and Outposts",
+    "summary": "Organizations in regulated industries or with strict information security requirements are increasingly looking to use generative AI. However, they often face a dilemma: how to utilize powerful models while keeping data strictly on-premises or within specific geographic boundaries. The solution lies in deploying self-managed Small Language Models (SLMs) on premises with AWS Outposts or in […]",
+    "published_at": "2026-06-11T16:59:02+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "AWS Local Zones",
+      "AWS Outposts"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "592ac9e3e6c73621",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/optimize-ec2-costs-with-aws-compute-optimizer-right-sizing/",
+    "title": "Optimize EC2 costs with AWS Compute Optimizer right sizing",
+    "summary": "One of the most impactful ways to improve the ROI on your Amazon Elastic Compute Cloud (Amazon EC2) investment is rightsizing — when you match your instance types and sizes to the actual resource demands of your workloads. However, doing this manually across hundreds or thousands of instances is time-consuming and error-prone. AWS Compute Optimizer […]",
+    "published_at": "2026-06-11T15:46:22+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "Amazon EC2",
+      "AWS Compute Optimizer"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e3536e2f1a65b568",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
+    "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
+    "summary": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms. DevOps engineers, site reliability engineers, and platform teams monitoring latency, request durations, and other distributions can now get more accurate percentile calculations without pre-defining bucket boundaries or managing high-cardinality ",
+    "published_at": "2026-06-11T13:00:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "a70bf19ed11a8bd2",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-outoforder-ingestion/",
+    "title": "Amazon Managed Service for Prometheus now supports out of order sample ingestion",
+    "summary": "Amazon Managed Service for Prometheus now supports out-of-order sample ingestion and a workspace-level rule query offset. All workspaces have a default out-of-order time window of 1 minute, allowing the workspace to accept metric samples arriving outside strict chronological order. You can adjust this window to match your ingestion patterns or set it to 0 to disable the feature and discard out-of-order samples. You can also configure a global rule query offset that introduces a delay before rule",
+    "published_at": "2026-06-11T13:00:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "dae704b571f268f6",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-workload-credentials-provider/",
+    "title": "AWS announces AWS Workload Credentials Provider",
+    "summary": "AWS announces AWS Workload Credentials Provider, a lightweight client-side provider that automates deployment of exported certificates from AWS Certificate Manager (ACM) and local caching of secrets from AWS Secrets Manager across AWS and non-AWS workloads. Previously, customers exporting public or private certificates from ACM had to build custom automation using Amazon EventBridge to detect renewals and deploy the updated certificates. With public certificate lifetimes decreasing per the the C",
+    "published_at": "2026-06-11T07:00:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "marketing:marchitecture/security-identity-and-compliance,marketing:marchitecture/compute"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "fe1a30ddd453d918",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -43,6 +216,38 @@
     "fetched_at": "2026-06-11T10:15:58.644486+00:00",
     "tags": [
       "marketing:marchitecture/containers,general:products/amazon-ecs"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "9fe27764fe8a3bf6",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/gemma-4-amazon-bedrock/",
+    "title": "Gemma 4 models now available on Amazon Bedrock",
+    "summary": "Today, AWS announces the availability of the Gemma 4 family of open-weight models from Google DeepMind on Amazon Bedrock . With Gemma 4, you can build generative AI applications across reasoning, multimodal understanding, agentic, and software engineering workflows. The Gemma 4 family on Amazon Bedrock includes three variants—Gemma 4 31B, Gemma 4 26B-A4B, and Gemma 4 E2B—spanning dense and mixture-of-experts (MoE) architectures with built-in reasoning, native function calling, support for 35+ la",
+    "published_at": "2026-06-10T19:17:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "a157b7ab10771aa2",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-flow-logs-metadata",
+    "title": "Amazon Virtual Private Cloud (VPC) Flow Logs introduces additional metadata",
+    "summary": "Amazon Virtual Private Cloud (VPC) Flow Logs now supports EC2 resource tags and next-hop interface metadata, simplifying network monitoring and troubleshooting by eliminating the need to manually correlate flow log data with resource metadata. VPC Flow Logs enable you to capture and log information about your VPC network traffic to monitor and troubleshoot network traffic issues. With EC2 resource tag support, you can embed tag values from your network interfaces, EC2 instances, and auto scaling",
+    "published_at": "2026-06-10T16:58:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "general:products/amazon-vpc,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
     "score": 0.0,
