@@ -1,5 +1,20 @@
 [
   {
+    "id": "37e0b7df31e58758",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-043-aws/",
+    "title": "CVE-2026-12043 - Heap double-free in AWS Common Runtime aws-c-http",
+    "summary": "Bulletin ID: 2026-043-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/12/2026 11:45 AM PDT Description: AWS Common Runtime aws-c-http is a HTTP client library used by AWS SDKs for handling http requests to AWS services. We identified CVE-2026-12043, an issue where improper handling of HPACK dynamic table size updates in the AWS Common Runtime aws-c-http library might allow a remote actor operating a server to cause memory corruption on a connecting client applica",
+    "published_at": "2026-06-12T18:48:49+00:00",
+    "fetched_at": "2026-06-13T08:52:26.501122+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "e38c84e2360c006f",
     "track": "security",
     "source": "rss:aws-security-bulletins",
