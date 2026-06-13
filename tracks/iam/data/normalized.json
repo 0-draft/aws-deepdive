@@ -1,5 +1,137 @@
 [
   {
+    "id": "cff3ee85da180054",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-lightsail-aws-regions/",
+    "title": "Amazon Lightsail is now available in three additional AWS Regions",
+    "summary": "Starting today, Amazon Lightsail is available in three additional AWS Regions: Asia Pacific (Hong Kong), South America (São Paulo), and Europe (Spain). This expansion brings the power and simplicity of Lightsail to customers across new geographies in Asia, South America, and Europe. With this launch, customers in these geographical regions can now enjoy lower latency and better performance for their applications while meeting local data residency requirements. The new Regions provide access to L",
+    "published_at": "2026-06-12T20:43:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-lightsail"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "37e0b7df31e58758",
+    "track": "iam",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-043-aws/",
+    "title": "CVE-2026-12043 - Heap double-free in AWS Common Runtime aws-c-http",
+    "summary": "Bulletin ID: 2026-043-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/12/2026 11:45 AM PDT Description: AWS Common Runtime aws-c-http is a HTTP client library used by AWS SDKs for handling http requests to AWS services. We identified CVE-2026-12043, an issue where improper handling of HPACK dynamic table size updates in the AWS Common Runtime aws-c-http library might allow a remote actor operating a server to cause memory corruption on a connecting client applica",
+    "published_at": "2026-06-12T18:48:49+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "902cf1419c815f5b",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
+    "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+    "summary": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific t",
+    "published_at": "2026-06-12T17:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "f2a3917da994c310",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
+    "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
+    "summary": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performan",
+    "published_at": "2026-06-12T16:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,marketing:marchitecture/storage"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "9aacd059abfcb5d6",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+    "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
+    "summary": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-thr",
+    "published_at": "2026-06-12T14:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "general:products/amazon-ec2,general:products/aws-govcloud-us"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "d0ddd026193be8d6",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-u7i-8tb-europe-paris/",
+    "title": "Amazon EC2 High Memory U7i-8TB instances now available in AWS Europe (Paris) region",
+    "summary": "Amazon EC2 High Memory U7i-8TB instances (u7i-8tb.112xlarge) are now available in AWS Europe (Paris) region. U7i instances are part of the AWS 7th generation and are powered by custom fourth-generation Intel Xeon Scalable processors (Sapphire Rapids). U7i-8TB instances offer 8 TiB of DDR5 memory, enabling customers to scale transaction processing throughput in a fast-growing data environment. U7i instances offer up to 45% better price performance over existing U-1 instances. U7i-8TB instances de",
+    "published_at": "2026-06-11T23:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "general:products/amazon-ec2,marketing:marchitecture/compute"
+    ],
+    "severity": "high",
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e908cfe7b97b20af",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+    "title": "Amazon Quick now integrates with Snowflake Cortex AI",
+    "summary": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After setting up the connection using Snowflake's managed MCP server with OAuth authentication, you can ask questions across structured data through Cortex Analyst and retrieve insights from unstructured documents through Cortex Search. With this in",
+    "published_at": "2026-06-11T22:02:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "822606cdf3da7144",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-aws-outposts-ec2-instance-store/",
+    "title": "Amazon EKS now supports local clusters on AWS Outposts with Amazon EC2 instance store",
+    "summary": "Today, AWS is expanding support for Amazon Elastic Kubernetes Service (EKS) local clusters on AWS Outposts to first-generation and second-generation AWS Outposts racks running Amazon EC2 instances that boot from Amazon EC2 instance store. AWS Outposts offers static stability for Amazon EC2 instances backed by EC2 instance store , and AWS is now extending that benefit to Amazon EKS local clusters customers. With local clusters, the entire Kubernetes control plane runs on AWS Outposts, supporting ",
+    "published_at": "2026-06-11T20:52:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "marketing:marchitecture/containers,general:products/amazon-eks"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "47979e3433294ccc",
     "track": "iam",
     "source": "rss:aws-whats-new",
@@ -27,7 +159,7 @@
     "published_at": "2026-06-11T18:59:00+00:00",
     "fetched_at": "2026-06-12T10:03:41.570927+00:00",
     "tags": [
-      "general:products/aws-govcloud-us,marketing:marchitecture/databases,general:products/amazon-aurora"
+      "marketing:marchitecture/databases,general:products/aws-govcloud-us,general:products/amazon-aurora"
     ],
     "severity": null,
     "score": 0.0,
@@ -62,6 +194,23 @@
     "fetched_at": "2026-06-12T10:03:41.570927+00:00",
     "tags": [
       "marketing:marchitecture/serverless,general:products/amazon-mwaa,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "bf2963b78e150e7e",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lake-formation-access-data-amazon-s3",
+    "title": "AWS Lake Formation extends table permissions to access underlying data in Amazon S3",
+    "summary": "AWS Lake Formation now enables you to read and write the underlying data files in Amazon S3 for tables registered in the AWS Glue Data Catalog. This provides you with a single set of permissions for both SQL queries and direct file access using your existing Lake Formation table grants. With this launch, Lake Formation provides temporary, scoped credentials for registered S3 locations based on your table permissions. SELECT permissions grant read access, and SUPER permissions grant read and writ",
+    "published_at": "2026-06-11T16:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:23.550236+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/aws-lake-formation"
     ],
     "severity": null,
     "score": 0.0,
@@ -387,11 +536,11 @@
     "source_kind": "rss",
     "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
     "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
-    "summary": "Claude Fable 5 is generally available on AWS and makes Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use. Fable 5 is state-of-the-art on nearly all tested benchmarks and delivers a step-change in autonomous knowledge work and coding for developers and enterprises building production AI applications. Claude Mythos 5, the same model without those safety classifiers, is available to a small group of customers who currently have acc",
+    "summary": "Updated on June, 12, 2026 - Claude Fable 5 and Claude Mythos 5 on Amazon Bedrock access unavailable. To support compliance with the US Government export control directive, Anthropic has asked AWS to revoke access to Claude Fable 5 and Claude Mythos 5 for all users. All other models, including Opus4.8, are not affected and you can continue using them in full confidence. Please view the Anthropic statement for further details. -----------------------------------------------------------------------",
     "published_at": "2026-06-09T14:15:00+00:00",
     "fetched_at": "2026-06-10T09:50:37.109737+00:00",
     "tags": [
-      "general:products/amazon-bedrock,marketing:marchitecture/artificial-intelligence"
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
     "score": 0.0,
