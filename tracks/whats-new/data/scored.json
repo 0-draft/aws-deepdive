@@ -20,14 +20,14 @@
       "Week in Review"
     ],
     "severity": null,
-    "score": 7.849,
+    "score": 7.837,
     "score_breakdown": {
-      "freshness": 1.999,
+      "freshness": 1.987,
       "keyword": 4.5,
       "source": 1.3,
       "keyword_signal": 5.85,
       "severity": 0.0,
-      "total": 7.849
+      "total": 7.837
     }
   },
   {
@@ -44,14 +44,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": "high",
-    "score": 6.553,
+    "score": 6.544,
     "score_breakdown": {
-      "freshness": 1.553,
+      "freshness": 1.544,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 2.0,
-      "total": 6.553
+      "total": 6.544
     }
   },
   {
@@ -66,14 +66,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": "high",
-    "score": 6.115,
+    "score": 6.113,
     "score_breakdown": {
-      "freshness": 0.365,
+      "freshness": 0.363,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 2.0,
-      "total": 6.115
+      "total": 6.113
     }
   },
   {
@@ -90,14 +90,14 @@
       "general:products/aws-backup,marketing:marchitecture/storage"
     ],
     "severity": null,
-    "score": 5.795,
+    "score": 5.788,
     "score_breakdown": {
-      "freshness": 1.295,
+      "freshness": 1.288,
       "keyword": 3.0,
       "source": 1.5,
       "keyword_signal": 4.5,
       "severity": 0.0,
-      "total": 5.795
+      "total": 5.788
     }
   },
   {
@@ -114,38 +114,14 @@
       "marketing:marchitecture/developer-tools,marketing:marchitecture/analytics,marketing:marchitecture/messaging,general:products/amazon-mq"
     ],
     "severity": null,
-    "score": 5.401,
+    "score": 5.396,
     "score_breakdown": {
-      "freshness": 0.901,
+      "freshness": 0.896,
       "keyword": 3.0,
       "source": 1.5,
       "keyword_signal": 4.5,
       "severity": 0.0,
-      "total": 5.401
-    }
-  },
-  {
-    "id": "f2a3917da994c310",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
-    "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
-    "summary": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performan",
-    "published_at": "2026-06-12T16:00:00+00:00",
-    "fetched_at": "2026-06-13T08:52:26.276787+00:00",
-    "tags": [
-      "marketing:marchitecture/compute,marketing:marchitecture/storage"
-    ],
-    "severity": null,
-    "score": 5.384,
-    "score_breakdown": {
-      "freshness": 1.634,
-      "keyword": 2.5,
-      "source": 1.5,
-      "keyword_signal": 3.75,
-      "severity": 0.0,
-      "total": 5.384
+      "total": 5.396
     }
   },
   {
@@ -162,14 +138,38 @@
       "marketing:marchitecture/aws-marketplace-and-partners,marketing:marchitecture/partner-network"
     ],
     "severity": null,
-    "score": 5.377,
+    "score": 5.376,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.126,
       "keyword": 3.5,
       "source": 1.5,
       "keyword_signal": 5.25,
       "severity": 0.0,
-      "total": 5.377
+      "total": 5.376
+    }
+  },
+  {
+    "id": "f2a3917da994c310",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-i7i-instances-europe-paris-region/",
+    "title": "Amazon EC2 I7i instances now available in AWS Europe (Paris) Region",
+    "summary": "AWS is announcing the availability of high performance Storage optimized Amazon EC2 I7i instances in AWS Europe (Paris) region. Powered by 5th Gen Intel Xeon Processors with an all-core turbo frequency of 3.2 GHz, these new instances deliver up to 23% better compute performance and more than 10% better price performance over previous generation I4i instances. Powered by 3rd generation AWS Nitro SSDs, I7i instances offer up to 45TB of NVMe storage with up to 50% better real-time storage performan",
+    "published_at": "2026-06-12T16:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:26.276787+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,marketing:marchitecture/storage"
+    ],
+    "severity": null,
+    "score": 5.374,
+    "score_breakdown": {
+      "freshness": 1.624,
+      "keyword": 2.5,
+      "source": 1.5,
+      "keyword_signal": 3.75,
+      "severity": 0.0,
+      "total": 5.374
     }
   },
   {
@@ -186,14 +186,14 @@
       "general:products/aws-step-functions,marketing:marchitecture/artificial-intelligence,marketing:marchitecture/serverless"
     ],
     "severity": null,
-    "score": 5.369,
+    "score": 5.364,
     "score_breakdown": {
-      "freshness": 0.869,
+      "freshness": 0.864,
       "keyword": 3.0,
       "source": 1.5,
       "keyword_signal": 4.5,
       "severity": 0.0,
-      "total": 5.369
+      "total": 5.364
     }
   },
   {
@@ -210,14 +210,14 @@
       "general:products/amazon-rds,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 5.337,
+    "score": 5.332,
     "score_breakdown": {
-      "freshness": 0.837,
+      "freshness": 0.832,
       "keyword": 3.0,
       "source": 1.5,
       "keyword_signal": 4.5,
       "severity": 0.0,
-      "total": 5.337
+      "total": 5.332
     }
   },
   {
@@ -234,14 +234,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": "high",
-    "score": 5.208,
+    "score": 5.207,
     "score_breakdown": {
-      "freshness": 0.208,
+      "freshness": 0.207,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 2.0,
-      "total": 5.208
+      "total": 5.207
     }
   },
   {
@@ -258,14 +258,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-opensearch-service"
     ],
     "severity": null,
-    "score": 5.196,
+    "score": 5.188,
     "score_breakdown": {
-      "freshness": 1.446,
+      "freshness": 1.438,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 5.196
+      "total": 5.188
     }
   },
   {
@@ -282,14 +282,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 5.16,
+    "score": 5.152,
     "score_breakdown": {
-      "freshness": 1.41,
+      "freshness": 1.402,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 5.16
+      "total": 5.152
     }
   },
   {
@@ -306,14 +306,14 @@
       "general:products/aws-cost-explorer,marketing:marchitecture/cost-management,general:products/cloud-financial-management,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 5.019,
+    "score": 5.011,
     "score_breakdown": {
-      "freshness": 1.269,
+      "freshness": 1.261,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 5.019
+      "total": 5.011
     }
   },
   {
@@ -330,14 +330,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 4.982,
+    "score": 4.975,
     "score_breakdown": {
-      "freshness": 1.232,
+      "freshness": 1.225,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.982
+      "total": 4.975
     }
   },
   {
@@ -358,14 +358,14 @@
       "Security, Identity, & Compliance"
     ],
     "severity": null,
-    "score": 4.776,
+    "score": 4.771,
     "score_breakdown": {
-      "freshness": 0.876,
+      "freshness": 0.871,
       "keyword": 3.0,
       "source": 1.3,
       "keyword_signal": 3.9,
       "severity": 0.0,
-      "total": 4.776
+      "total": 4.771
     }
   },
   {
@@ -382,14 +382,14 @@
       "general:products/amazon-cognito,marketing:marchitecture/security-identity-and-compliance"
     ],
     "severity": null,
-    "score": 4.675,
+    "score": 4.67,
     "score_breakdown": {
-      "freshness": 0.925,
+      "freshness": 0.92,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.675
+      "total": 4.67
     }
   },
   {
@@ -411,14 +411,14 @@
       "News"
     ],
     "severity": null,
-    "score": 4.663,
+    "score": 4.654,
     "score_breakdown": {
-      "freshness": 1.413,
+      "freshness": 1.404,
       "keyword": 2.5,
       "source": 1.3,
       "keyword_signal": 3.25,
       "severity": 0.0,
-      "total": 4.663
+      "total": 4.654
     }
   },
   {
@@ -435,14 +435,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 4.648,
+    "score": 4.643,
     "score_breakdown": {
-      "freshness": 0.898,
+      "freshness": 0.893,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.648
+      "total": 4.643
     }
   },
   {
@@ -459,14 +459,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 4.626,
+    "score": 4.625,
     "score_breakdown": {
-      "freshness": 0.126,
+      "freshness": 0.125,
       "keyword": 3.0,
       "source": 1.5,
       "keyword_signal": 4.5,
       "severity": 0.0,
-      "total": 4.626
+      "total": 4.625
     }
   },
   {
@@ -481,14 +481,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.614,
+    "score": 4.609,
     "score_breakdown": {
-      "freshness": 0.864,
+      "freshness": 0.859,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.614
+      "total": 4.609
     }
   },
   {
@@ -505,14 +505,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-training"
     ],
     "severity": null,
-    "score": 4.607,
+    "score": 4.602,
     "score_breakdown": {
-      "freshness": 0.857,
+      "freshness": 0.852,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.607
+      "total": 4.602
     }
   },
   {
@@ -529,14 +529,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds-for-sql-server,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 4.529,
+    "score": 4.524,
     "score_breakdown": {
-      "freshness": 0.779,
+      "freshness": 0.774,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.529
+      "total": 4.524
     }
   },
   {
@@ -553,14 +553,14 @@
       "marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 4.495,
+    "score": 4.491,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.741,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.495
+      "total": 4.491
     }
   },
   {
@@ -577,14 +577,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 4.495,
+    "score": 4.49,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.74,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.495
+      "total": 4.49
     }
   },
   {
@@ -599,14 +599,14 @@
     "fetched_at": "2026-06-11T10:15:58.644486+00:00",
     "tags": [],
     "severity": null,
-    "score": 4.451,
+    "score": 4.443,
     "score_breakdown": {
-      "freshness": 1.451,
+      "freshness": 1.443,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 4.451
+      "total": 4.443
     }
   },
   {
@@ -623,14 +623,14 @@
       "general:products/amazon-inspector,marketing:marchitecture/security-identity-and-compliance"
     ],
     "severity": null,
-    "score": 4.44,
+    "score": 4.436,
     "score_breakdown": {
-      "freshness": 0.69,
+      "freshness": 0.686,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.44
+      "total": 4.436
     }
   },
   {
@@ -647,38 +647,14 @@
       "general:products/amazon-s3,marketing:marchitecture/storage"
     ],
     "severity": null,
-    "score": 4.324,
+    "score": 4.316,
     "score_breakdown": {
-      "freshness": 1.324,
+      "freshness": 1.316,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 4.324
-    }
-  },
-  {
-    "id": "e125b77dc6f9821e",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
-    "title": "AWS FinOps Agent is now available in preview",
-    "summary": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically investigates cost anomalies, and runs recurring FinOps workflows on a schedule you define. With the AWS FinOps Agent, you can ask questions about your AWS costs and generate cloud cost reports for finance and engineering teams. The agent surfaces rightsizing, idle resource, and Savings Plans recommend",
-    "published_at": "2026-06-09T15:28:00+00:00",
-    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
-    "tags": [
-      "marketing:marchitecture/cost-management,marketing:marchitecture/artificial-intelligence"
-    ],
-    "severity": null,
-    "score": 4.317,
-    "score_breakdown": {
-      "freshness": 1.317,
-      "keyword": 2.0,
-      "source": 1.5,
-      "keyword_signal": 3.0,
-      "severity": 0.0,
-      "total": 4.317
+      "total": 4.316
     }
   },
   {
@@ -695,14 +671,38 @@
       "general:products/aws-iot-core,marketing:marchitecture/internet-of-things,general:products/aws-iot,general:products/aws-iot-device-management"
     ],
     "severity": null,
-    "score": 4.317,
+    "score": 4.314,
     "score_breakdown": {
-      "freshness": 0.567,
+      "freshness": 0.564,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.317
+      "total": 4.314
+    }
+  },
+  {
+    "id": "e125b77dc6f9821e",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-finops-agent-preview/",
+    "title": "AWS FinOps Agent is now available in preview",
+    "summary": "Today, AWS announces the preview of AWS FinOps Agent, a frontier agent for FinOps practitioners and engineering teams that answers cost questions, surfaces optimization opportunities, automatically investigates cost anomalies, and runs recurring FinOps workflows on a schedule you define. With the AWS FinOps Agent, you can ask questions about your AWS costs and generate cloud cost reports for finance and engineering teams. The agent surfaces rightsizing, idle resource, and Savings Plans recommend",
+    "published_at": "2026-06-09T15:28:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "marketing:marchitecture/cost-management,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 4.309,
+    "score_breakdown": {
+      "freshness": 1.309,
+      "keyword": 2.0,
+      "source": 1.5,
+      "keyword_signal": 3.0,
+      "severity": 0.0,
+      "total": 4.309
     }
   },
   {
@@ -719,14 +719,14 @@
       "general:products/aiml,general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 4.283,
+    "score": 4.28,
     "score_breakdown": {
-      "freshness": 0.533,
+      "freshness": 0.53,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.283
+      "total": 4.28
     }
   },
   {
@@ -743,14 +743,14 @@
       "marketing:marchitecture/analytics,general:products/aws-glue"
     ],
     "severity": null,
-    "score": 4.278,
+    "score": 4.275,
     "score_breakdown": {
-      "freshness": 0.528,
+      "freshness": 0.525,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.278
+      "total": 4.275
     }
   },
   {
@@ -767,14 +767,14 @@
       "general:products/amazon-connect,marketing:marchitecture/business-productivity,marketing:marchitecture/contact-center,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 4.243,
+    "score": 4.24,
     "score_breakdown": {
-      "freshness": 0.493,
+      "freshness": 0.49,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.243
+      "total": 4.24
     }
   },
   {
@@ -791,14 +791,14 @@
       "marketing:marchitecture/databases,general:products/amazon-keyspaces"
     ],
     "severity": null,
-    "score": 4.115,
+    "score": 4.112,
     "score_breakdown": {
-      "freshness": 0.365,
+      "freshness": 0.362,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 4.115
+      "total": 4.112
     }
   },
   {
@@ -815,14 +815,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 3.957,
+    "score": 3.956,
     "score_breakdown": {
-      "freshness": 0.207,
+      "freshness": 0.206,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.957
+      "total": 3.956
     }
   },
   {
@@ -837,14 +837,14 @@
     "fetched_at": "2026-05-17T11:52:07.556423+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.957,
+    "score": 3.956,
     "score_breakdown": {
-      "freshness": 0.207,
+      "freshness": 0.206,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.957
+      "total": 3.956
     }
   },
   {
@@ -861,14 +861,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-redshift"
     ],
     "severity": null,
-    "score": 3.928,
+    "score": 3.927,
     "score_breakdown": {
-      "freshness": 0.178,
+      "freshness": 0.177,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.928
+      "total": 3.927
     }
   },
   {
@@ -885,14 +885,14 @@
       "marketing:marchitecture/storage,marketing:marchitecture/networking,general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 3.918,
+    "score": 3.917,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.918
+      "total": 3.917
     }
   },
   {
@@ -909,14 +909,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,general:products/aiml"
     ],
     "severity": null,
-    "score": 3.918,
+    "score": 3.917,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.918
+      "total": 3.917
     }
   },
   {
@@ -957,14 +957,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 3.875,
+    "score": 3.874,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.875
+      "total": 3.874
     }
   },
   {
@@ -981,14 +981,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2,general:products/aws-govcloud-us,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 3.868,
+    "score": 3.867,
     "score_breakdown": {
-      "freshness": 0.118,
+      "freshness": 0.117,
       "keyword": 2.5,
       "source": 1.5,
       "keyword_signal": 3.75,
       "severity": 0.0,
-      "total": 3.868
+      "total": 3.867
     }
   },
   {
@@ -1029,14 +1029,14 @@
       "general:products/amazon-connect,general:products/aws-govcloud-us,marketing:marchitecture/business-productivity,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 3.827,
+    "score": 3.822,
     "score_breakdown": {
-      "freshness": 0.827,
+      "freshness": 0.822,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.827
+      "total": 3.822
     }
   },
   {
@@ -1057,14 +1057,14 @@
       "News"
     ],
     "severity": null,
-    "score": 3.816,
+    "score": 3.812,
     "score_breakdown": {
-      "freshness": 0.566,
+      "freshness": 0.562,
       "keyword": 2.5,
       "source": 1.3,
       "keyword_signal": 3.25,
       "severity": 0.0,
-      "total": 3.816
+      "total": 3.812
     }
   },
   {
@@ -1081,14 +1081,14 @@
       "general:products,marketing:marchitecture"
     ],
     "severity": null,
-    "score": 3.794,
+    "score": 3.79,
     "score_breakdown": {
-      "freshness": 0.794,
+      "freshness": 0.79,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.794
+      "total": 3.79
     }
   },
   {
@@ -1105,14 +1105,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 3.745,
+    "score": 3.74,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.74,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.745
+      "total": 3.74
     }
   },
   {
@@ -1129,14 +1129,14 @@
       "marketing:marchitecture/cost-management,general:products/aws-account-billing"
     ],
     "severity": null,
-    "score": 3.656,
+    "score": 3.648,
     "score_breakdown": {
-      "freshness": 1.406,
+      "freshness": 1.398,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 3.656
+      "total": 3.648
     }
   },
   {
@@ -1153,14 +1153,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 3.585,
+    "score": 3.582,
     "score_breakdown": {
-      "freshness": 0.585,
+      "freshness": 0.582,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.585
+      "total": 3.582
     }
   },
   {
@@ -1177,14 +1177,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml"
     ],
     "severity": null,
-    "score": 3.533,
+    "score": 3.53,
     "score_breakdown": {
-      "freshness": 0.533,
+      "freshness": 0.53,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.533
+      "total": 3.53
     }
   },
   {
@@ -1201,14 +1201,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker,general:products/aiml"
     ],
     "severity": null,
-    "score": 3.533,
+    "score": 3.53,
     "score_breakdown": {
-      "freshness": 0.533,
+      "freshness": 0.53,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.533
+      "total": 3.53
     }
   },
   {
@@ -1225,14 +1225,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 3.485,
+    "score": 3.482,
     "score_breakdown": {
-      "freshness": 0.485,
+      "freshness": 0.482,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.485
+      "total": 3.482
     }
   },
   {
@@ -1249,14 +1249,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 3.485,
+    "score": 3.482,
     "score_breakdown": {
-      "freshness": 0.485,
+      "freshness": 0.482,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.485
+      "total": 3.482
     }
   },
   {
@@ -1278,14 +1278,14 @@
       "Strands Agents"
     ],
     "severity": null,
-    "score": 3.359,
+    "score": 3.358,
     "score_breakdown": {
-      "freshness": 0.109,
+      "freshness": 0.108,
       "keyword": 2.5,
       "source": 1.3,
       "keyword_signal": 3.25,
       "severity": 0.0,
-      "total": 3.359
+      "total": 3.358
     }
   },
   {
@@ -1302,14 +1302,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 3.343,
+    "score": 3.341,
     "score_breakdown": {
-      "freshness": 0.343,
+      "freshness": 0.341,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.343
+      "total": 3.341
     }
   },
   {
@@ -1354,14 +1354,14 @@
       "marketing:marchitecture/containers,general:products/amazon-ecs"
     ],
     "severity": null,
-    "score": 3.238,
+    "score": 3.232,
     "score_breakdown": {
-      "freshness": 0.988,
+      "freshness": 0.982,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 3.238
+      "total": 3.232
     }
   },
   {
@@ -1378,14 +1378,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/aws-direct-connect"
     ],
     "severity": null,
-    "score": 3.22,
+    "score": 3.219,
     "score_breakdown": {
-      "freshness": 0.22,
+      "freshness": 0.219,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.22
+      "total": 3.219
     }
   },
   {
@@ -1400,14 +1400,14 @@
     "fetched_at": "2026-05-17T11:52:07.556423+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.207,
+    "score": 3.206,
     "score_breakdown": {
-      "freshness": 0.207,
+      "freshness": 0.206,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.207
+      "total": 3.206
     }
   },
   {
@@ -1424,14 +1424,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 3.206,
+    "score": 3.205,
     "score_breakdown": {
-      "freshness": 0.206,
+      "freshness": 0.205,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.206
+      "total": 3.205
     }
   },
   {
@@ -1448,14 +1448,14 @@
       "marketing:marchitecture/contact-center,marketing:marchitecture/applications,general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 3.206,
+    "score": 3.205,
     "score_breakdown": {
-      "freshness": 0.206,
+      "freshness": 0.205,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.206
+      "total": 3.205
     }
   },
   {
@@ -1472,14 +1472,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 3.172,
+    "score": 3.171,
     "score_breakdown": {
-      "freshness": 0.172,
+      "freshness": 0.171,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.172
+      "total": 3.171
     }
   },
   {
@@ -1496,14 +1496,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/aiml,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 3.172,
+    "score": 3.171,
     "score_breakdown": {
-      "freshness": 0.172,
+      "freshness": 0.171,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.172
+      "total": 3.171
     }
   },
   {
@@ -1520,14 +1520,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 3.17,
+    "score": 3.169,
     "score_breakdown": {
-      "freshness": 0.17,
+      "freshness": 0.169,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.17
+      "total": 3.169
     }
   },
   {
@@ -1544,14 +1544,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml,general:products/amazon-sagemaker-studio"
     ],
     "severity": null,
-    "score": 3.168,
+    "score": 3.167,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.168
+      "total": 3.167
     }
   },
   {
@@ -1568,14 +1568,14 @@
       "general:products/amazon-sagemaker,general:products/amazon-sagemaker-studio,general:products/aiml,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 3.168,
+    "score": 3.167,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.168
+      "total": 3.167
     }
   },
   {
@@ -1592,14 +1592,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 3.168,
+    "score": 3.167,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.168
+      "total": 3.167
     }
   },
   {
@@ -1616,14 +1616,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 3.126,
+    "score": 3.125,
     "score_breakdown": {
-      "freshness": 0.126,
+      "freshness": 0.125,
       "keyword": 2.0,
       "source": 1.5,
       "keyword_signal": 3.0,
       "severity": 0.0,
-      "total": 3.126
+      "total": 3.125
     }
   },
   {
@@ -1712,14 +1712,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 3.047,
+    "score": 3.043,
     "score_breakdown": {
-      "freshness": 0.797,
+      "freshness": 0.793,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 3.047
+      "total": 3.043
     }
   },
   {
@@ -1736,14 +1736,14 @@
       "marketing:marchitecture/containers,general:products/amazon-eks"
     ],
     "severity": null,
-    "score": 3.043,
+    "score": 3.035,
     "score_breakdown": {
-      "freshness": 1.543,
+      "freshness": 1.535,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.043
+      "total": 3.035
     }
   },
   {
@@ -1760,14 +1760,14 @@
       "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
     ],
     "severity": null,
-    "score": 3.04,
+    "score": 3.031,
     "score_breakdown": {
-      "freshness": 1.54,
+      "freshness": 1.531,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.04
+      "total": 3.031
     }
   },
   {
@@ -1784,14 +1784,14 @@
       "marketing:marchitecture/databases,general:products/aws-govcloud-us,general:products/amazon-aurora"
     ],
     "severity": null,
-    "score": 3.035,
+    "score": 3.026,
     "score_breakdown": {
-      "freshness": 1.535,
+      "freshness": 1.526,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.035
+      "total": 3.026
     }
   },
   {
@@ -1808,14 +1808,14 @@
       "marketing:marchitecture/management-and-governance"
     ],
     "severity": null,
-    "score": 3.008,
+    "score": 2.999,
     "score_breakdown": {
-      "freshness": 1.508,
+      "freshness": 1.499,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 3.008
+      "total": 2.999
     }
   },
   {
@@ -1832,14 +1832,14 @@
       "general:products/aws-iam,general:products/aws-organizations,general:products/aws-identity-and-access-management"
     ],
     "severity": "high",
-    "score": 2.97,
+    "score": 2.969,
     "score_breakdown": {
-      "freshness": 0.22,
+      "freshness": 0.219,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 2.0,
-      "total": 2.97
+      "total": 2.969
     }
   },
   {
@@ -1856,14 +1856,14 @@
       "marketing:marchitecture/containers,general:products/amazon-ecs"
     ],
     "severity": null,
-    "score": 2.933,
+    "score": 2.925,
     "score_breakdown": {
-      "freshness": 1.433,
+      "freshness": 1.425,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.933
+      "total": 2.925
     }
   },
   {
@@ -1890,14 +1890,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 2.752,
+    "score": 2.747,
     "score_breakdown": {
-      "freshness": 0.752,
+      "freshness": 0.747,
       "keyword": 2.0,
       "source": 1.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.752
+      "total": 2.747
     }
   },
   {
@@ -1980,14 +1980,14 @@
       "Week in Review"
     ],
     "severity": null,
-    "score": 2.623,
+    "score": 2.622,
     "score_breakdown": {
-      "freshness": 0.023,
+      "freshness": 0.022,
       "keyword": 2.0,
       "source": 1.3,
       "keyword_signal": 2.6,
       "severity": 0.0,
-      "total": 2.623
+      "total": 2.622
     }
   },
   {
@@ -2004,14 +2004,14 @@
       "general:products/aws-secrets-manager"
     ],
     "severity": null,
-    "score": 2.605,
+    "score": 2.603,
     "score_breakdown": {
-      "freshness": 0.355,
+      "freshness": 0.353,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 2.605
+      "total": 2.603
     }
   },
   {
@@ -2028,14 +2028,14 @@
       "general:products/amazon-simple-storage-service,general:products/aws-glue,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 2.506,
+    "score": 2.501,
     "score_breakdown": {
-      "freshness": 1.006,
+      "freshness": 1.001,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.506
+      "total": 2.501
     }
   },
   {
@@ -2052,14 +2052,14 @@
       "general:products/amazon-rds,marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 2.471,
+    "score": 2.47,
     "score_breakdown": {
-      "freshness": 0.221,
+      "freshness": 0.22,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 2.471
+      "total": 2.47
     }
   },
   {
@@ -2076,14 +2076,14 @@
       "general:products/amazon-managed-service-for-grafana,marketing:marchitecture/management-and-governance"
     ],
     "severity": null,
-    "score": 2.471,
+    "score": 2.47,
     "score_breakdown": {
-      "freshness": 0.221,
+      "freshness": 0.22,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 2.471
+      "total": 2.47
     }
   },
   {
@@ -2100,14 +2100,14 @@
       "marketing:marchitecture/serverless,marketing:marchitecture/application-services"
     ],
     "severity": null,
-    "score": 2.43,
+    "score": 2.429,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.179,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 2.43
+      "total": 2.429
     }
   },
   {
@@ -2124,14 +2124,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 2.429,
+    "score": 2.428,
     "score_breakdown": {
-      "freshness": 0.179,
+      "freshness": 0.178,
       "keyword": 1.5,
       "source": 1.5,
       "keyword_signal": 2.25,
       "severity": 0.0,
-      "total": 2.429
+      "total": 2.428
     }
   },
   {
@@ -2148,14 +2148,14 @@
       "marketing:marchitecture/media-services,general:products/aws-deadline-cloud"
     ],
     "severity": null,
-    "score": 2.423,
+    "score": 2.418,
     "score_breakdown": {
-      "freshness": 0.923,
+      "freshness": 0.918,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.423
+      "total": 2.418
     }
   },
   {
@@ -2172,14 +2172,14 @@
       "marketing:marchitecture/compute,general:products/amazon-lightsail"
     ],
     "severity": null,
-    "score": 2.407,
+    "score": 2.397,
     "score_breakdown": {
-      "freshness": 1.657,
+      "freshness": 1.647,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.407
+      "total": 2.397
     }
   },
   {
@@ -2196,14 +2196,14 @@
       "general:products/amazon-eks,marketing:marchitecture/containers"
     ],
     "severity": null,
-    "score": 2.314,
+    "score": 2.309,
     "score_breakdown": {
-      "freshness": 0.814,
+      "freshness": 0.809,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.314
+      "total": 2.309
     }
   },
   {
@@ -2220,14 +2220,14 @@
       "marketing:marchitecture/management-tools,general:products/aws-elastic-beanstalk"
     ],
     "severity": null,
-    "score": 2.276,
+    "score": 2.267,
     "score_breakdown": {
-      "freshness": 1.526,
+      "freshness": 1.517,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.276
+      "total": 2.267
     }
   },
   {
@@ -2244,14 +2244,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 2.26,
+    "score": 2.256,
     "score_breakdown": {
-      "freshness": 0.76,
+      "freshness": 0.756,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.26
+      "total": 2.256
     }
   },
   {
@@ -2268,38 +2268,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 2.26,
+    "score": 2.256,
     "score_breakdown": {
-      "freshness": 0.76,
+      "freshness": 0.756,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.26
-    }
-  },
-  {
-    "id": "e3536e2f1a65b568",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
-    "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
-    "summary": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms. DevOps engineers, site reliability engineers, and platform teams monitoring latency, request durations, and other distributions can now get more accurate percentile calculations without pre-defining bucket boundaries or managing high-cardinality ",
-    "published_at": "2026-06-11T13:00:00+00:00",
-    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
-    "tags": [
-      "marketing:marchitecture/management-and-governance"
-    ],
-    "severity": null,
-    "score": 2.258,
-    "score_breakdown": {
-      "freshness": 1.508,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 2.258
+      "total": 2.256
     }
   },
   {
@@ -2317,14 +2293,38 @@
       "Customer Solutions"
     ],
     "severity": null,
-    "score": 2.258,
+    "score": 2.253,
     "score_breakdown": {
-      "freshness": 0.758,
+      "freshness": 0.753,
       "keyword": 1.5,
       "source": 1.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.258
+      "total": 2.253
+    }
+  },
+  {
+    "id": "e3536e2f1a65b568",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-managed-service-prometheus-native-histograms/",
+    "title": "Amazon Managed Service for Prometheus now supports Native Histograms",
+    "summary": "Amazon Managed Service for Prometheus now supports ingestion, storage, and querying of Prometheus native histograms, enabling customers to capture high-resolution metric distributions with greater precision and lower cardinality than classic histograms. DevOps engineers, site reliability engineers, and platform teams monitoring latency, request durations, and other distributions can now get more accurate percentile calculations without pre-defining bucket boundaries or managing high-cardinality ",
+    "published_at": "2026-06-11T13:00:00+00:00",
+    "fetched_at": "2026-06-12T10:03:38.637528+00:00",
+    "tags": [
+      "marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 2.249,
+    "score_breakdown": {
+      "freshness": 1.499,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 2.249
     }
   },
   {
@@ -2339,14 +2339,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.25,
+    "score": 2.246,
     "score_breakdown": {
-      "freshness": 0.75,
+      "freshness": 0.746,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.25
+      "total": 2.246
     }
   },
   {
@@ -2363,14 +2363,14 @@
       "general:products/amazon-ses,general:products/aws-govcloud-us,marketing:marchitecture/messaging,marketing:marchitecture/front-end-web-mobile,marketing:marchitecture/business-productivity"
     ],
     "severity": null,
-    "score": 2.236,
+    "score": 2.232,
     "score_breakdown": {
-      "freshness": 0.736,
+      "freshness": 0.732,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.236
+      "total": 2.232
     }
   },
   {
@@ -2385,14 +2385,14 @@
     "fetched_at": "2026-06-12T10:03:38.637528+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.18,
+    "score": 2.172,
     "score_breakdown": {
-      "freshness": 1.43,
+      "freshness": 1.422,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.18
+      "total": 2.172
     }
   },
   {
@@ -2409,14 +2409,14 @@
       "general:products/amazon-vpc,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 2.171,
+    "score": 2.162,
     "score_breakdown": {
-      "freshness": 1.421,
+      "freshness": 1.412,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.171
+      "total": 2.162
     }
   },
   {
@@ -2438,14 +2438,14 @@
       "Amazon Elastic Kubernetes Service (Amazon EKS)"
     ],
     "severity": null,
-    "score": 2.117,
+    "score": 2.116,
     "score_breakdown": {
-      "freshness": 0.117,
+      "freshness": 0.116,
       "keyword": 2.0,
       "source": 1.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.117
+      "total": 2.116
     }
   },
   {
@@ -2462,14 +2462,14 @@
       "general:products/amazon-simple-email-service,marketing:marchitecture/applications"
     ],
     "severity": null,
-    "score": 2.112,
+    "score": 2.108,
     "score_breakdown": {
-      "freshness": 0.612,
+      "freshness": 0.608,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.112
+      "total": 2.108
     }
   },
   {
@@ -2486,38 +2486,14 @@
       "general:products/amazon-healthlake"
     ],
     "severity": null,
-    "score": 2.108,
+    "score": 2.105,
     "score_breakdown": {
-      "freshness": 0.608,
+      "freshness": 0.605,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.108
-    }
-  },
-  {
-    "id": "cc0cceeb6fc1599e",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
-    "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
-    "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for interactive analytics and data engineering workloads. In addition to Amazon Athena Spark, users can now leverage Amazon EMR Serverless as their Spark runtime, selecting the optimal engine based on their requirements. With this launch, you can run PySpark and Spark SQL on an EMR Serverless Spark Application i",
-    "published_at": "2026-06-09T18:46:00+00:00",
-    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
-    "tags": [
-      "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
-    ],
-    "severity": null,
-    "score": 2.08,
-    "score_breakdown": {
-      "freshness": 1.33,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 2.08
+      "total": 2.105
     }
   },
   {
@@ -2534,14 +2510,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-s3,marketing:marchitecture/storage"
     ],
     "severity": null,
-    "score": 2.08,
+    "score": 2.077,
     "score_breakdown": {
-      "freshness": 0.58,
+      "freshness": 0.577,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.08
+      "total": 2.077
     }
   },
   {
@@ -2571,14 +2547,38 @@
       "Serverless ICYMI"
     ],
     "severity": null,
-    "score": 2.076,
+    "score": 2.075,
     "score_breakdown": {
-      "freshness": 0.076,
+      "freshness": 0.075,
       "keyword": 2.0,
       "source": 1.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.076
+      "total": 2.075
+    }
+  },
+  {
+    "id": "cc0cceeb6fc1599e",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio-emr/",
+    "title": "Amazon SageMaker Unified Studio Notebooks now support EMR Serverless",
+    "summary": "Amazon SageMaker Unified Studio Notebooks now support Amazon EMR Serverless with Apache Spark Connect, giving data engineers and analysts more flexibility in choosing their Spark runtime for interactive analytics and data engineering workloads. In addition to Amazon Athena Spark, users can now leverage Amazon EMR Serverless as their Spark runtime, selecting the optimal engine based on their requirements. With this launch, you can run PySpark and Spark SQL on an EMR Serverless Spark Application i",
+    "published_at": "2026-06-09T18:46:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 2.072,
+    "score_breakdown": {
+      "freshness": 1.322,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 2.072
     }
   },
   {
@@ -2595,14 +2595,14 @@
       "marketing:marchitecture/business-productivity,marketing:marchitecture/artificial-intelligence,marketing:marchitecture/cost-management,general:products/cloud-financial-management"
     ],
     "severity": null,
-    "score": 2.068,
+    "score": 2.065,
     "score_breakdown": {
-      "freshness": 0.568,
+      "freshness": 0.565,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.068
+      "total": 2.065
     }
   },
   {
@@ -2619,38 +2619,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 2.065,
+    "score": 2.057,
     "score_breakdown": {
-      "freshness": 1.315,
+      "freshness": 1.307,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 2.065
-    }
-  },
-  {
-    "id": "0459eeaf507c6314",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
-    "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
-    "summary": "Updated on June, 12, 2026 - Claude Fable 5 and Claude Mythos 5 on Amazon Bedrock access unavailable. To support compliance with the US Government export control directive, Anthropic has asked AWS to revoke access to Claude Fable 5 and Claude Mythos 5 for all users. All other models, including Opus4.8, are not affected and you can continue using them in full confidence. Please view the Anthropic statement for further details. -----------------------------------------------------------------------",
-    "published_at": "2026-06-09T14:15:00+00:00",
-    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
-    "tags": [
-      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
-    ],
-    "severity": null,
-    "score": 2.062,
-    "score_breakdown": {
-      "freshness": 1.312,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 2.062
+      "total": 2.057
     }
   },
   {
@@ -2667,14 +2643,38 @@
       "general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 2.059,
+    "score": 2.055,
     "score_breakdown": {
-      "freshness": 0.559,
+      "freshness": 0.555,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.059
+      "total": 2.055
+    }
+  },
+  {
+    "id": "0459eeaf507c6314",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/claude-fable-5-aws/",
+    "title": "AWS announces Claude Fable 5, the first generally available Mythos-class model",
+    "summary": "Updated on June, 12, 2026 - Claude Fable 5 and Claude Mythos 5 on Amazon Bedrock access unavailable. To support compliance with the US Government export control directive, Anthropic has asked AWS to revoke access to Claude Fable 5 and Claude Mythos 5 for all users. All other models, including Opus4.8, are not affected and you can continue using them in full confidence. Please view the Anthropic statement for further details. -----------------------------------------------------------------------",
+    "published_at": "2026-06-09T14:15:00+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 2.054,
+    "score_breakdown": {
+      "freshness": 1.304,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 2.054
     }
   },
   {
@@ -2691,14 +2691,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 2.03,
+    "score": 2.027,
     "score_breakdown": {
-      "freshness": 0.53,
+      "freshness": 0.527,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.03
+      "total": 2.027
     }
   },
   {
@@ -2715,14 +2715,14 @@
       "marketing:marchitecture/artificial-intelligence,marketing:industry/media-and-entertainment"
     ],
     "severity": null,
-    "score": 2.029,
+    "score": 2.026,
     "score_breakdown": {
-      "freshness": 0.529,
+      "freshness": 0.526,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.029
+      "total": 2.026
     }
   },
   {
@@ -2739,14 +2739,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml"
     ],
     "severity": null,
-    "score": 2.028,
+    "score": 2.025,
     "score_breakdown": {
-      "freshness": 0.528,
+      "freshness": 0.525,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.028
+      "total": 2.025
     }
   },
   {
@@ -2846,30 +2846,6 @@
     }
   },
   {
-    "id": "ee82c8585761804c",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
-    "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
-    "summary": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create or manage topics for stateful operations. MSK Express Brokers are designed to deliver up to three times more throughput per broker, scale up to 20 times faster, and reduce recovery time by 90 percent. Kafka Streams uses topics to store state and repartition data for stateful operations.",
-    "published_at": "2026-06-08T19:36:00+00:00",
-    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
-    "tags": [
-      "marketing:marchitecture/analytics,general:products/amazon-msk"
-    ],
-    "severity": null,
-    "score": 1.991,
-    "score_breakdown": {
-      "freshness": 1.241,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 1.991
-    }
-  },
-  {
     "id": "b0e2b6dcc7d82a98",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -2883,14 +2859,38 @@
       "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 1.991,
+    "score": 1.989,
     "score_breakdown": {
-      "freshness": 0.491,
+      "freshness": 0.489,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.991
+      "total": 1.989
+    }
+  },
+  {
+    "id": "ee82c8585761804c",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-msk-express-topic-support-kstreams/",
+    "title": "Amazon MSK Express Brokers now support automatic topic creation with Kafka Streams",
+    "summary": "Effective today, Amazon MSK Express Brokers support automatic topic creation with Kafka Streams. Customers can now deploy their Kafka Streams applications on Express Brokers without needing to manually pre-create or manage topics for stateful operations. MSK Express Brokers are designed to deliver up to three times more throughput per broker, scale up to 20 times faster, and reduce recovery time by 90 percent. Kafka Streams uses topics to store state and repartition data for stateful operations.",
+    "published_at": "2026-06-08T19:36:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/amazon-msk"
+    ],
+    "severity": null,
+    "score": 1.984,
+    "score_breakdown": {
+      "freshness": 1.234,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 1.984
     }
   },
   {
@@ -2907,14 +2907,14 @@
       "general:products/amazon-documentdb,marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.989,
+    "score": 1.982,
     "score_breakdown": {
-      "freshness": 1.239,
+      "freshness": 1.232,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.989
+      "total": 1.982
     }
   },
   {
@@ -2931,14 +2931,14 @@
       "general:products/amazon-cloudwatch-logs,general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
     ],
     "severity": null,
-    "score": 1.985,
+    "score": 1.977,
     "score_breakdown": {
-      "freshness": 1.235,
+      "freshness": 1.227,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.985
+      "total": 1.977
     }
   },
   {
@@ -2955,14 +2955,14 @@
       "marketing:marchitecture/migration,general:products/aws-application-migration-service"
     ],
     "severity": null,
-    "score": 1.982,
+    "score": 1.974,
     "score_breakdown": {
-      "freshness": 1.232,
+      "freshness": 1.224,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.982
+      "total": 1.974
     }
   },
   {
@@ -2979,14 +2979,14 @@
       "marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 1.982,
+    "score": 1.974,
     "score_breakdown": {
-      "freshness": 1.232,
+      "freshness": 1.224,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.982
+      "total": 1.974
     }
   },
   {
@@ -3003,14 +3003,14 @@
       "general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.979,
+    "score": 1.972,
     "score_breakdown": {
-      "freshness": 1.229,
+      "freshness": 1.222,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.979
+      "total": 1.972
     }
   },
   {
@@ -3027,14 +3027,14 @@
       "general:use-case/backup-and-storage,marketing:benefits-realized/lower-cost,general:products/amazon-redshift,marketing:marchitecture/analytics,general:use-case/database-and-data-warehouse"
     ],
     "severity": null,
-    "score": 1.974,
+    "score": 1.967,
     "score_breakdown": {
-      "freshness": 1.224,
+      "freshness": 1.217,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.974
+      "total": 1.967
     }
   },
   {
@@ -3063,14 +3063,14 @@
       "Week in Review"
     ],
     "severity": null,
-    "score": 1.898,
+    "score": 1.891,
     "score_breakdown": {
-      "freshness": 1.248,
+      "freshness": 1.241,
       "keyword": 0.5,
       "source": 1.3,
       "keyword_signal": 0.65,
       "severity": 0.0,
-      "total": 1.898
+      "total": 1.891
     }
   },
   {
@@ -3087,14 +3087,14 @@
       "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/migration,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.868,
+    "score": 1.866,
     "score_breakdown": {
-      "freshness": 0.368,
+      "freshness": 0.366,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.868
+      "total": 1.866
     }
   },
   {
@@ -3111,14 +3111,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.841,
+    "score": 1.839,
     "score_breakdown": {
-      "freshness": 0.341,
+      "freshness": 0.339,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.841
+      "total": 1.839
     }
   },
   {
@@ -3136,14 +3136,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 1.822,
+    "score": 1.815,
     "score_breakdown": {
-      "freshness": 1.322,
+      "freshness": 1.315,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.822
+      "total": 1.815
     }
   },
   {
@@ -3163,14 +3163,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 1.822,
+    "score": 1.815,
     "score_breakdown": {
-      "freshness": 1.322,
+      "freshness": 1.315,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.822
+      "total": 1.815
     }
   },
   {
@@ -3187,14 +3187,14 @@
       "general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 1.76,
+    "score": 1.754,
     "score_breakdown": {
-      "freshness": 1.01,
+      "freshness": 1.004,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.76
+      "total": 1.754
     }
   },
   {
@@ -3211,14 +3211,14 @@
       "general:products/amazon-opensearch-service,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 1.755,
+    "score": 1.749,
     "score_breakdown": {
-      "freshness": 1.005,
+      "freshness": 0.999,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.755
+      "total": 1.749
     }
   },
   {
@@ -3235,14 +3235,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 1.738,
+    "score": 1.732,
     "score_breakdown": {
-      "freshness": 0.988,
+      "freshness": 0.982,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.738
+      "total": 1.732
     }
   },
   {
@@ -3259,14 +3259,14 @@
       "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 1.715,
+    "score": 1.709,
     "score_breakdown": {
-      "freshness": 0.965,
+      "freshness": 0.959,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.715
+      "total": 1.709
     }
   },
   {
@@ -3283,14 +3283,14 @@
       "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 1.715,
+    "score": 1.709,
     "score_breakdown": {
-      "freshness": 0.965,
+      "freshness": 0.959,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.715
+      "total": 1.709
     }
   },
   {
@@ -3307,14 +3307,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/databases,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 1.706,
+    "score": 1.705,
     "score_breakdown": {
-      "freshness": 0.206,
+      "freshness": 0.205,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.706
+      "total": 1.705
     }
   },
   {
@@ -3331,14 +3331,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.689,
+    "score": 1.683,
     "score_breakdown": {
-      "freshness": 0.939,
+      "freshness": 0.933,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.689
+      "total": 1.683
     }
   },
   {
@@ -3355,14 +3355,14 @@
       "marketing:marchitecture/containers,general:products/amazon-eks"
     ],
     "severity": null,
-    "score": 1.675,
+    "score": 1.67,
     "score_breakdown": {
-      "freshness": 0.925,
+      "freshness": 0.92,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.675
+      "total": 1.67
     }
   },
   {
@@ -3379,14 +3379,14 @@
       "marketing:marchitecture/game-development,marketing:marchitecture/developers,marketing:marchitecture/networking-and-content-delivery,general:products/amazon-route-53"
     ],
     "severity": null,
-    "score": 1.666,
+    "score": 1.665,
     "score_breakdown": {
-      "freshness": 0.166,
+      "freshness": 0.165,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.666
+      "total": 1.665
     }
   },
   {
@@ -3403,14 +3403,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.665,
+    "score": 1.664,
     "score_breakdown": {
-      "freshness": 0.165,
+      "freshness": 0.164,
       "keyword": 1.0,
       "source": 1.5,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 1.665
+      "total": 1.664
     }
   },
   {
@@ -3431,38 +3431,14 @@
       "News"
     ],
     "severity": null,
-    "score": 1.651,
+    "score": 1.645,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 0.5,
       "source": 1.3,
       "keyword_signal": 0.65,
       "severity": 0.0,
-      "total": 1.651
-    }
-  },
-  {
-    "id": "902cf1419c815f5b",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
-    "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
-    "summary": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific t",
-    "published_at": "2026-06-12T17:00:00+00:00",
-    "fetched_at": "2026-06-13T08:52:26.276787+00:00",
-    "tags": [
-      "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
-    ],
-    "severity": null,
-    "score": 1.639,
-    "score_breakdown": {
-      "freshness": 1.639,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.639
+      "total": 1.645
     }
   },
   {
@@ -3488,51 +3464,27 @@
     }
   },
   {
-    "id": "9aacd059abfcb5d6",
+    "id": "902cf1419c815f5b",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
-    "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
-    "summary": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-thr",
-    "published_at": "2026-06-12T14:00:00+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-sagemaker-ft-nemotron-3/",
+    "title": "SageMaker AI now supports serverless fine-tuning for NVIDIA Nemotron models",
+    "summary": "Amazon SageMaker AI now supports serverless model customization for NVIDIA Nemotron 3 Nano model using supervised fine-tuning (SFT) and reinforcement fine-tuning (RFT). This is a popular open-weight model from NVIDIA with 30B total parameters. In addition to deploying this model on SageMaker AI, you can now adapt it to your specific domains and workflows. Model customization enables you to tailor foundation models with your proprietary data, whether that's improving accuracy on domain-specific t",
+    "published_at": "2026-06-12T17:00:00+00:00",
     "fetched_at": "2026-06-13T08:52:26.276787+00:00",
     "tags": [
-      "general:products/amazon-ec2,general:products/aws-govcloud-us"
+      "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.624,
+    "score": 1.629,
     "score_breakdown": {
-      "freshness": 1.624,
+      "freshness": 1.629,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.624
-    }
-  },
-  {
-    "id": "ed43ed8d6ec86cdd",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
-    "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
-    "summary": "AWS Compute Optimizer now lets you extend the lookback period of your Amazon EBS volume and Amazon ECS rightsizing recommendations from the default 14 days to 32 days, at no additional cost. A longer lookback period allows Compute Optimizer to account for monthly utilization patterns, such as month-end processing, when generating rightsizing recommendations. This can help you make better optimization decisions for your workload, leading to better cost and performance outcomes. AWS Compute Optimi",
-    "published_at": "2026-06-03T18:30:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "general:products/aws-compute-optimizer,marketing:marchitecture/cost-management"
-    ],
-    "severity": null,
-    "score": 1.616,
-    "score_breakdown": {
-      "freshness": 0.866,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 1.616
+      "total": 1.629
     }
   },
   {
@@ -3560,6 +3512,30 @@
     }
   },
   {
+    "id": "9aacd059abfcb5d6",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-capacity-blocks-ml-govcloud/",
+    "title": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US) Regions",
+    "summary": "Amazon EC2 Capacity Blocks for ML is now available in AWS GovCloud (US-West) and AWS GovCloud (US-East), enabling government and regulated-industry customers to reserve GPU capacity for machine learning workloads. EC2 Capacity Blocks for ML allows you to reserve GPU instances in advance for a defined duration, giving you assured access to accelerated compute for short-duration pre-training, fine-tuning, rapid prototyping, and inference demand surges. Capacity Blocks deliver low-latency, high-thr",
+    "published_at": "2026-06-12T14:00:00+00:00",
+    "fetched_at": "2026-06-13T08:52:26.276787+00:00",
+    "tags": [
+      "general:products/amazon-ec2,general:products/aws-govcloud-us"
+    ],
+    "severity": null,
+    "score": 1.615,
+    "score_breakdown": {
+      "freshness": 1.615,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.615
+    }
+  },
+  {
     "id": "7d27880c8f0caf9c",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -3584,27 +3560,27 @@
     }
   },
   {
-    "id": "d776454eaed1a04b",
+    "id": "ed43ed8d6ec86cdd",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
-    "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
-    "summary": "Amazon Keyspaces (for Apache Cassandra) now returns an iterator position in the GetRecords response for change data capture (CDC) streams, indicating whether a consumer has reached the tip of the stream or whether additional records may be available. Amazon Keyspaces is a scalable, serverless, and managed Apache Cassandra-compatible database service that lets customers run Cassandra workloads on AWS without managing infrastructure. CDC streams capture row-level changes to Keyspaces tables so cus",
-    "published_at": "2026-06-03T16:00:00+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-ebs-ecs-32-day-lookback/",
+    "title": "AWS Compute Optimizer now supports 32-day lookback for EBS volume and ECS service rightsizing recommendations",
+    "summary": "AWS Compute Optimizer now lets you extend the lookback period of your Amazon EBS volume and Amazon ECS rightsizing recommendations from the default 14 days to 32 days, at no additional cost. A longer lookback period allows Compute Optimizer to account for monthly utilization patterns, such as month-end processing, when generating rightsizing recommendations. This can help you make better optimization decisions for your workload, leading to better cost and performance outcomes. AWS Compute Optimi",
+    "published_at": "2026-06-03T18:30:00+00:00",
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [
-      "marketing:marchitecture/databases,general:products/amazon-keyspaces"
+      "general:products/aws-compute-optimizer,marketing:marchitecture/cost-management"
     ],
     "severity": null,
-    "score": 1.609,
+    "score": 1.611,
     "score_breakdown": {
-      "freshness": 0.859,
+      "freshness": 0.861,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.609
+      "total": 1.611
     }
   },
   {
@@ -3632,6 +3608,30 @@
     }
   },
   {
+    "id": "d776454eaed1a04b",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/keyspaces-cdc-iterator-position/",
+    "title": "Amazon Keyspaces (for Apache Cassandra) now provides CDC iterator position",
+    "summary": "Amazon Keyspaces (for Apache Cassandra) now returns an iterator position in the GetRecords response for change data capture (CDC) streams, indicating whether a consumer has reached the tip of the stream or whether additional records may be available. Amazon Keyspaces is a scalable, serverless, and managed Apache Cassandra-compatible database service that lets customers run Cassandra workloads on AWS without managing infrastructure. CDC streams capture row-level changes to Keyspaces tables so cus",
+    "published_at": "2026-06-03T16:00:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "marketing:marchitecture/databases,general:products/amazon-keyspaces"
+    ],
+    "severity": null,
+    "score": 1.604,
+    "score_breakdown": {
+      "freshness": 0.854,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 1.604
+    }
+  },
+  {
     "id": "2d291e9fd0c37196",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -3645,14 +3645,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.608,
+    "score": 1.603,
     "score_breakdown": {
-      "freshness": 0.858,
+      "freshness": 0.853,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.608
+      "total": 1.603
     }
   },
   {
@@ -3669,14 +3669,14 @@
       "general:products/amazon-ecs,marketing:marchitecture/containers"
     ],
     "severity": null,
-    "score": 1.607,
+    "score": 1.602,
     "score_breakdown": {
-      "freshness": 0.857,
+      "freshness": 0.852,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.607
+      "total": 1.602
     }
   },
   {
@@ -3693,14 +3693,14 @@
       "marketing:marchitecture/management-and-governance,general:products/aws-config"
     ],
     "severity": null,
-    "score": 1.607,
+    "score": 1.602,
     "score_breakdown": {
-      "freshness": 0.857,
+      "freshness": 0.852,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.607
+      "total": 1.602
     }
   },
   {
@@ -3717,14 +3717,14 @@
       "marketing:marchitecture/internet-of-things,marketing:marchitecture/management-tools,general:products/aws-iot-core"
     ],
     "severity": null,
-    "score": 1.586,
+    "score": 1.582,
     "score_breakdown": {
-      "freshness": 0.836,
+      "freshness": 0.832,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.586
+      "total": 1.582
     }
   },
   {
@@ -3741,14 +3741,14 @@
       "general:products/aws-config"
     ],
     "severity": null,
-    "score": 1.555,
+    "score": 1.55,
     "score_breakdown": {
-      "freshness": 0.805,
+      "freshness": 0.8,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.555
+      "total": 1.55
     }
   },
   {
@@ -3765,14 +3765,14 @@
       "marketing:marchitecture/media-services,general:products/aws-deadline-cloud"
     ],
     "severity": null,
-    "score": 1.552,
+    "score": 1.548,
     "score_breakdown": {
-      "freshness": 0.802,
+      "freshness": 0.798,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.552
+      "total": 1.548
     }
   },
   {
@@ -3789,36 +3789,14 @@
       "general:products/amazon-sagemaker-deploy,general:products/amazon-sagemaker-studio,marketing:marchitecture/artificial-intelligence,general:products/aiml,general:products/amazon-sagemaker-training,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 1.551,
+    "score": 1.546,
     "score_breakdown": {
-      "freshness": 0.801,
+      "freshness": 0.796,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.551
-    }
-  },
-  {
-    "id": "e908cfe7b97b20af",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
-    "title": "Amazon Quick now integrates with Snowflake Cortex AI",
-    "summary": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After setting up the connection using Snowflake's managed MCP server with OAuth authentication, you can ask questions across structured data through Cortex Analyst and retrieve insights from unstructured documents through Cortex Search. With this in",
-    "published_at": "2026-06-11T22:02:00+00:00",
-    "fetched_at": "2026-06-13T08:52:26.276787+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 1.549,
-    "score_breakdown": {
-      "freshness": 1.549,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.549
+      "total": 1.546
     }
   },
   {
@@ -3833,14 +3811,36 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.548,
+    "score": 1.543,
     "score_breakdown": {
-      "freshness": 0.798,
+      "freshness": 0.793,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.548
+      "total": 1.543
+    }
+  },
+  {
+    "id": "e908cfe7b97b20af",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-snowflake-cortex-ai/",
+    "title": "Amazon Quick now integrates with Snowflake Cortex AI",
+    "summary": "Amazon Quick now integrates with Snowflake Cortex AI through the Model Context Protocol (MCP), enabling teams to query their Snowflake data and documents using natural language, and automate multi-step workflows directly within their Quick workspace. After setting up the connection using Snowflake's managed MCP server with OAuth authentication, you can ask questions across structured data through Cortex Analyst and retrieve insights from unstructured documents through Cortex Search. With this in",
+    "published_at": "2026-06-11T22:02:00+00:00",
+    "fetched_at": "2026-06-13T08:52:26.276787+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 1.54,
+    "score_breakdown": {
+      "freshness": 1.54,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.54
     }
   },
   {
@@ -3858,14 +3858,14 @@
       "AWS Nitro System"
     ],
     "severity": null,
-    "score": 1.547,
+    "score": 1.538,
     "score_breakdown": {
-      "freshness": 1.547,
+      "freshness": 1.538,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.547
+      "total": 1.538
     }
   },
   {
@@ -3882,14 +3882,14 @@
       "marketing:marchitecture/serverless,general:products/amazon-mwaa,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 1.526,
+    "score": 1.517,
     "score_breakdown": {
-      "freshness": 1.526,
+      "freshness": 1.517,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.526
+      "total": 1.517
     }
   },
   {
@@ -3907,14 +3907,14 @@
       "AWS Outposts"
     ],
     "severity": null,
-    "score": 1.526,
+    "score": 1.517,
     "score_breakdown": {
-      "freshness": 1.526,
+      "freshness": 1.517,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.526
+      "total": 1.517
     }
   },
   {
@@ -3931,14 +3931,14 @@
       "marketing:marchitecture/analytics,general:products/aws-lake-formation"
     ],
     "severity": null,
-    "score": 1.521,
+    "score": 1.512,
     "score_breakdown": {
-      "freshness": 1.521,
+      "freshness": 1.512,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.521
+      "total": 1.512
     }
   },
   {
@@ -3956,14 +3956,14 @@
       "AWS Compute Optimizer"
     ],
     "severity": null,
-    "score": 1.52,
+    "score": 1.511,
     "score_breakdown": {
-      "freshness": 1.52,
+      "freshness": 1.511,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.52
+      "total": 1.511
     }
   },
   {
@@ -3980,14 +3980,14 @@
       "general:products/amazon-connect,marketing:marchitecture/business-productivity,general:products/aws-govcloud-us,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.501,
+    "score": 1.497,
     "score_breakdown": {
-      "freshness": 0.751,
+      "freshness": 0.747,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.501
+      "total": 1.497
     }
   },
   {
@@ -4004,14 +4004,14 @@
       "marketing:marchitecture/business-productivity,general:products/aws-govcloud-us,general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.5,
+    "score": 1.496,
     "score_breakdown": {
-      "freshness": 0.75,
+      "freshness": 0.746,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.5
+      "total": 1.496
     }
   },
   {
@@ -4028,14 +4028,14 @@
       "marketing:marchitecture/business-productivity,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.498,
+    "score": 1.494,
     "score_breakdown": {
-      "freshness": 0.748,
+      "freshness": 0.744,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.498
+      "total": 1.494
     }
   },
   {
@@ -4052,14 +4052,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 1.497,
+    "score": 1.493,
     "score_breakdown": {
-      "freshness": 0.747,
+      "freshness": 0.743,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.497
+      "total": 1.493
     }
   },
   {
@@ -4076,14 +4076,14 @@
       "marketing:marchitecture/security-identity-and-compliance,marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock,general:products/aws-secrets-manager"
     ],
     "severity": null,
-    "score": 1.495,
+    "score": 1.49,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.74,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.495
+      "total": 1.49
     }
   },
   {
@@ -4100,14 +4100,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 1.49,
+    "score": 1.485,
     "score_breakdown": {
-      "freshness": 0.74,
+      "freshness": 0.735,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.49
+      "total": 1.485
     }
   },
   {
@@ -4124,14 +4124,14 @@
       "marketing:marchitecture/security-identity-and-compliance,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.481,
+    "score": 1.473,
     "score_breakdown": {
-      "freshness": 1.481,
+      "freshness": 1.473,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.481
+      "total": 1.473
     }
   },
   {
@@ -4148,14 +4148,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": "low",
-    "score": 1.428,
+    "score": 1.427,
     "score_breakdown": {
-      "freshness": 0.178,
+      "freshness": 0.177,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.5,
-      "total": 1.428
+      "total": 1.427
     }
   },
   {
@@ -4172,14 +4172,14 @@
       "general:products/amazon-genomics,general:products/amazon-omics"
     ],
     "severity": "low",
-    "score": 1.418,
+    "score": 1.417,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.5,
-      "total": 1.418
+      "total": 1.417
     }
   },
   {
@@ -4198,14 +4198,14 @@
       "Foundational (100)"
     ],
     "severity": null,
-    "score": 1.413,
+    "score": 1.404,
     "score_breakdown": {
-      "freshness": 1.413,
+      "freshness": 1.404,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.413
+      "total": 1.404
     }
   },
   {
@@ -4222,14 +4222,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 1.412,
+    "score": 1.404,
     "score_breakdown": {
-      "freshness": 1.412,
+      "freshness": 1.404,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.412
+      "total": 1.404
     }
   },
   {
@@ -4244,38 +4244,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.353,
+    "score": 1.349,
     "score_breakdown": {
-      "freshness": 0.603,
+      "freshness": 0.599,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.353
-    }
-  },
-  {
-    "id": "208de4462399e630",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
-    "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
-    "summary": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx Intelligent-Tiering is built for general-purpose file workloads such as file shares, archives, media libraries, and migrations from on-premises HDD storage. It automatically moves your data across three storage tiers (Frequent Access, Infrequent Access, and Archive) based on access patterns, and an optional SSD r",
-    "published_at": "2026-06-09T20:52:00+00:00",
-    "fetched_at": "2026-06-11T10:15:58.644486+00:00",
-    "tags": [
-      "general:products/amazon-fsx-for-openzfs,marketing:marchitecture/storage"
-    ],
-    "severity": null,
-    "score": 1.338,
-    "score_breakdown": {
-      "freshness": 1.338,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.338
+      "total": 1.349
     }
   },
   {
@@ -4292,66 +4268,38 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/databases,general:products/amazon-rds-for-oracle"
     ],
     "severity": null,
-    "score": 1.337,
+    "score": 1.333,
     "score_breakdown": {
-      "freshness": 0.587,
+      "freshness": 0.583,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.337
+      "total": 1.333
     }
   },
   {
-    "id": "28eede3213c95dff",
+    "id": "208de4462399e630",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-mi-extended-retention-region-expansion",
-    "title": "Amazon CloudWatch now supports querying metrics data up to two weeks old",
-    "summary": "Amazon CloudWatch now allows you to query metrics data up to two weeks in the past using the Metrics Insights query source. CloudWatch Metrics Insights offers fast, flexible, SQL-based queries. This new capability allows you to display, aggregate, or slice and dice metrics data older than 3 hours, for enhanced visualization and investigation. Previously, when creating dashboards and alarms to monitor dynamic groups of metrics over your resources and applications, you could visualize up to 3 hour",
-    "published_at": "2026-05-29T02:00:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-fsx-openzfs/",
+    "title": "Amazon FSx for OpenZFS Intelligent-Tiering storage class is now available in 8 additional AWS Regions",
+    "summary": "You can now create Amazon FSx for OpenZFS file systems with the Intelligent-Tiering storage class in 8 additional AWS Regions across the US, Europe, Asia Pacific, and South America. FSx Intelligent-Tiering is built for general-purpose file workloads such as file shares, archives, media libraries, and migrations from on-premises HDD storage. It automatically moves your data across three storage tiers (Frequent Access, Infrequent Access, and Archive) based on access patterns, and an optional SSD r",
+    "published_at": "2026-06-09T20:52:00+00:00",
+    "fetched_at": "2026-06-11T10:15:58.644486+00:00",
     "tags": [
-      "marketing:marchitecture/management-and-governance,general:products/amazon-cloudwatch"
+      "general:products/amazon-fsx-for-openzfs,marketing:marchitecture/storage"
     ],
     "severity": null,
-    "score": 1.327,
+    "score": 1.33,
     "score_breakdown": {
-      "freshness": 0.577,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 1.327
-    }
-  },
-  {
-    "id": "9f567ab5f2391a83",
-    "track": "whats-new",
-    "source": "rss:aws-news-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
-    "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
-    "summary": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 delivers Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use.",
-    "published_at": "2026-06-09T17:40:31+00:00",
-    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
-    "tags": [
-      "Amazon Bedrock",
-      "Amazon Machine Learning",
-      "Artificial Intelligence",
-      "Launch",
-      "News"
-    ],
-    "severity": null,
-    "score": 1.325,
-    "score_breakdown": {
-      "freshness": 1.325,
+      "freshness": 1.33,
       "keyword": 0.0,
-      "source": 1.3,
+      "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.325
+      "total": 1.33
     }
   },
   {
@@ -4383,51 +4331,55 @@
     }
   },
   {
-    "id": "238b66a9dc406682",
+    "id": "28eede3213c95dff",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
-    "title": "AWS Organizations emits CloudTrail events for account membership changes",
-    "summary": "AWS Organizations now automatically emits CloudTrail events to your management account whenever accounts join or leave your organization. These new events—AccountJoinedOrganization and AccountDepartedOrganization—provide security teams and cloud administrators with enhanced visibility into organizational membership changes, helping detect unauthorized activities and potential security incidents that previously could go unnoticed. The AccountJoinedOrganization event captures how an account joined",
-    "published_at": "2026-05-28T16:00:00+00:00",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-mi-extended-retention-region-expansion",
+    "title": "Amazon CloudWatch now supports querying metrics data up to two weeks old",
+    "summary": "Amazon CloudWatch now allows you to query metrics data up to two weeks in the past using the Metrics Insights query source. CloudWatch Metrics Insights offers fast, flexible, SQL-based queries. This new capability allows you to display, aggregate, or slice and dice metrics data older than 3 hours, for enhanced visualization and investigation. Previously, when creating dashboards and alarms to monitor dynamic groups of metrics over your resources and applications, you could visualize up to 3 hour",
+    "published_at": "2026-05-29T02:00:00+00:00",
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [
-      "general:use-case/security-and-compliance,general:products/aws-organizations"
+      "marketing:marchitecture/management-and-governance,general:products/amazon-cloudwatch"
     ],
     "severity": null,
-    "score": 1.31,
+    "score": 1.323,
     "score_breakdown": {
-      "freshness": 0.56,
+      "freshness": 0.573,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.31
+      "total": 1.323
     }
   },
   {
-    "id": "5cbd04aed15000a1",
+    "id": "9f567ab5f2391a83",
     "track": "whats-new",
-    "source": "rss:aws-whats-new",
+    "source": "rss:aws-news-blog",
     "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
-    "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
-    "summary": "Today, AWS announces the general availability of the next generation of AWS Resilience Hub, a central location in the AWS console that helps platform engineering and site reliability teams assess and strengthen the resilience of their critical workloads running on AWS. This new update expands on AWS Resilience Hub’s existing experience for meeting resilience objectives by introducing a new application model, dependency discovery, generative AI-powered failure mode analysis, modular resilience po",
-    "published_at": "2026-05-28T16:00:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+    "title": "Anthropic Claude Fable 5 on AWS: Mythos-class capabilities with built-in safeguards now available",
+    "summary": "AWS announces the availability of Claude Fable 5 on Amazon Bedrock and Claude Platform on AWS. Claude Fable 5 delivers Mythos-level capabilities available to all customers, with strong safeguards designed to make it safe for broader use.",
+    "published_at": "2026-06-09T17:40:31+00:00",
+    "fetched_at": "2026-06-10T09:50:33.516825+00:00",
     "tags": [
-      "general:products/aws-resilience-hub,marketing:marchitecture/management-and-governance"
+      "Amazon Bedrock",
+      "Amazon Machine Learning",
+      "Artificial Intelligence",
+      "Launch",
+      "News"
     ],
     "severity": null,
-    "score": 1.31,
+    "score": 1.318,
     "score_breakdown": {
-      "freshness": 0.56,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
+      "freshness": 1.318,
+      "keyword": 0.0,
+      "source": 1.3,
+      "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.31
+      "total": 1.318
     }
   },
   {
@@ -4457,6 +4409,54 @@
     }
   },
   {
+    "id": "238b66a9dc406682",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-organizations-cloudtrail/",
+    "title": "AWS Organizations emits CloudTrail events for account membership changes",
+    "summary": "AWS Organizations now automatically emits CloudTrail events to your management account whenever accounts join or leave your organization. These new events—AccountJoinedOrganization and AccountDepartedOrganization—provide security teams and cloud administrators with enhanced visibility into organizational membership changes, helping detect unauthorized activities and potential security incidents that previously could go unnoticed. The AccountJoinedOrganization event captures how an account joined",
+    "published_at": "2026-05-28T16:00:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "general:use-case/security-and-compliance,general:products/aws-organizations"
+    ],
+    "severity": null,
+    "score": 1.306,
+    "score_breakdown": {
+      "freshness": 0.556,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 1.306
+    }
+  },
+  {
+    "id": "5cbd04aed15000a1",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-announces-next-gen-aws-resilience-hub/",
+    "title": "AWS announces general availability of the next generation of AWS Resilience Hub",
+    "summary": "Today, AWS announces the general availability of the next generation of AWS Resilience Hub, a central location in the AWS console that helps platform engineering and site reliability teams assess and strengthen the resilience of their critical workloads running on AWS. This new update expands on AWS Resilience Hub’s existing experience for meeting resilience objectives by introducing a new application model, dependency discovery, generative AI-powered failure mode analysis, modular resilience po",
+    "published_at": "2026-05-28T16:00:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "general:products/aws-resilience-hub,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 1.306,
+    "score_breakdown": {
+      "freshness": 0.556,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 1.306
+    }
+  },
+  {
     "id": "b1e1cfedf9075822",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -4470,14 +4470,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/desktop-and-app-streaming,general:products/amazon-appstream-2-0"
     ],
     "severity": null,
-    "score": 1.308,
+    "score": 1.305,
     "score_breakdown": {
-      "freshness": 0.558,
+      "freshness": 0.555,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.308
+      "total": 1.305
     }
   },
   {
@@ -4494,14 +4494,14 @@
       "marketing:marchitecture/front-end-web-mobile,marketing:marchitecture/developer-tools,marketing:marchitecture/developers,marketing:marchitecture/internet-of-things,marketing:marchitecture/messaging"
     ],
     "severity": null,
-    "score": 1.308,
+    "score": 1.305,
     "score_breakdown": {
-      "freshness": 0.558,
+      "freshness": 0.555,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.308
+      "total": 1.305
     }
   },
   {
@@ -4518,14 +4518,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-emr"
     ],
     "severity": null,
-    "score": 1.284,
+    "score": 1.276,
     "score_breakdown": {
-      "freshness": 1.284,
+      "freshness": 1.276,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.284
+      "total": 1.276
     }
   },
   {
@@ -4542,14 +4542,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker,general:products/aiml"
     ],
     "severity": null,
-    "score": 1.278,
+    "score": 1.275,
     "score_breakdown": {
-      "freshness": 0.528,
+      "freshness": 0.525,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.278
+      "total": 1.275
     }
   },
   {
@@ -4566,14 +4566,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-emr"
     ],
     "severity": null,
-    "score": 1.278,
+    "score": 1.275,
     "score_breakdown": {
-      "freshness": 0.528,
+      "freshness": 0.525,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.278
+      "total": 1.275
     }
   },
   {
@@ -4590,14 +4590,14 @@
       "general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 1.273,
+    "score": 1.27,
     "score_breakdown": {
-      "freshness": 0.523,
+      "freshness": 0.52,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.273
+      "total": 1.27
     }
   },
   {
@@ -4614,14 +4614,14 @@
       "marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 1.27,
+    "score": 1.267,
     "score_breakdown": {
-      "freshness": 0.52,
+      "freshness": 0.517,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.27
+      "total": 1.267
     }
   },
   {
@@ -4638,38 +4638,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-aurora,marketing:marchitecture/databases,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 1.27,
+    "score": 1.267,
     "score_breakdown": {
-      "freshness": 0.52,
+      "freshness": 0.517,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.27
-    }
-  },
-  {
-    "id": "f8f6ade9bb392f40",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
-    "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
-    "summary": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This expansion enables you to detect unused resources across more of your AWS environment and identify potential cost savings. Compute Optimizer analyzes utilization metrics to determine whether a resource is idle. Customers can set this lookback period",
-    "published_at": "2026-06-08T21:00:00+00:00",
-    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
-    "tags": [
-      "marketing:marchitecture/cost-management,general:products/aws-compute-optimizer"
-    ],
-    "severity": null,
-    "score": 1.246,
-    "score_breakdown": {
-      "freshness": 1.246,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 1.246
+      "total": 1.267
     }
   },
   {
@@ -4690,14 +4666,38 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 1.245,
+    "score": 1.241,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.741,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 1.245
+      "total": 1.241
+    }
+  },
+  {
+    "id": "f8f6ade9bb392f40",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-compute-optimizer-six-new-idle",
+    "title": "AWS Compute Optimizer now supports idle recommendations for six additional resource types",
+    "summary": "AWS Compute Optimizer now identifies idle resources for Amazon DynamoDB provisioned tables, Amazon ElastiCache (Redis and Valkey), Amazon MemoryDB, Amazon DocumentDB (provisioned and serverless), Amazon WorkSpaces, and Amazon SageMaker endpoints. This expansion enables you to detect unused resources across more of your AWS environment and identify potential cost savings. Compute Optimizer analyzes utilization metrics to determine whether a resource is idle. Customers can set this lookback period",
+    "published_at": "2026-06-08T21:00:00+00:00",
+    "fetched_at": "2026-06-09T09:34:01.319851+00:00",
+    "tags": [
+      "marketing:marchitecture/cost-management,general:products/aws-compute-optimizer"
+    ],
+    "severity": null,
+    "score": 1.239,
+    "score_breakdown": {
+      "freshness": 1.239,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 1.239
     }
   },
   {
@@ -4714,14 +4714,14 @@
       "general:products/cloud-financial-management,marketing:marchitecture/cost-management"
     ],
     "severity": null,
-    "score": 1.233,
+    "score": 1.225,
     "score_breakdown": {
-      "freshness": 1.233,
+      "freshness": 1.225,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.233
+      "total": 1.225
     }
   },
   {
@@ -4736,14 +4736,14 @@
     "fetched_at": "2026-06-09T09:34:01.319851+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.232,
+    "score": 1.224,
     "score_breakdown": {
-      "freshness": 1.232,
+      "freshness": 1.224,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.232
+      "total": 1.224
     }
   },
   {
@@ -4765,14 +4765,14 @@
       "Amazon SQS"
     ],
     "severity": null,
-    "score": 1.23,
+    "score": 1.223,
     "score_breakdown": {
-      "freshness": 1.23,
+      "freshness": 1.223,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.23
+      "total": 1.223
     }
   },
   {
@@ -4789,14 +4789,14 @@
       "general:products/aws-cost-explorer,marketing:marchitecture/cost-management"
     ],
     "severity": null,
-    "score": 1.23,
+    "score": 1.223,
     "score_breakdown": {
-      "freshness": 1.23,
+      "freshness": 1.223,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.23
+      "total": 1.223
     }
   },
   {
@@ -4813,14 +4813,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds-for-sql-server"
     ],
     "severity": null,
-    "score": 1.195,
+    "score": 1.188,
     "score_breakdown": {
-      "freshness": 1.195,
+      "freshness": 1.188,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.195
+      "total": 1.188
     }
   },
   {
@@ -4835,14 +4835,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.119,
+    "score": 1.117,
     "score_breakdown": {
-      "freshness": 0.369,
+      "freshness": 0.367,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.119
+      "total": 1.117
     }
   },
   {
@@ -4859,14 +4859,14 @@
       "general:products/amazon-workspaces,marketing:marchitecture/desktop-and-app-streaming"
     ],
     "severity": null,
-    "score": 1.115,
+    "score": 1.113,
     "score_breakdown": {
-      "freshness": 0.365,
+      "freshness": 0.363,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.115
+      "total": 1.113
     }
   },
   {
@@ -4883,14 +4883,14 @@
       "general:products/aws-clean-rooms,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 1.11,
+    "score": 1.108,
     "score_breakdown": {
-      "freshness": 0.36,
+      "freshness": 0.358,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.11
+      "total": 1.108
     }
   },
   {
@@ -4907,14 +4907,14 @@
       "marketing:marchitecture/management-and-governance,general:products/amazon-cloudwatch,general:products/amazon-cloudwatch-logs"
     ],
     "severity": null,
-    "score": 1.097,
+    "score": 1.095,
     "score_breakdown": {
-      "freshness": 0.347,
+      "freshness": 0.345,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 1.097
+      "total": 1.095
     }
   },
   {
@@ -5012,14 +5012,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-emr"
     ],
     "severity": null,
-    "score": 0.974,
+    "score": 0.972,
     "score_breakdown": {
-      "freshness": 0.224,
+      "freshness": 0.222,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.974
+      "total": 0.972
     }
   },
   {
@@ -5036,14 +5036,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": null,
-    "score": 0.96,
+    "score": 0.959,
     "score_breakdown": {
-      "freshness": 0.21,
+      "freshness": 0.209,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.96
+      "total": 0.959
     }
   },
   {
@@ -5060,14 +5060,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 0.959,
+    "score": 0.958,
     "score_breakdown": {
-      "freshness": 0.209,
+      "freshness": 0.208,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.959
+      "total": 0.958
     }
   },
   {
@@ -5084,14 +5084,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.958,
+    "score": 0.957,
     "score_breakdown": {
-      "freshness": 0.208,
+      "freshness": 0.207,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.958
+      "total": 0.957
     }
   },
   {
@@ -5108,14 +5108,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.958,
+    "score": 0.957,
     "score_breakdown": {
-      "freshness": 0.208,
+      "freshness": 0.207,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.958
+      "total": 0.957
     }
   },
   {
@@ -5132,14 +5132,14 @@
       "general:products/aiml,general:products/amazon-sagemaker,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.957,
+    "score": 0.956,
     "score_breakdown": {
-      "freshness": 0.207,
+      "freshness": 0.206,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.957
+      "total": 0.956
     }
   },
   {
@@ -5156,14 +5156,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,general:products/amazon-sagemaker-jumpstart,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.957,
+    "score": 0.956,
     "score_breakdown": {
-      "freshness": 0.207,
+      "freshness": 0.206,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.957
+      "total": 0.956
     }
   },
   {
@@ -5180,14 +5180,14 @@
       "general:products/amazon-sagemaker,general:products/aiml,marketing:marchitecture/artificial-intelligence,general:products/amazon-sagemaker-jumpstart"
     ],
     "severity": null,
-    "score": 0.957,
+    "score": 0.956,
     "score_breakdown": {
-      "freshness": 0.207,
+      "freshness": 0.206,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.957
+      "total": 0.956
     }
   },
   {
@@ -5204,14 +5204,14 @@
       "marketing:marchitecture/storage,general:products/amazon-fsx-for-openzfs"
     ],
     "severity": null,
-    "score": 0.943,
+    "score": 0.942,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.192,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.943
+      "total": 0.942
     }
   },
   {
@@ -5228,14 +5228,14 @@
       "general:products/amazon-rds-for-oracle,general:products/amazon-rds"
     ],
     "severity": null,
-    "score": 0.937,
+    "score": 0.936,
     "score_breakdown": {
-      "freshness": 0.187,
+      "freshness": 0.186,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.937
+      "total": 0.936
     }
   },
   {
@@ -5250,14 +5250,14 @@
     "fetched_at": "2026-05-17T11:52:07.556423+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.929,
+    "score": 0.928,
     "score_breakdown": {
-      "freshness": 0.179,
+      "freshness": 0.178,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.929
+      "total": 0.928
     }
   },
   {
@@ -5274,14 +5274,14 @@
       "general:products/amazon-route-53,general:products/amazon-eks,marketing:marchitecture/containers"
     ],
     "severity": null,
-    "score": 0.929,
+    "score": 0.928,
     "score_breakdown": {
-      "freshness": 0.179,
+      "freshness": 0.178,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.929
+      "total": 0.928
     }
   },
   {
@@ -5298,14 +5298,14 @@
       "marketing:marchitecture/business-productivity,marketing:marchitecture/messaging,general:products/amazon-connect,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 0.928,
+    "score": 0.927,
     "score_breakdown": {
-      "freshness": 0.178,
+      "freshness": 0.177,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.928
+      "total": 0.927
     }
   },
   {
@@ -5327,14 +5327,14 @@
       "News"
     ],
     "severity": null,
-    "score": 0.927,
+    "score": 0.925,
     "score_breakdown": {
-      "freshness": 0.277,
+      "freshness": 0.275,
       "keyword": 0.5,
       "source": 1.3,
       "keyword_signal": 0.65,
       "severity": 0.0,
-      "total": 0.927
+      "total": 0.925
     }
   },
   {
@@ -5351,14 +5351,14 @@
       "general:products/amazon-aurora,marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 0.925,
+    "score": 0.92,
     "score_breakdown": {
-      "freshness": 0.925,
+      "freshness": 0.92,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.925
+      "total": 0.92
     }
   },
   {
@@ -5375,14 +5375,14 @@
       "general:products/amazon-sagemaker-studio,general:products/amazon-sagemaker,marketing:marchitecture/artificial-intelligence,general:products/aiml"
     ],
     "severity": null,
-    "score": 0.917,
+    "score": 0.916,
     "score_breakdown": {
-      "freshness": 0.167,
+      "freshness": 0.166,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.917
+      "total": 0.916
     }
   },
   {
@@ -5399,14 +5399,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.917,
+    "score": 0.916,
     "score_breakdown": {
-      "freshness": 0.167,
+      "freshness": 0.166,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.917
+      "total": 0.916
     }
   },
   {
@@ -5423,14 +5423,14 @@
       "general:products/aws-client-vpn,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 0.887,
+    "score": 0.886,
     "score_breakdown": {
-      "freshness": 0.137,
+      "freshness": 0.136,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.887
+      "total": 0.886
     }
   },
   {
@@ -5447,14 +5447,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-quicksight"
     ],
     "severity": null,
-    "score": 0.884,
+    "score": 0.883,
     "score_breakdown": {
-      "freshness": 0.134,
+      "freshness": 0.133,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.884
+      "total": 0.883
     }
   },
   {
@@ -5495,14 +5495,14 @@
       "general:products/amazon-route-53,general:products/aws-govcloud-us,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 0.878,
+    "score": 0.877,
     "score_breakdown": {
-      "freshness": 0.128,
+      "freshness": 0.127,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.878
+      "total": 0.877
     }
   },
   {
@@ -5519,14 +5519,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 0.876,
+    "score": 0.875,
     "score_breakdown": {
-      "freshness": 0.126,
+      "freshness": 0.125,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.876
+      "total": 0.875
     }
   },
   {
@@ -5567,14 +5567,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 0.875,
+    "score": 0.874,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.875
+      "total": 0.874
     }
   },
   {
@@ -5589,14 +5589,14 @@
     "fetched_at": "2026-05-17T11:52:07.556423+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.875,
+    "score": 0.874,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.875
+      "total": 0.874
     }
   },
   {
@@ -5613,38 +5613,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 0.875,
+    "score": 0.874,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.875
-    }
-  },
-  {
-    "id": "b9e4d85154ba1023",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
-    "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
-    "summary": "AWS IoT Device Management adds MQTT session data to connectivity status API, enabling you to troubleshoot connectivity issues and audit connection patterns across your Internet of things (IoT) device fleet. This launch brings AWS IoT Device Management's existing connectivity status API to full parity with AWS IoT Core's recently launched GetConnection API , enabling you to retrieve detailed connection and MQTT session information for the IoT device by its thing name. In addition to the connectio",
-    "published_at": "2026-06-03T21:15:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "general:products/aws-iot-core,general:products/aws-iot-device-management,marketing:marchitecture/internet-of-things,general:products/aws-iot"
-    ],
-    "severity": null,
-    "score": 0.873,
-    "score_breakdown": {
-      "freshness": 0.873,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.873
+      "total": 0.874
     }
   },
   {
@@ -5672,82 +5648,6 @@
     }
   },
   {
-    "id": "1364a00959cd99f5",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
-    "title": "Amazon SageMaker Data Agent now supports conversation history",
-    "summary": "Amazon SageMaker Data Agent, available in SageMaker Unified Studio now supports conversation history, enabling data practitioners to maintain continuity across analytical sessions. Data analysts and data scientists can now seamlessly reference previous agent-generated code, resume multi-step analyses, and review past troubleshooting interactions within their notebooks and Query Editor workflows. With conversation history, you can pick up exactly where you left off by accessing a scrollable list ",
-    "published_at": "2026-06-03T20:26:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
-    ],
-    "severity": null,
-    "score": 0.871,
-    "score_breakdown": {
-      "freshness": 0.871,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.871
-    }
-  },
-  {
-    "id": "f73bfc6a170a8c84",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
-    "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
-    "summary": "Amazon SageMaker Unified Studio now enables you to schedule, parameterize, and orchestrate notebook runs directly from the notebook interface without managing external orchestration infrastructure. This makes it easier for customers to take notebooks from experimentation to production, automating recurring workloads such as daily reports, data quality checks, and model retraining. You can trigger on-demand background runs on dedicated compute without interrupting interactive sessions and create ",
-    "published_at": "2026-06-03T20:13:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
-    ],
-    "severity": null,
-    "score": 0.87,
-    "score_breakdown": {
-      "freshness": 0.87,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.87
-    }
-  },
-  {
-    "id": "7a6ac7fb0fb9e4ad",
-    "track": "whats-new",
-    "source": "rss:aws-compute-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/compute/streamline-your-infrastructure-automating-ami-creation-with-kiro-cli-and-ec2-image-builder/",
-    "title": "Streamline your infrastructure: Automating AMI creation with Kiro CLI and EC2 Image Builder",
-    "summary": "Managing infrastructure at scale requires robust automation tools that reduce manual effort while maintaining consistency and security. The combination of Kiro CLI and AWS EC2 Image Builder offers a powerful solution for automating the creation, testing, and deployment of Amazon Machine Images (AMIs). The challenge of manual image management Traditional approaches of creating and maintaining AMIs often involve manual […]",
-    "published_at": "2026-05-22T21:01:36+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "Amazon EC2",
-      "Artificial Intelligence",
-      "Compute",
-      "Kiro",
-      "EC2 Image Builder"
-    ],
-    "severity": null,
-    "score": 0.87,
-    "score_breakdown": {
-      "freshness": 0.37,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.87
-    }
-  },
-  {
     "id": "1295431bcf6d6944",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -5761,36 +5661,12 @@
       "general:products/amazon-redshift,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.87,
+    "score": 0.869,
     "score_breakdown": {
-      "freshness": 0.12,
+      "freshness": 0.119,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 0.87
-    }
-  },
-  {
-    "id": "650ba973591c552a",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
-    "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
-    "summary": "Amazon Bedrock now supports GPT-5.4 from OpenAI in AWS GovCloud (US-West). Government and regulated industry customers can use GPT-5.4 for complex reasoning, coding, document analysis, and multi-step workflows while benefiting from the security, governance, and operational controls of Amazon Bedrock. GPT-5.4 runs on Amazon Bedrock’s next-generation inference engine, built for high performance, reliability, and security, with isolated queues and durable execution for resilient workloads. Prompts ",
-    "published_at": "2026-06-03T19:58:00+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "general:products/amazon-bedrock,general:products/aws-govcloud-us"
-    ],
-    "severity": null,
-    "score": 0.869,
-    "score_breakdown": {
-      "freshness": 0.869,
-      "keyword": 0.0,
-      "source": 1.5,
-      "keyword_signal": 0.0,
       "severity": 0.0,
       "total": 0.869
     }
@@ -5820,6 +5696,58 @@
     }
   },
   {
+    "id": "b9e4d85154ba1023",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-iot-device-management-mqtt/",
+    "title": "AWS IoT Device Management adds MQTT session data to connectivity status API",
+    "summary": "AWS IoT Device Management adds MQTT session data to connectivity status API, enabling you to troubleshoot connectivity issues and audit connection patterns across your Internet of things (IoT) device fleet. This launch brings AWS IoT Device Management's existing connectivity status API to full parity with AWS IoT Core's recently launched GetConnection API , enabling you to retrieve detailed connection and MQTT session information for the IoT device by its thing name. In addition to the connectio",
+    "published_at": "2026-06-03T21:15:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "general:products/aws-iot-core,general:products/aws-iot-device-management,marketing:marchitecture/internet-of-things,general:products/aws-iot"
+    ],
+    "severity": null,
+    "score": 0.868,
+    "score_breakdown": {
+      "freshness": 0.868,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.868
+    }
+  },
+  {
+    "id": "7a6ac7fb0fb9e4ad",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/streamline-your-infrastructure-automating-ami-creation-with-kiro-cli-and-ec2-image-builder/",
+    "title": "Streamline your infrastructure: Automating AMI creation with Kiro CLI and EC2 Image Builder",
+    "summary": "Managing infrastructure at scale requires robust automation tools that reduce manual effort while maintaining consistency and security. The combination of Kiro CLI and AWS EC2 Image Builder offers a powerful solution for automating the creation, testing, and deployment of Amazon Machine Images (AMIs). The challenge of manual image management Traditional approaches of creating and maintaining AMIs often involve manual […]",
+    "published_at": "2026-05-22T21:01:36+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "Amazon EC2",
+      "Artificial Intelligence",
+      "Compute",
+      "Kiro",
+      "EC2 Image Builder"
+    ],
+    "severity": null,
+    "score": 0.868,
+    "score_breakdown": {
+      "freshness": 0.368,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.868
+    }
+  },
+  {
     "id": "c3cbd3463a7aa109",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -5833,14 +5761,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/aws-site-to-site"
     ],
     "severity": null,
-    "score": 0.868,
+    "score": 0.867,
     "score_breakdown": {
-      "freshness": 0.118,
+      "freshness": 0.117,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.868
+      "total": 0.867
     }
   },
   {
@@ -5899,14 +5827,62 @@
     "fetched_at": "2026-05-17T11:52:07.556423+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.867,
+    "score": 0.866,
     "score_breakdown": {
-      "freshness": 0.117,
+      "freshness": 0.116,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.867
+      "total": 0.866
+    }
+  },
+  {
+    "id": "1364a00959cd99f5",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-data-agent/",
+    "title": "Amazon SageMaker Data Agent now supports conversation history",
+    "summary": "Amazon SageMaker Data Agent, available in SageMaker Unified Studio now supports conversation history, enabling data practitioners to maintain continuity across analytical sessions. Data analysts and data scientists can now seamlessly reference previous agent-generated code, resume multi-step analyses, and review past troubleshooting interactions within their notebooks and Query Editor workflows. With conversation history, you can pick up exactly where you left off by accessing a scrollable list ",
+    "published_at": "2026-06-03T20:26:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
+    ],
+    "severity": null,
+    "score": 0.865,
+    "score_breakdown": {
+      "freshness": 0.865,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.865
+    }
+  },
+  {
+    "id": "f73bfc6a170a8c84",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-sagemaker-unified-studio/",
+    "title": "Amazon SageMaker Unified Studio now supports notebook scheduling",
+    "summary": "Amazon SageMaker Unified Studio now enables you to schedule, parameterize, and orchestrate notebook runs directly from the notebook interface without managing external orchestration infrastructure. This makes it easier for customers to take notebooks from experimentation to production, automating recurring workloads such as daily reports, data quality checks, and model retraining. You can trigger on-demand background runs on dedicated compute without interrupting interactive sessions and create ",
+    "published_at": "2026-06-03T20:13:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.865,
+    "score_breakdown": {
+      "freshness": 0.865,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.865
     }
   },
   {
@@ -5923,14 +5899,62 @@
       "general:products/aws-elemental-mediatailor,marketing:marchitecture/media-services"
     ],
     "severity": null,
-    "score": 0.866,
+    "score": 0.865,
     "score_breakdown": {
-      "freshness": 0.116,
+      "freshness": 0.115,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.866
+      "total": 0.865
+    }
+  },
+  {
+    "id": "650ba973591c552a",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/GPT54-available-in-aws-govcloud-us-west/",
+    "title": "OpenAI GPT-5.4 generally available on Amazon Bedrock in AWS GovCloud (US-West)",
+    "summary": "Amazon Bedrock now supports GPT-5.4 from OpenAI in AWS GovCloud (US-West). Government and regulated industry customers can use GPT-5.4 for complex reasoning, coding, document analysis, and multi-step workflows while benefiting from the security, governance, and operational controls of Amazon Bedrock. GPT-5.4 runs on Amazon Bedrock’s next-generation inference engine, built for high performance, reliability, and security, with isolated queues and durable execution for resilient workloads. Prompts ",
+    "published_at": "2026-06-03T19:58:00+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "general:products/amazon-bedrock,general:products/aws-govcloud-us"
+    ],
+    "severity": null,
+    "score": 0.864,
+    "score_breakdown": {
+      "freshness": 0.864,
+      "keyword": 0.0,
+      "source": 1.5,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.864
+    }
+  },
+  {
+    "id": "bacc1bcb412bc554",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
+    "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
+    "summary": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade security controls. The Agent Toolkit for AWS is the successor to the MCP servers, plugins, and skills available on AWS Labs . Developers using coding agents to build on AWS often find that their agents struggle with complex multi-service workflows, rely on outdated knowledge of AWS services, and are d",
+    "published_at": "2026-05-06T12:00:00+00:00",
+    "fetched_at": "2026-05-17T11:52:07.556423+00:00",
+    "tags": [
+      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
+    ],
+    "severity": null,
+    "score": 0.864,
+    "score_breakdown": {
+      "freshness": 0.114,
+      "keyword": 0.5,
+      "source": 1.5,
+      "keyword_signal": 0.75,
+      "severity": 0.0,
+      "total": 0.864
     }
   },
   {
@@ -5948,65 +5972,12 @@
       "Best Practices"
     ],
     "severity": null,
-    "score": 0.865,
+    "score": 0.86,
     "score_breakdown": {
-      "freshness": 0.865,
+      "freshness": 0.86,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.865
-    }
-  },
-  {
-    "id": "bacc1bcb412bc554",
-    "track": "whats-new",
-    "source": "rss:aws-whats-new",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/",
-    "title": "Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS",
-    "summary": "Today, AWS is launching the Agent Toolkit for AWS, a production-ready suite of tools and guidance that helps AI coding agents build on AWS with fewer errors, lower token costs, and enterprise-grade security controls. The Agent Toolkit for AWS is the successor to the MCP servers, plugins, and skills available on AWS Labs . Developers using coding agents to build on AWS often find that their agents struggle with complex multi-service workflows, rely on outdated knowledge of AWS services, and are d",
-    "published_at": "2026-05-06T12:00:00+00:00",
-    "fetched_at": "2026-05-17T11:52:07.556423+00:00",
-    "tags": [
-      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools"
-    ],
-    "severity": null,
-    "score": 0.865,
-    "score_breakdown": {
-      "freshness": 0.115,
-      "keyword": 0.5,
-      "source": 1.5,
-      "keyword_signal": 0.75,
-      "severity": 0.0,
-      "total": 0.865
-    }
-  },
-  {
-    "id": "e4057d4eeb64c4b6",
-    "track": "whats-new",
-    "source": "rss:aws-news-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/aws/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/",
-    "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool",
-    "summary": "Amazon Bedrock Advanced Prompt Optimization enables customers to optimize their prompts for their current model or migrate prompts to new models faster than before with built-in evaluation feedback loops. Optimize your prompts and compare results for up to 5 models simultaneously.",
-    "published_at": "2026-05-14T22:03:39+00:00",
-    "fetched_at": "2026-05-17T11:52:07.556423+00:00",
-    "tags": [
-      "Amazon Bedrock",
-      "Amazon Bedrock Prompt Management",
-      "Amazon Machine Learning",
-      "Artificial Intelligence",
-      "Launch",
-      "News"
-    ],
-    "severity": null,
-    "score": 0.86,
-    "score_breakdown": {
-      "freshness": 0.21,
-      "keyword": 0.5,
-      "source": 1.3,
-      "keyword_signal": 0.65,
       "severity": 0.0,
       "total": 0.86
     }
@@ -6049,14 +6020,43 @@
       "marketing:marchitecture/media-services,general:products/aws-elemental-mediatailor"
     ],
     "severity": null,
-    "score": 0.86,
+    "score": 0.859,
     "score_breakdown": {
-      "freshness": 0.11,
+      "freshness": 0.109,
       "keyword": 0.5,
       "source": 1.5,
       "keyword_signal": 0.75,
       "severity": 0.0,
-      "total": 0.86
+      "total": 0.859
+    }
+  },
+  {
+    "id": "e4057d4eeb64c4b6",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/amazon-bedrock-introduces-new-advanced-prompt-optimization-and-migration-tool/",
+    "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool",
+    "summary": "Amazon Bedrock Advanced Prompt Optimization enables customers to optimize their prompts for their current model or migrate prompts to new models faster than before with built-in evaluation feedback loops. Optimize your prompts and compare results for up to 5 models simultaneously.",
+    "published_at": "2026-05-14T22:03:39+00:00",
+    "fetched_at": "2026-05-17T11:52:07.556423+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Bedrock Prompt Management",
+      "Amazon Machine Learning",
+      "Artificial Intelligence",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.858,
+    "score_breakdown": {
+      "freshness": 0.208,
+      "keyword": 0.5,
+      "source": 1.3,
+      "keyword_signal": 0.65,
+      "severity": 0.0,
+      "total": 0.858
     }
   },
   {
@@ -6089,14 +6089,44 @@
       "database"
     ],
     "severity": null,
-    "score": 0.859,
+    "score": 0.854,
     "score_breakdown": {
-      "freshness": 0.859,
+      "freshness": 0.854,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.859
+      "total": 0.854
+    }
+  },
+  {
+    "id": "7369ce763ae6ef14",
+    "track": "whats-new",
+    "source": "rss:aws-architecture-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
+    "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
+    "summary": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost.",
+    "published_at": "2026-05-19T15:09:36+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "Amazon Elastic Kubernetes Service",
+      "Artificial Intelligence",
+      "Compute",
+      "Customer Solutions",
+      "Energy",
+      "Industries",
+      "Technical How-to"
+    ],
+    "severity": null,
+    "score": 0.792,
+    "score_breakdown": {
+      "freshness": 0.292,
+      "keyword": 0.5,
+      "source": 1.0,
+      "keyword_signal": 0.5,
+      "severity": 0.0,
+      "total": 0.792
     }
   },
   {
@@ -6134,44 +6164,14 @@
       "Uncategorized"
     ],
     "severity": null,
-    "score": 0.795,
+    "score": 0.791,
     "score_breakdown": {
-      "freshness": 0.795,
+      "freshness": 0.791,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.795
-    }
-  },
-  {
-    "id": "7369ce763ae6ef14",
-    "track": "whats-new",
-    "source": "rss:aws-architecture-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/architecture/how-als-geoanalytics-litholens-revolutionizes-core-logging-through-machine-learning-with-amazon-eks/",
-    "title": "How ALS GeoAnalytics LITHOLENS ™ revolutionizes core logging through machine learning with Amazon EKS",
-    "summary": "This post explores how ALS GeoAnalytics successfully deployed LITHOLENS ™ with Amazon Elastic Kubernetes Service (Amazon EKS) to scale model training and inference while minimizing cost.",
-    "published_at": "2026-05-19T15:09:36+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "Amazon Elastic Kubernetes Service",
-      "Artificial Intelligence",
-      "Compute",
-      "Customer Solutions",
-      "Energy",
-      "Industries",
-      "Technical How-to"
-    ],
-    "severity": null,
-    "score": 0.794,
-    "score_breakdown": {
-      "freshness": 0.294,
-      "keyword": 0.5,
-      "source": 1.0,
-      "keyword_signal": 0.5,
-      "severity": 0.0,
-      "total": 0.794
+      "total": 0.791
     }
   },
   {
@@ -6189,14 +6189,14 @@
       "Containers"
     ],
     "severity": null,
-    "score": 0.779,
+    "score": 0.777,
     "score_breakdown": {
-      "freshness": 0.279,
+      "freshness": 0.277,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.779
+      "total": 0.777
     }
   },
   {
@@ -6217,14 +6217,14 @@
       "News"
     ],
     "severity": null,
-    "score": 0.757,
+    "score": 0.753,
     "score_breakdown": {
-      "freshness": 0.757,
+      "freshness": 0.753,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.757
+      "total": 0.753
     }
   },
   {
@@ -6241,14 +6241,14 @@
       "marketing:marchitecture/contact-center,marketing:marchitecture/business-productivity,general:products/amazon-connect,general:products/aws-govcloud-us"
     ],
     "severity": null,
-    "score": 0.751,
+    "score": 0.746,
     "score_breakdown": {
-      "freshness": 0.751,
+      "freshness": 0.746,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.751
+      "total": 0.746
     }
   },
   {
@@ -6265,14 +6265,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.745,
+    "score": 0.74,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.74,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.745
+      "total": 0.74
     }
   },
   {
@@ -6289,14 +6289,14 @@
       "marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.745,
+    "score": 0.74,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.74,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.745
+      "total": 0.74
     }
   },
   {
@@ -6313,14 +6313,14 @@
       "general:products/aws-direct-connect,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 0.743,
+    "score": 0.738,
     "score_breakdown": {
-      "freshness": 0.743,
+      "freshness": 0.738,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.743
+      "total": 0.738
     }
   },
   {
@@ -6344,14 +6344,14 @@
       "Week in Review"
     ],
     "severity": null,
-    "score": 0.741,
+    "score": 0.737,
     "score_breakdown": {
-      "freshness": 0.741,
+      "freshness": 0.737,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.741
+      "total": 0.737
     }
   },
   {
@@ -6368,14 +6368,14 @@
       "general:products/amazon-bedrock,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.738,
+    "score": 0.734,
     "score_breakdown": {
-      "freshness": 0.738,
+      "freshness": 0.734,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.738
+      "total": 0.734
     }
   },
   {
@@ -6427,14 +6427,14 @@
       "Amazon Elastic Kubernetes Service (Amazon EKS)"
     ],
     "severity": null,
-    "score": 0.692,
+    "score": 0.691,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.191,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.692
+      "total": 0.691
     }
   },
   {
@@ -6565,14 +6565,14 @@
       "marketing:marchitecture/messaging,marketing:marchitecture/business-productivity,marketing:marchitecture/applications,marketing:marchitecture/front-end-web-mobile"
     ],
     "severity": null,
-    "score": 0.609,
+    "score": 0.605,
     "score_breakdown": {
-      "freshness": 0.609,
+      "freshness": 0.605,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.609
+      "total": 0.605
     }
   },
   {
@@ -6593,14 +6593,14 @@
       "Karpenter"
     ],
     "severity": null,
-    "score": 0.606,
+    "score": 0.603,
     "score_breakdown": {
-      "freshness": 0.606,
+      "freshness": 0.603,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.606
+      "total": 0.603
     }
   },
   {
@@ -6617,14 +6617,14 @@
       "marketing:marchitecture/customer-enablement,general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 0.605,
+    "score": 0.601,
     "score_breakdown": {
-      "freshness": 0.605,
+      "freshness": 0.601,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.605
+      "total": 0.601
     }
   },
   {
@@ -6641,14 +6641,14 @@
       "general:products/amazon-redshift,marketing:benefits-realized/scalability-elasticity,marketing:benefits-realized/lower-cost,general:use-case/database-and-data-warehouse,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.599,
+    "score": 0.596,
     "score_breakdown": {
-      "freshness": 0.599,
+      "freshness": 0.596,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.599
+      "total": 0.596
     }
   },
   {
@@ -6665,42 +6665,14 @@
       "general:products/aws-direct-connect,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 0.599,
+    "score": 0.596,
     "score_breakdown": {
-      "freshness": 0.599,
+      "freshness": 0.596,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.599
-    }
-  },
-  {
-    "id": "509ce26e837f2681",
-    "track": "whats-new",
-    "source": "rss:aws-news-blog",
-    "source_kind": "rss",
-    "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
-    "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
-    "summary": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings.",
-    "published_at": "2026-05-28T18:26:16+00:00",
-    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
-    "tags": [
-      "Amazon OpenSearch Service",
-      "Analytics",
-      "Generative AI",
-      "Launch",
-      "News"
-    ],
-    "severity": null,
-    "score": 0.564,
-    "score_breakdown": {
-      "freshness": 0.564,
-      "keyword": 0.0,
-      "source": 1.3,
-      "keyword_signal": 0.0,
-      "severity": 0.0,
-      "total": 0.564
+      "total": 0.596
     }
   },
   {
@@ -6732,6 +6704,34 @@
     }
   },
   {
+    "id": "509ce26e837f2681",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-amazon-opensearch-serverless-for-building-your-agentic-ai-applications/",
+    "title": "Introducing the next generation of Amazon OpenSearch Serverless for building your agentic AI applications",
+    "summary": "AWS rebuilt Amazon OpenSearch Serverless from the ground up for agentic AI and dynamic workloads. Get instant autoscaling and up to 60% cost savings.",
+    "published_at": "2026-05-28T18:26:16+00:00",
+    "fetched_at": "2026-06-04T09:50:23.068074+00:00",
+    "tags": [
+      "Amazon OpenSearch Service",
+      "Analytics",
+      "Generative AI",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.56,
+    "score_breakdown": {
+      "freshness": 0.56,
+      "keyword": 0.0,
+      "source": 1.3,
+      "keyword_signal": 0.0,
+      "severity": 0.0,
+      "total": 0.56
+    }
+  },
+  {
     "id": "fdc4603c1b60b24b",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -6745,14 +6745,14 @@
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 0.558,
+    "score": 0.555,
     "score_breakdown": {
-      "freshness": 0.558,
+      "freshness": 0.555,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.558
+      "total": 0.555
     }
   },
   {
@@ -6769,14 +6769,14 @@
       "general:products/aws-govcloud-us,marketing:marchitecture/databases,marketing:marchitecture/networking,general:products/amazon-dynamodb"
     ],
     "severity": null,
-    "score": 0.558,
+    "score": 0.555,
     "score_breakdown": {
-      "freshness": 0.558,
+      "freshness": 0.555,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.558
+      "total": 0.555
     }
   },
   {
@@ -6793,14 +6793,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-opensearch-service"
     ],
     "severity": null,
-    "score": 0.558,
+    "score": 0.555,
     "score_breakdown": {
-      "freshness": 0.558,
+      "freshness": 0.555,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.558
+      "total": 0.555
     }
   },
   {
@@ -6817,14 +6817,14 @@
       "marketing:marchitecture/aws-marketplace-and-partners,marketing:marchitecture/partner-network"
     ],
     "severity": null,
-    "score": 0.556,
+    "score": 0.553,
     "score_breakdown": {
-      "freshness": 0.556,
+      "freshness": 0.553,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.556
+      "total": 0.553
     }
   },
   {
@@ -6841,14 +6841,14 @@
       "general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 0.556,
+    "score": 0.553,
     "score_breakdown": {
-      "freshness": 0.556,
+      "freshness": 0.553,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.556
+      "total": 0.553
     }
   },
   {
@@ -6875,14 +6875,14 @@
       "Foundational (100)"
     ],
     "severity": null,
-    "score": 0.543,
+    "score": 0.542,
     "score_breakdown": {
-      "freshness": 0.043,
+      "freshness": 0.042,
       "keyword": 0.5,
       "source": 1.0,
       "keyword_signal": 0.5,
       "severity": 0.0,
-      "total": 0.543
+      "total": 0.542
     }
   },
   {
@@ -6930,14 +6930,14 @@
       "News"
     ],
     "severity": null,
-    "score": 0.521,
+    "score": 0.518,
     "score_breakdown": {
-      "freshness": 0.521,
+      "freshness": 0.518,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.521
+      "total": 0.518
     }
   },
   {
@@ -6957,14 +6957,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 0.52,
+    "score": 0.517,
     "score_breakdown": {
-      "freshness": 0.52,
+      "freshness": 0.517,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.52
+      "total": 0.517
     }
   },
   {
@@ -7013,14 +7013,14 @@
       "marketing:marchitecture/storage,marketing:marchitecture/security-identity-and-compliance,general:products/aws-organizations,general:products/aws-backup"
     ],
     "severity": null,
-    "score": 0.512,
+    "score": 0.509,
     "score_breakdown": {
-      "freshness": 0.512,
+      "freshness": 0.509,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.512
+      "total": 0.509
     }
   },
   {
@@ -7242,14 +7242,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 0.494,
+    "score": 0.491,
     "score_breakdown": {
-      "freshness": 0.494,
+      "freshness": 0.491,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.494
+      "total": 0.491
     }
   },
   {
@@ -7266,14 +7266,14 @@
       "general:products/amazon-rds,marketing:marchitecture/databases"
     ],
     "severity": null,
-    "score": 0.49,
+    "score": 0.487,
     "score_breakdown": {
-      "freshness": 0.49,
+      "freshness": 0.487,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.49
+      "total": 0.487
     }
   },
   {
@@ -7290,14 +7290,14 @@
       "general:products/amazon-vpc,marketing:marchitecture/networking-and-content-delivery"
     ],
     "severity": null,
-    "score": 0.481,
+    "score": 0.478,
     "score_breakdown": {
-      "freshness": 0.481,
+      "freshness": 0.478,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.481
+      "total": 0.478
     }
   },
   {
@@ -7314,14 +7314,14 @@
       "general:products/amazon-guardduty,marketing:marchitecture/storage,marketing:marchitecture/security-identity-and-compliance,general:products/aws-backup"
     ],
     "severity": null,
-    "score": 0.477,
+    "score": 0.474,
     "score_breakdown": {
-      "freshness": 0.477,
+      "freshness": 0.474,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.477
+      "total": 0.474
     }
   },
   {
@@ -7348,14 +7348,14 @@
       "Week in Review"
     ],
     "severity": null,
-    "score": 0.457,
+    "score": 0.455,
     "score_breakdown": {
-      "freshness": 0.457,
+      "freshness": 0.455,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.457
+      "total": 0.455
     }
   },
   {
@@ -7372,14 +7372,14 @@
       "general:products/aws-glue,marketing:audience/developer,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.374,
+    "score": 0.371,
     "score_breakdown": {
-      "freshness": 0.374,
+      "freshness": 0.371,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.374
+      "total": 0.371
     }
   },
   {
@@ -7396,14 +7396,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 0.368,
+    "score": 0.366,
     "score_breakdown": {
-      "freshness": 0.368,
+      "freshness": 0.366,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.368
+      "total": 0.366
     }
   },
   {
@@ -7420,14 +7420,14 @@
       "general:products/amazon-sagemaker,marketing:marchitecture/analytics"
     ],
     "severity": null,
-    "score": 0.367,
+    "score": 0.365,
     "score_breakdown": {
-      "freshness": 0.367,
+      "freshness": 0.365,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.367
+      "total": 0.365
     }
   },
   {
@@ -7442,14 +7442,14 @@
     "fetched_at": "2026-06-04T09:50:23.068074+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.366,
+    "score": 0.364,
     "score_breakdown": {
-      "freshness": 0.366,
+      "freshness": 0.364,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.366
+      "total": 0.364
     }
   },
   {
@@ -7466,14 +7466,14 @@
       "marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 0.343,
+    "score": 0.341,
     "score_breakdown": {
-      "freshness": 0.343,
+      "freshness": 0.341,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.343
+      "total": 0.341
     }
   },
   {
@@ -7494,14 +7494,14 @@
       "Thought Leadership"
     ],
     "severity": null,
-    "score": 0.318,
+    "score": 0.316,
     "score_breakdown": {
-      "freshness": 0.318,
+      "freshness": 0.316,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.318
+      "total": 0.316
     }
   },
   {
@@ -7524,14 +7524,14 @@
       "Gitops"
     ],
     "severity": null,
-    "score": 0.317,
+    "score": 0.316,
     "score_breakdown": {
-      "freshness": 0.317,
+      "freshness": 0.316,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.317
+      "total": 0.316
     }
   },
   {
@@ -7553,14 +7553,14 @@
       "machine learning"
     ],
     "severity": null,
-    "score": 0.293,
+    "score": 0.292,
     "score_breakdown": {
-      "freshness": 0.293,
+      "freshness": 0.292,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.293
+      "total": 0.292
     }
   },
   {
@@ -7580,14 +7580,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 0.276,
+    "score": 0.275,
     "score_breakdown": {
-      "freshness": 0.276,
+      "freshness": 0.275,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.276
+      "total": 0.275
     }
   },
   {
@@ -7609,14 +7609,14 @@
       "Resource sharing"
     ],
     "severity": null,
-    "score": 0.274,
+    "score": 0.272,
     "score_breakdown": {
-      "freshness": 0.274,
+      "freshness": 0.272,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.274
+      "total": 0.272
     }
   },
   {
@@ -7633,14 +7633,14 @@
       "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-administration,general:products/amazon-cloudwatch-logs"
     ],
     "severity": null,
-    "score": 0.224,
+    "score": 0.223,
     "score_breakdown": {
-      "freshness": 0.224,
+      "freshness": 0.223,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.224
+      "total": 0.223
     }
   },
   {
@@ -7657,14 +7657,14 @@
       "marketing:marchitecture/aws-marketplace-and-partners"
     ],
     "severity": null,
-    "score": 0.223,
+    "score": 0.222,
     "score_breakdown": {
-      "freshness": 0.223,
+      "freshness": 0.222,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.223
+      "total": 0.222
     }
   },
   {
@@ -7681,14 +7681,14 @@
       "general:products/amazon-connect,marketing:marchitecture/business-productivity,marketing:marchitecture/messaging,marketing:marchitecture/contact-center"
     ],
     "severity": null,
-    "score": 0.222,
+    "score": 0.221,
     "score_breakdown": {
-      "freshness": 0.222,
+      "freshness": 0.221,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.222
+      "total": 0.221
     }
   },
   {
@@ -7705,14 +7705,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront"
     ],
     "severity": null,
-    "score": 0.21,
+    "score": 0.209,
     "score_breakdown": {
-      "freshness": 0.21,
+      "freshness": 0.209,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.21
+      "total": 0.209
     }
   },
   {
@@ -7729,14 +7729,14 @@
       "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 0.209,
+    "score": 0.208,
     "score_breakdown": {
-      "freshness": 0.209,
+      "freshness": 0.208,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.209
+      "total": 0.208
     }
   },
   {
@@ -7753,14 +7753,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools"
     ],
     "severity": null,
-    "score": 0.208,
+    "score": 0.207,
     "score_breakdown": {
-      "freshness": 0.208,
+      "freshness": 0.207,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.208
+      "total": 0.207
     }
   },
   {
@@ -7777,14 +7777,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.208,
+    "score": 0.207,
     "score_breakdown": {
-      "freshness": 0.208,
+      "freshness": 0.207,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.208
+      "total": 0.207
     }
   },
   {
@@ -7801,14 +7801,14 @@
       "marketing:marchitecture/migration,marketing:marchitecture/developer-tools,marketing:marchitecture/applications,marketing:marchitecture/business-productivity"
     ],
     "severity": null,
-    "score": 0.205,
+    "score": 0.204,
     "score_breakdown": {
-      "freshness": 0.205,
+      "freshness": 0.204,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.205
+      "total": 0.204
     }
   },
   {
@@ -7825,14 +7825,14 @@
       "marketing:marchitecture/networking"
     ],
     "severity": null,
-    "score": 0.203,
+    "score": 0.202,
     "score_breakdown": {
-      "freshness": 0.203,
+      "freshness": 0.202,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.203
+      "total": 0.202
     }
   },
   {
@@ -7849,14 +7849,14 @@
       "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/analytics,general:products/amazon-sagemaker"
     ],
     "severity": null,
-    "score": 0.195,
+    "score": 0.194,
     "score_breakdown": {
-      "freshness": 0.195,
+      "freshness": 0.194,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.195
+      "total": 0.194
     }
   },
   {
@@ -7877,14 +7877,14 @@
       "Open Source"
     ],
     "severity": null,
-    "score": 0.192,
+    "score": 0.19,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.19,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.192
+      "total": 0.19
     }
   },
   {
@@ -7901,14 +7901,14 @@
       "marketing:marchitecture/serverless,general:products/aws-lambda"
     ],
     "severity": null,
-    "score": 0.18,
+    "score": 0.179,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.179,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.18
+      "total": 0.179
     }
   },
   {
@@ -7927,14 +7927,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 0.18,
+    "score": 0.179,
     "score_breakdown": {
-      "freshness": 0.18,
+      "freshness": 0.179,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.18
+      "total": 0.179
     }
   },
   {
@@ -7958,14 +7958,14 @@
       "News"
     ],
     "severity": null,
-    "score": 0.179,
+    "score": 0.177,
     "score_breakdown": {
-      "freshness": 0.179,
+      "freshness": 0.177,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.179
+      "total": 0.177
     }
   },
   {
@@ -7987,14 +7987,14 @@
       "Amazon EKS"
     ],
     "severity": null,
-    "score": 0.178,
+    "score": 0.177,
     "score_breakdown": {
-      "freshness": 0.178,
+      "freshness": 0.177,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.178
+      "total": 0.177
     }
   },
   {
@@ -8015,14 +8015,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 0.177,
+    "score": 0.176,
     "score_breakdown": {
-      "freshness": 0.177,
+      "freshness": 0.176,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.177
+      "total": 0.176
     }
   },
   {
@@ -8040,14 +8040,14 @@
       "Best Practices"
     ],
     "severity": null,
-    "score": 0.168,
+    "score": 0.167,
     "score_breakdown": {
-      "freshness": 0.168,
+      "freshness": 0.167,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.168
+      "total": 0.167
     }
   },
   {
@@ -8062,14 +8062,14 @@
     "fetched_at": "2026-05-17T11:52:07.556423+00:00",
     "tags": [],
     "severity": null,
-    "score": 0.167,
+    "score": 0.166,
     "score_breakdown": {
-      "freshness": 0.167,
+      "freshness": 0.166,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.167
+      "total": 0.166
     }
   },
   {
@@ -8092,14 +8092,14 @@
       "Week in Review"
     ],
     "severity": null,
-    "score": 0.166,
+    "score": 0.165,
     "score_breakdown": {
-      "freshness": 0.166,
+      "freshness": 0.165,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.166
+      "total": 0.165
     }
   },
   {
@@ -8140,14 +8140,14 @@
       "general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 0.136,
+    "score": 0.135,
     "score_breakdown": {
-      "freshness": 0.136,
+      "freshness": 0.135,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.136
+      "total": 0.135
     }
   },
   {
@@ -8164,14 +8164,14 @@
       "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-route-53,marketing:marchitecture/security-identity-and-compliance"
     ],
     "severity": null,
-    "score": 0.135,
+    "score": 0.134,
     "score_breakdown": {
-      "freshness": 0.135,
+      "freshness": 0.134,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.135
+      "total": 0.134
     }
   },
   {
@@ -8191,14 +8191,14 @@
       "Technical How-to"
     ],
     "severity": null,
-    "score": 0.133,
+    "score": 0.132,
     "score_breakdown": {
-      "freshness": 0.133,
+      "freshness": 0.132,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.133
+      "total": 0.132
     }
   },
   {
@@ -8215,14 +8215,14 @@
       "marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence,general:products/amazon-ec2"
     ],
     "severity": null,
-    "score": 0.127,
+    "score": 0.126,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.126,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.127
+      "total": 0.126
     }
   },
   {
@@ -8239,14 +8239,14 @@
       "general:products/amazon-ec2,marketing:marchitecture/compute"
     ],
     "severity": null,
-    "score": 0.127,
+    "score": 0.126,
     "score_breakdown": {
-      "freshness": 0.127,
+      "freshness": 0.126,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.127
+      "total": 0.126
     }
   },
   {
@@ -8263,14 +8263,14 @@
       "marketing:marchitecture/business-productivity,general:products/amazon-connect"
     ],
     "severity": null,
-    "score": 0.125,
+    "score": 0.124,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.125
+      "total": 0.124
     }
   },
   {
@@ -8287,14 +8287,14 @@
       "marketing:marchitecture/compute,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
-    "score": 0.125,
+    "score": 0.124,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.125
+      "total": 0.124
     }
   },
   {
@@ -8311,14 +8311,14 @@
       "general:products/amazon-simple-email-service"
     ],
     "severity": null,
-    "score": 0.122,
+    "score": 0.121,
     "score_breakdown": {
-      "freshness": 0.122,
+      "freshness": 0.121,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.122
+      "total": 0.121
     }
   },
   {
@@ -8335,14 +8335,14 @@
       "marketing:marchitecture/databases,general:products/amazon-rds-for-sql-server"
     ],
     "severity": null,
-    "score": 0.122,
+    "score": 0.121,
     "score_breakdown": {
-      "freshness": 0.122,
+      "freshness": 0.121,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.122
+      "total": 0.121
     }
   },
   {
@@ -8359,14 +8359,14 @@
       "general:products/amazon-bedrock"
     ],
     "severity": null,
-    "score": 0.118,
+    "score": 0.117,
     "score_breakdown": {
-      "freshness": 0.118,
+      "freshness": 0.117,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.118
+      "total": 0.117
     }
   },
   {
@@ -8405,14 +8405,14 @@
       "general:products/aws-marketplace,marketing:marchitecture/partner-network"
     ],
     "severity": null,
-    "score": 0.117,
+    "score": 0.116,
     "score_breakdown": {
-      "freshness": 0.117,
+      "freshness": 0.116,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.117
+      "total": 0.116
     }
   },
   {
@@ -8429,14 +8429,14 @@
       "marketing:benefits-realized/user-experience,marketing:benefits-realized/ease-of-use,marketing:marchitecture/databases,general:products/amazon-neptune"
     ],
     "severity": null,
-    "score": 0.117,
+    "score": 0.116,
     "score_breakdown": {
-      "freshness": 0.117,
+      "freshness": 0.116,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.117
+      "total": 0.116
     }
   },
   {
@@ -8457,14 +8457,14 @@
       "News"
     ],
     "severity": null,
-    "score": 0.116,
+    "score": 0.115,
     "score_breakdown": {
-      "freshness": 0.116,
+      "freshness": 0.115,
       "keyword": 0.0,
       "source": 1.3,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.116
+      "total": 0.115
     }
   },
   {
@@ -8481,14 +8481,14 @@
       "marketing:marchitecture/developer-tools,general:products/aws-developer-tools"
     ],
     "severity": null,
-    "score": 0.115,
+    "score": 0.114,
     "score_breakdown": {
-      "freshness": 0.115,
+      "freshness": 0.114,
       "keyword": 0.0,
       "source": 1.5,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.115
+      "total": 0.114
     }
   },
   {
@@ -8508,14 +8508,14 @@
       "Monitoring and observability"
     ],
     "severity": null,
-    "score": 0.108,
+    "score": 0.107,
     "score_breakdown": {
-      "freshness": 0.108,
+      "freshness": 0.107,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.108
+      "total": 0.107
     }
   },
   {
@@ -8590,14 +8590,14 @@
       "Partner solutions"
     ],
     "severity": null,
-    "score": 0.046,
+    "score": 0.045,
     "score_breakdown": {
-      "freshness": 0.046,
+      "freshness": 0.045,
       "keyword": 0.0,
       "source": 1.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.046
+      "total": 0.045
     }
   },
   {
