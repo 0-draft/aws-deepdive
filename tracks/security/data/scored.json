@@ -18,14 +18,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 10.318,
+    "score": 10.316,
     "score_breakdown": {
-      "freshness": 0.318,
+      "freshness": 0.316,
       "keyword": 5.0,
       "source": 2.0,
       "keyword_signal": 10.0,
       "severity": 0.0,
-      "total": 10.318
+      "total": 10.316
     }
   },
   {
@@ -40,14 +40,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -62,14 +62,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -84,14 +84,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -106,14 +106,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -128,14 +128,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -150,14 +150,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -172,14 +172,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -194,14 +194,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -216,14 +216,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -238,14 +238,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -260,14 +260,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -282,14 +282,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -304,14 +304,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -326,14 +326,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -348,14 +348,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 8.501,
+    "score": 8.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.5,
       "source": 3.0,
       "keyword_signal": 7.5,
       "severity": 0.0,
-      "total": 8.501
+      "total": 8.495
     }
   },
   {
@@ -370,14 +370,14 @@
     "fetched_at": "2026-06-13T08:52:26.501122+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.648,
+    "score": 7.638,
     "score_breakdown": {
-      "freshness": 1.648,
+      "freshness": 1.638,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.648
+      "total": 7.638
     }
   },
   {
@@ -392,14 +392,14 @@
     "fetched_at": "2026-06-11T10:16:05.035449+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.426,
+    "score": 7.418,
     "score_breakdown": {
-      "freshness": 1.426,
+      "freshness": 1.418,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.426
+      "total": 7.418
     }
   },
   {
@@ -414,14 +414,14 @@
     "fetched_at": "2026-06-11T10:16:05.035449+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.424,
+    "score": 7.416,
     "score_breakdown": {
-      "freshness": 1.424,
+      "freshness": 1.416,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.424
+      "total": 7.416
     }
   },
   {
@@ -436,14 +436,14 @@
     "fetched_at": "2026-06-09T09:34:02.267667+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.239,
+    "score": 7.231,
     "score_breakdown": {
-      "freshness": 1.239,
+      "freshness": 1.231,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.239
+      "total": 7.231
     }
   },
   {
@@ -458,14 +458,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -480,14 +480,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -502,14 +502,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -524,14 +524,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -546,14 +546,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -568,14 +568,14 @@
     "fetched_at": "2026-06-04T09:50:23.525103+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -590,14 +590,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -612,14 +612,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -634,14 +634,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -656,14 +656,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -678,14 +678,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -700,14 +700,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -722,14 +722,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -744,14 +744,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -766,14 +766,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -788,14 +788,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -810,14 +810,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -832,14 +832,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -854,14 +854,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -876,14 +876,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -898,14 +898,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -920,14 +920,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -942,14 +942,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -964,14 +964,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -986,14 +986,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1008,14 +1008,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1030,14 +1030,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1052,14 +1052,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1074,14 +1074,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1096,14 +1096,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1118,14 +1118,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1140,14 +1140,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1162,14 +1162,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1184,14 +1184,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1206,14 +1206,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1228,14 +1228,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1250,14 +1250,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1272,14 +1272,14 @@
     "fetched_at": "2026-06-06T08:29:15.277559+00:00",
     "tags": [],
     "severity": null,
-    "score": 7.001,
+    "score": 6.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 2.0,
       "source": 3.0,
       "keyword_signal": 6.0,
       "severity": 0.0,
-      "total": 7.001
+      "total": 6.995
     }
   },
   {
@@ -1302,14 +1302,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 6.229,
+    "score": 6.222,
     "score_breakdown": {
-      "freshness": 1.229,
+      "freshness": 1.222,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 6.229
+      "total": 6.222
     }
   },
   {
@@ -1329,14 +1329,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 5.487,
+    "score": 5.484,
     "score_breakdown": {
-      "freshness": 0.487,
+      "freshness": 0.484,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 5.487
+      "total": 5.484
     }
   },
   {
@@ -1359,14 +1359,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 5.195,
+    "score": 5.194,
     "score_breakdown": {
-      "freshness": 0.195,
+      "freshness": 0.194,
       "keyword": 2.5,
       "source": 2.0,
       "keyword_signal": 5.0,
       "severity": 0.0,
-      "total": 5.195
+      "total": 5.194
     }
   },
   {
@@ -1389,14 +1389,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.807,
+    "score": 2.802,
     "score_breakdown": {
-      "freshness": 0.807,
+      "freshness": 0.802,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.807
+      "total": 2.802
     }
   },
   {
@@ -1411,14 +1411,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.501,
+    "score": 2.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 0.5,
       "source": 3.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.501
+      "total": 2.495
     }
   },
   {
@@ -1433,14 +1433,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 2.501,
+    "score": 2.495,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 0.5,
       "source": 3.0,
       "keyword_signal": 1.5,
       "severity": 0.0,
-      "total": 2.501
+      "total": 2.495
     }
   },
   {
@@ -1461,14 +1461,14 @@
       "Threat Detection & Incident Response"
     ],
     "severity": null,
-    "score": 2.49,
+    "score": 2.487,
     "score_breakdown": {
-      "freshness": 0.49,
+      "freshness": 0.487,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.49
+      "total": 2.487
     }
   },
   {
@@ -1488,14 +1488,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.299,
+    "score": 2.297,
     "score_breakdown": {
-      "freshness": 0.299,
+      "freshness": 0.297,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.299
+      "total": 2.297
     }
   },
   {
@@ -1516,14 +1516,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.294,
+    "score": 2.293,
     "score_breakdown": {
-      "freshness": 0.294,
+      "freshness": 0.293,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.294
+      "total": 2.293
     }
   },
   {
@@ -1543,14 +1543,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.246,
+    "score": 2.239,
     "score_breakdown": {
-      "freshness": 1.246,
+      "freshness": 1.239,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 2.246
+      "total": 2.239
     }
   },
   {
@@ -1570,14 +1570,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 2.126,
+    "score": 2.125,
     "score_breakdown": {
-      "freshness": 0.126,
+      "freshness": 0.125,
       "keyword": 1.0,
       "source": 2.0,
       "keyword_signal": 2.0,
       "severity": 0.0,
-      "total": 2.126
+      "total": 2.125
     }
   },
   {
@@ -1630,14 +1630,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.994,
+    "score": 1.989,
     "score_breakdown": {
-      "freshness": 0.994,
+      "freshness": 0.989,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.994
+      "total": 1.989
     }
   },
   {
@@ -1657,14 +1657,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.939,
+    "score": 1.933,
     "score_breakdown": {
-      "freshness": 0.939,
+      "freshness": 0.933,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.939
+      "total": 1.933
     }
   },
   {
@@ -1686,14 +1686,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.932,
+    "score": 1.927,
     "score_breakdown": {
-      "freshness": 0.932,
+      "freshness": 0.927,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.932
+      "total": 1.927
     }
   },
   {
@@ -1713,14 +1713,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.8,
+    "score": 1.795,
     "score_breakdown": {
-      "freshness": 0.8,
+      "freshness": 0.795,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.8
+      "total": 1.795
     }
   },
   {
@@ -1741,14 +1741,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.571,
+    "score": 1.568,
     "score_breakdown": {
-      "freshness": 0.571,
+      "freshness": 0.568,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.571
+      "total": 1.568
     }
   },
   {
@@ -1769,14 +1769,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.565,
+    "score": 1.561,
     "score_breakdown": {
-      "freshness": 0.565,
+      "freshness": 0.561,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.565
+      "total": 1.561
     }
   },
   {
@@ -1797,14 +1797,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.343,
+    "score": 1.341,
     "score_breakdown": {
-      "freshness": 0.343,
+      "freshness": 0.341,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.343
+      "total": 1.341
     }
   },
   {
@@ -1831,14 +1831,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.339,
+    "score": 1.337,
     "score_breakdown": {
-      "freshness": 0.339,
+      "freshness": 0.337,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.339
+      "total": 1.337
     }
   },
   {
@@ -1866,14 +1866,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.321,
+    "score": 1.319,
     "score_breakdown": {
-      "freshness": 0.321,
+      "freshness": 0.319,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.321
+      "total": 1.319
     }
   },
   {
@@ -1894,14 +1894,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.222,
+    "score": 1.221,
     "score_breakdown": {
-      "freshness": 0.222,
+      "freshness": 0.221,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.222
+      "total": 1.221
     }
   },
   {
@@ -1924,14 +1924,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.192,
+    "score": 1.191,
     "score_breakdown": {
-      "freshness": 0.192,
+      "freshness": 0.191,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.192
+      "total": 1.191
     }
   },
   {
@@ -1955,14 +1955,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.181,
+    "score": 1.18,
     "score_breakdown": {
-      "freshness": 0.181,
+      "freshness": 0.18,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.181
+      "total": 1.18
     }
   },
   {
@@ -1987,14 +1987,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.167,
+    "score": 1.166,
     "score_breakdown": {
-      "freshness": 0.167,
+      "freshness": 0.166,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.167
+      "total": 1.166
     }
   },
   {
@@ -2046,14 +2046,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.108,
+    "score": 1.107,
     "score_breakdown": {
-      "freshness": 0.108,
+      "freshness": 0.107,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.108
+      "total": 1.107
     }
   },
   {
@@ -2086,14 +2086,14 @@
       "AWS Key Management Service (KMS)"
     ],
     "severity": null,
-    "score": 1.083,
+    "score": 1.082,
     "score_breakdown": {
-      "freshness": 0.083,
+      "freshness": 0.082,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.083
+      "total": 1.082
     }
   },
   {
@@ -2143,14 +2143,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 1.066,
+    "score": 1.065,
     "score_breakdown": {
-      "freshness": 0.066,
+      "freshness": 0.065,
       "keyword": 0.5,
       "source": 2.0,
       "keyword_signal": 1.0,
       "severity": 0.0,
-      "total": 1.066
+      "total": 1.065
     }
   },
   {
@@ -2165,14 +2165,14 @@
     "fetched_at": "2026-05-17T11:52:05.280140+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.001,
+    "score": 0.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 0.0,
       "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.001
+      "total": 0.995
     }
   },
   {
@@ -2187,14 +2187,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.001,
+    "score": 0.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 0.0,
       "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.001
+      "total": 0.995
     }
   },
   {
@@ -2209,14 +2209,14 @@
     "fetched_at": "2026-05-17T11:52:43.993594+00:00",
     "tags": [],
     "severity": null,
-    "score": 1.001,
+    "score": 0.995,
     "score_breakdown": {
-      "freshness": 1.001,
+      "freshness": 0.995,
       "keyword": 0.0,
       "source": 3.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 1.001
+      "total": 0.995
     }
   },
   {
@@ -2238,14 +2238,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.922,
+    "score": 0.917,
     "score_breakdown": {
-      "freshness": 0.922,
+      "freshness": 0.917,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.922
+      "total": 0.917
     }
   },
   {
@@ -2267,14 +2267,14 @@
       "SOC"
     ],
     "severity": null,
-    "score": 0.745,
+    "score": 0.741,
     "score_breakdown": {
-      "freshness": 0.745,
+      "freshness": 0.741,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.745
+      "total": 0.741
     }
   },
   {
@@ -2298,14 +2298,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.209,
+    "score": 0.208,
     "score_breakdown": {
-      "freshness": 0.209,
+      "freshness": 0.208,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.209
+      "total": 0.208
     }
   },
   {
@@ -2332,14 +2332,14 @@
       "TLS"
     ],
     "severity": null,
-    "score": 0.206,
+    "score": 0.205,
     "score_breakdown": {
-      "freshness": 0.206,
+      "freshness": 0.205,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.206
+      "total": 0.205
     }
   },
   {
@@ -2363,14 +2363,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.193,
+    "score": 0.192,
     "score_breakdown": {
-      "freshness": 0.193,
+      "freshness": 0.192,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.193
+      "total": 0.192
     }
   },
   {
@@ -2402,14 +2402,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.178,
+    "score": 0.177,
     "score_breakdown": {
-      "freshness": 0.178,
+      "freshness": 0.177,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.178
+      "total": 0.177
     }
   },
   {
@@ -2430,14 +2430,14 @@
       "Security Blog"
     ],
     "severity": null,
-    "score": 0.125,
+    "score": 0.124,
     "score_breakdown": {
-      "freshness": 0.125,
+      "freshness": 0.124,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.125
+      "total": 0.124
     }
   },
   {
@@ -2461,14 +2461,14 @@
       "Whitepaper"
     ],
     "severity": null,
-    "score": 0.118,
+    "score": 0.117,
     "score_breakdown": {
-      "freshness": 0.118,
+      "freshness": 0.117,
       "keyword": 0.0,
       "source": 2.0,
       "keyword_signal": 0.0,
       "severity": 0.0,
-      "total": 0.118
+      "total": 0.117
     }
   },
   {
