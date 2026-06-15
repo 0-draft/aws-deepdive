@@ -1,5 +1,22 @@
 [
   {
+    "id": "e037191a5ef55cc2",
+    "track": "releases",
+    "source": "github:aws/aws-sam-cli",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sam-cli/releases/tag/sam-cli-nightly",
+    "title": "[Stable] Nightly Release v1.162.1.dev202606150901 - 2026-06-15",
+    "summary": "\n### New Changes today:\n[624153c](https://api.github.com/repos/aws/aws-sam-cli/commits/624153c5b59dcb20f296147e5d4f7d178fba4da7) - chore: bump version to 1.162.1 (#9080)\n\n### Changes from last PROD version:\n\n### Hashes:\nFilename | SHA256\n--- | ---\n**AWS_SAM_CLI_64_PY3.msi** | `0dd926e13b22517ab8b4a694d37c5cfaa210c7ec9ef5fb2943e296aec88f5956`\n**aws-sam-cli-linux-x86_64.zip** | `780d2a87bcd0634138f21a962010a2336a845e1a0b77d57c20e7289149ce3f66`\n**aws-sam-cli-linux-x86_64.zip.sig** | `4eef025dae649e",
+    "published_at": "2026-06-15T09:41:05Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [
+      "prerelease"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "85d56cf32aa62421",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
@@ -85,23 +102,6 @@
     "published_at": "2026-06-12T09:53:11Z",
     "fetched_at": "2026-06-12T10:03:36.551729+00:00",
     "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "e037191a5ef55cc2",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/sam-cli-nightly",
-    "title": "[Stable] Nightly Release v1.162.0.dev202606120901 - 2026-06-12",
-    "summary": "\n### New Changes today:\n[d3f7764](https://api.github.com/repos/aws/aws-sam-cli/commits/d3f7764300430dbec05a1703e6a8b566cce52297) - fix: switch from bitnami to docker/library for golang images (#9077)\n[983216e](https://api.github.com/repos/aws/aws-sam-cli/commits/983216e93f30aa2d94848d14249292d79b8de72b) - chore: update openssl version to 3.3.7 (#9079)\n\n### Changes from last PROD version:\n[d3f7764](https://api.github.com/repos/aws/aws-sam-cli/commits/d3f7764300430dbec05a1703e6a8b566cce52297) - fi",
-    "published_at": "2026-06-12T09:40:14Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [
-      "prerelease"
-    ],
     "severity": null,
     "score": 0.0,
     "score_breakdown": {}
@@ -7660,66 +7660,6 @@
     "title": "Release (2025-12-17)",
     "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/gameliftstreams`: [v1.9.0](service/gameliftstreams/CHANGELOG.md#v190-2025-12-17)\n  * **Feature**: Added new stream group operation parameters for scale-on-demand capacity with automatic prewarming. Added new Gen6 stream classes based on the EC2 G6 instance family. Added new StartStreamSession parameter for exposure of real-time performance stats to clients.\n* `github.com/aws/aws-sdk-go-v2/service/guardduty`: [v1.71.0](service/guardduty",
     "published_at": "2025-12-17T19:36:13Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "eafee96b44d5362b",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.40.10",
-    "title": "AWS SDK for Java v2 2.40.10",
-    "summary": "# __2.40.10__ __2025-12-16__\n## __AWS IoT__\n  - ### Features\n    - Add support for dynamic payloads in IoT Device Management Commands\n\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n\n## __Timestream InfluxDB__\n  - ### Features\n    - This release adds support for rebooting InfluxDB DbInstances and DbClusters\n\n",
-    "published_at": "2025-12-16T21:00:20Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "be016ba0e2f63093",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.953.0",
-    "title": "v3.953.0",
-    "summary": "#### 3.953.0(2025-12-16)\n\n##### Chores\n\n* **build:**  set cjs->es dependency in turbo ([#7581](https://github.com/aws/aws-sdk-js-v3/pull/7581)) ([0ddef7f7](https://github.com/aws/aws-sdk-js-v3/commit/0ddef7f7ed1c642d15ce8e2f58029e72a6ac6902))\n*  build cjs rollup without typescript ([#7580](https://github.com/aws/aws-sdk-js-v3/pull/7580)) ([4359e405](https://github.com/aws/aws-sdk-js-v3/commit/4359e405a8f3458d4411dd072b5aa998fa0c107f))\n\n##### New Features\n\n* **clients:**\n  *  update client endpoi",
-    "published_at": "2025-12-16T20:50:14Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "638cfb9e7fd39121",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2025-12-16",
-    "title": "December 16th, 2025",
-    "summary": "**Service Features:**\n- `aws-sdk-iot` (1.103.0): Add support for dynamic payloads in IoT Device Management Commands\n- `aws-sdk-timestreaminfluxdb` (1.81.0): This release adds support for rebooting InfluxDB DbInstances and DbClusters\n\n**Crate Versions**\n<details>\n<summary>Click to expand to view crate versions...</summary>\n\n|Crate|Version|\n|-|-|\n|aws-config|1.8.12|\n|aws-credential-types|1.2.11|\n|aws-runtime|1.5.17|\n|aws-runtime-api|1.1.10|\n|aws-sdk-accessanalyzer|1.98.0|\n|aws-sdk-account|1.94.0|\n",
-    "published_at": "2025-12-16T20:42:36Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "a532808da1b3e176",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2025-12-16",
-    "title": "Release (2025-12-16)",
-    "summary": "## General Highlights\n* **Dependency Update**: Updated to the latest SDK module versions\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/iot`: [v1.70.0](service/iot/CHANGELOG.md#v1700-2025-12-16)\n  * **Feature**: Add support for dynamic payloads in IoT Device Management Commands\n* `github.com/aws/aws-sdk-go-v2/service/timestreaminfluxdb`: [v1.18.0](service/timestreaminfluxdb/CHANGELOG.md#v1180-2025-12-16)\n  * **Feature**: This release adds support for rebooting InfluxDB DbInstances",
-    "published_at": "2025-12-16T20:29:13Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
