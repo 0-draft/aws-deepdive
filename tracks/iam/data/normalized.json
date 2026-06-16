@@ -1,5 +1,369 @@
 [
   {
+    "id": "b67a8f4a5be42ae5",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-vmware-fsx-for-ontap-preview",
+    "title": "AWS Transform now supports Amazon FSx for NetApp ONTAP (Public Preview)",
+    "summary": "Today, AWS announces the public preview of a new storage migration capability for AWS Transform that enables application owners, database administrators, and cloud migration teams to migrate block storage workloads from any on-premises or cloud source to Amazon FSx for NetApp ONTAP (FSx for ONTAP), alongside the existing Amazon EBS option. AWS Transform for migrations is an agentic AI service that automates the discovery, planning, and migration of workloads, accelerating infrastructure moderniz",
+    "published_at": "2026-06-16T04:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/migration,marketing:marchitecture/storage,general:products/amazon-fsx-netapp-ontap"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c411e49ea53ec8de",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-management-console-private/",
+    "title": "AWS Management Console Private Access now works without internet connectivity",
+    "summary": "AWS Management Console Private Access now enables customers to access the AWS Console from VPCs without internet connectivity, allowing enterprises to manage their AWS infrastructure through the console while maintaining strict network security controls in air-gapped environments. Previously, AWS Management Console Private Access allowed customers to restrict console access to authorized AWS accounts and corporate networks but still required internet connectivity. With this launch, AWS Console t",
+    "published_at": "2026-06-15T23:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "general:products/aws-management-console,marketing:marchitecture/management-and-governance,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "05c070a686899e5c",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
+    "title": "Grok 4.3 from xAI now available in Amazon Bedrock",
+    "summary": "Today, AWS announces the availability of xAI's Grok 4.3 model on Amazon Bedrock. With this launch, xAI joins Amazon Bedrock as a model provider, giving you even more choice as you build generative AI applications across reasoning, agentic, and enterprise workflows. Grok 4.3 is a reasoning-first model that offers always-on and configurable reasoning effort (none, low, medium, high). Because reasoning is always active rather than optional, it behaves more consistently across multi-step agent loops",
+    "published_at": "2026-06-15T20:04:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "bed311a8fd102097",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/agentcore-memory-scmetadata",
+    "title": "Amazon Bedrock AgentCore Memory now supports strictly consistent metadata for long-term memory",
+    "summary": "Amazon Bedrock AgentCore Memory extracts useful information from short-term memory and stores it as long-term memory records. Metadata on these records helps organize, filter, and route them for retrieval. Previously, metadata values could only be inferred by the LLM during extraction. Now, you can also attach metadata values directly from your application, ensuring they pass through extraction and consolidation exactly as supplied with no LLM inference. When you set a metadata key's extraction ",
+    "published_at": "2026-06-15T20:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture,general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "5f7c7c9a5d533788",
+    "track": "iam",
+    "source": "github:kubernetes-sigs/aws-iam-authenticator",
+    "source_kind": "github",
+    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.18",
+    "title": "v0.7.18",
+    "summary": "## Changelog\n* c0e2ecd6c9e352db19435db4d2c7e64282554d2f Merge pull request #1062 from CaidenBorrego/new-release\n* 44fb83f82387d237b49bc8178ad9e3ff5192b8d0 Creating new release for CVE mitigation\n* f13fbce49e5e3ffe159a3c97a674efd37c05e350 Merge pull request #1057 from CaidenBorrego/caidenb-versionbump\n* 2201e0a36683847e60512205513f5423a72eae5e Merge remote-tracking branch 'upstream/master' into caidenb-versionbump\n* 2b185f3bf2fba2f2d0bd95c09f101106367c6754 Bump x/net and x/sys to remediate CVEs\n\n",
+    "published_at": "2026-06-15T19:13:11Z",
+    "fetched_at": "2026-06-16T11:03:10.901695+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "d39a7fb2ef13466b",
+    "track": "iam",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-045-aws/",
+    "title": "CVE-2026-11931 - Insecure Permissions on Authentication Token Cache File in Kiro IDE",
+    "summary": "Bulletin ID: 2026-045-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/15/2026 11:45 AM PDT Description: Kiro IDE is an agentic development environment that makes it easy for developers to ship real engineering work with the help of AI agents. We identified CVE-2026-11931, where incorrect default permissions in Kiro IDE on macOS and Linux before version 0.11.133 could expose the authentication token cache file to other local users or processes via world-readable p",
+    "published_at": "2026-06-15T18:41:08+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "829da0875ad8a003",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/on-demand-cross-region-replication/",
+    "title": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions",
+    "summary": "Amazon FSx for OpenZFS now supports on-demand data replication across AWS opt-in Regions, enabling you to easily and efficiently transfer incremental point-in-time snapshots of your volumes beyond AWS Regions that are enabled by default. On-demand data replication provides a simple and resilient way to implement disaster recovery, replicate production data to a different Region or account, and enable lower latency data access for your global customer base or workforce. Amazon FSx for OpenZFS pro",
+    "published_at": "2026-06-15T18:30:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/storage,general:products/amazon-fsx-for-openzfs"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "9aaf5ec7a6975b3f",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-log-analytics/",
+    "title": "Amazon CloudWatch introduces Log Analytics for unified log analysis",
+    "summary": "Amazon CloudWatch now offers Log Analytics, a unified console experience that brings together CloudWatch Logs Insights for querying and analyzing log data, Live Tail for real-time log streaming, and Contributor Insights for identifying top contributors - all in one place. With this launch, customers can execute multiple queries in different tabs and use all existing Logs Insights features such as patterns, saved queries with parameters, facets for interactive log exploration, natural language qu",
+    "published_at": "2026-06-15T18:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "general:products/amazon-cloudwatch-logs,general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "5f07004952bb1b9b",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-route-53-resolver-dns/",
+    "title": "Amazon Route 53 Resolver DNS Firewall now supports Palo Alto Networks Advanced DNS Security (Preview)",
+    "summary": "Amazon Web Services announces the preview of Palo Alto Networks (PANW) Advanced DNS Security on Amazon Route 53 Resolver DNS Firewall. Security administrators can now enforce DNS threat protections from Palo Alto Networks directly on Route 53 DNS Firewall rules, without deploying separate firewalls or modifying VPC configurations — by subscribing to PANW from the DNS Firewall console through the embedded AWS Marketplace widget. With this launch, you can enforce DNS threat protections from Palo A",
+    "published_at": "2026-06-15T17:06:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "f5b70c81b706910e",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ecs-express-mode-govcloud/",
+    "title": "Amazon ECS Express Mode is now available in AWS GovCloud (US) Regions",
+    "summary": "Amazon Elastic Container Service (Amazon ECS) Express Mode is now available in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. ECS Express Mode empowers developers to rapidly launch containerized applications, including web applications and APIs, making it easy to orchestrate and manage cloud architecture while maintaining full control over infrastructure resources. Every Express Mode service automatically receives an AWS-provided domain name, making your application immediately a",
+    "published_at": "2026-06-15T17:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/containers,general:products/amazon-ecs,general:products/aws-govcloud-us,general:products/aws-fargate"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "620e7d8dcd3d407f",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-cost-explorer/",
+    "title": "AWS launches Cost Explorer historical data retention for accounts in billing groups",
+    "summary": "Today, AWS announces Cost Explorer historical data retention for accounts in billing groups. Customers can use AWS Billing Conductor and Billing Transfer to map accounts to billing groups, enabling them to view billing data priced at the pro forma rates supplied by the payer account or Bill-Transfer account. Previously, the billing group configuration resulted in restricted access to historical billing data (priced at AWS billable rates) for accounts mapped to billing groups. With this launch, a",
+    "published_at": "2026-06-15T16:07:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/cost-management,general:products/aws-cost-explorer"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "f1e0997272818ebc",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-managed-instances-tag-propagation/",
+    "title": "AWS Lambda Managed Instances now supports Tag Propagation for Managed Resources",
+    "summary": "AWS Lambda Managed Instances (LMI) now supports tag propagation, enabling you to automatically apply tags to managed resources such as Amazon EC2 instances, Amazon EBS volumes, and Amazon ENIs. This helps you enforce cost allocation, service control policies (SCPs), and compliance requirements across all resources provisioned by your capacity providers. LMI lets you run Lambda functions on managed EC2 instances with built-in routing, load balancing, and auto scaling, giving you access to special",
+    "published_at": "2026-06-15T15:55:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "bd584746d81f93c1",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-custom-agents/",
+    "title": "AWS DevOps Agent expands with custom SRE agents and MCP/A2A protocols",
+    "summary": "AWS DevOps Agent now supports custom SRE agents, bring-your-own sub-agents, and headless access via MCP and A2A protocols. These capabilities enable teams to automate recurring SRE workflows, extend DevOps Agent by connecting it to other agents, and access its capabilities from the tools they already use, including Kiro, Claude, and other coding assistants. With custom SRE agents, teams can create and schedule agents within Agent Spaces that run on a cadence. For example, create a daily database",
+    "published_at": "2026-06-15T15:47:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "a9042418286f0156",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c8i-instances-europe-stockholm-region/",
+    "title": "Amazon EC2 C8i instances are now available in Europe (Stockholm) region",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C8i instances are available in the Europe (Stockholm) region. These instances are powered by custom Intel Xeon 6 processors, available only on AWS, delivering the highest performance and fastest memory bandwidth among comparable Intel processors in the cloud. These C8i instances offer up to 15% better price-performance, and 2.5x more memory bandwidth compared to previous generation Intel-based instances. They deliver up to 20% higher perf",
+    "published_at": "2026-06-15T13:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-ec2"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "1df333f870e5d040",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-c7i-instances-israel-tel-aviv-region/",
+    "title": "Amazon EC2 C7i instances are now available in the Israel (Tel Aviv) region",
+    "summary": "Starting today, Amazon Elastic Compute Cloud (Amazon EC2) C7i instances powered by custom 4th Gen Intel Xeon Scalable processors (code-named Sapphire Rapids) are available in the Israel (Tel Aviv) Region. C7i instances are supported by custom Intel processors, available only on AWS. C7i instances deliver up to 15% better price-performance versus C6i instances and are a great choice for all compute-intensive workloads, such as batch processing, distributed analytics, ad-serving, and video encodin",
+    "published_at": "2026-06-15T13:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-ec2"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "cf4a3ee4c372f1aa",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-waf-ai-traffic-monetization/",
+    "title": "AWS WAF announces AI traffic monetization",
+    "summary": "Today, AWS WAF announced AI traffic monetization, a new Bot Control capability that lets you price, meter, and collect payment from AI bots and agents accessing your content and APIs. As AI agents increasingly support autonomous payments for the content and APIs they consume, AWS WAF now lets content owners and publishers set a price for that access, accept payment through third-party providers, and grant scoped access directly at the edge. When an AI bot or agent requests a protected resource l",
+    "published_at": "2026-06-15T12:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/networking-and-content-delivery,general:products/amazon-cloudfront,general:products/aws-waf"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "80a687f7eaf7396c",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cross-account-metrics-centralization",
+    "title": "Amazon CloudWatch now supports cross-account metrics centralization",
+    "summary": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Metrics Centralization, which enables you to replicate CloudWatch metrics cross-account and cross-region into a single destination account. Enterprise teams with complex multi-account, multi-region deployments often need a unified view of their operational health across their entire infrastructure. CloudWatch metrics centralization solves this by letting you define centralization rules through AWS Organizations th",
+    "published_at": "2026-06-15T10:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "fb790c703792e300",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-query-studio-generally-available",
+    "title": "Amazon CloudWatch Query Studio is now generally available",
+    "summary": "Today, Amazon Web Services announces the general availability of Amazon CloudWatch Query Studio, a unified querying and visualization experience that enables you to explore metrics from a single interface within the CloudWatch console. With Query Studio, a team operating services across multiple AWS accounts and regions can use PromQL or Metrics Insights to query OpenTelemetry and AWS vended metrics from a single workspace. Per-query cross-account and cross-region selectors make it easy to corre",
+    "published_at": "2026-06-15T10:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "481b11a3e24ba61a",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-gamelift-servers-free-network-bandwidth",
+    "title": "Free Network Bandwidth Amazon GameLift Servers is Here!",
+    "summary": "Starting today, Amazon GameLift Servers provides network bandwidth in and out of AWS at no additional charge for all instance types from generation 6 and later, including On-Demand and Spot, with no commitment required. You now pay only for your Amazon GameLift Servers instance hours; all network bandwidth is free. Multiplayer game servers generate continuous network traffic to connected players, making bandwidth one of the most unpredictable cost components for game studio customers. With free ",
+    "published_at": "2026-06-15T08:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "general:products/amazon-gamelift,marketing:marchitecture/game-development"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "2e63cd611a229c54",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-maria-db-innovation-release-12-3-rds-database-preview-environment/",
+    "title": "Amazon RDS for MariaDB supports Long-Term Support version 12.3 in Amazon RDS Database Preview Environment",
+    "summary": "Amazon RDS for MariaDB now supports MariaDB 12.3 in the Amazon RDS Database Preview Environment , allowing you to evaluate the latest Long-Term Support Release on Amazon RDS for MariaDB. This preview environment provides a sandbox where you can test applications and explore new MariaDB 12.3 capabilities before they become generally available. MariaDB 12.3 includes Oracle TO_DATE() function compatibility, a SQL Standard IS JSON predicate for native JSON validation, and a basic XML data type. It a",
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "f3335dfac4506aee",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-mysql-extended-support-minor-5744-rds/",
+    "title": "Amazon RDS for MySQL announces Extended Support minor version 5.7.44-RDS.20260521",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for MySQL now supports new Amazon RDS Extended Support minor version 5.7.44-RDS.20260521. We recommend that you upgrade to this version to fix known security vulnerabilities and bugs in prior versions of MySQL. Learn more about upgrading your database instances, including minor and major version upgrades, in the Amazon RDS User Guide . Amazon RDS Extended Support provides you more time, up to three years, to upgrade to a new major version to help y",
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/databases,general:products/amazon-rds-for-mysql"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "8e1386dddbf53804",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/05/amazon-rds-mariadb-community-versions/",
+    "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8",
+    "summary": "Amazon Relational Database Service (Amazon RDS) for MariaDB now supports community MariaDB minor versions 10.6.27, 10.11.18, 11.4.12, and 11.8.8. We recommend that you upgrade to the latest minor versions to fix known security vulnerabilities in prior versions of MariaDB, and to benefit from the bug fixes, performance improvements, and new functionality added by the MariaDB community. You can leverage automatic minor version upgrades to automatically upgrade your databases to more recent minor v",
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [
+      "marketing:marchitecture/databases,general:products/amazon-rds"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "cff3ee85da180054",
     "track": "iam",
     "source": "rss:aws-whats-new",
@@ -542,6 +906,21 @@
     "tags": [
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
     ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "4b6a5ae8de3c413b",
+    "track": "iam",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-otel-metrics/",
+    "title": "Amazon CloudWatch introduces native OpenTelemetry metrics with PromQL querying and per-GB pricing",
+    "summary": "Amazon CloudWatch now lets you ingest metrics via the OpenTelemetry Protocol (OTLP) and query them using Prometheus Query Language (PromQL). You pay per GB ingested, with 15 months of storage included. Custom OTel metrics and AWS vended metrics from more than 70 services are queryable together in PromQL. CloudWatch provides a Prometheus-compatible query API that works with Grafana and other Prometheus-compatible tools. For Amazon EKS customers, Container Insights with OpenTelemetry provides cura",
+    "published_at": "2026-06-09T12:44:00+00:00",
+    "fetched_at": "2026-06-16T11:03:09.945142+00:00",
+    "tags": [],
     "severity": null,
     "score": 0.0,
     "score_breakdown": {}
