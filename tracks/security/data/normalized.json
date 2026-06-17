@@ -1,5 +1,34 @@
 [
   {
+    "id": "cccf77e64b7749d6",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/threat-tactic-spotlight-subdomain-takeover/",
+    "title": "Threat tactic spotlight: Subdomain takeover",
+    "summary": "In this blog post you’ll learn how to detect and prevent subdomain takeover – a tactic where threat actors exploit dangling DNS records to redirect traffic to attacker-controlled resources. We’ll explain the issue, how the situation arises, and how you can use various AWS features and services to help mitigate the impact of this tactic. […]",
+    "published_at": "2026-06-16T17:53:20+00:00",
+    "fetched_at": "2026-06-17T10:47:23.692999+00:00",
+    "tags": [
+      "Best Practices",
+      "Intermediate (200)",
+      "Security, Identity, & Compliance",
+      "Technical How-to",
+      "Amazon CloudWatch",
+      "Amazon Route 53",
+      "Amazon SNS",
+      "AWS Config",
+      "AWS KMS",
+      "AWS Lambda",
+      "AWS Security Hub",
+      "DNS",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "d39a7fb2ef13466b",
     "track": "security",
     "source": "rss:aws-security-bulletins",
