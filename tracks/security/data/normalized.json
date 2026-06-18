@@ -1,5 +1,40 @@
 [
   {
+    "id": "50ce914e270a9547",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-044-aws/",
+    "title": "CVE-2026-12530 - Improper neutralization of argument delimiters in AWS Bedrock AgentCore Python SDK install_packages()",
+    "summary": "Bulletin ID: 2026-044-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/17/2026 14:15 PM PDT Description: The AWS Bedrock AgentCore Python SDK (bedrock-agentcore) is an open-source SDK that enables developers to build, deploy, and manage agents on AWS Bedrock AgentCore. We identified CVE-2026-12530, an issue in the install_packages() method of the Code Interpreter client. The method applied an incomplete blocklist to sanitize package name arguments before construct",
+    "published_at": "2026-06-17T21:16:00+00:00",
+    "fetched_at": "2026-06-18T10:14:33.061823+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "0220b1133bbdefe0",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/introducing-aws-continuum-security-at-machine-speed/",
+    "title": "Introducing AWS Continuum: Security at machine speed",
+    "summary": "What we believe We’ve been thinking deeply about enterprise security. The operating model that served us for the past decade (collect telemetry, store it, query it, build dashboards to watch it) is no longer keeping pace. We need to shift to the new world: telemetry, context, reasoning, and actions. An approach that produces outcomes. The […]",
+    "published_at": "2026-06-17T15:34:05+00:00",
+    "fetched_at": "2026-06-18T10:14:33.061823+00:00",
+    "tags": [
+      "Announcements",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "cccf77e64b7749d6",
     "track": "security",
     "source": "rss:aws-security-blog",
