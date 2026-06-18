@@ -1,5 +1,475 @@
 [
   {
+    "id": "f1b432d3466fcabb",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-interactive-sessions-spark-connect-smus-notebooks",
+    "title": "AWS Glue Interactive Sessions now support Spark Connect for interactive workloads",
+    "summary": "AWS Glue Interactive Sessions now support Apache Spark Connect, using which you can now develop and run Apache Spark applications from your preferred environment, including managed notebooks in Amazon SageMaker Unified Studio, or your preferred notebook environments and IDEs like Jupyter, Visual Studio Code, while running them on AWS Glue's serverless infrastructure without managing clusters. With Spark Connect, you submit Spark jobs to AWS Glue Interactive Sessions using a thin client architect",
+    "published_at": "2026-06-17T19:15:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/aws-glue,general:products/amazon-sagemaker"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "2294065741ebf998",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/top-announcements-of-the-aws-summit-in-new-york-2026/",
+    "title": "Top announcements of the AWS Summit in New York, 2026",
+    "summary": "A recap of the top announcements from AWS's New York Summit 2026",
+    "published_at": "2026-06-17T16:36:08+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
+      "Amazon Simple Storage Service (S3)",
+      "Announcements",
+      "AWS Summit New York",
+      "AWS Transform",
+      "AWS WAF",
+      "Kiro"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "1566da8b57077f15",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-real-time-engine-log-streaming/",
+    "title": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time",
+    "summary": "AWS HealthOmics now streams workflow engine logs to Amazon CloudWatch in real time, enabling customers to monitor workflow execution progress as it happens. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflows. Real-time engine log streaming accelerates iterative workflow development and debugging by giving researchers, bioinformaticians, and workflow developers immed",
+    "published_at": "2026-06-17T16:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "bbdec7cefdd5439b",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/",
+    "title": "Introducing Amazon Bedrock Managed Knowledge Base for faster, more accurate enterprise AI applications",
+    "summary": "Amazon Bedrock's new Fully Managed Knowledge Bases simplifies building enterprise RAG pipelines by providing native data connectors Smart Parsing for automatic multi-format data preparation, and an Agentic Retriever for complex multi-step queries—all integrated with AgentCore Gateway so developers can focus on business outcomes rather than infrastructure management.",
+    "published_at": "2026-06-17T15:09:20+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "Amazon Bedrock AgentCore",
+      "Amazon Bedrock Knowledge Bases",
+      "Amazon Machine Learning",
+      "Announcements",
+      "Artificial Intelligence",
+      "AWS Summit New York",
+      "Events",
+      "Generative AI",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3bd36ff5e651a3de",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/announcing-web-search-on-amazon-bedrock-agentcore-ground-your-ai-agents-in-current-accurate-web-knowledge/",
+    "title": "Announcing Web Search on Amazon Bedrock AgentCore: Ground your AI agents in current, accurate web knowledge",
+    "summary": "AWS introduces Web Search on Amazon Bedrock AgentCore, a fully managed tool that enables agents to ground responses in current, cited web knowledge with zero data egress from customer's secured AWS environment. You can focus on building agents instead of manually adding web search to agents on Bedrock AgentCore and managing its infrastructure.",
+    "published_at": "2026-06-17T15:00:11+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Bedrock AgentCore",
+      "Amazon Machine Learning",
+      "Artificial Intelligence",
+      "AWS Summit New York",
+      "Events",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "141f2d5817137efb",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-devops-agent-release-management/",
+    "title": "AWS DevOps Agent adds release management capability (preview)",
+    "summary": "AWS DevOps Agent now offers a release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence. With this addition, AWS DevOps Agent now works across both delivery and operations. It accelerates and validates the deployment of code changes, then keeps your applications running optimally across AWS, multicloud, and on-prem environments, so your team ships faster, reduces MTT",
+    "published_at": "2026-06-17T15:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e83999daa4f6056d",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-rds-postgresql-mysql-mariadb-m9g-instances/",
+    "title": "Amazon RDS for PostgreSQL, MySQL, and MariaDB now supports M9g database instances",
+    "summary": "AWS Graviton5-based M9g database (DB) instances are now generally available for Amazon Relational Database Service (RDS) for PostgreSQL, MySQL, and MariaDB. Graviton5-based instances provide up to a 30% performance improvement and up to a 23% price/performance improvement for on-demand pricing over Graviton4-based instances of equivalent sizes on Amazon RDS open source databases, depending on database engine, version, and workload. AWS Graviton5 processors are the latest generation of custom-des",
+    "published_at": "2026-06-17T15:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/databases,general:products/amazon-rds"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c48201040dafe886",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/rds-mysql-es-extension/",
+    "title": "Amazon Aurora and RDS for MySQL expand Extended Support for MySQL 5.7 through June 2029",
+    "summary": "Amazon Aurora MySQL-Compatible Edition and Amazon Relational Database Service (RDS) for MySQL now offer Amazon RDS Extended Support for MySQL 5.7 through June 30, 2029, from the previous end date of February 28, 2027. This applies to Aurora MySQL version 2 (with MySQL 5.7 compatibility) and RDS for MySQL version 5.7, giving customers additional time to plan and complete their upgrades to a supported major version while continuing to receive critical security patches and bug fixes. RDS Extended S",
+    "published_at": "2026-06-17T15:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:products/amazon-rds,marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "74e1787c0b5d5c53",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/proactively-reduce-tech-debt-autonomously-with-aws-transform-continuous-modernization-preview/",
+    "title": "Proactively reduce tech debt autonomously with AWS Transform – continuous modernization (preview)",
+    "summary": "AWS Transform – continuous modernization (preview) automatically scans code repositories to detect, prioritize, and remediate technical debt at scale.",
+    "published_at": "2026-06-17T14:58:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "AWS Summit New York",
+      "AWS Transform",
+      "Events",
+      "Generative AI",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "328aad660ffb8f26",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/aws-devops-agent-adds-release-management-capabilities-to-assess-code-changes-before-production-preview/",
+    "title": "AWS DevOps Agent adds release management capabilities to assess code changes before production (preview)",
+    "summary": "AWS DevOps Agent now offers release management capability in preview, reviewing code changes for release readiness and running autonomous release testing to help you ship code to production safely and with confidence.",
+    "published_at": "2026-06-17T14:57:34+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "Announcements",
+      "AWS Summit New York",
+      "DevOps",
+      "Launch",
+      "News"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "17c384e814609721",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/aws-security-agent-adds-threat-modeling-kiro-power-and-claude-code-plugin-and-more/",
+    "title": "AWS Security Agent adds threat modeling, Kiro power and Claude Code plugin, and more",
+    "summary": "AWS Security Agent now adds STRIDE-based threat modeling, full repo and PR code scanning with remediation across major Git platforms, and IDE integrations via Kiro power, Claude Code plugin, and MCP — letting developers run security reviews and fix issues without context switching.",
+    "published_at": "2026-06-17T14:54:55+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "AWS Summit New York",
+      "Events",
+      "Launch",
+      "News",
+      "Security, Identity, & Compliance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "95f78d6adec2a9dc",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-amd-bmn-cx3a/",
+    "title": "AWS Outposts racks now support bmn-cx3a instances, the first AMD-based instances with accelerated networking on Outposts",
+    "summary": "AWS announces the availability of bmn-cx3a instances on second-generation AWS Outposts racks. Bmn-cx3a instances feature 5th Gen AMD EPYC processors with a maximum frequency of 4.1 GHz and NVIDIA ConnectX-7 (CX7) network interface cards, delivering up to 800 Gbps of bare-metal accelerated network bandwidth operating at near line rate. Bmn-cx3a instances offer up to 256 cores and 1.5 TB of memory across two sizes, bmn-cx3a.metal-32xl and bmn-cx3a.metal-64xl, with 2x 8 TB NVMe SSD storage. With na",
+    "published_at": "2026-06-17T14:30:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-ec2"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3d838f9c8fbe6cf2",
+    "track": "whats-new",
+    "source": "rss:aws-architecture-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/architecture/reducing-sms-otp-fraud-with-vonage-network-powered-solutions-and-amazon-cognito/",
+    "title": "Reducing SMS OTP fraud with Vonage network-powered solutions and Amazon Cognito",
+    "summary": "In this post, we show how Vonage network-powered solutions work with Amazon Cognito to enhance many mobile-first use cases with network-level identity verification. Vonage network-powered solutions are a composable stack of real-time mobile operator intelligence, silent authentication, and integrated fraud protection, which uses the CUSTOM_AUTH flow to complete identity verification in under 5 seconds, with zero user interaction.",
+    "published_at": "2026-06-17T13:50:16+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "Amazon Cognito",
+      "AWS Lambda",
+      "Customer Solutions",
+      "Partner solutions",
+      "Security",
+      "Telecommunications"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3a7c3fd703031b72",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/simulating-amazon-ec2-ebs-burst-credits-before-downsizing-an-instance/",
+    "title": "Simulating Amazon EC2 EBS burst credits before downsizing an instance",
+    "summary": "When downsizing an Amazon Elastic Compute Cloud (Amazon EC2) instance, teams often evaluate CPU and memory utilization but overlook the instance’s Amazon Elastic Block Store (Amazon EBS) performance limits for throughput and IOPS. Smaller Amazon EBS-optimized instance types have lower baselines and rely on burst credits to handle peaks. If your workload’s I/O pattern drains […]",
+    "published_at": "2026-06-17T13:45:13+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "Amazon EC2",
+      "Amazon Elastic Block Store (Amazon EBS)",
+      "Technical How-to",
+      "Uncategorized",
+      "Amazon EBS"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "56986eb8f56a7f43",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick/",
+    "title": "Amazon Quick announces autonomous agents, multi-dataset analytics, and redesigned activity feed",
+    "summary": "Today, AWS announces multiple new features for Amazon Quick, including autonomous agents, multi-dataset analytics capabilities, and a redesigned activity feed. Amazon Quick is the AI assistant that connects to popular business applications and learns user workflows. These new capabilities enable Quick to handle recurring tasks continuously while providing unified analytics across multiple data sources. With autonomous agents, users can describe tasks in natural language and set granular autonomy",
+    "published_at": "2026-06-17T13:40:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/business-productivity,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "11fb91e94a168a28",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-new-optimization-capabilities",
+    "title": "Amazon Bedrock AgentCore introduces new optimization capabilities to continuously improve agents in production",
+    "summary": "Today, AWS announces new optimization capabilities in AgentCore that turn production traces into continuous improvement for agents. The most dangerous agent failures are not the ones that throw errors. They are the silent ones that look fine on dashboards. These failures produce no error signal and often surface through customer complaints weeks later. AgentCore closes that gap with a loop to understand what agents are doing, generate fixes grounded in data, and prove they work. To understand ag",
+    "published_at": "2026-06-17T12:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:products/amazon-bedrock,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c427f9193dc4f913",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-harness-generally-available",
+    "title": "AgentCore harness in now generally available",
+    "summary": "Today, AWS announces the general availability of the managed agent harness in Amazon Bedrock AgentCore, taking teams from idea to working agents in minutes. An agent is more than a model. If the model is the brain, the harness is the body: everything the brain needs to get work done. It runs the orchestration loop, executes tools, manages the context window, persists state across turns, recovers from failures, and isolates each session. The harness shapes how well an agent performs as much as th",
+    "published_at": "2026-06-17T12:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "0aa53ee51c8a6646",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-policy-guardrails-generally-available",
+    "title": "Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy",
+    "summary": "Today, AWS announces that Amazon Bedrock AgentCore now supports Bedrock Guardrails in policy, giving enterprises deeper safety and security controls as they scale AI agents in production. AgentCore policy is an authorization capability within Amazon Bedrock AgentCore that controls which actions AI agents are authorized to take. Guardrails give enterprises defenses against the top security and safety risks with AI agent workloads, including prompt injection attacks and sensitive data exposure. Gu",
+    "published_at": "2026-06-17T12:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "d1ac40117322950b",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-glue-data-catalog/",
+    "title": "AWS Glue Data Catalog now supports business context and semantic search (Preview)",
+    "summary": "Today, AWS announces the preview of business context and semantic search for AWS Glue Data Catalog, helping you discover and understand data by semantic meaning. You can now enrich your Glue Data Catalog tables, including those backed by S3 Tables, with glossary terms and custom metadata fields. You can also add skills to the catalog that direct agents to additional context about your data. With business context indexed alongside technical metadata, you can use the new Glue Search API to find da",
+    "published_at": "2026-06-17T12:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "edd5d83f4054b15a",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/",
+    "title": "Introducing AWS Continuum for security at machine speed",
+    "summary": "Today, AWS announces AWS Continuum, which discovers, prioritizes, validates, and remediates security risks at machine speed within guardrails you define. Frontier models have made finding software vulnerabilities faster and cheaper, but the harder work comes after: deciding which vulnerabilities matter to your business, proving which are exploitable, and fixing them without days of cross-team coordination. AWS Continuum closes that gap, so your security team shifts from manual triage to setting ",
+    "published_at": "2026-06-17T07:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/security-identity-and-compliance,https://staging.prod.website.marketing.aws.dev/continuum/"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "ef1dc3845bd872c3",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/oracle-database-aws-autonomous-database-serverless/",
+    "title": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless",
+    "summary": "Oracle Database@AWS now supports Oracle Autonomous AI Database Serverless (ADB-S), a fully managed Oracle database service on Exadata infrastructure that automatically handles patching, tuning, and scaling. ADB-S is available through both public and private offers on AWS Marketplace, with support for Bring Your Own License and License Included options. With ADB-S, you can provision an Oracle Autonomous AI Database directly from the AWS Management Console, AWS CLI, or AWS APIs without provisionin",
+    "published_at": "2026-06-17T07:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "7106c12891bb77dc",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/safe-secrets-handling-in-agent-toolkit-for-aws/",
+    "title": "AWS Secrets Manager introduces safe secrets handling in the Agent Toolkit for AWS",
+    "summary": "AWS Secrets Manager now offers a secret safety skill as part of the aws-core plugin in the Agent Toolkit for AWS , an open-source repository that equips AI coding agents with tools, knowledge, and guardrails for building on AWS. The skill lets developers use secrets within agentic workflows without ever exposing secret values to the underlying model or session logs. Until now, developers using AI coding agents could retrieve secrets as plain text without any guardrails, bringing sensitive values",
+    "published_at": "2026-06-17T07:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:products/aws-secrets-manager"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "0cef6f237f3aab17",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-managed-knowledge-base/",
+    "title": "Amazon Bedrock Managed Knowledge Base is now generally available",
+    "summary": "Amazon Bedrock Managed Knowledge Base, a fully managed retrieval-augmented generation (RAG) service, is now generally available. With Managed Knowledge Base, developers can build production-ready AI agents grounded in enterprise data without managing vector databases, data pipelines, or retrieval infrastructure. The service handles data ingestion, storage optimization, and advanced retrieval so teams can go from prototype to production faster. Amazon Bedrock Managed Knowledge Base includes six n",
+    "published_at": "2026-06-17T05:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,general:products/amazon-bedrock"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c2f0b6f97ac25144",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-security-agent-threat-modeling/",
+    "title": "AWS Security Agent announces support for Threat Modeling",
+    "summary": "AWS Security Agent (now part of AWS Continuum) now includes threat modeling, an AI-powered agentic capability that automatically generates threat models for your applications. Available today in public preview, AWS Security Agent analyzes your design documents or application source code, understands the full context of your application architecture, and identifies threats with recommended mitigations using the STRIDE framework. Threat modeling is critical but often requires specialized expertise",
+    "published_at": "2026-06-17T04:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:use-case/security-and-compliance,marketing:marchitecture/developers"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "2e8d1dd1f09a2a95",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-kiro-power-claude-code/",
+    "title": "AWS Security Agent adds Kiro Power, Claude Code, simulated validations and new integrations support",
+    "summary": "AWS Security Agent (now part of AWS Continuum) adds support for Kiro and Claude Code, enabling developers to trigger security scans directly from their development environment. AWS Security Agent now also validates code scanner findings by simulating exploits in a sandbox environment and providing proof of exploit, so teams can trust their results, minimize false positives, and prioritize remediation with confidence. Additionally, this release adds integrations with GitLab.com, GitLab Self Manag",
+    "published_at": "2026-06-17T04:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/security-identity-and-compliance,general:use-case/security-and-compliance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "404bd2db0711aa46",
     "track": "whats-new",
     "source": "rss:aws-news-blog",
@@ -73,6 +543,23 @@
     "score_breakdown": {}
   },
   {
+    "id": "e8c747845e49395c",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails-sydney/",
+    "title": "Amazon Bedrock Guardrails adds automated reasoning checks in Sydney",
+    "summary": "Automated Reasoning checks in Amazon Bedrock Guardrails use formal verification techniques to validate AI model outputs with mathematical rigor, providing a fundamentally different approach from traditional sampling-based testing methods. This capability addresses critical challenges in deploying generative AI applications, including AI hallucinations, policy compliance violations, and ambiguous responses that can undermine trust in AI systems. Organizations in regulated industries such as finan",
+    "published_at": "2026-06-16T20:07:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:products/amazon-bedrock,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "91cd04201faba208",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -84,6 +571,23 @@
     "fetched_at": "2026-06-17T10:47:24.987364+00:00",
     "tags": [
       "marketing:marchitecture/developer-tools,marketing:marchitecture/migration,marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "2e8aa6938d1f3c43",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-agentcore-web-search/",
+    "title": "Announcing Web Search on Amazon Bedrock AgentCore for Agentic Web Retrieval",
+    "summary": "As AI agents become more capable, they need access to information beyond a model's training data - to answer questions, retrieve latest facts, and take action grounded in current developments. Today, we're making that easy with the general availability of Web Search on AgentCore. Web Search is a fully managed tool that enables agents to ground responses in current, accurate web knowledge while keeping data residency within your secured AWS environment with zero data egress. Previously, adding we",
+    "published_at": "2026-06-16T18:00:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:products/amazon-bedrock"
     ],
     "severity": null,
     "score": 0.0,
@@ -135,6 +639,23 @@
     "fetched_at": "2026-06-17T10:47:24.987364+00:00",
     "tags": [
       "marketing:marchitecture/front-end-web-mobile,general:products/aws-developer-tools,marketing:marchitecture/developer-tools,marketing:marchitecture/applications"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3540b5c00d458d7b",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-quick-adobe-figma-whatsapp/",
+    "title": "Amazon Quick expands integrations with new connectors for Adobe, Figma, WhatsApp, and more",
+    "summary": "Amazon Quick now connects to 16 additional tools, allowing teams to act on insights from their data, analytics, design, and communication apps without switching context. New connectors include Adobe, Cisco Video Messaging, Cisco Webex Meetings, Dun & Bradstreet, Figma, Google Chat, HG Insights, Microsoft OneNote, Moody’s, Shopify, Smartsheet, Snowflake, Visier, WhatsApp, Zapier, and ZoomInfo. With this expansion, Quick now integrates across productivity, design, analytics, data infrastructure, f",
+    "published_at": "2026-06-16T15:20:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence,marketing:marchitecture/business-productivity"
     ],
     "severity": null,
     "score": 0.0,
@@ -302,7 +823,7 @@
     "published_at": "2026-06-16T04:00:00+00:00",
     "fetched_at": "2026-06-16T11:03:13.254969+00:00",
     "tags": [
-      "marketing:marchitecture/migration,marketing:marchitecture/storage,general:products/amazon-fsx-netapp-ontap"
+      "general:products/amazon-fsx-netapp-ontap,marketing:marchitecture/storage,marketing:marchitecture/migration"
     ],
     "severity": null,
     "score": 0.0,
@@ -405,6 +926,23 @@
     "fetched_at": "2026-06-16T11:03:13.254969+00:00",
     "tags": [
       "general:products/aws-management-console,marketing:marchitecture/management-and-governance,marketing:marchitecture/security-identity-and-compliance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "7a5a3ce0e801c87d",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-continuous-modernization/",
+    "title": "AWS launches a new continuous modernization capability in AWS Transform that provides autonomous tech debt analysis and remediation at scale",
+    "summary": "Today, AWS Transform announces a new continuous modernization capability (Preview) that autonomously detects, prioritizes, and remediates tech debt across enterprise software portfolios. AWS Transform already helps enterprises migrate out of data centers, modernize mainframe and Windows applications, and modernize codebases for common scenarios such as version upgrades, runtime or API migrations, language translations, and Lambda run-time upgrades. With this new capability, we are now simplifyin",
+    "published_at": "2026-06-15T21:33:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "general:products/aws-developer-tools,marketing:marchitecture/developer-tools,marketing:marchitecture/artificial-intelligence"
     ],
     "severity": null,
     "score": 0.0,
@@ -1146,6 +1684,23 @@
     "fetched_at": "2026-06-11T10:15:58.644486+00:00",
     "tags": [
       "marketing:marchitecture/artificial-intelligence,general:products/amazon-opensearch-service"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "ba674a9d879fa775",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-ec2-fcr-cancellation/",
+    "title": "Amazon EC2 Future-dated Capacity Reservations Now Supports Cancellation",
+    "summary": "Amazon EC2 Future-dated Capacity Reservations lets you secure capacity up to 120 days in advance by specifying the capacity you need, the start date, and a commitment duration. Should plans change, you can now cancel your future-dated reservation. Depending on when you cancel, a charge may apply. When a cancellation charge applies, EC2 presents a quote with the exact terms for you to review and accept before the cancellation takes effect. You can track any cancellation charges in the AWS Cost an",
+    "published_at": "2026-06-10T22:20:00+00:00",
+    "fetched_at": "2026-06-18T10:14:27.274606+00:00",
+    "tags": [
+      "marketing:marchitecture/compute,general:products/amazon-ec2"
     ],
     "severity": null,
     "score": 0.0,
