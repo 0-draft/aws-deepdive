@@ -1,5 +1,64 @@
 [
   {
+    "id": "f6b44a85a3a61242",
+    "track": "security",
+    "source": "rss:aws-security-bulletins",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/security/security-bulletins/rss/2026-046-aws/",
+    "title": "Issue with containerd CRI Plugin - CVE-2026-50195, CVE-2026-53488, CVE-2026-53492, CVE-2026-53489, CVE-2026-47262",
+    "summary": "Bulletin ID: 2026-046-AWS Scope: AWS Content Type: Important (requires attention) Publication Date: 06/18/2026 17:30 PM PDT Description: containerd is an open-source container runtime used by Kubernetes via the Container Runtime Interface (CRI) plugin. It underpins AWS managed container services including Amazon Elastic Kubernetes Service (Amazon EKS), Amazon Elastic Container Service (Amazon ECS), AWS Fargate, Bottlerocket, and Amazon Linux. AWS identified five issues in the containerd CRI plug",
+    "published_at": "2026-06-19T00:29:27+00:00",
+    "fetched_at": "2026-06-19T10:19:30.279306+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c7bc34d9c49448ee",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/accelerate-security-investigations-with-kiro-cli/",
+    "title": "Accelerate security investigations with Kiro CLI",
+    "summary": "When a security event occurs in your Amazon Web Services (AWS) environment, rapid response is critical. However security teams often struggle with time-consuming, manual processes that slow down investigations. Analysts must recall complex AWS Command Line Interface (AWS CLI) syntax for multiple services, manually correlate findings across Amazon GuardDuty, AWS CloudTrail, and other security tools, […]",
+    "published_at": "2026-06-18T19:24:30+00:00",
+    "fetched_at": "2026-06-19T10:19:30.279306+00:00",
+    "tags": [
+      "Artificial Intelligence",
+      "Intermediate (200)",
+      "Kiro",
+      "Security, Identity, & Compliance",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "45c22b7b29cc5f9e",
+    "track": "security",
+    "source": "rss:aws-security-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/security/spring-2026-soc-1-and-2-reports-are-now-available-in-oscal-format/",
+    "title": "Spring 2026 SOC 1 and 2 reports are now available in OSCAL format",
+    "summary": "Amazon Web Services (AWS) is excited to release the Spring 2026 System and Organization Controls (SOC) 1 and 2 reports in machine-readable OSCAL format alongside the PDF version of the reports. The reports cover 188 services over the 12-month period from April 1, 2025 to March 31, 2026, giving customers a full year of assurance. […]",
+    "published_at": "2026-06-18T16:50:34+00:00",
+    "fetched_at": "2026-06-19T10:19:30.279306+00:00",
+    "tags": [
+      "Announcements",
+      "Compliance",
+      "Foundational (100)",
+      "Security, Identity, & Compliance",
+      "Compliance reports",
+      "OSCAL",
+      "Security Blog"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "50ce914e270a9547",
     "track": "security",
     "source": "rss:aws-security-bulletins",
