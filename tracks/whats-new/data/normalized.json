@@ -17,6 +17,23 @@
     "score_breakdown": {}
   },
   {
+    "id": "880b60577da24119",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-cloudwatch-synthetics-multilocation/",
+    "title": "Amazon CloudWatch Synthetics now supports multilocation canaries",
+    "summary": "Today, Amazon CloudWatch Synthetics announces support for multilocation canaries, allowing developers and site reliability engineers to run the same canary across multiple AWS Regions simultaneously from a single point of management. Previously, monitoring application availability from multiple geographic locations required creating and managing separate canaries in each Region, adding operational overhead and increasing the risk of configuration drift. With multilocation canaries, you create an",
+    "published_at": "2026-06-18T22:41:00+00:00",
+    "fetched_at": "2026-06-20T08:48:14.326287+00:00",
+    "tags": [
+      "general:products/amazon-cloudwatch,marketing:marchitecture/management-and-governance"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "278e90f86a057340",
     "track": "whats-new",
     "source": "rss:aws-whats-new",
@@ -132,7 +149,7 @@
     "source_kind": "rss",
     "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/nested-virtualization-intel-us-gov-cloud/",
     "title": "Nested virtualization is now available on additional Intel platforms and US Gov Cloud regions",
-    "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C7id,R7id, M7id, C7i-flex,R7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to already available support on C8i, M8i and R8i instances. This capability is also now available in US GovCloud (US-East) and US GovCloud (US-West), in addition to existing support in all commercial regions. With nested virtualization",
+    "summary": "Starting today, Nested virtualization is now available on additional Intel platforms and additional Regions. Nested virtualization is now available on C7i,R7i, M7i, C8id,R8id, M8id, C7i-flex, M7i-flex, I7i, C8i-flex,R8i-flex, M8i-flex,and X8i, in addition to already available support on C8i, M8i and R8i instances. This capability is also now available in US GovCloud (US-East) and US GovCloud (US-West), in addition to existing support in all commercial regions. With nested virtualization capabili",
     "published_at": "2026-06-18T18:47:00+00:00",
     "fetched_at": "2026-06-19T10:19:29.136731+00:00",
     "tags": [
@@ -290,6 +307,23 @@
     "fetched_at": "2026-06-19T10:19:29.136731+00:00",
     "tags": [
       "general:products/aws-govcloud-us,general:products/amazon-rds-for-sql-server,marketing:marchitecture/databases"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "33ddac31dbd662d1",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ubuntu-china-zhy/",
+    "title": "Amazon WorkSpaces Personal Supports Ubuntu 24.04",
+    "summary": "AWS announces availability of Ubuntu 24.04 LTS bundles for Amazon WorkSpaces Personal in the AWS China (Ningxia) Region, operated by NWCD. With this bundle, customers in China can launch Ubuntu WorkSpaces and take advantage of updated Linux packages, toolchains, and security improvements only available in Ubuntu 24.04. The new Ubuntu 24.04 option brings access to the latest software ecosystem, an improved security posture, and an extended support lifecycle. This new bundle also provides a migrat",
+    "published_at": "2026-06-18T07:00:00+00:00",
+    "fetched_at": "2026-06-20T08:48:14.326287+00:00",
+    "tags": [
+      "general:products/amazon-workspaces,marketing:marchitecture/business-productivity"
     ],
     "severity": null,
     "score": 0.0,
