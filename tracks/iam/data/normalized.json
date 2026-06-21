@@ -8109,20 +8109,5 @@
     "severity": null,
     "score": 0.0,
     "score_breakdown": {}
-  },
-  {
-    "id": "a22ec195a4cf88fd",
-    "track": "iam",
-    "source": "github:kubernetes-sigs/aws-iam-authenticator",
-    "source_kind": "github",
-    "url": "https://github.com/kubernetes-sigs/aws-iam-authenticator/releases/tag/v0.7.10",
-    "title": "v0.7.10",
-    "summary": "## Changelog\n* 050ebc2a3695469662d3c3ee08465a4094d6e27e Merge pull request #979 from Ganiredi/master\n* 79c04660a71b3f513c5ade838aba2aa42431cf56 release for 1-35\n* 03dcd9b54256dd876f9d59aa67844b08fbb4f8a3 Merge pull request #975 from Ganiredi/master\n* 5bb40f3de7a50b432d7f82e3f85e25c6b900b867 1.35.0 dependency update\n* 25cd1e1585dfdffa869a54e92ee4746015af9c75 Merge pull request #970 from eks-distro-pr-bot/eks-distro-pr-bot/go-version-bumps\n* b500f268c29e1e728a75c1901a12c09b28c84b0c Merge pull requ",
-    "published_at": "2025-12-22T19:10:02Z",
-    "fetched_at": "2026-05-17T11:51:59.920765+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
   }
 ]
