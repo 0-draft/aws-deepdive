@@ -1,5 +1,22 @@
 [
   {
+    "id": "e037191a5ef55cc2",
+    "track": "releases",
+    "source": "github:aws/aws-sam-cli",
+    "source_kind": "github",
+    "url": "https://github.com/aws/aws-sam-cli/releases/tag/sam-cli-nightly",
+    "title": "[Stable] Nightly Release v1.162.1.dev202606220901 - 2026-06-22",
+    "summary": "\n### New Changes today:\n[f4ebc1a](https://api.github.com/repos/aws/aws-sam-cli/commits/f4ebc1a17543754fd76fff16dee4d9bf620bad3b) - chore(deps): bump cfn-lint from 1.51.4 to 1.51.5 in the cfn-lint group (#9088)\n[0b99832](https://api.github.com/repos/aws/aws-sam-cli/commits/0b99832f3fb5a8c7feb5dddadbbe0df4a0b52fdc) - ci: remove sync-to-mirror-repo workflow (#9092)\n[2e3122e](https://api.github.com/repos/aws/aws-sam-cli/commits/2e3122e9085158dc4ffb2420c375dcbd5ac197d7) - feat: updating app templates",
+    "published_at": "2026-06-22T09:38:07Z",
+    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
+    "tags": [
+      "prerelease"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "15098c353299b1ac",
     "track": "releases",
     "source": "github:awslabs/aws-sdk-rust",
@@ -55,23 +72,6 @@
     "published_at": "2026-06-19T18:36:49Z",
     "fetched_at": "2026-06-20T08:48:16.681750+00:00",
     "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "e037191a5ef55cc2",
-    "track": "releases",
-    "source": "github:aws/aws-sam-cli",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sam-cli/releases/tag/sam-cli-nightly",
-    "title": "[Stable] Nightly Release v1.162.1.dev202606190901 - 2026-06-19",
-    "summary": "\n### New Changes today:\n\n### Changes from last PROD version:\n[11ed1fb](https://api.github.com/repos/aws/aws-sam-cli/commits/11ed1fb21777b5646f9f82e82db5cea15ee86743) - chore(deps-dev): bump types-requests (#9025)\n\n### Hashes:\nFilename | SHA256\n--- | ---\n**AWS_SAM_CLI_64_PY3.msi** | `95f9b307838501fd1eae29c3b83a1438f4aae1acfdde8b6a6792fe8f44d143d9`\n**aws-sam-cli-linux-x86_64.zip** | `ca216635fa809504369329541e08727315fa667f46e4d8637c33473eed250087`\n**aws-sam-cli-linux-x86_64.zip.sig** | `b7738257",
-    "published_at": "2026-06-19T09:38:33Z",
-    "fetched_at": "2026-05-17T11:52:10.733766+00:00",
-    "tags": [
-      "prerelease"
-    ],
     "severity": null,
     "score": 0.0,
     "score_breakdown": {}
@@ -7645,66 +7645,6 @@
     "title": "Release (2025-12-26)",
     "summary": "## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/medialive`: [v1.88.0](service/medialive/CHANGELOG.md#v1880-2025-12-26)\n  * **Feature**: AWS Elemental MediaLive now supports Pipeline Locking using Video Alignment as well as linked single pipeline channels to enable cross-channel and cross-region Pipeline Locking workflows.\n\n",
     "published_at": "2025-12-26T19:39:43Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "1b9cbd6d5f89239d",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-java-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-java-v2/releases/tag/2.40.15",
-    "title": "AWS SDK for Java v2 2.40.15",
-    "summary": "# __2.40.15__ __2025-12-23__\n## __AWS SDK for Java v2__\n  - ### Features\n    - Updated endpoint and partition metadata.\n    - Remove `elastictranscoder`.\n\n## __Amazon Location Service Places V2__\n  - ### Features\n    - Adds support for InferredSecondaryAddress place type, Designator in SecondaryAddressComponent and Heading in ReverseGeocode.\n\n## __Amazon Pinpoint SMS Voice V2__\n  - ### Features\n    - This release adds support for the Registration Reviewer feature, which provides generative AI fe",
-    "published_at": "2025-12-23T21:08:42Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "d5dcc68a98777e47",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-js-v3",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-js-v3/releases/tag/v3.958.0",
-    "title": "v3.958.0",
-    "summary": "#### 3.958.0(2025-12-23)\n\n##### Chores\n\n* **client-elastic-transcoder:**  remove elastic transcoder due to service shutdown ([#7602](https://github.com/aws/aws-sdk-js-v3/pull/7602)) ([4381b2dc](https://github.com/aws/aws-sdk-js-v3/commit/4381b2dcf13e5f7f49f1f4318b77e59a032f0ab4))\n* **build:**  generate clients without formatting prettier/eslint ([#7599](https://github.com/aws/aws-sdk-js-v3/pull/7599)) ([da9c913a](https://github.com/aws/aws-sdk-js-v3/commit/da9c913a3235c270b3d0b978f5971e70bb1484a",
-    "published_at": "2025-12-23T20:10:28Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "b6034226802f5284",
-    "track": "releases",
-    "source": "github:awslabs/aws-sdk-rust",
-    "source_kind": "github",
-    "url": "https://github.com/awslabs/aws-sdk-rust/releases/tag/release-2025-12-23",
-    "title": "December 23rd, 2025",
-    "summary": "**Service Features:**\n- `aws-sdk-geoplaces` (1.46.0): Adds support for InferredSecondaryAddress place type, Designator in SecondaryAddressComponent and Heading in ReverseGeocode.\n- `aws-sdk-pinpointsmsvoicev2` (1.100.0): This release adds support for the Registration Reviewer feature, which provides generative AI feedback on a phone number or sender ID registration to ensure completeness before sending to downstream (carrier) review.\n- `aws-sdk-s3` (1.119.0): Add additional validation to Outpost",
-    "published_at": "2025-12-23T20:03:06Z",
-    "fetched_at": "2026-06-04T09:50:25.781111+00:00",
-    "tags": [],
-    "severity": null,
-    "score": 0.0,
-    "score_breakdown": {}
-  },
-  {
-    "id": "fe7d1e93efd0ddcf",
-    "track": "releases",
-    "source": "github:aws/aws-sdk-go-v2",
-    "source_kind": "github",
-    "url": "https://github.com/aws/aws-sdk-go-v2/releases/tag/release-2025-12-23",
-    "title": "Release (2025-12-23)",
-    "summary": "## General Highlights\n* **Dependency Update**: Updated to the latest SDK module versions\n\n## Module Highlights\n* `github.com/aws/aws-sdk-go-v2/service/geoplaces`: [v1.8.0](service/geoplaces/CHANGELOG.md#v180-2025-12-23)\n  * **Feature**: Adds support for InferredSecondaryAddress place type, Designator in SecondaryAddressComponent and Heading in ReverseGeocode.\n* `github.com/aws/aws-sdk-go-v2/service/pinpointsmsvoicev2`: [v1.27.0](service/pinpointsmsvoicev2/CHANGELOG.md#v1270-2025-12-23)\n  * **Fea",
-    "published_at": "2025-12-23T19:50:13Z",
     "fetched_at": "2026-06-04T09:50:25.781111+00:00",
     "tags": [],
     "severity": null,
