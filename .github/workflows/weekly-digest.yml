@@ -19,7 +19,7 @@ jobs:
       group: weekly-${{ matrix.track }}
       cancel-in-progress: false
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           # Pin to main so a workflow_dispatch from a feature branch can't
           # publish a digest built from non-main code.
