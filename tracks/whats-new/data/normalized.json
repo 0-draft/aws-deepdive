@@ -1,5 +1,284 @@
 [
   {
+    "id": "3ee0bc96da807ab9",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/run-isolated-sandboxes-with-full-lifecycle-control-aws-lambda-introduces-microvms/",
+    "title": "Run isolated sandboxes with full lifecycle control: AWS Lambda introduces MicroVMs",
+    "summary": "AWS launches a new serverless compute primitive, AWS Lambda MicroVMs. VM-level, isolated sandboxes with no shared kernel or resources between sessions. Rapid launch and resume, full lifecycle control, state preservation up to 8 hours, no infrastructure to manage.",
+    "published_at": "2026-06-22T22:40:07+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "AWS Lambda",
+      "Compute",
+      "Firecracker",
+      "Launch",
+      "News",
+      "Serverless"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "c49cfee00f48016f",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-healthomics-nextflow-profiles/",
+    "title": "AWS HealthOmics now supports Nextflow profiles",
+    "summary": "AWS HealthOmics now supports Nextflow profiles, enabling customers to activate predefined execution settings at run time. Nextflow profiles allow customers to define reusable settings and select them at the point of execution, making it easy to switch between execution settings without modifying workflow source code. AWS HealthOmics is a HIPAA-eligible service that helps healthcare and life sciences customers accelerate scientific breakthroughs at scale with fully managed bioinformatics workflow",
+    "published_at": "2026-06-22T22:00:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "marketing:marchitecture/artificial-intelligence"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "24b691fac7066009",
+    "track": "whats-new",
+    "source": "rss:aws-compute-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/compute/simplify-aws-outposts-lifecycle-management/",
+    "title": "Simplify AWS Outposts lifecycle management with new self-service capabilities",
+    "summary": "In this post, we introduce new self-service capabilities for managing the full AWS Outposts lifecycle: configuration and quoting, subscription visibility, and end-of-term renewal and decommissioning. These capabilities reduce the time and coordination previously required, giving you direct control over your Outposts from evaluation through end of term. These tools are available now in all commercial AWS Regions that support AWS Outposts.",
+    "published_at": "2026-06-22T20:42:58+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "AWS Outposts"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "1b82d3df2057d2f4",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-lambda-microvms/",
+    "title": "AWS introduces Lambda MicroVMs for isolated execution of user and AI-generated code",
+    "summary": "AWS introduces Lambda MicroVMs, a new serverless compute primitive that provides VM-level isolation, near-instant launch and resume speeds, and state preservation for executing user or AI-generated code. You can now give each user or job their own compute environment to securely run code without managing virtualization infrastructure or choosing between isolation, speed, and state retention. Developers are increasingly building multi-tenant applications that execute code supplied by end users or",
+    "published_at": "2026-06-22T20:37:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "marketing:marchitecture/serverless,marketing:marchitecture/compute"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "ad895de674aa003e",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-transform-migrations-region-expansion/",
+    "title": "AWS Transform for migrations now supports all AWS commercial regions as migration targets",
+    "summary": "AWS Transform for migrations now supports all AWS commercial regions as migration targets. A migration target region is the AWS region where migrated resources are deployed, including landing zones, network infrastructure, and server rehosting. Customers can now deploy workloads in any commercial region, making it easier to meet data residency requirements. The new migration target regions are: US East (N. California), Africa (Cape Town), Asia Pacific (Bangkok), Asia Pacific (Hong Kong), Asia Pa",
+    "published_at": "2026-06-22T17:30:40+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "marketing:marchitecture/migration"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "e72fb7415b15afc8",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-network-firewall-updates-default-drop-action",
+    "title": "AWS Network Firewall updates default drop action for improved connection reliability",
+    "summary": "AWS Network Firewall now uses \"Application drop established (server-directed only)\" as the default stateful action for all newly created firewall policies, replacing the previous default of \"Application drop established (bidirectional)\" (formerly named \"Application layer drop established\"). No action is required to benefit from this change when creating new policies. AWS Network Firewall is a managed service that lets you deploy network protections across your Amazon VPCs. Previously, the “Appli",
+    "published_at": "2026-06-22T17:00:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "marketing:marchitecture/security-identity-and-compliance,general:products/aws-network-firewall"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "1ab337ffc9ce50ea",
+    "track": "whats-new",
+    "source": "rss:aws-architecture-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/architecture/secure-multi-tenant-rag-with-amazon-bedrock-and-verified-permissions/",
+    "title": "Secure multi-tenant RAG with Amazon Bedrock and Verified Permissions",
+    "summary": "This post walks you through a two-layer, defense-in-depth authorization pattern for granular, intra-tenant access control in RAG applications. Defense in depth is a security strategy that uses multiple independent layers of protection. Each layer operates independently. If one layer is misconfigured, the other layer still enforces access control. The pattern runs on Amazon Bedrock, a fully managed service that offers a choice of high-performing foundation models (FMs) from Amazon and AI companie",
+    "published_at": "2026-06-22T16:49:13+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "Amazon Bedrock"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "457997728eda1226",
+    "track": "whats-new",
+    "source": "rss:aws-architecture-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/architecture/modernizing-financial-analytics-with-amazon-sagemaker-unified-studio/",
+    "title": "Modernizing financial analytics with Amazon SageMaker Unified Studio",
+    "summary": "Avanse Financial Services, India’s leading education loan providers, migrated to a cloud-native lakehouse architecture using Amazon SageMaker Unified Studio, which unified their data engineering, analytics, and artificial intelligence (AI) workflows in a single governed environment on AWS. In this post, we walk through their migration journey so you can adapt their approach to your own environment.",
+    "published_at": "2026-06-22T16:42:55+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon DataZone",
+      "Amazon EMR",
+      "Amazon Redshift",
+      "Amazon SageMaker Unified Studio",
+      "Amazon Simple Storage Service (S3)",
+      "AWS Glue",
+      "AWS IAM Identity Center",
+      "AWS Identity and Access Management (IAM)",
+      "AWS Lambda"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "3b03edb851185e06",
+    "track": "whats-new",
+    "source": "rss:aws-architecture-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/architecture/architecting-ai-powered-resilience-framework-on-aws/",
+    "title": "Architecting AI-powered resilience framework on AWS",
+    "summary": "In this post, you’ll learn how to architect and implement a five-layer AI-powered resilience framework that automatically discovers dependencies, generates targeted experiments, and integrates with your existing Continuous Integration/Continuous Deployment (CI/CD) pipelines. First, we’ll explore the key challenges in resilience testing. Then, we’ll walk through the five-layer architecture that solves these challenges. Finally, we’ll show you how to implement this, with phased rollout guidance fo",
+    "published_at": "2026-06-22T16:35:07+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "AWS Fault Injection Service (FIS)",
+      "AWS Resilience Hub (ARH)",
+      "AWS Systems Manager",
+      "Resilience"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "cf32a0dc229cd9c2",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/batch-ordered-allocation-strategies/",
+    "title": "AWS Batch now supports customer-ordered instance allocation strategies",
+    "summary": "AWS Batch now offers the Best Fit Progressive Ordered (BFPO) and Spot Capacity Optimized Prioritized (SCOP) allocation strategies, giving you more control over instance type prioritization in your compute environments. BFPO and SCOP enable you to manually define instance type ordering based on your workload-specific performance characteristics. To use these features in AWS Batch, specify BEST_FIT_PROGRESSIVE_ORDERED allocation strategy for your on-demand compute environments or SPOT_CAPACITY_OPT",
+    "published_at": "2026-06-22T16:30:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "298ce394ea806dab",
+    "track": "whats-new",
+    "source": "rss:aws-containers-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-control-plane-egress-through-your-vpc/",
+    "title": "Amazon EKS now supports control plane egress through your VPC",
+    "summary": "Today, we’re announcing customer-routed control plane egress, a new capability that you can use to route Kubernetes control plane traffic through your own Amazon Virtual Private Cloud (Amazon VPC). This includes admission webhook callbacks, OpenID Connect (OIDC) provider lookups, and aggregate API server requests. With this feature, you can apply the same VPC routing, security group, endpoint policy, and AWS Network Firewall controls that you use for your data plane to the Kubernetes API Server’",
+    "published_at": "2026-06-22T16:20:28+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "Amazon Elastic Kubernetes Service",
+      "Announcements",
+      "Intermediate (200)"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "5bf52c771a338354",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-identity-center-separate-quotas/",
+    "title": "AWS IAM Identity Center now supports separate quotas for AWS accounts and applications",
+    "summary": "AWS IAM Identity Center now supports separate quotas for the number of AWS accounts and applications that can be configured in an IAM Identity Center instance. By default, you can configure up to 7,000 AWS accounts and up to 7,000 applications independently, so that using more of one does not consume capacity from the other. Quotas can be further increased by submitting a quota increase request through AWS Service Quotas console. Customers with existing higher limits are automatically granted th",
+    "published_at": "2026-06-22T16:07:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "571bf7c44caa74f1",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-msk-ai-agent-skills",
+    "title": "Amazon MSK now offers AI Agent Skills to help developers operate MSK efficiently and accelerate migrations to MSK",
+    "summary": "Amazon MSK now offers AI Agent Skills that give AI coding assistants expert, up-to-date guidance for operating Amazon MSK. The skills provide expert guidance for common operational tasks such as troubleshooting, sizing, configuring, monitoring, and migration from external Kafka clusters. Teams can leverage these skills to keep their clusters healthy and performant, and to migrate their external Kafka workloads to MSK Express to take advantage of up to 3 times more throughput per broker, scale up",
+    "published_at": "2026-06-22T15:00:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "marketing:marchitecture/analytics,general:products/amazon-msk"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "742e22a96bbd16f2",
+    "track": "whats-new",
+    "source": "rss:aws-news-blog",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-ny-summit-recap-local-zone-in-hanoi-grok-4-3-in-bedrock-price-reductions-and-more-june-22-2026/",
+    "title": "AWS Weekly Roundup: NY Summit recap, Local Zone in Hanoi, Grok 4.3 in Bedrock, price reductions, and more (June 22, 2026)",
+    "summary": "Last week AWS Summit New York City brought together thousands of customers, partners, and builders for a free, one-day event showcasing the latest in cloud and AI innovation. Dr. Swami Sivasubramanian, VP of Agentic AI at AWS unveiled a stack of AI launches in his keynote, all built around one thesis: agents that compound value […]",
+    "published_at": "2026-06-22T14:46:17+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "Amazon Bedrock",
+      "Amazon Elastic Container Service",
+      "Amazon GameLift",
+      "Amazon Simple Storage Service (S3)",
+      "AWS Local Zones",
+      "AWS Management Console",
+      "AWS Marketplace",
+      "Launch",
+      "News",
+      "Price Reduction",
+      "Strands Agents",
+      "Week in Review"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "48d17a2f449e6b8a",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-outposts-self-service-lifecycle-management",
+    "title": "Introducing self-service lifecycle management capabilities for AWS Outposts",
+    "summary": "AWS Outposts now provides self-service capabilities for configuration, quoting, ordering, subscription management, renewal, and decommissioning directly from the AWS Management Console, CLI, and API. Previously, customers relied on AWS teams for managing their Outposts lifecycle, from evaluation through end of term. A new configuration and quoting tool generates real-time cost estimates across payment options and term lengths, and proactively surfaces account and regional constraints before orde",
+    "published_at": "2026-06-22T10:00:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
     "id": "b2a644bd569829b3",
     "track": "whats-new",
     "source": "rss:aws-compute-blog",
@@ -156,6 +435,23 @@
     "fetched_at": "2026-06-19T10:19:29.136731+00:00",
     "tags": [
       "marketing:marchitecture/analytics,marketing:marchitecture/messaging,marketing:marchitecture/migration,general:products/amazon-mq,marketing:marchitecture/developer-tools"
+    ],
+    "severity": null,
+    "score": 0.0,
+    "score_breakdown": {}
+  },
+  {
+    "id": "0632944b8850dda2",
+    "track": "whats-new",
+    "source": "rss:aws-whats-new",
+    "source_kind": "rss",
+    "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-parallel-computing-service/",
+    "title": "AWS Parallel Computing Service supports P6e-GB200 and P6e-GB300 UltraServers",
+    "summary": "AWS Parallel Computing Service (PCS) now supports Amazon EC2 P6e-GB200 and P6e-GB300 UltraServer instances, enabling customers to run large-scale GPU workloads using the NVIDIA Blackwell architecture within Slurm-managed clusters. You can reserve UltraServers through EC2 Capacity Blocks for ML, associate them with a PCS compute node group via an EC2 launch template, and PCS automatically configures Slurm with the correct topology plugin. With P6e-GB200 UltraServers, you can access up to 72 NVIDI",
+    "published_at": "2026-06-18T19:00:00+00:00",
+    "fetched_at": "2026-06-23T09:31:02.026880+00:00",
+    "tags": [
+      "marketing:marchitecture/compute"
     ],
     "severity": null,
     "score": 0.0,
