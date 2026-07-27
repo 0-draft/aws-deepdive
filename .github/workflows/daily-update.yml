@@ -28,7 +28,7 @@ jobs:
           # repo/third-party code, and the admin PAT must not be readable by it.
           # The PAT is applied inline only in the commit/push step.
           persist-credentials: false
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
           cache: pip
