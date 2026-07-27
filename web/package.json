@@ -17,8 +17,8 @@
     "isomorphic-dompurify": "^3.17.0",
     "marked": "^18.0.5",
     "postcss": "^8.5.15",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
     "recharts": "^3.8.0",
     "tailwindcss": "^4.3.0"
   },
